@@ -155,6 +155,17 @@ grade. Exit `0` for grade A/B, `1` otherwise.
 
 ### MCP server
 
+From npm (no install, needs Node 20+ and Python 3.11+ on PATH;
+the package is a thin launcher over the same Python stdlib code):
+
+```bash
+npx -y @reneturcios/wallcheck mcp
+# the same shim also forwards the CLI:
+npx -y @reneturcios/wallcheck probe https://example.com
+```
+
+Or from this repo:
+
 ```bash
 PYTHONPATH=src python3 -m wallcheck mcp
 # or, installed: wallcheck-mcp
@@ -170,7 +181,8 @@ Tools:
   domain, same bounded-fetch discipline as `probe_url`.
 
 Add to an MCP client config as a stdio server running either command,
-or via Docker (GHCR image planned at ship time; see `Dockerfile`).
+or via Docker with the GHCR image
+`ghcr.io/cloudcorprecords/wallcheck:0.5.0` (see `Dockerfile`).
 
 ## Tests
 

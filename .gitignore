@@ -7,3 +7,7 @@ build/
 # Signing key files hold private seeds — never in the repository.
 *.key.json
 wallcheck-key.json
+# npm wrapper: dependencies and the staged Python copy (generated
+# from src/ at build time by scripts/stage-python.mjs).
+node_modules/
+python/

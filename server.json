@@ -4,6 +4,22 @@
   "name": "io.github.CloudCorpRecords/wallcheck",
   "packages": [
     {
+      "identifier": "@reneturcios/wallcheck",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "registryType": "npm",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "version": "0.5.0"
+    },
+    {
       "identifier": "ghcr.io/cloudcorprecords/wallcheck:0.5.0",
       "registryType": "oci",
       "runtimeArguments": [
