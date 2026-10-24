@@ -9,10 +9,11 @@ Tools:
       classified CANDIDATE_EXPOSURE / PUBLIC_BY_DESIGN / VISITOR_TOKEN,
       fingerprint-only (never values). One honest GET, same as probe_url.
   audit(domain, timeout?)   -> owner-side agent-access audit: grade plus
-      per-check PASS/WARN/FAIL. Makes up to 10 honest GETs (homepage,
+      per-check PASS/WARN/FAIL. Makes up to 11 honest GETs (homepage,
       robots.txt, llms.txt, sitemap, declared sitemap if any, two OpenAPI
-      paths, /api and /developers only when no spec is found, and the
-      Web Bot Auth directory path), each with the probe's discipline:
+      paths, /api and /developers only when no spec is found, the
+      Web Bot Auth directory path, and security.txt), each with the
+      probe's discipline:
       honest wallcheck user agent, per-fetch timeout, bounded body
       sample, no retries. Read-only GETs; the fetch budget is stated
       in the tool description so clients can rate-limit.
@@ -88,13 +89,15 @@ TOOLS = [
         "name": "audit",
         "description": "Owner-side agent-access audit of a domain: robots.txt "
                        "AI-agent directives, llms.txt sanity, sitemap, feed "
-                       "discovery, API surface, and Web Bot Auth directory, "
+                       "discovery, API surface, Web Bot Auth directory, and "
+                       "security contact (RFC 9116 security.txt), "
                        "each PASS/WARN/FAIL with evidence and fixes, rolled "
-                       "into an A-F grade. Read-only. Makes up to 10 honest "
+                       "into an A-F grade. Read-only. Makes up to 11 honest "
                        "GETs to the one domain (homepage, robots, llms, "
                        "sitemap, declared sitemap if any, two OpenAPI "
                        "paths, /api and /developers only when no spec is "
-                       "found, the signed-agent directory path), each with "
+                       "found, the signed-agent directory path, "
+                       "security.txt), each with "
                        "the probe's timeout and bounded body sample, no "
                        "retries. Budget the call accordingly.",
         "inputSchema": {

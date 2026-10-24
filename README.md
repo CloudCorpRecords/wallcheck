@@ -138,9 +138,11 @@ Owner-side audit of your own site's agent-access posture:
 PYTHONPATH=src python3 -m wallcheck audit example.com [--json]
 ```
 
-Six checks (robots.txt, llms.txt, sitemap, feed, API, signed-agent
-readiness) → per-check PASS/WARN/FAIL + evidence + a fix list, and a
-grade. Exit `0` for grade A/B, `1` otherwise.
+Seven checks (robots.txt, llms.txt, sitemap, feed, API, signed-agent
+readiness, security contact) → per-check PASS/WARN/FAIL + evidence +
+a fix list, and a grade (out of 14 since the security-contact check
+was added; earlier grades were out of 12). Exit `0` for grade A/B,
+`1` otherwise.
 
 Exposure scan of the page a site serves (opt-in, same single fetch):
 
@@ -195,7 +197,7 @@ Tools:
   classified, fingerprint-only). One honest GET, same discipline
   as `probe_url`; covers the probe's 64 KB body sample.
 - `audit(domain, timeout?)`: owner-side agent-access audit: grade
-  plus per-check PASS/WARN/FAIL. Up to 10 honest GETs to the one
+  plus per-check PASS/WARN/FAIL. Up to 11 honest GETs to the one
   domain, same bounded-fetch discipline as `probe_url`.
 
 Add to an MCP client config as a stdio server running either command,

@@ -336,10 +336,11 @@ Stdio JSON-RPC, Python standard library only. Tools:
   / VISITOR_TOKEN, fingerprint-only, over the same one honest GET.
 - `audit(domain, timeout?)` → the owner-side agent-access audit
   (added Wave 9, v0.5.0): grade plus per-check PASS/WARN/FAIL with
-  evidence and fixes. Read-only. Makes up to 10 honest GETs to the one
+  evidence and fixes. Read-only. Makes up to 11 honest GETs to the one
   domain (homepage, robots, llms, sitemap, declared sitemap if any,
   two OpenAPI paths, /api and /developers only when no spec is found,
-  the signed-agent directory path), each with the probe's per-fetch
+  the signed-agent directory path, security.txt), each with the
+  probe's per-fetch
   timeout and bounded body sample, no retries. The fetch budget is
   stated in the tool description so MCP clients can rate-limit; the
   decision record is in `validation/wave9/DOCS-AUDIT.md` (Leg B).
@@ -401,8 +402,9 @@ a public API, or a pricing page the owner *wants* agents to read.
 
 **Status (v0.3.0):** `wallcheck audit <domain-or-url>` is built,
 fixture-tested, and dogfooded on five domains: first live outputs
-in `validation/wave3/AUDITS.md`. Six checks, each PASS/WARN/FAIL
-with named evidence and one concrete fix:
+in `validation/wave3/AUDITS.md`. Six checks shipped in v0.3, each
+PASS/WARN/FAIL with named evidence and one concrete fix; a seventh
+(`security_contact`) was added after 0.5.0 and is listed last:
 
 - `robots_txt`: served? Named AI agents (GPTBot, ClaudeBot, CCBot,
   Google-Extended) parsed per group: open / restricted / blocked.
@@ -455,9 +457,16 @@ with named evidence and one concrete fix:
 - `signed_agents`: a Web Bot Auth key directory at
   /.well-known/http-message-signatures-directory. Absent almost
   everywhere today; recorded as data.
+- `security_contact`: an RFC 9116 security.txt at
+  /.well-known/security.txt carrying a Contact: field (added after
+  0.5.0). PASS needs the file served as genuine text with a
+  Contact:; absent is WARN (most of the web still lacks one), an
+  HTML soft-404 FAILs, as with robots/llms.
 
-Scoring PASS=2 / WARN=1 / FAIL=0 of 12 → grades A≥11, B≥9, C≥7,
-D≥5, else F. Every resource is also run through the probe
+Scoring PASS=2 / WARN=1 / FAIL=0 of 14 → grades A≥13, B≥11, C≥9,
+D≥6, else F (the bands kept the six-check proportions when the
+seventh check landed; grades recorded before it were out of 12:
+A≥11, B≥9, C≥7, D≥5). Every resource is also run through the probe
 classifier: a machine file behind a wall fails *as a wall*.
 CLI-only until Wave 9, which added the `audit` MCP tool with the
 same bounded-fetch discipline (see the MCP server section).

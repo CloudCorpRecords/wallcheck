@@ -329,7 +329,7 @@ Concretely:
 ## 6. Verify the fix
 
 ```
-wallcheck audit yourdomain.com     # the six checks, graded
+wallcheck audit yourdomain.com     # the seven checks, graded
 wallcheck probe https://yourdomain.com            # the front door
 wallcheck probe https://yourdomain.com/llms.txt   # the map
 ```

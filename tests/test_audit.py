@@ -54,6 +54,10 @@ OPENAPI_DOC = '{"openapi": "3.1.0", "info": {"title": "Open API", ' \
 JWKS_DIRECTORY = '{"keys": [{"kty": "OKP", "crv": "Ed25519", ' \
                  '"kid": "agent-1", "x": "abc"}]}'
 
+SECURITY_TXT = "Contact: mailto:security@open.example\n" \
+               "Expires: 2027-01-01T00:00:00.000Z\n" \
+               "Preferred-Languages: en\n"
+
 SOFT_404_LLMS = """<!DOCTYPE html><html><head><title>Page not found</title></head>
 <body><h1>404 — this page does not exist</h1>
 <p>Return to the homepage.</p></body></html>"""
@@ -77,6 +81,7 @@ def open_records():
         "openapi_wellknown": rec(404, {}, "not found"),
         "signed": rec(200, {"Content-Type": "application/json"},
                       JWKS_DIRECTORY),
+        "security": rec(200, {"Content-Type": "text/plain"}, SECURITY_TXT),
     }
 
 
@@ -84,7 +89,7 @@ def walled_records():
     w = lambda: rec(403, CF_HEADERS, CF_BLOCK_BODY)  # noqa: E731
     return {"robots": w(), "llms": w(), "sitemap": w(), "homepage": w(),
             "openapi": w(), "openapi_wellknown": w(), "api_root": w(),
-            "api_docs": w(), "signed": w()}
+            "api_docs": w(), "signed": w(), "security": w()}
 
 
 def by_check(result):
@@ -107,7 +112,7 @@ class TestAuditFixtures(unittest.TestCase):
         for name, c in checks.items():
             self.assertEqual(c["status"], "FAIL", "%s: %s" % (name, c))
         self.assertEqual(r["grade"], "F")
-        self.assertEqual(len(r["fixes"]), 6)
+        self.assertEqual(len(r["fixes"]), 7)
         self.assertIn("WALLED", checks["robots_txt"]["evidence"][0])
 
     def test_soft_404_llms_trap(self):
@@ -153,6 +158,50 @@ class TestAuditFixtures(unittest.TestCase):
         c = by_check(r)["signed_agents"]
         self.assertEqual(c["status"], "FAIL")
         self.assertIn("STATUS_404", c["evidence"])
+
+
+class TestSecurityContact(unittest.TestCase):
+    def check(self, record):
+        records = open_records()
+        if record is None:
+            records.pop("security")
+        else:
+            records["security"] = record
+        r = evaluate_audit("https://open.example", records)
+        return by_check(r)["security_contact"], r
+
+    def test_security_txt_with_contact_passes(self):
+        c, r = self.check(rec(200, {"Content-Type": "text/plain"},
+                              SECURITY_TXT))
+        self.assertEqual(c["status"], "PASS")
+        self.assertIn("CONTACT_PRESENT", c["evidence"])
+        self.assertEqual(r["max_score"], 14)
+
+    def test_security_txt_absent_is_warn_not_fail(self):
+        c, _ = self.check(rec(404, {}, "not found"))
+        self.assertEqual(c["status"], "WARN")
+        self.assertIn("STATUS_404", c["evidence"])
+
+    def test_security_txt_without_contact_is_warn(self):
+        c, _ = self.check(rec(200, {"Content-Type": "text/plain"},
+                              "Expires: 2027-01-01T00:00:00.000Z\n"))
+        self.assertEqual(c["status"], "WARN")
+        self.assertIn("NO_CONTACT_FIELD", c["evidence"])
+
+    def test_security_txt_soft_404_html_fails(self):
+        c, _ = self.check(rec(200, {"Content-Type": "text/html"},
+                              SOFT_404_LLMS))
+        self.assertEqual(c["status"], "FAIL")
+        self.assertIn("SOFT_404_HTML", c["evidence"])
+
+    def test_security_txt_walled_fails(self):
+        c, _ = self.check(rec(403, CF_HEADERS, CF_BLOCK_BODY))
+        self.assertEqual(c["status"], "FAIL")
+        self.assertIn("WALLED", c["evidence"][0])
+
+    def test_security_txt_missing_record_is_warn(self):
+        c, _ = self.check(None)
+        self.assertEqual(c["status"], "WARN")
 
 
 class TestAuditSiteRouting(unittest.TestCase):
@@ -219,8 +268,9 @@ class TestAuditSiteRouting(unittest.TestCase):
     def test_audit_site_fetch_budget(self):
         # Wave 9 (MCP audit tool): an audit call must stay bounded.
         # All-404 site: homepage, robots, llms, sitemap, two OpenAPI
-        # paths, /api + /developers fallbacks, signed directory = 9
-        # fetches. The hard cap is 10 (declared-sitemap alt fetch).
+        # paths, /api + /developers fallbacks, signed directory,
+        # security.txt = 10 fetches. The hard cap is 11
+        # (declared-sitemap alt fetch).
         calls = []
 
         def counting_fetch(url, timeout=15):
@@ -230,9 +280,9 @@ class TestAuditSiteRouting(unittest.TestCase):
                     "redirect_chain": []}
 
         r = audit_site("https://all404.example", fetch=counting_fetch)
-        self.assertLessEqual(len(calls), 10)
-        self.assertEqual(len(calls), 9)
-        self.assertEqual(len(r["checks"]), 6)
+        self.assertLessEqual(len(calls), 11)
+        self.assertEqual(len(calls), 10)
+        self.assertEqual(len(r["checks"]), 7)
         self.assertIn(r["grade"], ("A", "B", "C", "D", "F", "UNREACHABLE"))
 
 

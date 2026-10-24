@@ -30,7 +30,7 @@ class TestServerSurface(unittest.TestCase):
         audit = [t for t in resp["result"]["tools"]
                  if t["name"] == "audit"][0]
         self.assertEqual(audit["inputSchema"]["required"], ["domain"])
-        self.assertIn("10", audit["description"])
+        self.assertIn("11", audit["description"])
 
     def test_classify_via_handle(self):
         resp = server.handle({"jsonrpc": "2.0", "id": 2,

@@ -17,6 +17,12 @@ Checks (each PASS / WARN / FAIL with evidence, deterministic):
                   a serving /api root, or at least a developer portal
 - signed_agents   a Web Bot Auth key directory published at
                   /.well-known/http-message-signatures-directory
+- security_contact  an RFC 9116 security.txt at
+                  /.well-known/security.txt carrying a Contact:
+                  field — the front door a finder (or an agent
+                  reporting a problem) is supposed to knock on
+                  (added after 0.5.0; see the scoring note in
+                  evaluate_audit)
 
 Every fetched resource is also run through the classifier: a machine
 file behind a wall is a FAIL with the wall named (Wave 2 measured
@@ -46,6 +52,7 @@ _POINTS = {PASS: 2, WARN: 1, FAIL: 0}
 
 AI_AGENTS = ("GPTBot", "ClaudeBot", "CCBot", "Google-Extended")
 SIG_DIRECTORY_PATH = "/.well-known/http-message-signatures-directory"
+SECURITY_TXT_PATH = "/.well-known/security.txt"
 
 
 # ---------------------------------------------------------------- fetch
@@ -617,6 +624,52 @@ def _check_signed(rec):
         "almost everywhere today; recorded as data." % status
 
 
+# ---------------------------------------------------------------- security
+
+_CONTACT_FIELD_RE = re.compile(r"^contact\s*:\s*\S+", re.I | re.M)
+
+
+def _check_security(rec):
+    """RFC 9116: a security.txt is the published route for reporting
+    a security problem — the front door this campaign keeps having
+    to hunt for by hand. PASS requires the file to serve as genuine
+    text with a Contact: field; a file with no Contact is a door
+    with no handle (WARN). Absence is WARN, not FAIL — most of the
+    web still lacks one (the Wave 1 exposure census measured
+    roughly 2 in 5 index sites publishing it at all), and an honest
+    404 hides nothing. An HTML soft-404 FAILs, same doctrine as
+    robots/llms: a served error page masquerading as the file."""
+    if rec is None or rec.get("error"):
+        return WARN, ["FETCH_ERROR: %s" % (rec or {}).get("error")], \
+            "security.txt could not be fetched (network error)."
+    wall = _wall(rec)
+    if wall:
+        return FAIL, ["WALLED: %s (%s)" % wall], \
+            "security.txt is behind a %s wall (%s) — the security " \
+            "contact route itself is not reachable." % wall
+    status = rec.get("status")
+    if status in (404, 410):
+        return WARN, ["STATUS_%s" % status], \
+            "No /.well-known/security.txt (honest %s): a finder " \
+            "with a security report has no published route to this " \
+            "site (RFC 9116)." % status
+    if status != 200:
+        return WARN, ["STATUS_%s" % status], \
+            "security.txt answered status %s — not a usable file." \
+            % status
+    if _looks_like_html(rec.get("body"), rec.get("headers")):
+        return FAIL, ["SOFT_404_HTML"], \
+            "security.txt returns 200 but serves HTML (a soft-404 " \
+            "error page) — the contact route is faked, not published."
+    if _CONTACT_FIELD_RE.search(rec.get("body") or ""):
+        return PASS, ["SECURITY_TXT_200", "CONTACT_PRESENT"], \
+            "security.txt published with a Contact: field — a " \
+            "security report has a front door (RFC 9116)."
+    return WARN, ["NO_CONTACT_FIELD"], \
+        "security.txt is served but carries no Contact: field — " \
+        "the file exists, the route does not."
+
+
 # ---------------------------------------------------------------- assembly
 
 _FIXES = {
@@ -641,13 +694,21 @@ _FIXES = {
                      "and, on the receiving side, exempt verified "
                      "signed agents from managed challenges on public "
                      "paths (authenticated paths keep full protection).",
+    "security_contact": "Publish an RFC 9116 security.txt at "
+                        "/.well-known/security.txt with a Contact: "
+                        "field (a monitored mailbox or disclosure "
+                        "page) and an Expires: date — it is the only "
+                        "standard route a finder has to reach you, "
+                        "and never let the route fall through to an "
+                        "HTML error page.",
 }
 
 
 def evaluate_audit(base_url, records):
     """Pure evaluation: base_url + {resource_key: fetch record} ->
     the audit object. Records keys: robots, llms, sitemap (or None),
-    homepage, openapi, openapi_wellknown, api_root, api_docs, signed.
+    homepage, openapi, openapi_wellknown, api_root, api_docs, signed,
+    security.
     """
     declared = []
     robots_rec = records.get("robots") or {}
@@ -661,22 +722,29 @@ def evaluate_audit(base_url, records):
             ("sitemap", _check_sitemap(records.get("sitemap"), declared)),
             ("feed", _check_feed(records.get("homepage") or {})),
             ("api", _check_api(records, records.get("homepage") or {})),
-            ("signed_agents", _check_signed(records.get("signed")))):
+            ("signed_agents", _check_signed(records.get("signed"))),
+            ("security_contact", _check_security(records.get("security")))):
         checks.append({"check": name, "status": status,
                        "evidence": evidence, "detail": detail})
 
     score = sum(_POINTS[c["status"]] for c in checks)
     max_score = 2 * len(checks)
     home = records.get("homepage") or {}
+    # Scoring note (post-0.5.0): the seventh check, security_contact,
+    # raised max_score from 12 to 14, so the grade bands moved with
+    # it — kept at the same proportions of max_score as the six-check
+    # bands (A >= 11/12, B >= 9/12, C >= 7/12, D >= 5/12). A site
+    # graded before this change was graded out of 12; grades across
+    # the boundary are not directly comparable.
     if home.get("error") and robots_rec.get("error"):
         grade = "UNREACHABLE"
-    elif score >= 11:
+    elif score >= 13:
         grade = "A"
-    elif score >= 9:
+    elif score >= 11:
         grade = "B"
-    elif score >= 7:
+    elif score >= 9:
         grade = "C"
-    elif score >= 5:
+    elif score >= 6:
         grade = "D"
     else:
         grade = "F"
@@ -756,6 +824,7 @@ def audit_site(target, timeout=15, fetch=None):
         records["api_root"] = fetch(base + "/api", timeout=timeout)
         records["api_docs"] = fetch(base + "/developers", timeout=timeout)
     records["signed"] = fetch(base + SIG_DIRECTORY_PATH, timeout=timeout)
+    records["security"] = fetch(base + SECURITY_TXT_PATH, timeout=timeout)
     result = evaluate_audit(base, records)
     result["target"] = target
     return result
