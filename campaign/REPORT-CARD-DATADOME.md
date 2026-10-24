@@ -2,8 +2,8 @@
 
 **Vendor:** DataDome (Bot Protect; Agentic Trust)
 **Graded by:** the wallcheck campaign (Rene Turcios / CloudCorpRecords)
-**Date:** October 2026 (Bot Wall Index rounds 1–3)
-**Companion:** `REPORT-CARD-CLOUDFLARE.md` — same rubric, same
+**Date:** October 2026 (Bot Wall Index rounds 1-3)
+**Companion:** `REPORT-CARD-CLOUDFLARE.md`: same rubric, same
 standard. Grades are ours; vendor claims are tagged as vendor claims.
 
 Every factual claim below is tagged: **[MEASURED]** (our index /
@@ -18,7 +18,7 @@ probes), **[VENDOR]** (the vendor's own published claim),
 | Standards & identity | **B+** | The most documented verification menu of the four vendors graded: Web Bot Auth signatures, reverse-DNS, IP lists, ASN [VENDOR docs] |
 | Owner controls | **A−** | Per-bot response settings, agent categories with Trust Scores, intent-based default policies [VENDOR docs] |
 | Transparency | **B−** | Publishes a real industry benchmark report; its accuracy numbers are its own |
-| False-positive handling | **C−** | A genuine registration route exists — but it is form-gated, vendor-approved, and unknown agents are blocked by default [VENDOR docs] |
+| False-positive handling | **C−** | A genuine registration route exists: but it is form-gated, vendor-approved, and unknown agents are blocked by default [VENDOR docs] |
 | Net effect on legitimate agents | **C−** | Fifteen properties in our index challenge the identified agent, including three of the world's biggest news publishers [MEASURED] |
 
 ## Where credit is due
@@ -26,7 +26,7 @@ probes), **[VENDOR]** (the vendor's own published claim),
 - **Cryptographic verification is documented, not just claimed.**
   DataDome's own bot-authentication documentation states it "can
   cryptographically verify http signatures using the Web Bot Auth
-  protocol, based on the HTTP Message Signatures standard" — and
+  protocol, based on the HTTP Message Signatures standard": and
   lists the alternatives alongside it (two-way RDNS/DNS, published
   IP lists, ASN) [VENDOR: docs.datadome.co/docs/bot-authentication].
   Of the four vendors in this series, DataDome's identity menu is
@@ -34,8 +34,8 @@ probes), **[VENDOR]** (the vendor's own published claim),
 - **The default posture toward known agents is more nuanced than
   block.** DataDome documents four AI-agent categories with Trust
   Scores, and states that by default most agents get an
-  "Intent-Based" policy — traffic is allowed unless a fraud attempt
-  is detected — with LLM-training collectors the stated exception
+  "Intent-Based" policy: traffic is allowed unless a fraud attempt
+  is detected: with LLM-training collectors the stated exception
   [VENDOR: docs.datadome.co activation checklist]. That is a real,
   owner-visible policy design, and it is the shape we ask other
   vendors for.
@@ -43,8 +43,8 @@ probes), **[VENDOR]** (the vendor's own published claim),
   Bot & Agent Security Report 2026* tested 21,491 websites and
   reported that 65.3% were completely unprotected against its test
   bots, with full protection down to 2.4% [VENDOR report, summarized
-  SOURCE: ppc.land]. We do not have to agree with the framing —
-  "unprotected" is a vendor's word for "did not stop our bots" — to
+  SOURCE: ppc.land]. We do not have to agree with the framing : 
+  "unprotected" is a vendor's word for "did not stop our bots": to
   credit the publication of method and numbers.
 - **Its own report makes our identity argument.** The same report
   found that more than 7 in 10 sites let a *spoofed* AI agent
@@ -53,26 +53,26 @@ probes), **[VENDOR]** (the vendor's own published claim),
   identity by signature is the fix. DataDome sells that fix. We are
   asking it to make the fix reachable.
 
-## Where it hurts — measured
+## Where it hurts: measured
 
 DataDome is the most frequent challenger of identified agents in
-our index — 15 of the 26 CHALLENGED rows. Fifteen properties, all
+our index: 15 of the 26 CHALLENGED rows. Fifteen properties, all
 answering an honestly identified, one-shot agent request with a
 challenge (HTTP 403 or 401); the five majors:
 
-- `www.monster.com` — **CHALLENGED**, DataDome, 403 [MEASURED:
+- `www.monster.com`: **CHALLENGED**, DataDome, 403 [MEASURED:
   INDEX.md, jobs]. A job board. The people most likely to send an
   identified agent to Monster are job seekers.
-- `www.nytimes.com` — **CHALLENGED**, DataDome, 403 [MEASURED:
+- `www.nytimes.com`: **CHALLENGED**, DataDome, 403 [MEASURED:
   INDEX.md, news]. The nuance we record: `developer.nytimes.com`
-  probed OPEN in Wave 2 [MEASURED] — the developer front door is
+  probed OPEN in Wave 2 [MEASURED]: the developer front door is
   open; the publication itself is not.
-- `www.etsy.com` — **CHALLENGED**, DataDome, 403 [MEASURED:
-  INDEX.md, commerce] — a marketplace of small sellers whose
+- `www.etsy.com`: **CHALLENGED**, DataDome, 403 [MEASURED:
+  INDEX.md, commerce]: a marketplace of small sellers whose
   customers increasingly arrive via agents.
-- `www.reuters.com` — **CHALLENGED**, DataDome, 401 [MEASURED:
+- `www.reuters.com`: **CHALLENGED**, DataDome, 401 [MEASURED:
   INDEX.md, news].
-- `www.wsj.com` — **CHALLENGED**, DataDome, 401 [MEASURED:
+- `www.wsj.com`: **CHALLENGED**, DataDome, 401 [MEASURED:
   INDEX.md, news].
 
 Against that, the vendor's published accuracy framing: detection
@@ -81,7 +81,7 @@ below 0.01%" [VENDOR, via its marketplace/reseller materials]. Both
 things can be true at once, and that is precisely the problem this
 card names: a false-positive rate measured against *human* traffic
 says nothing about the rate at which *identified legitimate agents*
-are stopped. Our agent is not a measurement error in their model —
+are stopped. Our agent is not a measurement error in their model : 
 it is a policy outcome: "any automated request coming from an
 unauthenticated bot or AI agent is categorized as Threat Detection
 and is blocked by default" [VENDOR: docs.datadome.co/docs/bot-authentication].
@@ -94,8 +94,8 @@ authenticated that does not run through a vendor review queue
 
 1. **Self-serve Web Bot Auth registration.** The signature
    verification exists. Let an agent operator register a key
-   directory URL and a dedicated user-agent automatically — the
-   way RDNS verification is automatic for search engines — instead
+   directory URL and a dedicated user-agent automatically: the
+   way RDNS verification is automatic for search engines: instead
    of by form submission and vendor approval. The form can remain
    as the appeal path; it should not be the front door.
 2. **Publish the identified-agent block rate alongside the

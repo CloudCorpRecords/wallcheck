@@ -1,4 +1,4 @@
-# FRONT DOORS — sanctioned access routes for walled platforms
+# FRONT DOORS: sanctioned access routes for walled platforms
 
 **Seed edition, extended Wave 8, Wave 25 addition, 2026-10-24.** Companion to the Bot Wall Index
 (`../validation/wave1/INDEX-SEED.md`) and the campaign plan
@@ -7,31 +7,31 @@
 The premise: an agent that gets walled on the website should look for
 the door the owner actually built before concluding anything. This file
 documents, per platform, the official or sanctioned programmatic route
-— or says plainly that we couldn't find one.
+:  or says plainly that we couldn't find one.
 
 **How to read the status column:**
 
-- **VERIFIED** — the route and its terms were confirmed from the
+- **VERIFIED**: the route and its terms were confirmed from the
   cited public source(s) during the Oct 2026 research pass.
-- **NO SANCTIONED ROUTE FOUND** — searches of the platform's public
+- **NO SANCTIONED ROUTE FOUND**: searches of the platform's public
   docs during the Oct 2026 pass turned up no official API, partner
   program, feed, or MCP server. Absence is hard to prove; treat this
   as "none found as of the date above," not "none exists in the
   universe."
-- **UNVERIFIED** — third parties claim a route exists, but we could
+- **UNVERIFIED**: third parties claim a route exists, but we could
   not confirm it from the platform's own public documentation.
 
 Every row carries its source. If a row has no source, it doesn't ship.
 
 ## The eight walls from the Index seed
 
-### Upwork — WALLED (Cloudflare, 403)
+### Upwork: WALLED (Cloudflare, 403)
 
-- **Sanctioned route: YES — official GraphQL API.** The Upwork API
+- **Sanctioned route: YES: official GraphQL API.** The Upwork API
   (endpoint `https://api.upwork.com/graphql`) covers jobs, contracts,
   profiles, and messaging workflows; API keys are requested through the
   developer program and are tied to the requesting account. This is
-  the lawful route for programmatic work on Upwork — the website being
+  the lawful route for programmatic work on Upwork: the website being
   walled does not close it.
 - **Caveat:** key approval is account-based and discretionary; there
   is no anonymous tier.
@@ -43,14 +43,14 @@ Every row carries its source. If a row has no source, it doesn't ship.
   https://support.upwork.com/hc/en-us/articles/115015855747-How-API-key-ownership-and-sharing-works-on-Upwork
 - **Status: VERIFIED**
 
-### Fiverr — CHALLENGED (PerimeterX, 403)
+### Fiverr: CHALLENGED (PerimeterX, 403)
 
 - **Sanctioned route: NO general developer API. Affiliate-only.**
   Fiverr does not publish a public developer API or OpenAPI-described
   API for the marketplace. The one official programmatic surface found
   is the **Fiverr Affiliate API**, available to approved members of the
   Fiverr Affiliates program, and scoped to promoting gigs (listings
-  with affiliate links) — not to seller workflows, orders, or account
+  with affiliate links): not to seller workflows, orders, or account
   automation. A freelancer's agent has no sanctioned route to work a
   Fiverr account programmatically.
 - **Sources:** APIs.io provider profile ("Fiverr does not currently
@@ -62,14 +62,14 @@ Every row carries its source. If a row has no source, it doesn't ship.
 - **Status: VERIFIED (no general API; affiliate API exists, members
   only)**
 
-### Guru — WALLED (Imperva, 403)
+### Guru: WALLED (Imperva, 403)
 
 - **Sanctioned route: NONE FOUND.** Searches of Guru.com's public
   documentation in Oct 2026 found no official developer API, partner
   program, feed, or MCP server for the guru.com marketplace. A
   third-party comparison likewise lists the platform as having "no API
   for programmatic access." (Caution for future researchers:
-  `getguru.com` — a knowledge-base product with a fine API — is a
+  `getguru.com`: a knowledge-base product with a fine API: is a
   *different company* that shares the name. Do not cite it here.)
 - **Sources:** SaaShub feature comparison:
   https://cdn-b.saashub.com/compare-json-formatter-and-validator-vs-guru
@@ -77,7 +77,7 @@ Every row carries its source. If a row has no source, it doesn't ship.
   across guru.com's public pages as of 2026-10-24.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Medium — WALLED (Cloudflare, 403)
+### Medium: WALLED (Cloudflare, 403)
 
 - **Sanctioned route: READ-ONLY via RSS. Publishing API closed to new
   users.** Two facts, both verified:
@@ -97,9 +97,9 @@ Every row carries its source. If a row has no source, it doesn't ship.
   and https://postrss.com/rss-feed/
 - **Status: VERIFIED**
 
-### eBay — WALLED (Akamai, 403)
+### eBay: WALLED (Akamai, 403)
 
-- **Sanctioned route: YES — one of the best front doors on the board.**
+- **Sanctioned route: YES: one of the best front doors on the board.**
   The eBay Developers Program offers a full public REST API suite
   (Buy, Sell, Inventory, Account, and more) with OAuth 2.0, a sandbox,
   and an API Explorer. The irony is Index-worthy: eBay's *website*
@@ -110,7 +110,7 @@ Every row carries its source. If a row has no source, it doesn't ship.
   API catalog: https://developer.ebay.com/api-docs/sell/account/resources/program/methods/optOutOfProgram
 - **Status: VERIFIED**
 
-### Monster — CHALLENGED (DataDome, 403)
+### Monster: CHALLENGED (DataDome, 403)
 
 - **Sanctioned route: CLAIMED BY THIRD PARTIES, NOT CONFIRMED.**
   Integration vendors describe a "Monster API" covering job search,
@@ -119,19 +119,19 @@ Every row carries its source. If a row has no source, it doesn't ship.
   developer portal or API documentation on monster.com itself, so we
   cannot confirm terms, eligibility, or whether the program is
   currently open. If you need Monster data lawfully today, the
-  defensible path is contacting Monster for partner access — not the
+  defensible path is contacting Monster for partner access: not the
   website.
 - **Source (third-party claim):**
   https://latenode.com/integrations/monster-api/code
 - **Status: UNVERIFIED**
 
-### The New York Times — CHALLENGED (DataDome, 403)
+### The New York Times: CHALLENGED (DataDome, 403)
 
-- **Sanctioned route: YES — public developer program.** The NYT
+- **Sanctioned route: YES: public developer program.** The NYT
   offers free, key-based, read-only REST APIs (Article Search, Top
   Stories, Most Popular, Archive back to 1851, Books, and more) from
   its developer portal, plus public RSS feeds. Rate limits are modest
-  (commonly 500 requests/day) and stated up front — a wall on the
+  (commonly 500 requests/day) and stated up front: a wall on the
   website, a genuinely open door beside it.
 - **Sources:** APIs.io provider profile (developer program at
   developer.nytimes.com, APIs on api.nytimes.com):
@@ -139,13 +139,13 @@ Every row carries its source. If a row has no source, it doesn't ship.
   limits: https://publicapis.io/new-york-times-api
 - **Status: VERIFIED**
 
-### npm (npmjs.com) — CHALLENGED (Cloudflare, 403)
+### npm (npmjs.com): CHALLENGED (Cloudflare, 403)
 
-- **Sanctioned route: YES — the registry API is the front door, and
+- **Sanctioned route: YES: the registry API is the front door, and
   it's wide open.** The npm *website* challenges our agent; the npm
   *Registry API* (`registry.npmjs.org`, documented with an OpenAPI
   spec) is the sanctioned programmatic surface the whole ecosystem
-  actually runs on — package metadata, search, downloads, and (with
+  actually runs on: package metadata, search, downloads, and (with
   tokens) publishing. This is the pattern we want everywhere: wall the
   showroom if you must, keep the loading dock open and documented.
 - **Sources:** npm Registry API documentation:
@@ -156,12 +156,12 @@ Every row carries its source. If a row has no source, it doesn't ship.
 
 ## Two more the Index cares about
 
-### LinkedIn — OPEN to our probe (200), but API-gated by design
+### LinkedIn: OPEN to our probe (200), but API-gated by design
 
 - **Sanctioned route: YES, partner-gated.** LinkedIn's APIs are real
   but not self-serve beyond two open permissions (Sign In with
-  LinkedIn; Share on LinkedIn). Everything else — Talent, Marketing,
-  Sales, Learning — requires partner-program application and explicit
+  LinkedIn; Share on LinkedIn). Everything else: Talent, Marketing,
+  Sales, Learning: requires partner-program application and explicit
   approval, and some programs pause new applications for long
   stretches. Microsoft's own docs state it plainly: "Most permissions
   and partner programs require explicit approval from LinkedIn."
@@ -170,9 +170,9 @@ Every row carries its source. If a row has no source, it doesn't ship.
   access-tier analysis: https://elfsight.com/blog/linkedin-api-access-and-pricing/
 - **Status: VERIFIED**
 
-### Indeed — OPEN to our probe (200); its publisher door is closed to new entrants
+### Indeed: OPEN to our probe (200); its publisher door is closed to new entrants
 
-- **Sanctioned route: HISTORICAL — closed to new publishers since
+- **Sanctioned route: HISTORICAL: closed to new publishers since
   Oct 2022.** The Indeed Publisher Program (job-search API / XML feed
   with a publisher ID) was the standard lawful route for job data; it
   has been closed/paused to new applicants since October 2022 with no
@@ -187,17 +187,17 @@ Every row carries its source. If a row has no source, it doesn't ship.
   https://docs.indeed.com/sponsored-jobs-api/sponsored-jobs-api-1-references/xml-job-feed-format
 - **Status: VERIFIED (program closed to new publishers)**
 
-## Wave 8 additions — travel, civic, health, commerce
+## Wave 8 additions: travel, civic, health, commerce
 
 Researched 2026-10-24 during Wave 8, for platforms newly walled or
 challenged in the Wave 5 and Wave 7 index expansions. Same grading as
 above; same rule that a row without a source doesn't ship.
 
-### American Airlines — WALLED (Akamai)
+### American Airlines: WALLED (Akamai)
 
 - **Sanctioned route: YES, partner/accreditation-gated.** American
   Airlines exposes booking and flight APIs, but access runs through
-  its partner program and requires IATA/ARC accreditation — there is
+  its partner program and requires IATA/ARC accreditation: there is
   no self-serve developer signup. Duffel's aggregator documentation
   confirms the API exists and names the accreditation gate; APIs.io
   lists AA Bookings and Flights API contracts.
@@ -207,7 +207,7 @@ above; same rule that a row without a source doesn't ship.
   https://duffel.com/docs/api-reference/flights
 - **Status: VERIFIED (partner/accreditation-gated)**
 
-### Amtrak — WALLED (Akamai)
+### Amtrak: WALLED (Akamai)
 
 - **Sanctioned route: YES, partner-gated via Travelport.** Amtrak
   offers no self-serve public API. Its content and booking APIs flow
@@ -220,7 +220,7 @@ above; same rule that a row without a source doesn't ship.
   https://support.travelport.com/
 - **Status: VERIFIED (partner-gated; no self-serve tier)**
 
-### Delta Air Lines — WALLED (Akamai, served 444 in Wave 5)
+### Delta Air Lines: WALLED (Akamai, served 444 in Wave 5)
 
 - **Sanctioned route: UNCONFIRMED.** Third-party guides disagree:
   one 2026 guide says Delta has no standalone developer portal and
@@ -232,10 +232,10 @@ above; same rule that a row without a source doesn't ship.
   portal linked): https://apis.io/providers/delta-air-lines/
 - **Status: UNVERIFIED**
 
-### Hilton — WALLED (Akamai)
+### Hilton: WALLED (Akamai)
 
 - **Sanctioned route: YES, partner-only.** Hilton's booking and
-  content APIs run through GDS/partner channels — Amadeus direct API
+  content APIs run through GDS/partner channels: Amadeus direct API
   integration for hotels, and TMC direct-connect (Navan) Booking and
   Content APIs. No self-serve developer portal was found.
 - **Sources:** Amadeus hotel direct API documentation (Hilton
@@ -244,7 +244,7 @@ above; same rule that a row without a source doesn't ship.
   https://navan.com/
 - **Status: VERIFIED (partner-only)**
 
-### Hyatt — WALLED (Akamai)
+### Hyatt: WALLED (Akamai)
 
 - **Sanctioned route: NONE FOUND.** No public developer API, partner
   portal, or sanctioned feed for hyatt.com content was found in this
@@ -252,14 +252,14 @@ above; same rule that a row without a source doesn't ship.
   the aggregators' door, not Hyatt's own.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Marriott — WALLED (Akamai)
+### Marriott: WALLED (Akamai)
 
 - **Sanctioned route: NONE FOUND.** Marriott's documented API
   Platform (2014) powers its own apps and internal systems; no public
   developer portal or self-serve API was found in this pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### easyJet — WALLED (Akamai)
+### easyJet: WALLED (Akamai)
 
 - **Sanctioned route: NONE FOUND (own).** easyJet publishes no public
   developer API of its own; its inventory is reachable only through
@@ -268,11 +268,11 @@ above; same rule that a row without a source doesn't ship.
   https://duffel.com/docs/api-reference/flights
 - **Status: NO SANCTIONED ROUTE FOUND (own API; aggregator-only)**
 
-### Emirates — WALLED (Akamai)
+### Emirates: WALLED (Akamai)
 
 - **Sanctioned route: YES, trade-partner NDC API.** Emirates Gateway
-  (Emirates Gateway Direct) exposes IATA NDC APIs — shopping,
-  booking, servicing — to trade partners through its Partners Portal.
+  (Emirates Gateway Direct) exposes IATA NDC APIs: shopping,
+  booking, servicing: to trade partners through its Partners Portal.
   Access is partner-gated, not self-serve, but it is a real,
   documented, first-party door.
 - **Sources:** Emirates Gateway / Partners Portal (NDC APIs):
@@ -281,9 +281,9 @@ above; same rule that a row without a source doesn't ship.
   https://www.iata.org/en/programs/airline-distribution/ndc/
 - **Status: VERIFIED (trade-partner-gated)**
 
-### Expedia Group — Expedia, Hotels.com, Orbitz, Travelocity (RATE_LIMITED / WALLED family)
+### Expedia Group: Expedia, Hotels.com, Orbitz, Travelocity (RATE_LIMITED / WALLED family)
 
-- **Sanctioned route: YES, partner-gated — one door for all four
+- **Sanctioned route: YES, partner-gated: one door for all four
   brands.** Expedia Partner Solutions' Rapid API (developer
   .expediapartnersolutions.com, developers.expediagroup.com) covers
   700,000+ accommodations across the Expedia Group brands, including
@@ -295,7 +295,7 @@ above; same rule that a row without a source doesn't ship.
   https://developers.expediagroup.com/
 - **Status: VERIFIED (partner-gated; one door, four brands)**
 
-### Vrbo — RATE_LIMITED (429)
+### Vrbo: RATE_LIMITED (429)
 
 - **Sanctioned route: YES, via Expedia Rapid API.** Vrbo supply
   (900,000+ vacation rentals) is exposed through the same Expedia
@@ -306,9 +306,9 @@ above; same rule that a row without a source doesn't ship.
   https://developer.expediapartnersolutions.com/
 - **Status: VERIFIED (partner-gated; Vrbo supply select-partner only)**
 
-### TripAdvisor — CHALLENGED
+### TripAdvisor: CHALLENGED
 
-- **Sanctioned route: YES — Content API, partner program.** The
+- **Sanctioned route: YES: Content API, partner program.** The
   TripAdvisor Developer Portal (developer-tripadvisor.com, Terra
   platform) offers the Content API for reviews, ratings, and
   attraction/restaurant content. Legacy Content API keys retire
@@ -318,9 +318,9 @@ above; same rule that a row without a source doesn't ship.
   2026): https://developer-tripadvisor.com/
 - **Status: VERIFIED**
 
-### Viator — CHALLENGED
+### Viator: CHALLENGED
 
-- **Sanctioned route: YES — Partner API, tiered.** Viator's Partner
+- **Sanctioned route: YES: Partner API, tiered.** Viator's Partner
   API offers Basic affiliate access (account + dashboard key),
   with Full, Full + Booking, and Merchant tiers requiring approval
   and certification. Sandbox at api.sandbox.viator.com. This is a
@@ -330,9 +330,9 @@ above; same rule that a row without a source doesn't ship.
   https://www.viator.com/partners
 - **Status: VERIFIED**
 
-### Booking.com — CHALLENGED (Cloudflare)
+### Booking.com: CHALLENGED (Cloudflare)
 
-- **Sanctioned route: YES, partner-gated — property side, not
+- **Sanctioned route: YES, partner-gated: property side, not
   consumer search.** Booking.com's Connectivity APIs serve
   properties, PMS vendors, and channel managers (rates, availability,
   reservations), with Premier Connectivity Partner tiers. There is
@@ -343,15 +343,15 @@ above; same rule that a row without a source doesn't ship.
   https://connectivity.booking.com/
 - **Status: VERIFIED (partner-gated; supply side only)**
 
-### U.S. Securities and Exchange Commission (sec.gov) — WALLED (Akamai)
+### U.S. Securities and Exchange Commission (sec.gov): WALLED (Akamai)
 
-- **Sanctioned route: YES — EDGAR JSON APIs, free, no key.** The
+- **Sanctioned route: YES: EDGAR JSON APIs, free, no key.** The
   SEC's data.sec.gov endpoints (submissions, companyfacts,
   companyconcept, frames) are free and keyless, with a fair-access
   limit of 10 requests/second and a required identifying User-Agent
   carrying contact information. **Nuance measured by Wave 8's path
   probe:** our probe of the data.sec.gov root returned WALLED
-  Akamai 403 — the EDGAR host walls unidentified clients, so the
+  Akamai 403: the EDGAR host walls unidentified clients, so the
   front-door entry carries a condition: identify yourself per the
   SEC's own fair-access rules or the wall you see is the one the
   rules warn about.
@@ -361,9 +361,9 @@ above; same rule that a row without a source doesn't ship.
   https://www.sec.gov/os/accessing-edgar-data
 - **Status: VERIFIED (free; identification required)**
 
-### U.S. Bureau of Labor Statistics (bls.gov) — WALLED (Akamai)
+### U.S. Bureau of Labor Statistics (bls.gov): WALLED (Akamai)
 
-- **Sanctioned route: YES — Public Data API, free.** api.bls.gov
+- **Sanctioned route: YES: Public Data API, free.** api.bls.gov
   serves BLS time-series data; v1 is open without registration, v2
   takes a free key for higher limits. Official developer pages on
   bls.gov document both tiers.
@@ -372,9 +372,9 @@ above; same rule that a row without a source doesn't ship.
   https://api.bls.gov/publicAPI/v2/
 - **Status: VERIFIED**
 
-### New York City Open Data (nyc.gov) — WALLED (Akamai)
+### New York City Open Data (nyc.gov): WALLED (Akamai)
 
-- **Sanctioned route: YES — Socrata API, free.** data
+- **Sanctioned route: YES: Socrata API, free.** data
   .cityofnewyork.us exposes the city's open datasets through the
   Socrata API; an app token is recommended for higher limits but
   anonymous reads work. Documented in the city's own Open Data APIs
@@ -384,42 +384,42 @@ above; same rule that a row without a source doesn't ship.
   https://dev.socrata.com/
 - **Status: VERIFIED**
 
-### U.S. Department of Education (ed.gov) — CHALLENGED (Azure WAF)
+### U.S. Department of Education (ed.gov): CHALLENGED (Azure WAF)
 
-- **Sanctioned route: YES, narrow — College Scorecard API.** The
+- **Sanctioned route: YES, narrow: College Scorecard API.** The
   Department's sanctioned programmatic surface is the College
   Scorecard API (api.data.gov), keyed free, covering college cost,
   outcome, and program data. It is the Department's data, not the
-  ed.gov website itself — the website has no general API.
+  ed.gov website itself: the website has no general API.
 - **Sources:** College Scorecard API docs:
   https://collegescorecard.ed.gov/data/documentation/ · api.data.gov
   signup: https://api.data.gov/
-- **Status: VERIFIED (narrow — Scorecard data only)**
+- **Status: VERIFIED (narrow: Scorecard data only)**
 
-### Federal Trade Commission (ftc.gov) — WALLED (Akamai)
+### Federal Trade Commission (ftc.gov): WALLED (Akamai)
 
-- **Sanctioned route: YES, narrow — Early Termination Notices API.**
+- **Sanctioned route: YES, narrow: Early Termination Notices API.**
   The FTC's own 2018 announcement documents its first web API,
   serving Hart-Scott-Rodino early-termination notices. It is a single
   dataset, not a general FTC API, but it is a real first-party door.
 - **Sources:** FTC announcement (first web API):
   https://www.ftc.gov/news-events/blogs/office-policy-planning/
-- **Status: VERIFIED (narrow — one dataset)**
+- **Status: VERIFIED (narrow: one dataset)**
 
-### Social Security Administration (ssa.gov) — WALLED (Akamai)
+### Social Security Administration (ssa.gov): WALLED (Akamai)
 
-- **Sanctioned route: YES, narrow — public dataset APIs.** SSA's
+- **Sanctioned route: YES, narrow: public dataset APIs.** SSA's
   developer pages (socialsecurity.gov/developer/api/) document
   specific public dataset APIs, e.g. hearings-workload data, under
   its Digital Government Strategy program. No general SSA API exists.
 - **Sources:** SSA developer API pages:
   https://www.ssa.gov/developer/api/ · Digital Government Strategy
   page: https://www.ssa.gov/digital/
-- **Status: VERIFIED (narrow — specific datasets)**
+- **Status: VERIFIED (narrow: specific datasets)**
 
-### U.S. Department of State (state.gov) — custom deny
+### U.S. Department of State (state.gov): custom deny
 
-- **Sanctioned route: YES, partial — feeds and datasets, no unified
+- **Sanctioned route: YES, partial: feeds and datasets, no unified
   portal.** State has no single developer portal, but it publishes
   sanctioned machine-readable surfaces: travel-advisory RSS feeds,
   data.gov datasets, and legacy state.gov/api surfaces, as catalogued
@@ -427,11 +427,11 @@ above; same rule that a row without a source doesn't ship.
 - **Sources:** API Evangelist federal roundup (State surfaces):
   https://apievangelist.com/ · travel advisory feeds:
   https://travel.state.gov/
-- **Status: VERIFIED (partial — feeds + datasets, no portal)**
+- **Status: VERIFIED (partial: feeds + datasets, no portal)**
 
-### GoodRx — CHALLENGED
+### GoodRx: CHALLENGED
 
-- **Sanctioned route: YES — pricing APIs, keyed.** GoodRx's
+- **Sanctioned route: YES: pricing APIs, keyed.** GoodRx's
   developer documentation (goodrx.com/developer/documentation)
   documents api.goodrx.com endpoints: low-price, fair-price,
   price-comparison, drug-info, and drug-search, with API key access
@@ -440,7 +440,7 @@ above; same rule that a row without a source doesn't ship.
   https://www.goodrx.com/developer/documentation
 - **Status: VERIFIED**
 
-### Mayo Clinic — CHALLENGED
+### Mayo Clinic: CHALLENGED
 
 - **Sanctioned route: NONE FOUND for public use.** Mayo Clinic
   Platform (Discover/Validate) is an institutional partnership
@@ -451,7 +451,7 @@ above; same rule that a row without a source doesn't ship.
   https://www.mayoclinicplatform.org/
 - **Status: NO SANCTIONED ROUTE FOUND (public use)**
 
-### Zocdoc — CHALLENGED
+### Zocdoc: CHALLENGED
 
 - **Sanctioned route: YES, partner-gated.** developers.zocdoc.com
   documents provider and scheduling APIs for US healthcare providers
@@ -464,19 +464,19 @@ above; same rule that a row without a source doesn't ship.
   https://www.zocdoc.com/about/care-access-network
 - **Status: VERIFIED (partner-gated; providers/vendors only)**
 
-### UnitedHealthcare / Optum — WALLED
+### UnitedHealthcare / Optum: WALLED
 
 - **Sanctioned route: YES, provider/payer-gated.** developer.optum
   .com documents Optum's developer APIs: FHIR R4 Interoperability
   (Patient Access) APIs per CMS-9115-F and eligibility/claims
   X12-to-JSON APIs, with OAuth2. Access is for providers, payers,
-  and approved partners — not consumers.
+  and approved partners: not consumers.
 - **Sources:** Optum developer portal:
   https://developer.optum.com/ · CMS Interoperability rule
   (CMS-9115-F): https://www.cms.gov/
 - **Status: VERIFIED (provider/payer-gated)**
 
-### Home Depot — CHALLENGED
+### Home Depot: CHALLENGED
 
 - **Sanctioned route: NONE FOUND.** No official public product API
   was confirmed. Third-party writeups describe an internal
@@ -485,16 +485,16 @@ above; same rule that a row without a source doesn't ship.
   it as a door.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Macy's — CHALLENGED
+### Macy's: CHALLENGED
 
 - **Sanctioned route: NONE FOUND.** No public developer API,
   partner portal, or sanctioned feed for macys.com was found in this
   pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Uber Eats — CHALLENGED
+### Uber Eats: CHALLENGED
 
-- **Sanctioned route: YES, partner-gated — merchant side.**
+- **Sanctioned route: YES, partner-gated: merchant side.**
   developer.uber.com documents the Eats Marketplace API for
   merchants and partners: sandbox access is self-serve with
   auto-granted scopes, but production requires an NDA, an API
@@ -504,16 +504,16 @@ above; same rule that a row without a source doesn't ship.
   https://developer.uber.com/docs/eats
 - **Status: VERIFIED (partner-gated; merchant side only)**
 
-### Chewy — CHALLENGED
+### Chewy: CHALLENGED
 
 - **Sanctioned route: NONE FOUND for public use.** Chewy's only
   documented machine integration is supplier-side (Dsco/EDI for
   vendors), not a consumer-facing API for chewy.com content.
 - **Status: NO SANCTIONED ROUTE FOUND (public use)**
 
-## Wave 8 additions — jobs, finance, news, other
+## Wave 8 additions: jobs, finance, news, other
 
-### CareerBuilder — WALLED
+### CareerBuilder: WALLED
 
 - **Sanctioned route: NONE FOUND for public/developer self-serve.**
   No public CareerBuilder developer portal or API documentation was
@@ -524,14 +524,14 @@ above; same rule that a row without a source doesn't ship.
   portal linked): https://www.whippy.ai/integrations/careerbuilder
 - **Status: NO SANCTIONED ROUTE FOUND (public/developer self-serve)**
 
-### CareerBuilder.ca — WALLED
+### CareerBuilder.ca: WALLED
 
 - **Sanctioned route: NONE FOUND.** Same finding as CareerBuilder
   .com: no public developer portal or API documentation for the
   Canadian site was found in this pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Monster.ca — WALLED
+### Monster.ca: WALLED
 
 - **Sanctioned route: CLAIMED BY THIRD PARTIES, NOT CONFIRMED.**
   Same status as Monster US: integration vendors describe a partner
@@ -539,9 +539,9 @@ above; same rule that a row without a source doesn't ship.
   documentation was found for the Canadian site either.
 - **Status: UNVERIFIED (same program claims as Monster US)**
 
-### Adzuna — CHALLENGED
+### Adzuna: CHALLENGED
 
-- **Sanctioned route: YES — public API, free key.** developer
+- **Sanctioned route: YES: public API, free key.** developer
   .adzuna.com documents the Adzuna job-search API (api.adzuna.com,
   country paths like /gb/ and /us/), authenticated with a free
   app_id + app_key pair, with rate limits stated on the portal. A
@@ -553,19 +553,19 @@ above; same rule that a row without a source doesn't ship.
   https://developer.intelligence.adzuna.com/
 - **Status: VERIFIED**
 
-### CareerJet — WALLED
+### CareerJet: WALLED
 
-- **Sanctioned route: YES — public job-search API, key by request.**
+- **Sanctioned route: YES: public job-search API, key by request.**
   CareerJet's public API is documented in its long-standing client
   libraries (e.g. the Perl WebService::Careerjet module, copyright
-  2007–2025, contact api@careerjet.com for keys). There is no glossy
-  first-party portal, but the API itself is real and public — the
+  2007-2025, contact api@careerjet.com for keys). There is no glossy
+  first-party portal, but the API itself is real and public: the
   documentation lives in the libraries, not on a portal page.
 - **Sources:** WebService::Careerjet documentation:
   https://metacpan.org/pod/WebService::Careerjet
 - **Status: VERIFIED (key by request to api@careerjet.com)**
 
-### Catho — WALLED
+### Catho: WALLED
 
 - **Sanctioned route: NONE FOUND.** No public developer API,
   partner portal, or sanctioned feed for catho.com.br was found in
@@ -573,7 +573,7 @@ above; same rule that a row without a source doesn't ship.
   API.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Citizens Bank (citizensbank.com) — WALLED
+### Citizens Bank (citizensbank.com): WALLED
 
 - **Sanctioned route: UNCONFIRMED.** A student-project document
   describes FDX open-banking endpoints on citizensbank.com
@@ -590,15 +590,15 @@ above; same rule that a row without a source doesn't ship.
   https://www.openbankingtracker.com/provider/citizensbank
 - **Status: UNVERIFIED**
 
-### Sky News — WALLED
+### Sky News: WALLED
 
 - **Sanctioned route: NONE FOUND.** No public Sky News API or
   developer portal was found in this pass. Sky content reaches
   developers only through third-party aggregators (NewsAPI and
-  similar) — someone else's door, not Sky's.
+  similar): someone else's door, not Sky's.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Haaretz — WALLED
+### Haaretz: WALLED
 
 - **Sanctioned route: CLAIMED BY THIRD PARTIES, NOT CONFIRMED.**
   Third-party RSS directories list Haaretz section feeds (e.g. the
@@ -610,34 +610,34 @@ above; same rule that a row without a source doesn't ship.
   https://rss.feedspot.com/israel_tech_rss_feeds/
 - **Status: UNVERIFIED**
 
-### Financial Times — CHALLENGED (DataDome)
+### Financial Times: CHALLENGED (DataDome)
 
 - **Sanctioned route: YES, customer-gated.** developer.ft.com hosts
   the FT.com search API and the Headline API (customisable headline
   lists for intranet/CRM embedding), sold to corporate, government,
   and education customers. A 2013 Salesforce hack writeup confirms
   the search API's existence and shape; a 2014 trade report confirms
-  the Headline API's launch terms. Not self-serve free — but real
+  the Headline API's launch terms. Not self-serve free: but real
   and documented.
 - **Sources:** FT developer portal: https://developer.ft.com/ ·
   Headline API launch (InPublishing, 2014):
   https://www.inpublishing.co.uk/articles/ft-launches-customisable-api-6355
 - **Status: VERIFIED (customer-gated)**
 
-### Associated Press — WALLED (Akamai)
+### Associated Press: WALLED (Akamai)
 
 - **Sanctioned route: YES, customer/partner-gated.** developer.ap
   .org documents the AP's API family: Content API, Media API
   (multimedia content + AP Media Agent), Elections API, and Monitors
   and Alerts. APIs.io indexes four AP contracts. All require a
-  customer relationship — this is a wire-service door, not a public
+  customer relationship: this is a wire-service door, not a public
   one, but it is a genuine first-party program.
 - **Sources:** AP Developer portal: https://developer.ap.org/ ·
   APIs.io provider profile:
   https://apis.io/providers/associated-press/
 - **Status: VERIFIED (customer/partner-gated)**
 
-### Reuters — CHALLENGED (DataDome)
+### Reuters: CHALLENGED (DataDome)
 
 - **Sanctioned route: YES, enterprise-gated.** Reuters News is
   distributed as a source inside LSEG's Refinitiv Data Platform News
@@ -649,7 +649,7 @@ above; same rule that a row without a source doesn't ship.
   https://developers.lseg.com/content/devportal/en_us/api-catalog/refinitiv-data-platform/news-API.html
 - **Status: VERIFIED (enterprise/entitlement-gated)**
 
-### The Economist — CHALLENGED (DataDome)
+### The Economist: CHALLENGED (DataDome)
 
 - **Sanctioned route: YES, enterprise-gated.** Two first-party
   doors: the Economist Intelligence API (eiu.com, REST/JSON developer
@@ -663,11 +663,11 @@ above; same rule that a row without a source doesn't ship.
   https://digiday.com/media/the-economist-licenses-its-content-to-enterprise-clients-private-llms/
 - **Status: VERIFIED (enterprise-gated)**
 
-### The Wall Street Journal — CHALLENGED (DataDome)
+### The Wall Street Journal: CHALLENGED (DataDome)
 
 - **Sanctioned route: YES, enterprise-gated via Dow Jones.** Dow
   Jones' Factiva APIs license WSJ (and Barron's, MarketWatch, IBD)
-  content to enterprises for GenAI and research use — 8,000+
+  content to enterprises for GenAI and research use: 8,000+
   licensed sources, copyright-compliant, with the Dow Jones Newswires
   GenAI Newsfeed as the current flagship surface. No
   consumer/developer self-serve tier.
@@ -675,14 +675,14 @@ above; same rule that a row without a source doesn't ship.
   https://s23.q4cdn.com/175719177/files/doc_news/Dow-Jones-Factiva-Surpasses-8000-Licensed-Sources-for-GenAI-Use-2026.pdf
 - **Status: VERIFIED (enterprise-gated)**
 
-### Fast Company — CHALLENGED (DataDome)
+### Fast Company: CHALLENGED (DataDome)
 
 - **Sanctioned route: NONE FOUND.** No public developer API,
   partner portal, or sanctioned feed for fastcompany.com was found
   in this pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Inc. — CHALLENGED (DataDome)
+### Inc.: CHALLENGED (DataDome)
 
 - **Sanctioned route: NONE FOUND.** No public developer API,
   partner portal, or sanctioned feed for inc.com was found in this
@@ -690,14 +690,14 @@ above; same rule that a row without a source doesn't ship.
   absence).
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### South China Morning Post — CHALLENGED
+### South China Morning Post: CHALLENGED
 
 - **Sanctioned route: NONE FOUND.** No public developer API or
   portal for scmp.com was found in this pass; the platform's
   programmatic surface is its app, not an API.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### The Atlantic — CHALLENGED
+### The Atlantic: CHALLENGED
 
 - **Sanctioned route: NONE FOUND.** The Atlantic's APIs are internal
   (its app and a 150-year story/author database feed an internal
@@ -705,7 +705,7 @@ above; same rule that a row without a source doesn't ship.
   program was found in this pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Gun.io — WALLED (Cloudflare)
+### Gun.io: WALLED (Cloudflare)
 
 - **Sanctioned route: NONE FOUND.** Gun.io is a vetted talent
   marketplace with no public developer API, partner portal, or
@@ -713,42 +713,42 @@ above; same rule that a row without a source doesn't ship.
   hiring pages, not an API.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Claude (claude.ai) — CHALLENGED (Cloudflare)
+### Claude (claude.ai): CHALLENGED (Cloudflare)
 
-- **Sanctioned route: YES — and it is the point of the exhibit.**
+- **Sanctioned route: YES: and it is the point of the exhibit.**
   claude.ai the *chat website* challenges our agent, but Anthropic's
   developer platform (platform.claude.com, docs.claude.com) is a
   fully public, self-serve API: Messages API, tool use, code
   execution, MCP connectors, SDKs, and console key management. The
   wall is on the showroom; the loading dock is open and documented
-  — the same pattern as eBay, NYT, and npm, from a company whose
+ : the same pattern as eBay, NYT, and npm, from a company whose
   entire product is the API.
 - **Sources:** Anthropic developer docs: https://docs.claude.com/ ·
   console key management: https://platform.claude.com/settings/keys
 - **Status: VERIFIED**
 
-### Etsy — CHALLENGED (DataDome)
+### Etsy: CHALLENGED (DataDome)
 
-- **Sanctioned route: YES — Open API v3, self-serve with approval.**
+- **Sanctioned route: YES: Open API v3, self-serve with approval.**
   developer.etsy.com documents the Etsy Open API v3 (REST, OAuth
   2.0 PKCE, listings/inventory/shops/orders/reviews/shipping),
   with an API Explorer, webhooks for order lifecycle events, and an
   OpenAPI Dev MCP server that needs no key. App registration is
-  self-serve; keys activate after approval (typically 24–48h).
+  self-serve; keys activate after approval (typically 24-48h).
   Rate limit 10,000 requests/day/key.
 - **Sources:** Etsy Open API v3 docs:
   https://developer.etsy.com/documentation/
 - **Status: VERIFIED**
 
-### Amazon — intermittent CHALLENGED (Cloudflare interstitial)
+### Amazon: intermittent CHALLENGED (Cloudflare interstitial)
 
-- **Sanctioned route: YES, program-gated — three doors, three
+- **Sanctioned route: YES, program-gated: three doors, three
   audiences.** (1) Product Advertising API: catalog search and
   product data for Associates (affiliate approval required).
   (2) Selling Partner API: seller-side orders, inventory, and
   fulfillment (seller account + app approval). (3) Ads API:
   advertising management (advertiser account + OAuth). No general
-  consumer search API — but every commercial audience has a real
+  consumer search API: but every commercial audience has a real
   door.
 - **Sources:** Product Advertising API (Wikipedia summary):
   https://en.wikipedia.org/wiki/Amazon_Product_Advertising_API ·
@@ -756,27 +756,27 @@ above; same rule that a row without a source doesn't ship.
   https://developer-docs.amazon.com/sp-api/
 - **Status: VERIFIED (program-gated; audience-specific)**
 
-### W3Schools — WALLED (Akamai edge)
+### W3Schools: WALLED (Akamai edge)
 
 - **Sanctioned route: NONE FOUND.** W3Schools is a tutorial site;
   no public API for its content was found in this pass.
 - **Status: NO SANCTIONED ROUTE FOUND (as of Oct 2026, public docs)**
 
-### Realtor.com — WALLED (Kasada 429)
+### Realtor.com: WALLED (Kasada 429)
 
 - **Sanctioned route: NONE FOUND for public listing-data access.**
   No first-party public developer API or portal exists; third-party
   RapidAPI mirrors are not first-party and are not cited as the
   door. The one first-party program found, Connections Plus, is a
   partner API for agents/brokers (lead management), contacted
-  through sales — not a public listing-search API.
+  through sales: not a public listing-search API.
 - **Sources:** third-party analysis (no first-party portal):
   https://www.rapidevelopers.com/bubble-integrations/realtor-com ·
   Connections Plus (partner program, via sales):
   https://rollout.com/integration-guides/realtor-com/api-essentials
 - **Status: NO SANCTIONED ROUTE FOUND (public listing access)**
 
-### Apartments.com — WALLED
+### Apartments.com: WALLED
 
 - **Sanctioned route: NONE FOUND for public use.** Apartments.com's
   posture is closed: no developer portal, no OpenAPI contract, no
@@ -792,9 +792,9 @@ above; same rule that a row without a source doesn't ship.
   program): https://apis.io/providers/apartments-com/
 - **Status: NO SANCTIONED ROUTE FOUND (public use)**
 
-### Redfin — WALLED (AWS CloudFront block)
+### Redfin: WALLED (AWS CloudFront block)
 
-- **Sanctioned route: YES, narrow — free CSV data, no API.**
+- **Sanctioned route: YES, narrow: free CSV data, no API.**
   Redfin publishes no public API and explicitly prohibits use of
   its undocumented internal endpoints (ToS; IP-blocking risk). But
   it does publish a sanctioned data route: aggregated market
@@ -806,9 +806,9 @@ above; same rule that a row without a source doesn't ship.
   https://www.redfin.com/news/data-center · internal-endpoint
   prohibition (third-party analysis):
   https://www.rapidevelopers.com/retool-integrations/redfin
-- **Status: VERIFIED (narrow — CSV data, no API)**
+- **Status: VERIFIED (narrow: CSV data, no API)**
 
-### Homes.com — WALLED
+### Homes.com: WALLED
 
 - **Sanctioned route: CLAIMED, CURRENCY UNCONFIRMED.** Homes.com
   announced a partner API in November 2018 (Homes.com Connect leads
@@ -822,13 +822,13 @@ above; same rule that a row without a source doesn't ship.
 
 ## Wave 25 addition
 
-### Hugging Face (huggingface.co) — OPEN (200); signed-agent directory LOGIN_GATED (401)
+### Hugging Face (huggingface.co): OPEN (200); signed-agent directory LOGIN_GATED (401)
 
-- **Sanctioned route: YES — official Hub API.** Hugging Face
+- **Sanctioned route: YES: official Hub API.** Hugging Face
   publishes a public REST API for the Hub (models, datasets,
   Spaces) with a free tier; an account access token authenticates
   writes and public reads are open. Programmatic Hub work does
-  not need the website at all — and unlike most rows in this
+  not need the website at all: and unlike most rows in this
   file, the website itself is not walled either: our probe has
   read huggingface.co OPEN in every Index round, and the Wave 7
   audit sweep graded its robots, llms.txt, and sitemap all PASS.
@@ -839,12 +839,12 @@ above; same rule that a row without a source doesn't ship.
   census-era hard wall replaced by a gate; a Wave 25 re-probe
   the same day confirms the 401. The path sits behind the
   site's own authentication, so signed agents get no public key
-  directory here — the one closed door on an otherwise open
+  directory here: the one closed door on an otherwise open
   platform.
 - **Evidence (this campaign's own probes):** root 200 / OPEN,
-  directory path 401 / LOGIN_GATED — Wave 25 Leg C, 2026-10-24
+  directory path 401 / LOGIN_GATED: Wave 25 Leg C, 2026-10-24
   (`validation/wave25/huggingface-probes.json`); directory path
-  401 LOGIN_GATED — Wave 23 adopter spot-check, 2026-10-24
+  401 LOGIN_GATED: Wave 23 adopter spot-check, 2026-10-24
   (`validation/wave23/ADOPTER-SPOT-3.md`). The bare /api path
   itself serves the site's HTML 404 page (Wave 25 probe), so
   callers start from the API documentation, not the root path.
@@ -870,11 +870,11 @@ above; same rule that a row without a source doesn't ship.
 **8 of 10 rows fully verified; 1 documented absence (Guru); 1
 unverified (Monster).** The pattern the table proves: a wall on the
 website is survivable when a door exists next to it (eBay, NYT, npm).
-The platforms with no door at all — Fiverr for sellers, Guru entirely —
+The platforms with no door at all: Fiverr for sellers, Guru entirely : 
 are where lawful agent work simply dies. Those are the campaign's
 exhibits A and B.
 
-## Scoreboard — Wave 8 additions (2026-10-24)
+## Scoreboard: Wave 8 additions (2026-10-24)
 
 | Platform | Website (Index) | Front door | Status |
 | --- | --- | --- | --- |
@@ -938,9 +938,9 @@ exhibits A and B.
 5 UNVERIFIED.** Combined with the seed edition, FRONT-DOORS.md now
 covers 65 platforms: 39 VERIFIED, 20 NO ROUTE FOUND, 6 UNVERIFIED.
 **Wave 25 adds 1 row (Hugging Face, VERIFIED): the file now covers
-66 platforms — 40 VERIFIED, 20 NO ROUTE FOUND, 6 UNVERIFIED.**
+66 platforms: 40 VERIFIED, 20 NO ROUTE FOUND, 6 UNVERIFIED.**
 
-## Scoreboard — Wave 25 addition (2026-10-24)
+## Scoreboard: Wave 25 addition (2026-10-24)
 
 | Platform | Website (Index) | Front door | Status |
 | --- | --- | --- | --- |
@@ -949,13 +949,13 @@ covers 65 platforms: 39 VERIFIED, 20 NO ROUTE FOUND, 6 UNVERIFIED.
 The Wave 8 pattern, stated plainly: **the news industry walls its
 websites and sells its content through enterprise APIs** (FT, AP,
 Reuters, Economist, WSJ all VERIFIED-but-gated; Fast Company, Inc.,
-SCMP, Atlantic, Sky News with nothing at all) — the door exists, but
+SCMP, Atlantic, Sky News with nothing at all): the door exists, but
 the price of admission is a contract, not a key. **Travel is the
 opposite split:** the aggregators' suppliers (Expedia Group, Viator,
 TripAdvisor, Emirates) publish partner doors, while the big US hotel
 chains (Hyatt, Marriott) publish nothing. And **civic data is the
 brightest corner of the board**: SEC, BLS, and NYC Open Data are free,
-keyless-or-free-key, and documented — the government doors are more
+keyless-or-free-key, and documented: the government doors are more
 open than most commercial ones, even where the websites themselves
 are Akamai-walled. The SEC entry carries the wave's sharpest
 caution: a free API that walls unidentified clients is a door with a

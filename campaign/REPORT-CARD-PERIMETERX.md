@@ -1,11 +1,11 @@
 # Report Card: PerimeterX (HUMAN Security) Bot Defender
 
-**Vendor:** HUMAN Security (PerimeterX, acquired 2022 — the Bot
+**Vendor:** HUMAN Security (PerimeterX, acquired 2022: the Bot
 Defender product still ships under the PerimeterX detection family:
 `_px*` cookies, px-captcha) [SOURCE]
 **Graded by:** the wallcheck campaign (Rene Turcios / CloudCorpRecords)
-**Date:** October 2026 (Bot Wall Index rounds 1–3)
-**Companion:** `REPORT-CARD-CLOUDFLARE.md` — same rubric, same
+**Date:** October 2026 (Bot Wall Index rounds 1-3)
+**Companion:** `REPORT-CARD-CLOUDFLARE.md`: same rubric, same
 standard. Grades are ours; vendor claims are tagged as vendor claims.
 
 Every factual claim below is tagged: **[MEASURED]** (our index /
@@ -47,14 +47,14 @@ probes), **[VENDOR]** (the vendor's own published claim),
   interactions weekly [VENDOR, via its G2 profile]. We grade claims
   as claims, but the deployment footprint is not in doubt.
 
-## Where it hurts — measured
+## Where it hurts: measured
 
 Our index's best-known PerimeterX row is not a scraper farm. It
-is **Fiverr** — one of the largest freelance marketplaces on
+is **Fiverr**: one of the largest freelance marketplaces on
 earth (the current index also records PerimeterX challenges at
 wayfair.com and goodrx.com):
 
-- `www.fiverr.com` — **CHALLENGED**, PerimeterX, HTTP 403, stable
+- `www.fiverr.com`: **CHALLENGED**, PerimeterX, HTTP 403, stable
   across index rounds 1 and 3 [MEASURED: INDEX.md, freelance].
   The response sets the `_pxhd` challenge cookie and serves the
   px-captcha block experience to a client that identified itself
@@ -73,7 +73,7 @@ wayfair.com and goodrx.com):
 This is the pattern the campaign exists to name: the wall does not
 fall on the worst actors (they run real browsers, residential
 proxies, and solving services). It falls on the automation that
-*identifies itself* — exactly the traffic a healthy ecosystem should
+*identifies itself*: exactly the traffic a healthy ecosystem should
 be able to sort from abuse by identity rather than by obstacle
 course [POSITION].
 
@@ -81,8 +81,8 @@ course [POSITION].
 
 1. **Make the signed path a documented product surface, not a
    capability.** Publish the Web Bot Auth verification flow in the
-   Bot Defender docs — how a site enables it, what a signed agent
-   must send, and what a verified agent is entitled to expect — the
+   Bot Defender docs: how a site enables it, what a signed agent
+   must send, and what a verified agent is entitled to expect: the
    way the good-bot feed is documented today. Verification that
    operators cannot discover does not change behavior.
 2. **Give challenged agents an identity off-ramp.** When Bot
@@ -92,10 +92,10 @@ course [POSITION].
    only a browser can solve is a dead end; a challenge page that
    names the front door is a filter.
 3. **Publish legitimate-agent block rates.** HUMAN sees more
-   interaction volume than almost anyone. A periodic number — how
+   interaction volume than almost anyone. A periodic number: how
    much identified, non-spoofed agent traffic is challenged or
    blocked, and how that trends as Web Bot Auth verification rolls
-   out — would do more for the ecosystem than another threat report.
+   out: would do more for the ecosystem than another threat report.
 
 ## What would raise these grades
 

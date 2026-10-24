@@ -1,4 +1,4 @@
-# DOGFOOD — live runs, recorded verbatim
+# DOGFOOD: live runs, recorded verbatim
 
 First live runs of wallcheck v0.1.0, from this build VM, 2026-10-24
 ~02:30 UTC. Command per target:
@@ -10,7 +10,7 @@ PYTHONPATH=src python3 -m wallcheck probe <url> --json
 **Context, honestly stated:** these results reflect *this* client on
 *this* network (a datacenter egress IP, 104.29.194.33 at run time) with
 an honest non-browser user agent. Bot walls are context-sensitive by
-design — the same URL from a residential IP or a full browser may score
+design: the same URL from a residential IP or a full browser may score
 differently. That dependence is the reason the Bot Wall Index (SPEC.md)
 records scan context alongside every result. Nothing below was massaged,
 retried into a different answer, or hand-edited; elapsed times are from
@@ -18,7 +18,7 @@ the recorded run.
 
 ## Results
 
-### https://www.upwork.com — WALLED (Cloudflare), 403
+### https://www.upwork.com: WALLED (Cloudflare), 403
 
 ```json
 {
@@ -38,10 +38,10 @@ the recorded run.
 ```
 
 The point of the tool, in one object: Upwork serves this network a
-Cloudflare "Sorry, you have been blocked" page — no challenge offered,
+Cloudflare "Sorry, you have been blocked" page: no challenge offered,
 no content. (Exit code 1.)
 
-### https://www.fiverr.com — CHALLENGED (PerimeterX), 403
+### https://www.fiverr.com: CHALLENGED (PerimeterX), 403
 
 ```json
 {
@@ -63,10 +63,10 @@ no content. (Exit code 1.)
 
 Two vendors in one response, correctly separated: Cloudflare fronts the
 site (cf-ray / server evidence), but the wall that fires is
-PerimeterX's captcha challenge — so `vendor` names PerimeterX and the
+PerimeterX's captcha challenge: so `vendor` names PerimeterX and the
 Cloudflare presence stays in the evidence list. (Exit code 1.)
 
-### https://contra.com — OPEN, 200
+### https://contra.com: OPEN, 200
 
 ```json
 {
@@ -88,7 +88,7 @@ Cloudflare presence stays in the evidence list. (Exit code 1.)
 Cloudflare-fronted and fully served. Presence is not a wall: `vendor`
 is null because no wall signal fired. (Exit code 0.)
 
-### https://github.com — OPEN, 200
+### https://github.com: OPEN, 200
 
 ```json
 {
@@ -107,7 +107,7 @@ is null because no wall signal fired. (Exit code 0.)
 
 (Exit code 0.)
 
-### https://example.com — OPEN, 200
+### https://example.com: OPEN, 200
 
 ```json
 {
@@ -141,25 +141,25 @@ Fixed before v0.1 was called done, in the deterministic core (not by
 special-casing GitHub): generic captcha/human-check markers only count
 on non-200 responses or small interstitial-sized bodies
 (`GENERIC_GATE_BYTES = 16384`), and two regression fixtures now pin the
-behavior — a large 200 page mentioning "captcha" classifies OPEN, and
+behavior: a large 200 page mentioning "captcha" classifies OPEN, and
 the Fiverr-style PerimeterX-behind-Cloudflare case names PerimeterX.
 The runs recorded above are the post-fix binaries, re-run fresh.
 
 ---
 
-## Addendum — Validation Wave 1 (2026-10-24, overnight)
+## Addendum: Validation Wave 1 (2026-10-24, overnight)
 
 First stress wave: 58 targets (freelance, job boards, dev platforms,
 social, docs/news, big web, plus our own properties), same client
 context as above, one honest fetch per target per round. Full
-artifacts: `validation/wave1/` — `targets.txt`, `results-round1.json`,
+artifacts: `validation/wave1/`: `targets.txt`, `results-round1.json`,
 `results-round2.json` (final merged set), `PROBLEMS.md` (ledger
 W1-001…W1-008), `captures/` (raw response shapes behind every fix),
 `INDEX-SEED.md` (the Bot Wall Index seed).
 
 **Rounds.** Round 1 (all 58): OPEN 44 / CHALLENGED 6 / WALLED 4 /
 UNREACHABLE 4. Hand-triage of every shaky verdict against captured
-response shapes found **3 false walls** — wallcheck challenging pages
+response shapes found **3 false walls**: wallcheck challenging pages
 that were fully served. Round 2 re-probed the 14 affected targets after
 the fixes: final distribution **OPEN 47 / WALLED 4 / CHALLENGED 4 /
 UNREACHABLE 3**, with sanity checks unchanged (Upwork still WALLED
@@ -168,7 +168,7 @@ Cloudflare; Fiverr still CHALLENGED PerimeterX).
 **What Wave 1 caught in wallcheck (all fixed test-first, 17 → 24
 tests, each with a regression fixture from the real captured shape):**
 
-- **W1-001/W1-002 — the 16 KB gate was only half-applied.** The v0.1
+- **W1-001/W1-002: the 16 KB gate was only half-applied.** The v0.1
   dogfood fix gated *generic* markers, but Cloudflare and PerimeterX
   body markers were still verdict-driving at any size: TechCrunch got
   CHALLENGED over a `dns-prefetch` hint on a 64 KB homepage, Walmart
@@ -176,22 +176,22 @@ tests, each with a regression fixture from the real captured shape):**
   alone. Fix, generalized: **one served-page gate for every
   body-derived wall marker** (2xx + large body = served page; mentions
   on it are presence, not walls), header signals stay authoritative,
-  and PX_COOKIE is now presence-only evidence — the same treatment
+  and PX_COOKIE is now presence-only evidence: the same treatment
   `ak_bmsc` already had. A pin fixture keeps small 200 PX-captcha
   interstitials CHALLENGED.
-- **W1-003 — Akamai under-attributed.** eBay's 403 was WALLED with no
+- **W1-003: Akamai under-attributed.** eBay's 403 was WALLED with no
   vendor; the capture shows `Server: AkamaiGHost` + a `bm_so` Bot
   Manager cookie. Added both standard signals
   (AKAMAI_SERVER_HEADER, AKAMAI_BM_COOKIE).
-- **W1-004 — a whole vendor was missing.** Guru's 403 is Imperva
+- **W1-004: a whole vendor was missing.** Guru's 403 is Imperva
   (Incapsula): `/_Incapsula_Resource` block page, `incap_ses` cookie.
   wallcheck had no Imperva detection; it does now.
-- **W1-008 — DataDome attribution hardening.** NYT/Monster verdicts
+- **W1-008: DataDome attribution hardening.** NYT/Monster verdicts
   were right but rested on one header; their block bodies reference
   DataDome's `captcha-delivery.com` host, now a DD body marker.
 
 **Honest non-fixes.** npmjs round-1 UNREACHABLE was a transient
-connection kill — the diagnostic capture minutes later got the full
+connection kill: the diagnostic capture minutes later got the full
 Cloudflare challenge, and round 2 records CHALLENGED (Cloudflare).
 replit.com, discord.com, and bestbuy.com timed out on three separate
 attempts each and stay UNREACHABLE: the fetch fails from this client,
@@ -199,18 +199,18 @@ so no wall verdict is claimed (W1-006). cloudcorprecords.github.io's
 404 stays OPEN with the status on the record (W1-007).
 
 **Headline from the seed:** 8 of 58 targets wall an identified agent,
-across 5 vendors — and freelance is the most-walled category (3 of 7:
+across 5 vendors: and freelance is the most-walled category (3 of 7:
 Upwork, Fiverr, Guru), the exact wall that started this project.
 
 ---
 
-## Addendum — Validation Wave 2 (2026-10-24, overnight)
+## Addendum: Validation Wave 2 (2026-10-24, overnight)
 
 Two legs, full artifacts in `validation/wave2/` (`paths.txt`,
 `results-paths.json`, `PATHS.md`, `PROBLEMS.md` W2-001…W2-006,
 `captures/`, `SIGNING.md`, `results-signed.json`).
 
-**Leg A — depth probing.** 77 path probes (login, signup, search,
+**Leg A: depth probing.** 77 path probes (login, signup, search,
 dev/API, robots, sitemap, llms.txt) across the 8 walled platforms
 plus Contra, LinkedIn, Indeed. Final: OPEN 38 / WALLED 17 /
 CHALLENGED 16 / LOGIN_GATED 3 / UNREACHABLE 3. The stories:
@@ -218,29 +218,29 @@ registry.npmjs.org and api.medium.com serve OPEN while their webs
 are walled; genuine llms.txt files serve OPEN on Upwork, Fiverr,
 Monster, and Indeed; Guru is the only whole-domain wall (Imperva,
 robots.txt included); npmjs is the deepest (even robots.txt is
-challenged). Only 3 of 11 login paths are real login pages — the
+challenged). Only 3 of 11 login paths are real login pages: the
 rest are walls in front of the login page, or 404s. Wave 2 caught
-three classifier defects in its own first round — the login-URL
+three classifier defects in its own first round: the login-URL
 heuristic pre-empting walls (W2-001), generic markers challenging a
 404 page (W2-002), and SSO `/auth` segments missed entirely
-(W2-003) — all fixed test-first with capture-built fixtures
+(W2-003): all fixed test-first with capture-built fixtures
 (8 new classifier fixtures), the 6 affected paths re-probed live,
 and the fixes verified in the merged results.
 
-**Leg B — v0.2 passport prototype.** RFC 9421 request signing
+**Leg B: v0.2 passport prototype.** RFC 9421 request signing
 shipped (`wallcheck keygen`, `probe --sign`, `verify-server`):
 `hmac-sha256` shared-secret variant, because Ed25519 is not in the
-Python stdlib and `cryptography` is not installed — the limitation
+Python stdlib and `cryptography` is not installed: the limitation
 (shared secrets can't join the public Ed25519 Web Bot Auth
 directory) is documented, not hidden. 14 signing tests including a
 localhost verify-server end-to-end; signed vs unsigned probes
-against our own three properties changed nothing, as expected —
+against our own three properties changed nothing, as expected : 
 they don't check signatures yet. Suite total: **46 tests, all
 green**; MCP smoke still passes.
 
-## Addendum — Validation Wave 3 (2026-10-24, overnight)
+## Addendum: Validation Wave 3 (2026-10-24, overnight)
 
-**Leg A — stability.** The 58 Wave 1 roots were re-probed:
+**Leg A: stability.** The 58 Wave 1 roots were re-probed:
 **56 verdicts identical**, 2 flips, both target-side churn and
 zero classifier defects. amazon.com took up a Generic captcha
 gate between waves (capture-verified: CHALLENGED is the correct
@@ -251,7 +251,7 @@ instability note). The three standing UNREACHABLEs (replit.com,
 discord.com, bestbuy.com) reproduced a third time.
 `validation/wave3/STABILITY.md` has the flip table.
 
-**Leg B — index expansion.** 96 new targets brought the census to
+**Leg B: index expansion.** 96 new targets brought the census to
 **154 sites**, merged into the repo-root `INDEX.md` working table:
 OPEN 133 · CHALLENGED 10 · WALLED 6 · RATE_LIMITED 1 ·
 UNREACHABLE 4. New to the wall column: a fourth freelance platform,
@@ -260,38 +260,38 @@ DataDome challenges at Etsy, Reuters, and the Wall Street
 Journal; Expedia answers a plain 429. Developer infrastructure
 is the most open category measured; freelance remains the most
 walled. The wave caught two classifier defects in its own first
-round — an AWS WAF challenge page classified OPEN because the
+round: an AWS WAF challenge page classified OPEN because the
 vendor wasn't detected at all and the generic markers missed its
 "not a robot" wording (W3-001, booking.com), and an Akamai
 `edgesuite` error page whose vendor went unattributed for want of
-one body signal (W3-002, w3schools.com) — both fixed test-first
+one body signal (W3-002, w3schools.com): both fixed test-first
 with capture-built fixtures; the affected targets re-probed live
 (booking → CHALLENGED/AWS WAF, w3schools → WALLED/Akamai).
 
-**Leg C — v0.3 owner audit.** `wallcheck audit` shipped: six
+**Leg C: v0.3 owner audit.** `wallcheck audit` shipped: six
 checks (robots.txt AI directives, llms.txt sanity, sitemap, feed,
 API, signed-agent readiness), PASS/WARN/FAIL + evidence + fixes,
-graded A–F. First live audits: github.com C (7/12) — our own
+graded A-F. First live audits: github.com C (7/12): our own
 clipwise.replit.app D (5/12), reneturcios.replit.app F,
 cloudcorprecords.github.io F, example.com F. The audit's first
 catch was on our own property (clipwise serves its SPA shell as
-/llms.txt — a live soft-404), and its second was in itself: a
+/llms.txt: a live soft-404), and its second was in itself: a
 soft-404 at /openapi.json suppressed the /api fallbacks until the
 router required a real spec document and the api check learned to
 name app shells (W3-004). Signed-agent readiness: **zero of five**
-domains publish a Web Bot Auth directory — the baseline Front 2
+domains publish a Web Bot Auth directory: the baseline Front 2
 has to move. Suite total: **59 tests, all green**; MCP smoke
 still passes. Nothing published; the launch hold stands.
 
-## Addendum — Validation Waves 4–8 (2026-10-24, overnight)
+## Addendum: Validation Waves 4-8 (2026-10-24, overnight)
 
 The dogfood log stopped at Wave 3 while the waves kept running;
 this addendum closes the gap from the wave reports (no new live
-runs are claimed here — every number below is the wave's own
+runs are claimed here: every number below is the wave's own
 record, cited).
 
 **Wave 4.** Round-3 stability: all 154 index roots re-probed, 4
-flips, all target-side churn, zero classifier defects — the first
+flips, all target-side churn, zero classifier defects: the first
 clean defect sheet on a stability leg. Directory census: 3 of 154
 domains publish a signed-agent directory (chatgpt.com
 reference-grade, indeed.com and substack.com bare JWKS); 16 wall
@@ -306,7 +306,7 @@ connection-drop pattern, held CHALLENGED). Expansion round 2
 classifier defects (W5-001…W5-005: captcha-loader false challenge,
 Azure WAF, Kasada attribution, CloudFront block page, the 444
 false OPEN), all fixed test-first. Signed-vs-unsigned experiment:
-12 of 12 verdicts unchanged — unregistered signatures are not
+12 of 12 verdicts unchanged: unregistered signatures are not
 consulted by walls. Owner fix kit shipped with staged fixes for
 our own properties. Suite: **85 tests, all green.**
 
@@ -336,7 +336,7 @@ classifier defects. Suite: **112 tests, all green.**
 UNREACHABLE 6 / LOGIN_GATED 3); 21 whole-domain walls (vs 1 in
 Wave 2's cohort); genuine llms.txt on only 3 platforms. One
 classifier defect (W8-001: the login heuristic fired on delta's
-444 Akamai deny), fixed with a generalized rule — a gate must be
+444 Akamai deny), fixed with a generalized rule: a gate must be
 a served page (2xx/3xx). Front-doors file +55 rows (65
 platforms). Fix-kit §7 added. Own-properties re-audit unchanged
 (clipwise D 5/12, portfolio F 3/12, Pages F 3/12); the Wave 5
@@ -344,7 +344,7 @@ claim that the staged deploy buys the portfolio a B was corrected
 to C (7/12; B needs feed + directory). Suite: **114 tests, all
 green.**
 
-**Waves 9–17 addendum (Wave 17 docs re-audit).** The wave reports
+**Waves 9-17 addendum (Wave 17 docs re-audit).** The wave reports
 under `validation/` are the primary record from Wave 9 on; this
 addendum keeps the suite-count chain continuous.
 
@@ -366,7 +366,7 @@ FAIL, robots HTML soft-404 FAIL). Signing regression on
 classifier: 3 flips, all merged on fresh-capture corroboration
 (amazon.com's interstitial sat round 7 out, merged OPEN;
 britishairways.com served, merged OPEN; merrilledge.com moved
-OPEN → LOGIN_GATED, fix-driven by the redirect-to-login rule —
+OPEN → LOGIN_GATED, fix-driven by the redirect-to-login rule : 
 the round's only fix-driven move). Battery v3: 31 shapes, 6
 defects fixed test-first. Suite: **183 tests, all green.**
 
@@ -379,25 +379,25 @@ Signing spot-check on chatgpt.com + ahrefs.com: 2/2 unchanged.
 Suite: **210 tests, all green.**
 
 **Wave 13.** Round-9 reclassification: 3 moves (britishairways.com
-to OPEN, merrilledge.com to OPEN — its Wave 11 login gate is
-gone — webex.com to WALLED / Akamai, the second sighting after
+to OPEN, merrilledge.com to OPEN: its Wave 11 login gate is
+gone: webex.com to WALLED / Akamai, the second sighting after
 round 8); amazon.com held CHALLENGED on two agreeing fresh
 interstitial readings against a round-9 sat-out. Battery v5: 25
 shapes, 3 defects fixed test-first. Index audit: 499 rows,
 distribution matches header. Suite: **236 tests, all green.**
 
 **Wave 14.** Round-10 reclassification: 3 diffs, all hand-checked
-— todoist.com merged to OPEN; britishairways.com held OPEN;
+:  todoist.com merged to OPEN; britishairways.com held OPEN;
 kaiserpermanente.org held OPEN/302; zero fix-driven moves (fourth
 straight round). Battery v6: 32 shapes, 5 defects fixed
 test-first. Vendor audit of all 60 WALLED/CHALLENGED rows: 0
 mismatches. Suite: **270 tests, all green.**
 
 **Wave 15.** Round-11 reclassification: 3 diffs, all hand-checked
-— britishairways.com merged to UNREACHABLE (round + two agreeing
-fresh failures); forbes.com held OPEN on a 2–2 split (round
+:  britishairways.com merged to UNREACHABLE (round + two agreeing
+fresh failures); forbes.com held OPEN on a 2-2 split (round
 challenge + later spot-check challenge vs two fresh served
-readings — documented intermittent oscillator); webex.com held
+readings: documented intermittent oscillator); webex.com held
 WALLED / Akamai. Battery v7: 39 shapes, 13 defects fixed
 test-first. Limitations revisit: 1 narrowed, 1 resolved by
 construction, 8 still open (including the Wave 3 silent-JS-proof
@@ -406,7 +406,7 @@ boundary, which survives). Suite: **321 tests, all green.**
 **Wave 16.** Round-12 reclassification: zero rows moved; 5 diffs,
 all held on fresh captures (npmjs.com + apnews.com transport
 noise, france24.com + forbes.com served readings,
-britishairways.com 1–1 fresh split — strict rule holds the row).
+britishairways.com 1-1 fresh split: strict rule holds the row).
 Battery v8: 49 shapes, 21 defects fixed test-first
 (concatenated-text scans, data-attribute + style suppression,
 Location-header routing, passkey/magic-link signals, BOM-tolerant
@@ -422,10 +422,10 @@ pins (cache headers, commented Sitemap lines, the script-boundary
 captcha re-test, code-switched fragments). Corpus regression:
 44 captures, zero diff vs the Wave 15 baseline. Round-13
 reclassification with the Wave 16-fixed classifier: 499/499
-probed, zero rows merged — all three diffs held on fresh
-captures (britishairways.com served-leaning 2–1, forbes.com
-challenged-leaning 2–1, neither meeting the corroboration
-triple) — and one diff caught a live Wave 16 misfire:
+probed, zero rows merged: all three diffs held on fresh
+captures (britishairways.com served-leaning 2-1, forbes.com
+challenged-leaning 2-1, neither meeting the corroboration
+triple): and one diff caught a live Wave 16 misfire:
 rubygems.org's served homepage misread as a passkey prompt
 (asset filenames, not a prompt), fixed the same wave
 (visible-text wording + served-page gate on all three
@@ -441,25 +441,25 @@ phrases, non-interactive aria-label suppression) plus pins
 pages, llms via trailing-slash redirects, relative locs).
 Round-14 reclassification with the Wave 17-fixed classifier:
 499/499 probed (first launch died at 123/499 with no
-traceback — external kill — resumed against a reconstructed
+traceback: external kill: resumed against a reconstructed
 Wave 17 tree copy so the round measures one tree end to end);
 5 rows merged (claude.ai to LOGIN_GATED/Cloudflare on a login
 redirect, amazon.com to OPEN, fda.gov to LOGIN_GATED/Akamai
-on a 401, goodrx.com to OPEN, ubereats.com to OPEN — the
+on a 401, goodrx.com to OPEN, ubereats.com to OPEN: the
 round's ONLY fix-driven move, under the Wave 17 head strip);
 7 held, including three Wave 17 QR-prompt misfires rejected
-(remoteok.com, td.com, venmo.com — script filenames,
+(remoteok.com, td.com, venmo.com: script filenames,
 identifiers, and stylesheet classes, not prompts), fixed the
 same wave (visible-text wording + served-page gate on the QR
-branch). Index row 500 added (search.brave.com, OPEN — the
+branch). Index row 500 added (search.brave.com, OPEN: the
 search section was thinnest at 2 rows). Docs spot-check: the
 423-vs-428 question resolved (428 was right at Wave 17's end;
 423 was the mid-wave battery count). Index now 500 rows: OPEN
 418 / CHALLENGED 21 / WALLED 35 / RATE_LIMITED 7 /
-UNREACHABLE 17 / LOGIN_GATED 2 — vendor shares on the 56
-WALLED+CHALLENGED rows: WALLED — Akamai 22, Cloudflare 5,
+UNREACHABLE 17 / LOGIN_GATED 2: vendor shares on the 56
+WALLED+CHALLENGED rows: WALLED: Akamai 22, Cloudflare 5,
 AWS CloudFront 3, Imperva 1, unattributed (bare 403) 4;
-CHALLENGED — DataDome 14, Cloudflare 4, PerimeterX 1,
+CHALLENGED: DataDome 14, Cloudflare 4, PerimeterX 1,
 Microsoft Azure WAF 1, AWS WAF 1. Suite: **481 tests, all
 green.**
 
@@ -469,7 +469,7 @@ UNREACHABLE on three consecutive failures; forbes.com to
 CHALLENGED/DataDome on the corroboration triple the
 oscillator's earlier splits never met; irishjobs.ie, jobs.ie,
 and totaljobs.com to OPEN; jobrapido.com to RATE_LIMITED on
-two agreeing 429s), 4 held; zero fix-driven moves — all five
+two agreeing 429s), 4 held; zero fix-driven moves: all five
 spotlights held (ubereats.com OPEN under the Wave 17 head
 strip; remoteok.com, td.com, venmo.com OPEN with no QR
 misfire; rubygems.org OPEN under the passkey fix). Battery
@@ -481,23 +481,23 @@ CR-only frontmatter normalization, fragment-only sitemap
 locs, HE/FA/UR/BN challenge phrases, native <dialog>
 challenge elements) plus one Wave 16 guard superseded with
 independent justification and one hand-correction. DOGFOOD
-addendum for Waves 9–18 written (this chain). LOGIN_GATED
+addendum for Waves 9-18 written (this chain). LOGIN_GATED
 watch: claude.ai still a real login redirect, fda.gov still
-a 401 — no softening. Index now 500 rows: OPEN 419 /
+a 401: no softening. Index now 500 rows: OPEN 419 /
 CHALLENGED 21 / WALLED 35 / RATE_LIMITED 8 / UNREACHABLE 15 /
 LOGIN_GATED 2. Suite: **532 tests, all green.**
 
 **Wave 20.** Round-16 reclassification with the Wave 19-fixed
 classifier: 500/500 probed, 10 rows merged (claude.ai to
-CHALLENGED/Cloudflare — its login gate replaced by a wall;
+CHALLENGED/Cloudflare: its login gate replaced by a wall;
 amazon.com to CHALLENGED/Generic; ed.gov to CHALLENGED/Azure
-WAF, answering again; fda.gov to OPEN — its 401 gate gone;
+WAF, answering again; fda.gov to OPEN: its 401 gate gone;
 goodrx.com to CHALLENGED/PerimeterX; irishjobs.ie, jobs.ie,
 totaljobs.com to UNREACHABLE, reversing Wave 19's OPEN
 merges; jobrapido.com to OPEN; ubereats.com to
-CHALLENGED/Cloudflare — a live wall superseding the Wave 17
+CHALLENGED/Cloudflare: a live wall superseding the Wave 17
 head-strip move, target-side), 3 held; zero fix-driven moves;
-the LOGIN_GATED watch empties — zero LOGIN_GATED rows for
+the LOGIN_GATED watch empties: zero LOGIN_GATED rows for
 the first time since Wave 13. Battery v12: 39 shapes, 3
 defect families shipped test-first (iframe-src redirect
 routing targets, localized JS-proof phrases DE/FR/ES/PT/JA,
@@ -509,8 +509,8 @@ still publishing. Index now 500 rows: OPEN 415 / CHALLENGED
 LOGIN_GATED 0. Suite: **571 tests, all green.**
 
 **Wave 21.** Round-17 reclassification with the Wave 20-fixed
-classifier: 500/500 probed, zero rows merged — 4 diffs all
-held on fresh captures (apnews.com CHALLENGED on a 1–1 split;
+classifier: 500/500 probed, zero rows merged: 4 diffs all
+held on fresh captures (apnews.com CHALLENGED on a 1-1 split;
 amazon.com CHALLENGED on two agreeing interstitials;
 npmjs.com CHALLENGED on two agreeing challenges against a
 connection drop, the 10th transport-pattern sighting;
@@ -521,28 +521,28 @@ families shipped test-first (object/embed routing species,
 "high traffic" joins the throttle causes, authenticator-app
 passcode prompts, non-HTTP-scheme sitemap locs, TA/TE/MR/PA
 challenge phrases) plus one hand-correction (a mid-file
-"empty" robots group cannot exist under RFC 9309 grouping —
+"empty" robots group cannot exist under RFC 9309 grouping : 
 the parser was right, the test now asserts FAIL). Path
 matrix on the 10 Wave 20 merged rows: 50/50 probes, no
 contradictions (the three UNREACHABLE job boards answer
-robots.txt 200 while their origins fail — origin-down, not
+robots.txt 200 while their origins fail: origin-down, not
 domain-dead). Docs spot-check: README counts corrected.
 Index unchanged: OPEN 415 / CHALLENGED 26 / WALLED 35 /
 RATE_LIMITED 7 / UNREACHABLE 17 / LOGIN_GATED 0. Suite:
 **608 tests, all green.**
 
 **Wave 22.** Round-18 reclassification with the Wave 21-fixed
-classifier: 500/500 probed, zero rows merged — 2 diffs both
+classifier: 500/500 probed, zero rows merged: 2 diffs both
 held (chicagotribune.com OPEN on two agreeing served
 readings against a round 403, transient refusal; forbes.com
-CHALLENGED/DataDome on a 1–1 fresh split — served-leaning
-2–1, no triple, the oscillator's first served-leaning
+CHALLENGED/DataDome on a 1-1 fresh split: served-leaning
+2-1, no triple, the oscillator's first served-leaning
 split); zero fix-driven moves. Battery v14: 30 shapes, 3
 defect families shipped test-first (SVG <title>/<desc>
 metadata stripped from the presented-text scans,
 "Continue with SSO" sign-in prompts, GU/KN/NE/KM challenge
 phrases) plus one hand-correction (a 451 body carrying a
-challenge phrase reads WALLED/Generic — the vendor cell
+challenge phrase reads WALLED/Generic: the vendor cell
 records body evidence, not a re-attribution). Vendor
 re-audit 2: all 61 WALLED/CHALLENGED cells verified against
 fresh evidence, zero corrections (apnews.com's Cloudflare
@@ -558,8 +558,8 @@ Round-19 reclassification with the Wave 22-fixed classifier:
 500/500 probed, 2 rows merged, both transport
 (britishairways.com to OPEN, recovered from its Wave 15
 failure merge; todoist.com to UNREACHABLE on three
-consecutive failures — the two cancel in the distribution),
-1 held (webex.com WALLED/Akamai on a 1–1 fresh split, its
+consecutive failures: the two cancel in the distribution),
+1 held (webex.com WALLED/Akamai on a 1-1 fresh split, its
 second split-hold); zero fix-driven moves (no row answered
 418 or 451; no capture carried a Wave 22 shape). Battery
 v15: 36 shapes, 3 defect families shipped test-first (stray
@@ -568,32 +568,32 @@ alt scan deliberately exempt; HTTP 418 joins the 444/451
 deliberate-refusal family as WALLED; EL/CS/HU/RO challenge
 phrases) plus one hand-correction (a fragment pin belongs on
 a served page, the J7g precedent). Adopter spot-check v3:
-4/4 still publishing, all keys byte-identical — chatgpt.com's
+4/4 still publishing, all keys byte-identical: chatgpt.com's
 expiry drifted forward a third consecutive time (+12,555 s
 vs the Wave 16 record, still operated, still
 reference-grade); 15/15 walled directory paths still serve
 no directory (huggingface.co now answers 401 LOGIN_GATED
-instead of the census-era hard wall — a gate, not an
+instead of the census-era hard wall: a gate, not an
 opening). Index unchanged at 500 rows: OPEN 415 /
 CHALLENGED 26 / WALLED 35 / RATE_LIMITED 7 / UNREACHABLE 17 /
 LOGIN_GATED 0. Suite: **674 tests, all green.**
 
-**Wave 24.** First of up to five Rene-ordered waves (24–28).
+**Wave 24.** First of up to five Rene-ordered waves (24-28).
 Round-20 reclassification with the Wave 23-fixed classifier:
 500/500 probed; a mid-round service restart killed the
-runner at 276/500 — the three Wave 24 fixes were temporarily
+runner at 276/500: the three Wave 24 fixes were temporarily
 reverted (verified absent by grep AND by the battery
 re-failing on exactly the same 8 gaps), the runner
 relaunched against the pristine Wave 23 tree and resumed, and
 the fixed file was restored and sha256-verified, so the
 round measures one tree end to end. 2 rows merged
-(wayfair.com to CHALLENGED/PerimeterX — the rounds 16–17
+(wayfair.com to CHALLENGED/PerimeterX: the rounds 16-17
 transient throttle is now the standing answer across three
 readings; apnews.com to UNREACHABLE on three consecutive
-failures), 1 held (britishairways.com OPEN on a 1–1 split);
+failures), 1 held (britishairways.com OPEN on a 1-1 split);
 zero fix-driven moves. New 402 watch: telegraph.co.uk and
 usatoday.com answered 402 in the round (OPEN under the Wave
-23 tree, WALLED on fresh captures under the Wave 24 tree) —
+23 tree, WALLED on fresh captures under the Wave 24 tree) : 
 round 21 is their measurement round. Battery v16: 36
 shapes, 3 defect families shipped test-first (HTTP 402 joins
 the 444/451/418 deliberate-refusal family with STATUS_402
@@ -607,7 +607,7 @@ LOGIN_GATED 0. Suite: **710 tests, all green.**
 **Wave 25.** Round-21 reclassification with the Wave 24-fixed
 classifier: 500/500 probed, 3 rows merged (telegraph.co.uk
 and usatoday.com to WALLED on round + 2 agreeing 402
-readings — the round's TWO fix-driven moves under W24-R2,
+readings: the round's TWO fix-driven moves under W24-R2,
 the first fix-driven moves since round 14's single move;
 todoist.com to OPEN, recovered from its round-19 failure
 merge), 1 held (britishairways.com OPEN on two agreeing
@@ -621,12 +621,12 @@ challenge phrases living only in placeholder attributes
 join the configuration family) plus 28 pins and ONE
 HAND-CORRECTION: HTTP 410 was briefly classified WALLED
 under a deliberate-refusal reading, but the Wave 6 pin
-test_s1c_410_gone vetoed it and the pin was right — 410 is a
+test_s1c_410_gone vetoed it and the pin was right: 410 is a
 definitive answer about the resource, the 404 species, and
 the branch was reverted with no classifier change. FRONT-
 DOORS gains the huggingface.co row (root OPEN, directory
 path 401 LOGIN_GATED confirming the Wave 23 finding; the
-combined file now holds 66 platforms — 40 VERIFIED / 20 NO
+combined file now holds 66 platforms: 40 VERIFIED / 20 NO
 ROUTE FOUND / 6 UNVERIFIED). Index now 500 rows: OPEN 413 /
 CHALLENGED 26 / WALLED 37 / RATE_LIMITED 7 / UNREACHABLE 17 /
 LOGIN_GATED 0. Suite: **747 tests, all green.**
@@ -634,19 +634,19 @@ LOGIN_GATED 0. Suite: **747 tests, all green.**
 **Wave 26.** Round-22 reclassification with the Wave 25-fixed
 classifier: 500/500 probed in a single run, no incident; 2
 rows merged (apnews.com to CHALLENGED/Cloudflare, recovered
-from its round-20 failure merge — the failures were
+from its round-20 failure merge: the failures were
 delivery failures, the challenge stood behind them;
-webex.com to OPEN — the Akamai wall standing since round 9
+webex.com to OPEN: the Akamai wall standing since round 9
 has lifted, closing the split round 19 held), 1 held
-(forbes.com CHALLENGED/DataDome — the documented oscillator
+(forbes.com CHALLENGED/DataDome: the documented oscillator
 oscillating, fresh evidence agreeing with standing); zero
-fix-driven moves — no fresh capture carried an employee-ID
+fix-driven moves: no fresh capture carried an employee-ID
 prompt, an SR/MK/LV/LT phrase, or a placeholder-carried
 phrase. Battery v18: 41 shapes, 3 defect families shipped
-test-first (badge-tap sign-in prompts — the physical
+test-first (badge-tap sign-in prompts: the physical
 credential ceremony, two-keyed from birth with
 asset-filename, stylesheet-class, and script-string negative
-carriers pinned; percent-encoded sitemap hosts rejected —
+carriers pinned; percent-encoded sitemap hosts rejected : 
 the WHATWG host parser rejects "%" in hosts of special
 schemes, path encoding untouched; CA/ET/HY/KA challenge
 phrases, Catalan "no soc" kept distinct from Spanish "no
@@ -654,9 +654,9 @@ soy") plus 34 pins (label-element and button text complete
 the presented-element survey; 451 + Retry-After stays
 WALLED, the throttle rule's 403/503 scope holds; robots
 value whitespace binds as trimmed). Vendor-share refresh
-recomputed from the table: WALLED — Akamai 22, Cloudflare
+recomputed from the table: WALLED: Akamai 22, Cloudflare
 5, unattributed (bare 403) 4, AWS CloudFront 3,
-unattributed (402 pair) 2, Imperva 1; CHALLENGED —
+unattributed (402 pair) 2, Imperva 1; CHALLENGED : 
 DataDome 15, Cloudflare 5, PerimeterX 3, AWS WAF 1,
 Microsoft Azure WAF 1, Generic 1; three report-card
 corrections (Akamai's share restated 22 of 37, DataDome's

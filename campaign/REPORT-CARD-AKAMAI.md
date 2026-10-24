@@ -2,8 +2,8 @@
 
 **Vendor:** Akamai (Bot Manager; App & API Protector)
 **Graded by:** the wallcheck campaign (Rene Turcios / CloudCorpRecords)
-**Date:** October 2026 (Bot Wall Index rounds 1–3)
-**Companion:** `REPORT-CARD-CLOUDFLARE.md` — same rubric, same
+**Date:** October 2026 (Bot Wall Index rounds 1-3)
+**Companion:** `REPORT-CARD-CLOUDFLARE.md`: same rubric, same
 standard. Grades are ours; vendor claims are tagged as vendor claims.
 
 Every factual claim below is tagged: **[MEASURED]** (our index /
@@ -18,7 +18,7 @@ probes), **[VENDOR]** (the vendor's own published claim),
 | Standards & identity | **B+** | Web Bot Auth verification at the edge, documented by Akamai itself, with validated-bot classification [VENDOR] |
 | Owner controls | **A** | The deepest control surface in this series: Bot Score thresholds per endpoint, a granular AI-bot directory, responses from allow to serve-alternate-content [VENDOR] |
 | Transparency | **B−** | Real technical blogging on AI-bot traffic; no published false-positive or legitimate-agent block rates |
-| False-positive handling | **C** | Autotuning is claimed to reduce misclassification [VENDOR] — but our index holds two Akamai properties at the hardest verdict we assign |
+| False-positive handling | **C** | Autotuning is claimed to reduce misclassification [VENDOR]: but our index holds two Akamai properties at the hardest verdict we assign |
 | Net effect on legitimate agents | **C−** | eBay and w3schools are WALLED to an identified agent, and eBay's developer portal was walled too [MEASURED] |
 
 ## Where credit is due
@@ -41,39 +41,39 @@ probes), **[VENDOR]** (the vendor's own published claim),
   policy. (The wider known-bot directory is described in Akamai
   materials at 1,750 entries [VENDOR product brief].)
 - **Responses are a dial, not a switch.** Bot Manager offers scores
-  (0–100), per-endpoint thresholds, and actions including serve
+  (0-100), per-endpoint thresholds, and actions including serve
   alternate content, challenge, and slow [VENDOR: akamai.com,
   "What Is Bot Mitigation?"]. Owners who want nuance can buy it
   here more readily than anywhere else in this series.
 
-## Where it hurts — measured
+## Where it hurts: measured
 
 Akamai held two of the six WALLED verdicts in our 154-row index at
-Wave 4 — the hardest verdict we assign, reserved for walls with no
+Wave 4: the hardest verdict we assign, reserved for walls with no
 challenge path an agent can answer. Current index (500 rows,
-Wave 26 re-verified): Akamai holds 22 of the 37 WALLED rows — the
+Wave 26 re-verified): Akamai holds 22 of the 37 WALLED rows: the
 largest single-vendor share of hard walls in the index:
 
-- `www.ebay.com` — **WALLED**, Akamai, HTTP 403 [MEASURED:
+- `www.ebay.com`: **WALLED**, Akamai, HTTP 403 [MEASURED:
   INDEX.md, commerce], an edgesuite error page carrying no path
   forward for an identified agent. And the front doors are walled
   too: `developer.ebay.com` probed WALLED in Wave 2 [MEASURED:
-  validation/wave2] — eBay was the one Wave 2 property whose
+  validation/wave2]: eBay was the one Wave 2 property whose
   developer surface was *more* closed than its peers', not less.
   (Its `robots.txt`, to be recorded fairly, was served OPEN.)
-- `www.w3schools.com` — **WALLED**, Akamai, HTTP 403 [MEASURED:
-  INDEX.md, docs/learning] — an edgesuite reference error page
+- `www.w3schools.com`: **WALLED**, Akamai, HTTP 403 [MEASURED:
+  INDEX.md, docs/learning]: an edgesuite reference error page
   (that verdict's missing vendor attribution was Wave 3 problem
   W3-002; the wall itself reproduced in all three rounds).
   w3schools is a *tutorial site*: the canonical "learn to code"
   front door for beginners worldwide. The apex domain served while
-  the `www` host walled [MEASURED] — an inconsistency that suggests
+  the `www` host walled [MEASURED]: an inconsistency that suggests
   configuration drift, not considered policy, which is its own kind
   of finding.
 
-The autotuning claim — Bot Manager "learns normal traffic patterns
+The autotuning claim: Bot Manager "learns normal traffic patterns
 and automatically tunes detections to avoid potentially
-misclassifying requests" [VENDOR] — is aimed at exactly this
+misclassifying requests" [VENDOR]: is aimed at exactly this
 problem. Three rounds of measurement say that for identified
 agents, on these properties, it has not arrived [POSITION, on
 MEASURED evidence].
@@ -81,8 +81,8 @@ MEASURED evidence].
 We also note the asymmetry the campaign keeps finding: the actors
 these walls exist to stop run full browsers and clear Bot Manager
 detections routinely enough to sustain an industry. The traffic
-that arrives with its name on — one request, honest user-agent,
-no evasion — is the traffic that gets the error page [POSITION].
+that arrives with its name on: one request, honest user-agent,
+no evasion: is the traffic that gets the error page [POSITION].
 
 ## The asks
 
@@ -95,13 +95,13 @@ no evasion — is the traffic that gets the error page [POSITION].
    deliberate owner choice, never an accident of thresholds.
 2. **Fix the drift: audit protected properties for www/apex and
    surface inconsistencies.** If the apex serves and `www` walls,
-   one of them is wrong. A Bot Manager consistency report —
-   well-known paths, developer subdomains, apex vs www — would
+   one of them is wrong. A Bot Manager consistency report : 
+   well-known paths, developer subdomains, apex vs www: would
    catch the w3schools pattern across the customer base.
 3. **Publish legitimate-agent outcomes.** Akamai's view of bot
-   traffic is the broadest in the industry. A periodic aggregate —
+   traffic is the broadest in the industry. A periodic aggregate : 
    share of identified/verified agent requests allowed, challenged,
-   blocked — would set the transparency bar for every other vendor
+   blocked: would set the transparency bar for every other vendor
    in this series.
 
 ## What would raise these grades

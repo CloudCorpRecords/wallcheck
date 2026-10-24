@@ -2,8 +2,8 @@
 
 **Vendor:** Imperva, a Thales company (Advanced Bot Protection)
 **Graded by:** the wallcheck campaign (Rene Turcios / CloudCorpRecords)
-**Date:** October 2026 (Bot Wall Index rounds 1–3)
-**Companion:** `REPORT-CARD-CLOUDFLARE.md` — same rubric, same
+**Date:** October 2026 (Bot Wall Index rounds 1-3)
+**Companion:** `REPORT-CARD-CLOUDFLARE.md`: same rubric, same
 standard. Grades are ours; vendor claims are tagged as vendor claims.
 
 Every factual claim below is tagged: **[MEASURED]** (our index /
@@ -19,21 +19,21 @@ probes), **[VENDOR]** (the vendor's own published claim),
 | Owner controls | **B** | Customers can customize good/bad bot lists, exceptions, and per-bot policies [VENDOR docs] |
 | Transparency | **C−** | Publishes AI-bot policy guidance; no false-positive rates, no agent-outcome data |
 | False-positive handling | **D** | "Unidentified" is suspicious by default [VENDOR docs], and there is no route by which a new legitimate agent can stop being unidentified |
-| Net effect on legitimate agents | **D** | The one Imperva property in our index is walled on every path we probed — the index's only whole-domain wall [MEASURED] |
+| Net effect on legitimate agents | **D** | The one Imperva property in our index is walled on every path we probed: the index's only whole-domain wall [MEASURED] |
 
 ## Where credit is due
 
 - **The classification model is explicit about its categories.**
-  Imperva's documentation states plainly how it sorts traffic —
-  human, good bot, bad bot, or *unidentified* — and that customers
+  Imperva's documentation states plainly how it sorts traffic : 
+  human, good bot, bad bot, or *unidentified*: and that customers
   can customize the good/bad lists and define exceptions [VENDOR:
   Thales/Imperva docs, "Bot Mitigation"]. Owners are not flying
   blind; the console model is legible.
 - **Its public guidance on AI bots is genuinely policy-shaped.**
   Imperva's own AI-bot traffic guidance recommends differentiated
-  handling — allow AI search bots on public content, review
+  handling: allow AI search bots on public content, review
   training bots, allow fetch bots with inspection and rate controls
-  — rather than blanket blocking [VENDOR: imperva.com blog, "AI
+ : rather than blanket blocking [VENDOR: imperva.com blog, "AI
   Bot Traffic: Which Bots to Allow or Block"]. That is the right
   advice. Our measured complaint is that the product's default
   treatment of an *unknown* agent makes the advice hard to follow
@@ -46,30 +46,30 @@ probes), **[VENDOR]** (the vendor's own published claim),
   recommended actions [VENDOR: imperva.com ABP resources]. For
   human visitors, this is careful work.
 
-## Where it hurts — measured
+## Where it hurts: measured
 
-- `www.guru.com` — **WALLED**, Imperva, HTTP 403 [MEASURED:
-  INDEX.md, freelance] — and not just the homepage. In Wave 2 path
+- `www.guru.com`: **WALLED**, Imperva, HTTP 403 [MEASURED:
+  INDEX.md, freelance]: and not just the homepage. In Wave 2 path
   probing, Guru was the **only whole-domain wall in the set**:
-  landing, jobs, login, robots.txt, sitemap, llms.txt — every
+  landing, jobs, login, robots.txt, sitemap, llms.txt: every
   probed path returned the same Imperva wall (Incapsula incident
   page, `_Incapsula_Resource` challenge) [MEASURED:
   validation/wave2/PATHS.md]. Even the files a site publishes
   *specifically for machines* were behind it.
 - Guru is a freelance marketplace. The population with the most
-  legitimate reason to send an identified agent to it — freelancers
-  and the people hiring them — is the population the wall excludes
+  legitimate reason to send an identified agent to it: freelancers
+  and the people hiring them: is the population the wall excludes
   most completely [POSITION, on MEASURED evidence].
 
 The structural problem is in Imperva's own documentation: "By
 default, we treat an unidentified bot as suspicious because it is
 an unknown" [VENDOR: Thales/Imperva docs]. Pair that with the
-identity model — classification happens in Imperva's client
+identity model: classification happens in Imperva's client
 database; exceptions are granted by the *customer*, per Client App
-ID, for bots Imperva already knows [VENDOR: imperva.com blog] —
+ID, for bots Imperva already knows [VENDOR: imperva.com blog] : 
 and a new legitimate agent has no move to make. It cannot sign a
 request Imperva will verify (no signature verification is publicly
-documented; we searched for Web Bot Auth support and found none —
+documented; we searched for Web Bot Auth support and found none : 
 if it exists, it is not discoverable, which for an agent operator
 is the same thing). It cannot register itself. It can only wait to
 be classified by a database it cannot see, while being treated as
@@ -86,12 +86,12 @@ below].
 1. **Verify Web Bot Auth signatures, and say so in the docs.**
    RFC 9421 verification at the edge is shipped by Cloudflare,
    Akamai, AWS WAF, HUMAN, and DataDome. A signed request should be
-   a first-class classification input — the strongest possible
+   a first-class classification input: the strongest possible
    answer to "who are you?", which Imperva's own docs name as the
    first question bot mitigation asks.
 2. **Give "unidentified" a graduation path.** A published route by
    which an agent operator can register an identity (key directory,
-   dedicated user-agent, contact) and be reclassified on evidence —
+   dedicated user-agent, contact) and be reclassified on evidence : 
    with a stated timeline. Suspicious-by-default is a starting
    posture, not a life sentence.
 3. **Stop walling the machine-readable surface by default.**
@@ -113,7 +113,7 @@ below].
 Errors in this card will be corrected publicly, with the correction
 noted, on the same terms we offered Cloudflare. If Imperva ships
 signature verification and we missed it, we will correct this card
-prominently — that correction is one we would be glad to publish.
+prominently: that correction is one we would be glad to publish.
 
 ## Sources
 

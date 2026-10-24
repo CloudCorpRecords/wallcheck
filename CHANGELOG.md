@@ -1,6 +1,6 @@
-# wallcheck — Changelog
+# wallcheck: Changelog
 
-## 0.5.0 — 2026-10-24 (stamped final at the ship-readiness pass; NOT yet published)
+## 0.5.0: 2026-10-24 (stamped final at the ship-readiness pass; NOT yet published)
 
 The audit release, hardened by nineteen waves of adversarial
 testing after the release candidate.
@@ -11,9 +11,9 @@ testing after the release candidate.
 - The Bot Wall Index stands at 500 sites with 24 stability
   rounds behind it; the signed-agent directory census measures
   4 adopters in 500.
-- Waves 10–28 folded in: twenty adversarial batteries and
+- Waves 10-28 folded in: twenty adversarial batteries and
   hundreds of capture-built fixtures fixed every defect family
-  they found, test-first — among them the deliberate-refusal
+  they found, test-first: among them the deliberate-refusal
   status family (444/451/418/402), split-phrase and
   split-markup challenge text, auth-prompt species (code entry,
   passkey, magic link, delivery code, email-continue,
@@ -23,11 +23,11 @@ testing after the release candidate.
   gzip/encoding correctness in the audit's sitemap and llms
   checks. Suite: 885 tests, all green.
 - Release candidate stamped at Wave 9; 0.5.0 was never
-  published in rc form, so the Waves 10–28 fixes fold directly
+  published in rc form, so the Waves 10-28 fixes fold directly
   into this final stamp. Launch hold still stands: this
   version ships only on Rene's explicit call.
 
-## 0.4.0 — Wave 4
+## 0.4.0: Wave 4
 
 - Ed25519 signing in pure-Python stdlib (RFC 8032, verified
   against the official test vectors): keys are now Web Bot
@@ -37,14 +37,14 @@ testing after the release candidate.
   cards (Cloudflare, PerimeterX, DataDome, Akamai; Imperva
   followed).
 
-## 0.3.0 — Wave 3
+## 0.3.0: Wave 3
 
-- `wallcheck audit <domain>`: the owner-side audit — six
+- `wallcheck audit <domain>`: the owner-side audit: six
   checks (robots, llms, sitemap, feed, api, signed agents)
-  graded A–F with evidence and fixes.
+  graded A-F with evidence and fixes.
 - AWS WAF named as a vendor; index grown to 154 sites.
 
-## 0.2.0 — Wave 2
+## 0.2.0: Wave 2
 
 - Signed agent identity (prototype): RFC 9421 HTTP Message
   Signatures with `tag="web-bot-auth"` (HMAC-SHA256),
@@ -53,7 +53,7 @@ testing after the release candidate.
 - Login/API path probing: sanctioned machine routes measured
   separately from the marketing surface.
 
-## 0.1.0 — Wave 1
+## 0.1.0: Wave 1
 
 - First build: deterministic probe + classifier (CLI and
   stdio MCP server), Python standard library only. Verdicts
