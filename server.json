@@ -1,1 +1,30 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","description":"Probe a URL and name the bot wall: Cloudflare, PerimeterX, DataDome, Akamai, Imperva, AWS WAF, Microsoft Azure WAF, Kasada, AWS CloudFront: verdict plus evidence. Ships a Web Bot Auth signer and an owner-side agent-access audit.","name":"io.github.CloudCorpRecords/wallcheck","packages":[{"identifier":"ghcr.io/cloudcorprecords/wallcheck:0.5.0","registryType":"oci","runtimeArguments":[{"name":"--rm","type":"named"},{"name":"-i","type":"named"}],"runtimeHint":"docker","transport":{"type":"stdio"}}],"repository":{"source":"github","url":"https://github.com/CloudCorpRecords/wallcheck"},"version":"0.5.0"}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Probe a URL and name the bot wall: vendor, verdict, and evidence. CLI plus stdio MCP server.",
+  "name": "io.github.CloudCorpRecords/wallcheck",
+  "packages": [
+    {
+      "identifier": "ghcr.io/cloudcorprecords/wallcheck:0.5.0",
+      "registryType": "oci",
+      "runtimeArguments": [
+        {
+          "name": "--rm",
+          "type": "named"
+        },
+        {
+          "name": "-i",
+          "type": "named"
+        }
+      ],
+      "runtimeHint": "docker",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/CloudCorpRecords/wallcheck"
+  },
+  "version": "0.5.0"
+}
