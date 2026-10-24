@@ -1,6 +1,6 @@
 # wallcheck: Changelog
 
-## 0.5.0: 2026-10-24 (stamped final at the ship-readiness pass; NOT yet published)
+## 0.5.0: 2026-10-24 (stamped final at the ship-readiness pass; published 2026-10-24 on Rene's ship call)
 
 The audit release, hardened by nineteen waves of adversarial
 testing after the release candidate.
@@ -24,8 +24,8 @@ testing after the release candidate.
   checks. Suite: 885 tests, all green.
 - Release candidate stamped at Wave 9; 0.5.0 was never
   published in rc form, so the Waves 10-28 fixes fold directly
-  into this final stamp. Launch hold still stands: this
-  version ships only on Rene's explicit call.
+  into this final stamp. Shipped 2026-10-24 on Rene's
+  explicit call.
 
 ## 0.4.0: Wave 4
 
