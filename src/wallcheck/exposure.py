@@ -67,10 +67,45 @@ PATTERNS = [
      re.compile(r"\b(?P<v>SG\.[0-9A-Za-z_-]{20,}\.[0-9A-Za-z_-]{20,})")),
     ("twilio_api_key", "CANDIDATE_EXPOSURE",
      re.compile(r"\b(?P<v>SK[0-9a-f]{32})\b")),
+    # AI-provider API keys: billed, account-scoped credentials. The
+    # prefixed forms (sk-proj-/sk-svcacct-/sk-admin-, sk-ant-) are
+    # unambiguous; the legacy OpenAI form is bare "sk-" + 48 chars,
+    # and the 48-char floor is what keeps it from eating prose —
+    # shorter sk- strings are not OpenAI keys.
+    ("openai_api_key", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>sk-(?:proj|svcacct|admin)-[0-9A-Za-z_-]{20,}|sk-[0-9A-Za-z]{48,})")),
+    ("anthropic_api_key", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>sk-ant-[0-9A-Za-z_-]{20,})")),
+    # Source-hosting and package-registry tokens: each grants write
+    # access to code or published packages, so a served copy is a
+    # supply-chain exposure, not a client identifier.
+    ("gitlab_pat", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>glpat-[0-9A-Za-z_-]{20,})")),
+    ("npm_token", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>npm_[0-9A-Za-z]{36})\b")),
+    ("pypi_token", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>pypi-[0-9A-Za-z_-]{50,})")),
+    ("digitalocean_token", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>dop_v1_[0-9a-f]{64})\b")),
+    # An AWS access key ID is the identifier half of a credential
+    # pair (the secret half is what generic_secret_field catches as
+    # aws_secret_access_key). Scanner-standard to flag on its own:
+    # it names the account and is half of everything needed.
+    ("aws_access_key_id", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>(?:AKIA|ASIA)[0-9A-Z]{16})\b")),
+    # Webhook URLs that are themselves credentials: anyone holding
+    # the URL can post into the channel / trigger the hook — there
+    # is no separate secret to leak.
+    ("slack_webhook_url", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>https://hooks\.slack\.com/services/T[0-9A-Z]{8,}/B[0-9A-Z]{8,}/[0-9A-Za-z]{24})")),
+    ("discord_webhook_url", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>https://(?:canary\.|ptb\.)?discord(?:app)?\.com/api/webhooks/[0-9]{17,20}/[0-9A-Za-z_-]{60,})")),
+    ("telegram_bot_token", "CANDIDATE_EXPOSURE",
+     re.compile(r"\b(?P<v>[0-9]{8,10}:[0-9A-Za-z_-]{35})\b")),
     ("private_key_block", "CANDIDATE_EXPOSURE",
      re.compile(r"(?P<v>-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)")),
     ("db_url_with_password", "CANDIDATE_EXPOSURE",
-     re.compile(r"(?P<v>(?:postgres(?:ql)?|mysql|mongodb(?:\+srv)?|redis|amqp)://[^\s\"'/:]+:[^\s\"'@]{4,}@)")),
+     re.compile(r"(?P<v>(?:postgres(?:ql)?|mariadb|mysql|mongodb(?:\+srv)?|mssql|sqlserver|cassandra|redis|rediss|amqp|amqps)://[^\s\"'/:]+:[^\s\"'@]{4,}@)")),
     ("generic_secret_field", "CANDIDATE_EXPOSURE",
      re.compile(r"[\"']?(?:api_secret|client_secret|app_secret|auth_token|access_token|private_key|aws_secret_access_key)[\"']?\s*[:=]\s*[\"'](?P<v>[^\"']{16,})[\"']", re.I)),
     ("google_api_key", "PUBLIC_BY_DESIGN",
@@ -83,6 +118,12 @@ PATTERNS = [
      re.compile(r"\b(?P<v>[0-9]{6,}-[0-9a-z]+\.apps\.googleusercontent\.com)")),
     ("mapbox_public_token", "PUBLIC_BY_DESIGN",
      re.compile(r"\b(?P<v>pk\.eyJ[0-9A-Za-z\-_.]{20,})")),
+    # Sentry DSNs are designed to ship in client code: the embedded
+    # key is a public project identifier that can only submit events
+    # to that one project — it is not an auth secret. Public, counted
+    # for the census, never a disclosure.
+    ("sentry_dsn", "PUBLIC_BY_DESIGN",
+     re.compile(r"\b(?P<v>https://[0-9a-f]{32}@[0-9A-Za-z.-]*sentry\.io/[0-9]+)")),
     ("public_env_api_key", "PUBLIC_BY_DESIGN",
      re.compile(r"(?P<n>" + ENV_ANY_KEY + r")" + ENV_ASSIGN)),
     ("jwt_in_page", "VISITOR_TOKEN",

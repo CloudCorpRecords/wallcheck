@@ -2,6 +2,29 @@
 
 ## Unreleased
 
+- The audit gains a seventh check, `security_contact`: an RFC 9116
+  security.txt at /.well-known/security.txt carrying a Contact:
+  field. PASS needs genuine text with a Contact:; absence is WARN
+  (most of the web still lacks one); an HTML soft-404 FAILs, as with
+  robots/llms. **This changes audit grades:** max_score rises from
+  12 to 14 and the bands rescale to the same proportions (A≥13,
+  B≥11, C≥9, D≥6), so grades before and after this change are not
+  directly comparable. The audit's fetch budget rises to at most 11
+  honest GETs.
+- The exposure pattern table grows from 17 to 28 patterns. New
+  CANDIDATE_EXPOSURE classes: OpenAI keys (`sk-proj-`/`sk-svcacct-`/
+  `sk-admin-` and the legacy 48-char `sk-` form), Anthropic keys,
+  GitLab PATs, npm and PyPI tokens, DigitalOcean tokens, AWS access
+  key IDs (the identifier half of the credential pair), Slack and
+  Discord webhook URLs (the URL is itself the credential), and
+  Telegram bot tokens; `db_url_with_password` also covers MariaDB,
+  MSSQL/SQL Server, Cassandra and the rediss/amqps TLS schemes. New
+  PUBLIC_BY_DESIGN class: Sentry DSNs, which ship in clients by
+  design. The scrubber inherits every addition automatically from
+  the shared table, and tests cover each new class on both sides.
+- Repo hygiene: `.pytest_cache/` is gitignored (and the stray local
+  cache removed); the MCP smoke driver's header now matches what it
+  actually exercises.
 - The exposure sweep gains a deep mode (`scripts/exposure_scan.py
   deep`): beyond the page itself it scans the first-party JavaScript
   bundles a page loads, their publicly served source maps, and a

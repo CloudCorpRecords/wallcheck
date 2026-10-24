@@ -36,6 +36,22 @@ TWILIO_KEY = "SK" + "0123456789abcdef" * 2
 WECHAT_ID = "wx" + "0123456789abcdef"
 OAUTH_CLIENT = "123456789012-fakefakefakefake.apps.googleusercontent.com"
 MAPBOX_TOKEN = "pk.eyJ" + "FAKE" * 5 + "0123456789"
+OPENAI_KEY = "sk-proj-" + "FAKE" * 6 + "0123456789"
+OPENAI_LEGACY_KEY = "sk-" + "FAKE" * 12
+ANTHROPIC_KEY = "sk-ant-" + "FAKE" * 6 + "0123456789"
+GITLAB_PAT = "glpat-" + "FAKE" * 5
+NPM_TOKEN = "npm_" + "FAKE" * 9
+PYPI_TOKEN = "pypi-" + "FAKE" * 13 + "12"
+DIGITALOCEAN_TOKEN = "dop_v1_" + "0123456789abcdef" * 4
+AWS_ACCESS_KEY_ID = "AKIA" + "FAKE" * 4
+SLACK_WEBHOOK = ("https://hooks.slack.com/services/"
+                 + "T" + "FAKEFAKE1" + "/" + "B" + "FAKEFAKE1" + "/"
+                 + "FAKE" * 6)
+DISCORD_WEBHOOK = ("https://discord.com/api/webhooks/"
+                   + "1" * 18 + "/" + "FAKE" * 16)
+TELEGRAM_TOKEN = "123456789:" + "FAKE" * 8 + "FAK"
+SENTRY_DSN = ("https://" + "0123456789abcdef" * 2
+              + "@o123.ingest.us.sentry.io/4567890")
 ENV_SECRET_VALUE = "FAKEENCRYPTIONKEY0123456789ABCDEF"
 DB_URL = "postgres://fakeuser:fakepass99@db.example.test:5432/app"
 GENERIC_SECRET = "FAKESECRETVALUE0123456789"
@@ -115,6 +131,71 @@ class TestCandidateClassification(unittest.TestCase):
         self.assertEqual(f["generic_secret_field"]["class"],
                          "CANDIDATE_EXPOSURE")
 
+    def test_openai_api_key(self):
+        f = self.scan(OPENAI_KEY)
+        self.assertEqual(f["openai_api_key"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_openai_legacy_api_key(self):
+        f = self.scan(OPENAI_LEGACY_KEY)
+        self.assertEqual(f["openai_api_key"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_short_sk_string_is_not_an_openai_key(self):
+        # Bare "sk-" + a short tail is prose-shaped, not a key: the
+        # legacy branch demands the full 48-char body.
+        self.assertNotIn("openai_api_key", self.scan("sk-" + "FAKE" * 4))
+
+    def test_anthropic_api_key(self):
+        f = self.scan(ANTHROPIC_KEY)
+        self.assertEqual(f["anthropic_api_key"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_gitlab_pat(self):
+        f = self.scan(GITLAB_PAT)
+        self.assertEqual(f["gitlab_pat"]["class"], "CANDIDATE_EXPOSURE")
+
+    def test_npm_token(self):
+        f = self.scan(NPM_TOKEN)
+        self.assertEqual(f["npm_token"]["class"], "CANDIDATE_EXPOSURE")
+
+    def test_pypi_token(self):
+        f = self.scan(PYPI_TOKEN)
+        self.assertEqual(f["pypi_token"]["class"], "CANDIDATE_EXPOSURE")
+
+    def test_digitalocean_token(self):
+        f = self.scan(DIGITALOCEAN_TOKEN)
+        self.assertEqual(f["digitalocean_token"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_aws_access_key_id(self):
+        f = self.scan(AWS_ACCESS_KEY_ID)
+        self.assertEqual(f["aws_access_key_id"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_slack_webhook_url(self):
+        f = self.scan(SLACK_WEBHOOK)
+        self.assertEqual(f["slack_webhook_url"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_discord_webhook_url(self):
+        f = self.scan(DISCORD_WEBHOOK)
+        self.assertEqual(f["discord_webhook_url"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_telegram_bot_token(self):
+        f = self.scan(TELEGRAM_TOKEN)
+        self.assertEqual(f["telegram_bot_token"]["class"],
+                         "CANDIDATE_EXPOSURE")
+
+    def test_db_url_extended_schemes(self):
+        for scheme in ("mariadb", "mssql", "sqlserver", "cassandra",
+                       "amqps", "rediss"):
+            body = "%s://fakeuser:fakepass99@db.example.test/app" % scheme
+            f = self.scan(body)
+            self.assertEqual(f["db_url_with_password"]["class"],
+                             "CANDIDATE_EXPOSURE", scheme)
+
 
 class TestPublicClassification(unittest.TestCase):
     def scan(self, body):
@@ -142,6 +223,12 @@ class TestPublicClassification(unittest.TestCase):
         f = self.scan(MAPBOX_TOKEN)
         self.assertEqual(f["mapbox_public_token"]["class"],
                          "PUBLIC_BY_DESIGN")
+
+    def test_sentry_dsn_is_public(self):
+        # DSNs ship in client code by design; the embedded key only
+        # submits events to one project.
+        f = self.scan(SENTRY_DSN)
+        self.assertEqual(f["sentry_dsn"]["class"], "PUBLIC_BY_DESIGN")
 
 
 class TestDedupe(unittest.TestCase):

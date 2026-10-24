@@ -18,12 +18,18 @@ key-like material and sorts it into three honest classes:
   public: encryption/private keys (incl. any public-env variable whose
   name carries SECRET / PRIVATE / ENCRYPTION / PASSWORD), live secret
   keys (Stripe `sk_live`, webhook secrets), platform tokens (GitHub,
-  Slack, SendGrid, Twilio), credentialed database URLs, secret fields
+  GitLab, Slack, SendGrid, Twilio), AI-provider keys (OpenAI incl. the
+  legacy `sk-` form, Anthropic), package-registry tokens (npm, PyPI),
+  cloud tokens (DigitalOcean), AWS access key IDs, webhook URLs that
+  are themselves credentials (Slack, Discord), Telegram bot tokens,
+  credentialed database URLs (Postgres, MySQL/MariaDB, MongoDB,
+  MSSQL, Cassandra, Redis/AMQP incl. their TLS schemes), secret fields
   in inline config, long-lived JWTs.
 - **PUBLIC_BY_DESIGN** — the public half of the web's key pairs:
   Google frontend keys, Stripe publishable keys, app IDs, OAuth client
-  IDs, public analytics keys. Normal. Counted for the census, never
-  reported to anyone as a problem.
+  IDs, Mapbox public tokens, Sentry DSNs (event-submission endpoints,
+  public by design), public analytics keys. Normal. Counted for the
+  census, never reported to anyone as a problem.
 - **VISITOR_TOKEN** — short-lived JWTs a site issues to any visitor
   (e.g. Azure WAF tokens). This is wall machinery handing a credential
   to the thing it is screening — census data, not a leak.

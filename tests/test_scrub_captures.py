@@ -52,6 +52,20 @@ VALUES = {
     "google_oauth_client_id":
         "123456789012-fakefakefakefake.apps.googleusercontent.com",
     "mapbox_public_token": "pk.eyJFAKEFAKEFAKEFAKEFAKE0123456789",
+    "openai_api_key": "sk-proj-" + "FAKE" * 6 + "0123456789",
+    "anthropic_api_key": "sk-ant-" + "FAKE" * 6 + "0123456789",
+    "gitlab_pat": "glpat-" + "FAKE" * 5,
+    "npm_token": "npm_" + "FAKE" * 9,
+    "pypi_token": "pypi-" + "FAKE" * 13 + "12",
+    "digitalocean_token": "dop_v1_" + "0123456789abcdef" * 4,
+    "aws_access_key_id": "AKIA" + "FAKE" * 4,
+    "slack_webhook_url": "https://hooks.slack.com/services/"
+        + "T" + "FAKEFAKE1" + "/" + "B" + "FAKEFAKE1" + "/" + "FAKE" * 6,
+    "discord_webhook_url": "https://discord.com/api/webhooks/"
+        + "1" * 18 + "/" + "FAKE" * 16,
+    "telegram_bot_token": "123456789:" + "FAKE" * 8 + "FAK",
+    "sentry_dsn": "https://" + "0123456789abcdef" * 2
+        + "@o123.ingest.us.sentry.io/4567890",
 }
 PEM_BLOCK = ("-----BEGIN PRIVATE KEY-----\n"
              "FAKEBASE64BODYLINE0123456789\n"
@@ -77,6 +91,17 @@ def build_body():
         '{"api_secret": "%s"}' % VALUES["generic_secret_field"],
         "oauth %s" % VALUES["google_oauth_client_id"],
         "mapbox %s" % VALUES["mapbox_public_token"],
+        "openai %s" % VALUES["openai_api_key"],
+        "anthropic %s" % VALUES["anthropic_api_key"],
+        "gitlab %s" % VALUES["gitlab_pat"],
+        "npm %s" % VALUES["npm_token"],
+        "pypi %s" % VALUES["pypi_token"],
+        "do %s" % VALUES["digitalocean_token"],
+        "aws %s" % VALUES["aws_access_key_id"],
+        "slackhook %s" % VALUES["slack_webhook_url"],
+        "discord %s" % VALUES["discord_webhook_url"],
+        "telegram %s" % VALUES["telegram_bot_token"],
+        "sentry %s" % VALUES["sentry_dsn"],
         "jwt %s" % JWT,
         PEM_BLOCK,
     ]
@@ -116,7 +141,18 @@ class TestScrubCaptures(unittest.TestCase):
                        "REDACTED-SENDGRID-KEY", "REDACTED-TWILIO-API-KEY",
                        "REDACTED-DB-URL-WITH-PASSWORD",
                        "REDACTED-GENERIC-SECRET-FIELD",
-                       "REDACTED-PRIVATE-KEY-BLOCK"):
+                       "REDACTED-PRIVATE-KEY-BLOCK",
+                       "REDACTED-OPENAI-API-KEY",
+                       "REDACTED-ANTHROPIC-API-KEY",
+                       "REDACTED-GITLAB-PAT",
+                       "REDACTED-NPM-TOKEN",
+                       "REDACTED-PYPI-TOKEN",
+                       "REDACTED-DIGITALOCEAN-TOKEN",
+                       "REDACTED-AWS-ACCESS-KEY-ID",
+                       "REDACTED-SLACK-WEBHOOK-URL",
+                       "REDACTED-DISCORD-WEBHOOK-URL",
+                       "REDACTED-TELEGRAM-BOT-TOKEN",
+                       "REDACTED-SENTRY-DSN"):
             self.assertIn(marker, body)
 
     def test_redaction_count_covers_all_classes(self):

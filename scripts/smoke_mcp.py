@@ -1,5 +1,7 @@
-"""MCP smoke driver: initialize + tools/list + classify + probe_url + audit
-against the stdio server, over real pipes. Usage: python3 scripts/smoke_mcp.py
+"""MCP smoke driver: initialize + tools/list (pinning all four tool
+names, scan_exposure included) + classify + probe_url + audit calls
+against the stdio server, over real pipes.
+Usage: python3 scripts/smoke_mcp.py
 """
 import json
 import os
