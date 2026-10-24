@@ -121,6 +121,11 @@ audited. Vendors ship the defaults; owners inherit them; agents pay.
   website, a job board's listings), the owner gets a short note: the
   evidence, the likely default that caused it, and the fix. Fixes get
   credited in the Index history.
+- **Exposure findings** (the [Exposure Layer](EXPOSURE-LAYER.md)):
+  key-like material a site's own pages hand to any visitor, found by
+  the same honest fetches — validated, documented privately, and
+  disclosed through the owner's published channel before anything is
+  ever published about it.
 
 ### Front 5: TELL THE STORY: data-backed public writing
 

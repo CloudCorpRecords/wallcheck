@@ -30,7 +30,7 @@ rpc({"jsonrpc": "2.0", "method": "notifications/initialized"})
 
 tools = rpc({"jsonrpc": "2.0", "id": 2, "method": "tools/list"})
 names = [t["name"] for t in tools["result"]["tools"]]
-assert names == ["probe_url", "classify", "audit"], names
+assert names == ["probe_url", "classify", "scan_exposure", "audit"], names
 
 cls = rpc({"jsonrpc": "2.0", "id": 3, "method": "tools/call", "params": {
     "name": "classify", "arguments": {

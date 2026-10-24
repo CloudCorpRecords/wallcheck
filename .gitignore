@@ -11,3 +11,10 @@ wallcheck-key.json
 # from src/ at build time by scripts/stage-python.mjs).
 node_modules/
 python/
+# PRIVATE disclosure material — never in the repository, at any time,
+# under any push path. monster-finding/ holds a live finding under a
+# responsible-disclosure hold; exposure-wave*/ candidate rows name
+# companies not yet contacted. These live locally + in the private
+# Drive log only.
+validation/monster-finding/
+validation/exposure-wave*/

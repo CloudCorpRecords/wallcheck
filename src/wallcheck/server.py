@@ -4,6 +4,10 @@ Tools:
   probe_url(url, timeout?)  -> live classification object
   classify(status, headers, body) -> offline classification of a captured
       response; no network. For pipelines that fetch their own way.
+  scan_exposure(url, timeout?) -> live classification object plus an
+      exposure section: key-like material the page itself serves,
+      classified CANDIDATE_EXPOSURE / PUBLIC_BY_DESIGN / VISITOR_TOKEN,
+      fingerprint-only (never values). One honest GET, same as probe_url.
   audit(domain, timeout?)   -> owner-side agent-access audit: grade plus
       per-check PASS/WARN/FAIL. Makes up to 10 honest GETs (homepage,
       robots.txt, llms.txt, sitemap, declared sitemap if any, two OpenAPI
@@ -58,6 +62,29 @@ TOOLS = [
         },
     },
     {
+        "name": "scan_exposure",
+        "description": "Fetch a URL once with an honest wallcheck user "
+                       "agent — one honest GET, no retries — classify the "
+                       "wall, and scan the served page for key-like "
+                       "material: CANDIDATE_EXPOSURE (server-secret "
+                       "classes that should never be public), "
+                       "PUBLIC_BY_DESIGN (frontend keys and app IDs), and "
+                       "VISITOR_TOKEN (short-lived JWTs). Findings carry "
+                       "pattern, class, value length and a SHA-256 "
+                       "fingerprint prefix — never the value itself. The "
+                       "scan covers the probe's bounded body sample "
+                       "(64 KB), so material served past the cap is out "
+                       "of reach of this tool.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "url": {"type": "string"},
+                "timeout": {"type": "integer", "default": 15},
+            },
+            "required": ["url"],
+        },
+    },
+    {
         "name": "audit",
         "description": "Owner-side agent-access audit of a domain: robots.txt "
                        "AI-agent directives, llms.txt sanity, sitemap, feed "
@@ -91,6 +118,12 @@ def _call_tool(name, args):
     if name == "classify":
         return classify(args.get("status"), args.get("headers") or {},
                         args.get("body") or "")
+    if name == "scan_exposure":
+        url = args.get("url", "")
+        if "://" not in url:
+            url = "https://" + url
+        return probe_url(url, timeout=int(args.get("timeout", 15)),
+                         include_exposure=True)
     if name == "audit":
         domain = args.get("domain", "")
         return audit_site(domain, timeout=int(args.get("timeout", 15)))

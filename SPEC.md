@@ -330,6 +330,10 @@ Stdio JSON-RPC, Python standard library only. Tools:
 - `classify(status, headers, body)` → offline classification of a
   captured response; no network. For pipelines that fetch their own way
   and want the verdict + evidence codes.
+- `scan_exposure(url, timeout?)` → the classification object plus an
+  exposure section: key-like material the served page hands an
+  anonymous visitor, classified CANDIDATE_EXPOSURE / PUBLIC_BY_DESIGN
+  / VISITOR_TOKEN, fingerprint-only, over the same one honest GET.
 - `audit(domain, timeout?)` → the owner-side agent-access audit
   (added Wave 9, v0.5.0): grade plus per-check PASS/WARN/FAIL with
   evidence and fixes. Read-only. Makes up to 10 honest GETs to the one

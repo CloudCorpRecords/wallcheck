@@ -1,5 +1,32 @@
 # wallcheck: Changelog
 
+## Unreleased
+
+- The exposure layer lands as a capability, not just a script: the
+  pattern table and classifier moved into a pure library
+  (`src/wallcheck/exposure.py`) shared by the sweep script, the
+  capture scrubber, the probe and the server. `probe_url` gains an
+  opt-in `include_exposure`, the MCP server gains a fourth tool
+  (`scan_exposure`, one honest GET), and the CLI gains
+  `wallcheck probe --exposure`. Findings stay fingerprint-only.
+  Method and disclosure rules: campaign/EXPOSURE-LAYER.md.
+- `scripts/scrub_captures.py` rewritten on the shared table: it now
+  redacts every class the scanner can find — all candidate classes
+  (live secret keys, platform tokens, private-key blocks including
+  the PEM body, credentialed DB URLs, secret JSON fields, JWTs)
+  plus the public classes other scanners flag — replacing only the
+  captured value with a REDACTED-<PATTERN> marker, idempotently.
+  Previously it covered 3 patterns and would have passed most
+  candidate classes straight into a published capture.
+- `.gitignore` now protects private disclosure material:
+  `validation/monster-finding/` (a live finding under a
+  responsible-disclosure hold) and `validation/exposure-wave*/`
+  (candidate findings naming companies not yet contacted) can
+  never enter the repository by accident.
+- CI: a tests workflow now runs the Python unittest suite and the
+  Node launcher tests on push and pull_request; previously the
+  Python suite ran nowhere automatically.
+
 ## 0.5.0: 2026-10-24 (stamped final at the ship-readiness pass; published 2026-10-24 on Rene's ship call)
 
 The audit release, hardened by nineteen waves of adversarial

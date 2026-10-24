@@ -142,6 +142,20 @@ Six checks (robots.txt, llms.txt, sitemap, feed, API, signed-agent
 readiness) → per-check PASS/WARN/FAIL + evidence + a fix list, and a
 grade. Exit `0` for grade A/B, `1` otherwise.
 
+Exposure scan of the page a site serves (opt-in, same single fetch):
+
+```bash
+PYTHONPATH=src python3 -m wallcheck probe https://example.com --exposure [--json]
+```
+
+Classifies the key-like material the page itself hands an anonymous
+visitor — `CANDIDATE_EXPOSURE` (server-secret classes that should
+never be public), `PUBLIC_BY_DESIGN` (frontend keys, app IDs),
+`VISITOR_TOKEN` (short-lived JWTs). Findings are fingerprint-only:
+pattern, class, length and a SHA-256 prefix, never the value. The
+method and its disclosure rules live in
+[campaign/EXPOSURE-LAYER.md](campaign/EXPOSURE-LAYER.md).
+
 ### Verdicts
 
 | verdict | meaning |
@@ -176,6 +190,10 @@ Tools:
 - `probe_url(url, timeout?)`: live fetch → classification object.
 - `classify(status, headers, body)`: offline classification of a
   response you captured yourself. No network.
+- `scan_exposure(url, timeout?)`: live fetch → classification object
+  plus an exposure section (key-like material the page serves,
+  classified, fingerprint-only). One honest GET, same discipline
+  as `probe_url`; covers the probe's 64 KB body sample.
 - `audit(domain, timeout?)`: owner-side agent-access audit: grade
   plus per-check PASS/WARN/FAIL. Up to 10 honest GETs to the one
   domain, same bounded-fetch discipline as `probe_url`.
@@ -191,6 +209,18 @@ Fully offline: recorded fixtures exercise the pure classifier:
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+## Contributing evidence
+
+Captured responses under `validation/` are evidence, and evidence
+is scrubbed before it is published: run
+`python3 scripts/scrub_captures.py` on any new capture wave first.
+Served pages embed other sites' key material; the scrubber's
+redaction table is the exposure scanner's own pattern table, so
+anything the scanner can find, the scrubber removes. Private
+disclosure material (`validation/monster-finding/`) and unreleased
+candidate findings (`validation/exposure-wave*/`) are never
+published — both paths are gitignored on purpose.
 
 ## Family
 

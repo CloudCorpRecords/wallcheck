@@ -17,11 +17,12 @@ import wallcheck.server as server  # noqa: E402
 
 
 class TestServerSurface(unittest.TestCase):
-    def test_tools_list_has_three_tools(self):
+    def test_tools_list_has_four_tools(self):
         resp = server.handle({"jsonrpc": "2.0", "id": 1,
                               "method": "tools/list"})
         names = [t["name"] for t in resp["result"]["tools"]]
-        self.assertEqual(names, ["probe_url", "classify", "audit"])
+        self.assertEqual(names, ["probe_url", "classify", "scan_exposure",
+                                 "audit"])
 
     def test_audit_tool_schema_requires_domain(self):
         resp = server.handle({"jsonrpc": "2.0", "id": 1,

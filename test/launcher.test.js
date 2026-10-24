@@ -70,10 +70,10 @@ test("initialize returns the wallcheck server identity", async () => {
   assert.equal(res.result.serverInfo.version, "0.5.0");
 });
 
-test("tools/list returns probe_url, classify, and audit", async () => {
+test("tools/list returns probe_url, classify, scan_exposure, and audit", async () => {
   const res = await server.request("tools/list", {});
   const names = res.result.tools.map((t) => t.name).sort();
-  assert.deepEqual(names, ["audit", "classify", "probe_url"]);
+  assert.deepEqual(names, ["audit", "classify", "probe_url", "scan_exposure"]);
 });
 
 test("tools/call classify classifies a captured response offline", async () => {

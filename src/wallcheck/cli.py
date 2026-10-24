@@ -23,6 +23,15 @@ def _print_human(r):
     print("  evidence:")
     for e in r["evidence"]:
         print("    - %s" % e)
+    if "exposure" in r:
+        exp = r["exposure"]
+        print("  exposure: %d finding(s)" % len(exp["findings"]))
+        for cls in sorted(exp["counts"]):
+            print("    - %s: %d" % (cls, exp["counts"][cls]))
+        for f in exp["findings"]:
+            if f["class"] == "CANDIDATE_EXPOSURE":
+                print("    ! candidate: %s (fingerprint %s)"
+                      % (f["pattern"], f["sha256_16"]))
 
 
 def _print_audit(r):
@@ -91,6 +100,11 @@ def main(argv=None):
                         "file (algorithm from the key: hmac-sha256 or "
                         "ed25519, Web Bot Auth style) — signed agent "
                         "identity, same single honest fetch")
+    p.add_argument("--exposure", action="store_true",
+                   help="also scan the served page for key-like "
+                        "material (candidate exposures, public-by-design "
+                        "keys, visitor tokens); findings are "
+                        "fingerprint-only, never values")
 
     a = sub.add_parser("audit", help="audit a site's agent-access "
                                      "posture (owner-side: robots "
@@ -135,7 +149,8 @@ def main(argv=None):
         from .sign import load_key, sign_request
         key = load_key(args.sign)
         extra_headers = sign_request(url, key)
-    result = probe_url(url, timeout=args.timeout, extra_headers=extra_headers)
+    result = probe_url(url, timeout=args.timeout, extra_headers=extra_headers,
+                       include_exposure=args.exposure)
     if args.json:
         print(json.dumps(result, indent=2, sort_keys=True))
     else:
