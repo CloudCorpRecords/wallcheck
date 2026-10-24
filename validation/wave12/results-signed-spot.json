@@ -1,0 +1,56 @@
+[
+ {
+  "round": 8,
+  "signed": {
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://chatgpt.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://chatgpt.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://chatgpt.com",
+  "verdict_changed": false
+ },
+ {
+  "round": 8,
+  "signed": {
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://ahrefs.com/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://ahrefs.com/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://www.ahrefs.com",
+  "verdict_changed": false
+ }
+]

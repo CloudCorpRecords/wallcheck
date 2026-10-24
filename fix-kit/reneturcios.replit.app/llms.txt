@@ -1,0 +1,34 @@
+# Rene Turcios
+
+> Rene Turcios is an AI entrepreneur and founder of Agentcies.co,
+> known as the original vibe coder and San Francisco's "hackathon
+> king": 200+ hackathon wins building AI/ML and XR projects with
+> no traditional code — ideas translated through AI. His work has
+> been featured in the SF Standard, Slashdot, and LunarTech. This
+> site is his portfolio: live projects, press, case studies, and
+> speaking.
+
+## About and contact
+
+- [Home](https://reneturcios.replit.app/): Portfolio overview — live projects, about, press, demos, and contact sections on one page.
+- [Book a call](https://cal.com/reneturcios/15min): Schedule 15 minutes with Rene.
+- [GitHub — CloudCorpRecords](https://github.com/CloudCorpRecords): Open-source tools and projects, including the Greenlight / wallcheck family of agent-transparency tools.
+
+## Projects
+
+- [Live projects](https://reneturcios.replit.app/#live-projects): 11 published apps, including Clipwise (AI video clipping), Rene Builds It, Taskcato Chat, Walk The Line, Runehalla Duel, and LensDeal — each links out to the live app.
+- [Case study: Agentcies](https://reneturcios.replit.app/case-studies/agentcies.html)
+- [Case study: DataCoach](https://reneturcios.replit.app/case-studies/datacoach.html)
+- [Case study: OpenGov](https://reneturcios.replit.app/case-studies/opengov.html)
+
+## Writing and press
+
+- [Blog](https://reneturcios.replit.app/blog.html): Posts and hackathon recaps.
+- [SF Standard profile](https://sfstandard.com/2025/07/05/rene-turcios-hackathon-labubu-vibe-coding-chatgpt/): "Hackathon king" feature coverage.
+- [Slashdot coverage](https://developers.slashdot.org/story/25/07/06/0357235/vibe-coder-who-doesnt-know-how-to-code-keeps-winning-hackathons-in-san-francisco)
+
+## Optional
+
+- [Decode stats](https://reneturcios.replit.app/decode-stats.html): The "unmask the 12 facets" interactive, in numbers.
+- [Privacy policy](https://reneturcios.replit.app/privacy.html)
+- [Data deletion](https://reneturcios.replit.app/data-deletion.html)

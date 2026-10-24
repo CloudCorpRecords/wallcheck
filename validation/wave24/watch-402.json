@@ -1,0 +1,58 @@
+[
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.telegraph.co.uk",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w23_involvement": [],
+  "w24_involvement": [
+   "status-402"
+  ]
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.telegraph.co.uk",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w23_involvement": [],
+  "w24_involvement": [
+   "status-402"
+  ]
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.usatoday.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w23_involvement": [],
+  "w24_involvement": [
+   "status-402"
+  ]
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.usatoday.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w23_involvement": [],
+  "w24_involvement": [
+   "status-402"
+  ]
+ }
+]

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.chewy.com",
+  "final_url": "https://www.chewy.com",
+  "status": 429,
+  "headers": {
+    "x-kpsdk-r": "1-AA",
+    "x-kpsdk-ct": "03g3twDNheHc5nxXik8imvoRny7DwrvBZWAJ0lEkwhnodkME4BFIvUgNUwYkV2yckVkGu2ALAGfn25cZlXCiKGUXWUL5iA2yS1EHGdKwHTSr3KFJnEz8PUm3qQc9bZPi32UcS9blF6IRR8xt1QVbwyDclEAesRxqRkrdPNozzuxppL",
+    "Content-Type": "text/html; charset=utf-8",
+    "Access-Control-Expose-Headers": "x-kpsdk-ct,x-kpsdk-r,x-kpsdk-c,x-kpsdk-h,x-kpsdk-fc",
+    "X-Request-ID": "249d63e0",
+    "Expires": "Sat, 24 Oct 2026 04:30:50 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Sat, 24 Oct 2026 04:30:50 GMT",
+    "Akamai-GRN": "0.450dde17.1792816249.249d63e0",
+    "Set-Cookie": "bm_so=04E38FC98D9BCF08D7A057B33D3BCE5F039322F0B426FC4C7B9712AB8094F5EF~YAAQRQ3eFwa3SUOhAQAAm/wsbAl8gbCU4Wg6iZsBY0ZCwzKXw/aoERYXZuRYK9dvIknHIOx/Xw1VJC7Np9rTvm8yk199o7iCISAV9OBM+pZN5eSvIgVmmLeWSK0rfFC2jbAGJFg5D+Mijymlw/EzRGOpP7JRgxwcbADgocf3zPGkZwVfJm3LXIFFYuKiiP2Iv4UoWf1+fX4pusEdVtcTwRWqYXLhexFGPIp7hYHlIF299n75vqsmWtvm+J553ximdSKah5Kz2C46pKXzLnJNce8wVMu10pbvgkKB4HXx2foLETbPhxpJ70VFyGxLFDfKnKfFLxW/U1pC9d2+9KCd8+N9DCQ/r/VaYj7/E8uePh2b8caaKKvtmRHg/qhwZEQbfSrW7XF2+KJgTO3XMN7lyT1O6fCVdIcErgBW1ee+Ns0qWyGlk94vGqFTaLEJY/jT9YImLWGzRA2Z9co2HGKNdqi3e0q5EVRJju/ZFaaqdaIC58VjYVnzJqW1AFeAfJFn~7; Domain=.chewy.com; Path=/; Expires=Sun, 25 Oct 2026 04:30:50 GMT; Max-Age=86400; SameSite=None; Secure",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Akamai-Request-BC": "[a=23.222.13.69,b=614294496,c=g,n=US_GA_ATLANTA,o=20940]",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=86400 ; preload",
+    "Edge-Cache-Tag": "homepage-not-loggedin",
+    "Connection": "close",
+    "Content-Length": "677"
+  },
+  "body": "<!DOCTYPE html><html><head></head><body><script>window.KPSDK={};KPSDK.now=typeof performance!=='undefined'&&performance.now?performance.now.bind(performance):Date.now.bind(Date);KPSDK.start=KPSDK.now();</script><script src=\"/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=03g3twDNheHc5nxXik8imvoRny7DwrvBZWAJ0lEkwhnodkME4BFIvUgNUwYkV2yckVkGu2ALAGfn25cZlXCiKGUXWUL5iA2yS1EHGdKwHTSr3KFJnEz8PUm3qQc9bZPi32UcS9blF6IRR8xt1QVbwyDclEAesRxqRkrdPNozzuxppL&amp;x-kpsdk-im=AAKQ5UphzCweRsTYV63U1O8U0Wm7aNRzL3QRhQzg8DtImuexa1ug24HxdF6b2pRr8vMT2rWnVDep7REq_INxtEdfQSpoktZAhYtCdJdvoAHERtBG1E7wPN9cQ4jv3rD4l4lreMkOZooNpelGmBeI\"></script></body></html>",
+  "error": null,
+  "redirect_chain": []
+}

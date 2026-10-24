@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallcheck"
+version = "0.5.0"
+description = "Deterministic bot-wall transparency for agent builders: probe a URL, name the wall (Cloudflare, PerimeterX, DataDome, Akamai, Imperva, AWS WAF, Microsoft Azure WAF, Kasada, AWS CloudFront), get the evidence."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Rene Turcios" }]
+requires-python = ">=3.11"
+keywords = ["bot-wall", "cloudflare", "mcp", "agents", "transparency"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP",
+]
+
+[project.scripts]
+wallcheck = "wallcheck.cli:main"
+wallcheck-mcp = "wallcheck.server:main"
+
+[project.urls]
+Homepage = "https://github.com/CloudCorpRecords/wallcheck"
+Repository = "https://github.com/CloudCorpRecords/wallcheck"
+
+[tool.setuptools.packages.find]
+where = ["src"]

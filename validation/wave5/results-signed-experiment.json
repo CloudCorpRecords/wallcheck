@@ -1,0 +1,364 @@
+[
+  {
+    "group": "adopter",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 884,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://chatgpt.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:01Z",
+    "unsigned": {
+      "elapsed_ms": 610,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://chatgpt.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://chatgpt.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "adopter",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 1213,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://www.indeed.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:04Z",
+    "unsigned": {
+      "elapsed_ms": 737,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://www.indeed.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://www.indeed.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "adopter",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 1088,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://substack.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:07Z",
+    "unsigned": {
+      "elapsed_ms": 793,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "STATUS_200"
+      ],
+      "final_url": "https://substack.com",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://substack.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "walled",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 662,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "CF_BLOCK_SORRY"
+      ],
+      "final_url": "https://www.upwork.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "WALLED"
+    },
+    "ts": "2026-10-24T04:38:09Z",
+    "unsigned": {
+      "elapsed_ms": 465,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "CF_BLOCK_SORRY"
+      ],
+      "final_url": "https://www.upwork.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "WALLED"
+    },
+    "url": "https://www.upwork.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "challenged",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 936,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "PX_CAPTCHA",
+        "PX_BODY_MARKER"
+      ],
+      "final_url": "https://www.fiverr.com",
+      "status": 403,
+      "vendor": "PerimeterX",
+      "verdict": "CHALLENGED"
+    },
+    "ts": "2026-10-24T04:38:11Z",
+    "unsigned": {
+      "elapsed_ms": 565,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "PX_CAPTCHA",
+        "PX_BODY_MARKER"
+      ],
+      "final_url": "https://www.fiverr.com",
+      "status": 403,
+      "vendor": "PerimeterX",
+      "verdict": "CHALLENGED"
+    },
+    "url": "https://www.fiverr.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "walled",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 612,
+      "evidence": [
+        "IMPERVA_COOKIE",
+        "IMPERVA_BODY_MARKER"
+      ],
+      "final_url": "https://www.guru.com",
+      "status": 403,
+      "vendor": "Imperva",
+      "verdict": "WALLED"
+    },
+    "ts": "2026-10-24T04:38:14Z",
+    "unsigned": {
+      "elapsed_ms": 594,
+      "evidence": [
+        "IMPERVA_COOKIE",
+        "IMPERVA_BODY_MARKER"
+      ],
+      "final_url": "https://www.guru.com",
+      "status": 403,
+      "vendor": "Imperva",
+      "verdict": "WALLED"
+    },
+    "url": "https://www.guru.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "challenged",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 554,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "final_url": "https://www.npmjs.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED"
+    },
+    "ts": "2026-10-24T04:38:16Z",
+    "unsigned": {
+      "elapsed_ms": 370,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "final_url": "https://www.npmjs.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED"
+    },
+    "url": "https://www.npmjs.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "walled",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 785,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "CF_BLOCK_SORRY"
+      ],
+      "final_url": "https://medium.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "WALLED"
+    },
+    "ts": "2026-10-24T04:38:18Z",
+    "unsigned": {
+      "elapsed_ms": 629,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "CF_BLOCK_SORRY"
+      ],
+      "final_url": "https://medium.com",
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "WALLED"
+    },
+    "url": "https://medium.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "walled",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 866,
+      "evidence": [
+        "AKAMAI_SERVER_HEADER",
+        "AKAMAI_BM_COOKIE"
+      ],
+      "final_url": "https://www.ebay.com",
+      "status": 403,
+      "vendor": "Akamai",
+      "verdict": "WALLED"
+    },
+    "ts": "2026-10-24T04:38:21Z",
+    "unsigned": {
+      "elapsed_ms": 711,
+      "evidence": [
+        "AKAMAI_SERVER_HEADER",
+        "AKAMAI_BM_COOKIE"
+      ],
+      "final_url": "https://www.ebay.com",
+      "status": 403,
+      "vendor": "Akamai",
+      "verdict": "WALLED"
+    },
+    "url": "https://www.ebay.com",
+    "verdict_changed": false
+  },
+  {
+    "group": "own-control",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 721,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "final_url": "https://clipwise.replit.app",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:23Z",
+    "unsigned": {
+      "elapsed_ms": 906,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "final_url": "https://clipwise.replit.app",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://clipwise.replit.app",
+    "verdict_changed": false
+  },
+  {
+    "group": "own-control",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 1179,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "final_url": "https://reneturcios.replit.app",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:26Z",
+    "unsigned": {
+      "elapsed_ms": 1001,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "final_url": "https://reneturcios.replit.app",
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://reneturcios.replit.app",
+    "verdict_changed": false
+  },
+  {
+    "group": "own-control",
+    "round": 4,
+    "signed": {
+      "elapsed_ms": 525,
+      "evidence": [
+        "STATUS_404"
+      ],
+      "final_url": "https://cloudcorprecords.github.io",
+      "status": 404,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "ts": "2026-10-24T04:38:28Z",
+    "unsigned": {
+      "elapsed_ms": 468,
+      "evidence": [
+        "STATUS_404"
+      ],
+      "final_url": "https://cloudcorprecords.github.io",
+      "status": 404,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "url": "https://cloudcorprecords.github.io",
+    "verdict_changed": false
+  }
+]

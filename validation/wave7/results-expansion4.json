@@ -1,0 +1,1732 @@
+[
+  {
+    "category": "jobs",
+    "elapsed_ms": 1452,
+    "evidence": [
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.careerjet.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:44:52Z",
+    "url": "https://www.careerjet.com",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2394,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://jooble.org/",
+    "redirect_chain": [
+      "https://jooble.org/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:44:55Z",
+    "url": "https://www.jooble.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1974,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/resume/",
+    "redirect_chain": [
+      "https://www.monster.com/resume/"
+    ],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:44:58Z",
+    "url": "https://www.monster.ca",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2219,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://us.jobrapido.com/",
+    "redirect_chain": [
+      "https://us.jobrapido.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:00Z",
+    "url": "https://www.jobrapido.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 860,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.neuvoo.ca",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 404,
+    "ts": "2026-10-24T06:45:02Z",
+    "url": "https://www.neuvoo.ca",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1971,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:45:04Z",
+    "url": "https://www.careerbuilder.ca",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 889,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.workopolis.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:05Z",
+    "url": "https://www.workopolis.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2383,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.jobbank.gc.ca/home",
+    "redirect_chain": [
+      "https://www.jobbank.gc.ca/home"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:08Z",
+    "url": "https://www.jobbank.gc.ca",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1950,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.glassdoor.ca/index.htm",
+    "redirect_chain": [
+      "https://www.glassdoor.ca/index.htm"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:10Z",
+    "url": "https://www.glassdoor.ca",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 15227,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.irishjobs.ie",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:45:26Z",
+    "url": "https://www.irishjobs.ie",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 15229,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.jobs.ie",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:45:41Z",
+    "url": "https://www.jobs.ie",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2114,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.stepstone.de/onboarding?onboardingSource=hp-redirect",
+    "redirect_chain": [
+      "https://www.stepstone.de/onboarding?onboardingSource=hp-redirect"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:44Z",
+    "url": "https://www.stepstone.de",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1109,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.xing.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:45Z",
+    "url": "https://www.xing.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2315,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.jobteaser.com/en",
+    "redirect_chain": [
+      "https://www.jobteaser.com/en"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:48Z",
+    "url": "https://www.jobteaser.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2637,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hellowork.com/fr-fr/",
+    "redirect_chain": [
+      "https://www.hellowork.com/fr-fr/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:51Z",
+    "url": "https://www.hellowork.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 3654,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.francetravail.fr/accueil/",
+    "redirect_chain": [
+      "https://www.francetravail.fr/",
+      "https://www.francetravail.fr/accueil/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:55Z",
+    "url": "https://www.pole-emploi.fr",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1369,
+    "evidence": [
+      "GENERIC_CAPTCHA",
+      "STATUS_405"
+    ],
+    "final_url": "https://www.infojobs.net",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 405,
+    "ts": "2026-10-24T06:45:57Z",
+    "url": "https://www.infojobs.net",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1070,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.computrabajo.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:45:59Z",
+    "url": "https://www.computrabajo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1494,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bumeran.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:01Z",
+    "url": "https://www.bumeran.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 998,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.catho.com.br",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:46:02Z",
+    "url": "https://www.catho.com.br",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1601,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://monday.com/",
+    "redirect_chain": [
+      "https://monday.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:04Z",
+    "url": "https://www.monday.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1844,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://clickup.com/",
+    "redirect_chain": [
+      "https://clickup.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:06Z",
+    "url": "https://www.clickup.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1719,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://calendly.com/",
+    "redirect_chain": [
+      "https://calendly.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:09Z",
+    "url": "https://www.calendly.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 941,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://buffer.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:10Z",
+    "url": "https://buffer.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1078,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hootsuite.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:12Z",
+    "url": "https://www.hootsuite.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1275,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://sproutsocial.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:14Z",
+    "url": "https://sproutsocial.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 867,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.semrush.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:15Z",
+    "url": "https://www.semrush.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1588,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://ahrefs.com/",
+    "redirect_chain": [
+      "https://ahrefs.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:17Z",
+    "url": "https://www.ahrefs.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 729,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://moz.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:18Z",
+    "url": "https://moz.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1647,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://woocommerce.com/",
+    "redirect_chain": [
+      "https://woocommerce.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:20Z",
+    "url": "https://www.woocommerce.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 17167,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.magento.com",
+    "redirect_chain": [
+      "https://magento.com:443/",
+      "https://business.adobe.com/products/magento/magento-commerce.html"
+    ],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:46:38Z",
+    "url": "https://www.magento.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 2706,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://prestashop.com/",
+    "redirect_chain": [
+      "https://prestashop.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:41Z",
+    "url": "https://www.prestashop.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 924,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.opencart.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:42Z",
+    "url": "https://www.opencart.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 2519,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.klarna.com/us/?grs=%2F&grr=empty",
+    "redirect_chain": [
+      "https://www.klarna.com/us/?grs=%2F&grr=empty"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:45Z",
+    "url": "https://www.klarna.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas",
+    "elapsed_ms": 1914,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.afterpay.com/en-US",
+    "redirect_chain": [
+      "https://www.afterpay.com/en-US"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:48Z",
+    "url": "https://www.afterpay.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 696,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cnn.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:46:49Z",
+    "url": "https://www.cnn.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 15875,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.washingtonpost.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:47:05Z",
+    "url": "https://www.washingtonpost.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1749,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cnbc.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:08Z",
+    "url": "https://www.cnbc.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1217,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.forbes.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:10Z",
+    "url": "https://www.forbes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1169,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.euronews.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:11Z",
+    "url": "https://www.euronews.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1154,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:47:13Z",
+    "url": "https://news.sky.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 17668,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.cbc.ca",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:47:31Z",
+    "url": "https://www.cbc.ca",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1242,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.abc.net.au",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:33Z",
+    "url": "https://www.abc.net.au",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1387,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.stuff.co.nz",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:35Z",
+    "url": "https://www.stuff.co.nz",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1530,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nzherald.co.nz",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:37Z",
+    "url": "https://www.nzherald.co.nz",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1777,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.koreaherald.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:39Z",
+    "url": "https://www.koreaherald.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1924,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hindustantimes.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:42Z",
+    "url": "https://www.hindustantimes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 2412,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://timesofindia.indiatimes.com/us",
+    "redirect_chain": [
+      "https://timesofindia.indiatimes.com/us"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:46Z",
+    "url": "https://timesofindia.indiatimes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 932,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.dawn.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:47Z",
+    "url": "https://www.dawn.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1174,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:47:49Z",
+    "url": "https://www.haaretz.com",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1019,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.medicare.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:50Z",
+    "url": "https://www.medicare.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 798,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:47:52Z",
+    "url": "https://www.sec.gov",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1000,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.federalreserve.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:53Z",
+    "url": "https://www.federalreserve.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 724,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:47:54Z",
+    "url": "https://www.bls.gov",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 946,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.census.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:55Z",
+    "url": "https://www.census.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 721,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nasa.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:57Z",
+    "url": "https://www.nasa.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 855,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.loc.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:58Z",
+    "url": "https://www.loc.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 717,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.whitehouse.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:47:59Z",
+    "url": "https://www.whitehouse.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 809,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.congress.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:00Z",
+    "url": "https://www.congress.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 2226,
+    "evidence": [
+      "AKAMAI_BM_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.supremecourt.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:03Z",
+    "url": "https://www.supremecourt.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1000,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.dhs.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:04Z",
+    "url": "https://www.dhs.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 625,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.doj.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:48:05Z",
+    "url": "https://www.doj.gov",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 976,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.epa.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:07Z",
+    "url": "https://www.epa.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1208,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.energy.gov",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:08Z",
+    "url": "https://www.energy.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 3220,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pnc.com/en/personal-banking.html",
+    "redirect_chain": [
+      "https://www.pnc.com/en",
+      "https://www.pnc.com/en/personal-banking.html"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:12Z",
+    "url": "https://www.pnc.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 2721,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.td.com/us/en/personal-banking",
+    "redirect_chain": [
+      "https://www.td.com/us/en/personal-banking/",
+      "https://www.td.com/us/en/personal-banking"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:15Z",
+    "url": "https://www.td.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 868,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:48:17Z",
+    "url": "https://www.citizensbank.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1736,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ally.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:19Z",
+    "url": "https://www.ally.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1869,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.marcus.com/us/en",
+    "redirect_chain": [
+      "https://www.marcus.com/us/en"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:22Z",
+    "url": "https://www.marcus.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 2122,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://notice.ml.bac-assets.com/merrilledge/sched/sitedown.htm?mltoken=102190996728",
+    "redirect_chain": [
+      "https://notice.ml.bac-assets.com/merrilledge/sched/sitedown.htm?mltoken=102190996728"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:24Z",
+    "url": "https://www.merrilledge.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1120,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.interactivebrokers.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:26Z",
+    "url": "https://www.interactivebrokers.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1501,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.webull.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:28Z",
+    "url": "https://www.webull.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 699,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.block.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:48:29Z",
+    "url": "https://www.block.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1079,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://cash.app",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:30Z",
+    "url": "https://cash.app",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1204,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.skyscanner.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:32Z",
+    "url": "https://www.skyscanner.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 924,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.orbitz.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 429,
+    "ts": "2026-10-24T06:48:33Z",
+    "url": "https://www.orbitz.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1113,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.travelocity.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 429,
+    "ts": "2026-10-24T06:48:35Z",
+    "url": "https://www.travelocity.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1453,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:48:37Z",
+    "url": "https://www.tripadvisor.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 3353,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lonelyplanet.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:41Z",
+    "url": "https://www.lonelyplanet.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 896,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:48:42Z",
+    "url": "https://www.viator.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1817,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.getyourguide.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:48:44Z",
+    "url": "https://www.getyourguide.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 2540,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ryanair.com/us/en",
+    "redirect_chain": [
+      "https://www.ryanair.com/us/en"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:48Z",
+    "url": "https://www.ryanair.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1481,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "AKAMAI_EDGESUITE"
+    ],
+    "final_url": "https://www.easyjet.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:48:50Z",
+    "url": "https://www.easyjet.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 3003,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lufthansa.com/us/en/homepage",
+    "redirect_chain": [
+      "https://www.lufthansa.com/us/en/homepage"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:54Z",
+    "url": "https://www.lufthansa.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1135,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.britishairways.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:48:55Z",
+    "url": "https://www.britishairways.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 15262,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.airfrance.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:49:11Z",
+    "url": "https://www.airfrance.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 16200,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.klm.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": null,
+    "ts": "2026-10-24T06:49:28Z",
+    "url": "https://www.klm.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 4986,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.emirates.com/error/accessrestricted.html?refid=18.ad51c317.1792824572.950028d5",
+    "redirect_chain": [
+      "https://www.emirates.com/us/english/",
+      "https://www.emirates.com/error/accessrestricted.html?refid=18.ad51c317.1792824572.950028d5"
+    ],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:49:34Z",
+    "url": "https://www.emirates.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 7081,
+    "evidence": [
+      "STATUS_302"
+    ],
+    "final_url": "https://healthy.kaiserpermanente.org/georgia/front-door",
+    "redirect_chain": [
+      "https://healthy.kaiserpermanente.org/front-door",
+      "https://healthy.kaiserpermanente.org/georgia/front-door",
+      "https://healthy.kaiserpermanente.org/georgia/front-door",
+      "https://healthy.kaiserpermanente.org/georgia/front-door",
+      "https://healthy.kaiserpermanente.org/georgia/front-door"
+    ],
+    "round": "wave7-expansion",
+    "status": 302,
+    "ts": "2026-10-24T06:49:41Z",
+    "url": "https://www.kaiserpermanente.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 2638,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "round": "wave7-expansion",
+    "status": 403,
+    "ts": "2026-10-24T06:49:44Z",
+    "url": "https://www.unitedhealthcare.com",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1172,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.aetna.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:46Z",
+    "url": "https://www.aetna.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1225,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cigna.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:48Z",
+    "url": "https://www.cigna.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1294,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.humana.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:49Z",
+    "url": "https://www.humana.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1503,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.anthem.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:51Z",
+    "url": "https://www.anthem.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 4503,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://abc.com/show/0a6328a2-6451-46e7-a55a-fa84ddbb9541",
+    "redirect_chain": [
+      "https://abc.com/shows/oscars?cid=from_oscars_dotcom",
+      "https://abc.com/show/0a6328a2-6451-46e7-a55a-fa84ddbb9541"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:57Z",
+    "url": "https://www.oscar.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1858,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.questdiagnostics.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:49:59Z",
+    "url": "https://www.questdiagnostics.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 2553,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.labcorp.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:03Z",
+    "url": "https://www.labcorp.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 4180,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://ro.co/roman/",
+    "redirect_chain": [
+      "https://getroman.com:443/",
+      "https://ro.co/roman/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:08Z",
+    "url": "https://www.roman.co",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1096,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ox.ac.uk",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:09Z",
+    "url": "https://www.ox.ac.uk",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 930,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cam.ac.uk",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:11Z",
+    "url": "https://www.cam.ac.uk",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1123,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.codecademy.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:12Z",
+    "url": "https://www.codecademy.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1521,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.datacamp.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:14Z",
+    "url": "https://www.datacamp.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 2196,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://brilliant.org/",
+    "redirect_chain": [
+      "https://brilliant.org/"
+    ],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:17Z",
+    "url": "https://www.brilliant.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1534,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.futurelearn.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:19Z",
+    "url": "https://www.futurelearn.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1205,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.teachable.com",
+    "redirect_chain": [],
+    "round": "wave7-expansion",
+    "status": 200,
+    "ts": "2026-10-24T06:50:21Z",
+    "url": "https://www.teachable.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

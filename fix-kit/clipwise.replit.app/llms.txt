@@ -1,0 +1,22 @@
+# Clipwise
+
+> Clipwise turns long videos into viral clips. Its AI finds the best
+> moments in a long video, cuts them vertical, and burns in captions.
+> Creators can use the web studio in a browser, or let an AI
+> assistant call Clipwise directly via MCP (Model Context
+> Protocol). Every account includes 60 free minutes of processing
+> every month.
+
+Clipwise is a web application. The product is a single-page studio
+served from the root URL below; there is no separate documentation
+site. An agent helping a user should send them to the studio, and
+can connect to Clipwise's MCP server to create clips on the user's
+behalf once the user has signed in and authorized it.
+
+## Product
+
+- [Clipwise studio](https://clipwise.replit.app): The web app — upload or link a long video, get captioned vertical clips of its best moments. Includes the 60 free minutes/month every account gets.
+
+## Optional
+
+- [Clipwise home](https://clipwise.replit.app): Product overview and sign-in.

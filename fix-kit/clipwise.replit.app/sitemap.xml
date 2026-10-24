@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Clipwise is a single-page studio: the root is the only
+       server-served public URL. Client-side routes are not listed
+       because they are not independently fetchable documents. -->
+  <url>
+    <loc>https://clipwise.replit.app/</loc>
+  </url>
+</urlset>

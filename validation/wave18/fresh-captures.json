@@ -1,0 +1,260 @@
+[
+  {
+    "attempt": 1,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "REDIRECT_TO_LOGIN"
+    ],
+    "status": 200,
+    "target": "https://claude.ai",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "REDIRECT_TO_LOGIN"
+    ],
+    "status": 200,
+    "target": "https://claude.ai",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://remoteok.com",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://remoteok.com",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.abc.net.au",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.abc.net.au",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.amazon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.amazon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "status": null,
+    "target": "https://www.britishairways.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.britishairways.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_401"
+    ],
+    "status": 401,
+    "target": "https://www.fda.gov",
+    "vendor": "Akamai",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_401"
+    ],
+    "status": 401,
+    "target": "https://www.fda.gov",
+    "vendor": "Akamai",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "status": 403,
+    "target": "https://www.forbes.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "status": null,
+    "target": "https://www.forbes.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.goodrx.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.goodrx.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "REFUSAL_PHRASE"
+    ],
+    "status": 403,
+    "target": "https://www.kroger.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "status": null,
+    "target": "https://www.kroger.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://www.td.com",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://www.td.com",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.ubereats.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.ubereats.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://www.venmo.com",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "QR_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://www.venmo.com",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  }
+]

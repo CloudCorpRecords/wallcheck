@@ -1,0 +1,1569 @@
+[
+  {
+    "category": "civic",
+    "elapsed_ms": 871,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usa.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:42Z",
+    "url": "https://www.usa.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1075,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.irs.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:44Z",
+    "url": "https://www.irs.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 948,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usps.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:45Z",
+    "url": "https://www.usps.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 865,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:25:46Z",
+    "url": "https://www.ssa.gov",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1210,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.healthcare.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:48Z",
+    "url": "https://www.healthcare.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1370,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ca.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:49Z",
+    "url": "https://www.ca.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1430,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.sf.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:51Z",
+    "url": "https://www.sf.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1048,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:25:53Z",
+    "url": "https://www.nyc.gov",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1033,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:25:54Z",
+    "url": "https://www.state.gov",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1325,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.va.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:25:56Z",
+    "url": "https://www.va.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 977,
+    "evidence": [
+      "GENERIC_CAPTCHA"
+    ],
+    "final_url": "https://www.ed.gov",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": 403,
+      "vendor": "Generic",
+      "verdict": "CHALLENGED"
+    },
+    "status": 403,
+    "ts": "2026-10-24T04:37:20Z",
+    "url": "https://www.ed.gov",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 2048,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usa.gov/benefit-finder?utm_source=usa_benefits-gov&utm_medium=redirect&utm_campaign=redirect_benefits-gov&modal=b-welcome-1899",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:00Z",
+    "url": "https://www.benefits.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 688,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.grants.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:01Z",
+    "url": "https://www.grants.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 20186,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://home.treasury.gov/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:21Z",
+    "url": "https://www.treasury.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 930,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usajobs.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:23Z",
+    "url": "https://www.usajobs.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1857,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://vote.gov/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:25Z",
+    "url": "https://www.vote.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1328,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:26:27Z",
+    "url": "https://www.ftc.gov",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1032,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.consumerfinance.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:28Z",
+    "url": "https://www.consumerfinance.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 782,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.weather.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:29Z",
+    "url": "https://www.weather.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1626,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chase.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:31Z",
+    "url": "https://www.chase.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1137,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bankofamerica.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:33Z",
+    "url": "https://www.bankofamerica.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1226,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wellsfargo.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:34Z",
+    "url": "https://www.wellsfargo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 2255,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.paypal.com/us/home",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:37Z",
+    "url": "https://www.paypal.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 2031,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://venmo.com/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:40Z",
+    "url": "https://www.venmo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 855,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.coinbase.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:41Z",
+    "url": "https://www.coinbase.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 3134,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://robinhood.com/us/en/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:44Z",
+    "url": "https://www.robinhood.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1221,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.capitalone.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:46Z",
+    "url": "https://www.capitalone.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1067,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.americanexpress.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:47Z",
+    "url": "https://www.americanexpress.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1042,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.citi.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:49Z",
+    "url": "https://www.citi.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1111,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.discover.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:50Z",
+    "url": "https://www.discover.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 2359,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usbank.com/index.html",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:53Z",
+    "url": "https://www.usbank.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1144,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.truist.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:55Z",
+    "url": "https://www.truist.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1520,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.fidelity.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:56Z",
+    "url": "https://www.fidelity.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1119,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.schwab.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:26:58Z",
+    "url": "https://www.schwab.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1893,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://investor.vanguard.com/corporate-portal",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:27:00Z",
+    "url": "https://www.vanguard.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 15322,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.etrade.com",
+    "round": 4,
+    "status": null,
+    "ts": "2026-10-24T04:27:16Z",
+    "url": "https://www.etrade.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 946,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.sofi.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:27:17Z",
+    "url": "https://www.sofi.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1423,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.hotels.com",
+    "round": 4,
+    "status": 429,
+    "ts": "2026-10-24T04:27:19Z",
+    "url": "https://www.hotels.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 15528,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.united.com",
+    "round": 4,
+    "status": null,
+    "ts": "2026-10-24T04:27:35Z",
+    "url": "https://www.united.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1624,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": 444,
+      "vendor": null,
+      "verdict": "OPEN"
+    },
+    "status": 444,
+    "ts": "2026-10-24T04:41:04Z",
+    "url": "https://www.delta.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1167,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.americanairlines.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:27:39Z",
+    "url": "https://www.americanairlines.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1094,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.southwest.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:27:40Z",
+    "url": "https://www.southwest.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 693,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:27:41Z",
+    "url": "https://www.amtrak.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1234,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.uber.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:27:43Z",
+    "url": "https://www.uber.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1170,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lyft.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:27:44Z",
+    "url": "https://www.lyft.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 702,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:27:45Z",
+    "url": "https://www.marriott.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 24200,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.hilton.com",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE"
+    },
+    "status": 403,
+    "ts": "2026-10-24T04:37:20Z",
+    "url": "https://www.hilton.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1022,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.vrbo.com",
+    "round": 4,
+    "status": 429,
+    "ts": "2026-10-24T04:28:11Z",
+    "url": "https://www.vrbo.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1185,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.kayak.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:13Z",
+    "url": "https://www.kayak.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1130,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.priceline.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:14Z",
+    "url": "https://www.priceline.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 847,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.jetblue.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:16Z",
+    "url": "https://www.jetblue.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1121,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.alaskaair.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:17Z",
+    "url": "https://www.alaskaair.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1156,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:28:19Z",
+    "url": "https://www.hyatt.com",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 943,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:28:20Z",
+    "url": "https://www.mayoclinic.org",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 920,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.webmd.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:21Z",
+    "url": "https://www.webmd.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1000,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.healthline.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:23Z",
+    "url": "https://www.healthline.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1391,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cvs.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:24Z",
+    "url": "https://www.cvs.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 842,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.walgreens.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:26Z",
+    "url": "https://www.walgreens.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 2053,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://my.clevelandclinic.org/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:28Z",
+    "url": "https://www.clevelandclinic.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 900,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hopkinsmedicine.org",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:29Z",
+    "url": "https://www.hopkinsmedicine.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 976,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nih.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:31Z",
+    "url": "https://www.nih.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 2084,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cdc.gov/index.html",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:33Z",
+    "url": "https://www.cdc.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1193,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.fda.gov",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:35Z",
+    "url": "https://www.fda.gov",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 731,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:28:36Z",
+    "url": "https://www.goodrx.com",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 653,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:28:37Z",
+    "url": "https://www.zocdoc.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1826,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://riteaid.com/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:39Z",
+    "url": "https://www.riteaid.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 950,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.edx.org",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:40Z",
+    "url": "https://www.edx.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1012,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.mit.edu",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:42Z",
+    "url": "https://www.mit.edu",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1788,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.stanford.edu",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:44Z",
+    "url": "https://www.stanford.edu",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1437,
+    "evidence": [
+      "GENERIC_CAPTCHA"
+    ],
+    "final_url": "https://www.duolingo.com",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": 200,
+      "vendor": "Generic",
+      "verdict": "CHALLENGED"
+    },
+    "status": 200,
+    "ts": "2026-10-24T04:37:20Z",
+    "url": "https://www.duolingo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 760,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.udacity.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:47Z",
+    "url": "https://www.udacity.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 3085,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.skillshare.com/en/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:50Z",
+    "url": "https://www.skillshare.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 919,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.masterclass.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:52Z",
+    "url": "https://www.masterclass.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 611,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.harvard.edu",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:53Z",
+    "url": "https://www.harvard.edu",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 967,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.berkeley.edu",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:54Z",
+    "url": "https://www.berkeley.edu",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "education",
+    "elapsed_ms": 1695,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pluralsight.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:56Z",
+    "url": "https://www.pluralsight.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 825,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homedepot.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:28:57Z",
+    "url": "https://www.homedepot.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1331,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lowes.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:28:59Z",
+    "url": "https://www.lowes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 916,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ikea.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:00Z",
+    "url": "https://www.ikea.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1209,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wayfair.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:02Z",
+    "url": "https://www.wayfair.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1360,
+    "evidence": [
+      "AKAMAI_BM_COOKIE",
+      "STATUS_429"
+    ],
+    "final_url": "https://www.chewy.com",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": 429,
+      "vendor": "Akamai",
+      "verdict": "RATE_LIMITED"
+    },
+    "status": 429,
+    "ts": "2026-10-24T04:37:20Z",
+    "url": "https://www.chewy.com",
+    "vendor": "Kasada",
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 2786,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.doordash.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:07Z",
+    "url": "https://www.doordash.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 2015,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.instacart.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:09Z",
+    "url": "https://www.instacart.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 727,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:29:10Z",
+    "url": "https://www.ubereats.com",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 896,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.costco.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:12Z",
+    "url": "https://www.costco.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 15501,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.kroger.com",
+    "round": 4,
+    "status": null,
+    "ts": "2026-10-24T04:29:28Z",
+    "url": "https://www.kroger.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1701,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nike.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:30Z",
+    "url": "https://www.nike.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1090,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:29:31Z",
+    "url": "https://www.macys.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 868,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nordstrom.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:32Z",
+    "url": "https://www.nordstrom.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 2930,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://poshmark.com/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:36Z",
+    "url": "https://www.poshmark.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1026,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.mercari.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:37Z",
+    "url": "https://www.mercari.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 2515,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://offerup.com/",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:40Z",
+    "url": "https://www.offerup.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1775,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zillow.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:42Z",
+    "url": "https://www.zillow.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1011,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com",
+    "merged_round": 2,
+    "round": 4,
+    "round1": {
+      "status": 403,
+      "vendor": null,
+      "verdict": "WALLED"
+    },
+    "status": 403,
+    "ts": "2026-10-24T04:37:20Z",
+    "url": "https://www.redfin.com",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 942,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.realtor.com",
+    "round": 4,
+    "status": 429,
+    "ts": "2026-10-24T04:29:45Z",
+    "url": "https://www.realtor.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1494,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:29:47Z",
+    "url": "https://www.apartments.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1247,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.trulia.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:49Z",
+    "url": "https://www.trulia.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1266,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:29:51Z",
+    "url": "https://www.homes.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1257,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.compass.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:52Z",
+    "url": "https://www.compass.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1128,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.salary.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:54Z",
+    "url": "https://www.salary.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1378,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com",
+    "round": 4,
+    "status": 403,
+    "ts": "2026-10-24T04:29:55Z",
+    "url": "https://www.careerbuilder.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2007,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.simplyhired.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:58Z",
+    "url": "https://www.simplyhired.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1150,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.snagajob.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:29:59Z",
+    "url": "https://www.snagajob.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1162,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.themuse.com",
+    "round": 4,
+    "status": 200,
+    "ts": "2026-10-24T04:30:01Z",
+    "url": "https://www.themuse.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

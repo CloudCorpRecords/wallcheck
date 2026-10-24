@@ -1,0 +1,1229 @@
+[
+  {
+    "elapsed_ms": 742,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com/",
+    "label": "home",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 795,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE"
+    ],
+    "final_url": "https://www.upwork.com/ab/account-security/login",
+    "label": "login",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/ab/account-security/login",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 706,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE"
+    ],
+    "final_url": "https://www.upwork.com/nx/signup/",
+    "label": "signup",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/nx/signup/",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 525,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com/nx/search/jobs/",
+    "label": "jobs-search",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/nx/search/jobs/",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 993,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com/developers",
+    "label": "developers",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/developers",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 809,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.upwork.com/robots.txt",
+    "label": "robots",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.upwork.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1028,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com/sitemap.xml",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 693,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.upwork.com/llms.txt",
+    "label": "llms",
+    "platform": "upwork",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.upwork.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 844,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com/",
+    "label": "home",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.fiverr.com/",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 1000,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_COOKIE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com/login",
+    "label": "login",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.fiverr.com/login",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 847,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_COOKIE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com/join",
+    "label": "join",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.fiverr.com/join",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 970,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com/search/gigs",
+    "label": "gig-search",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.fiverr.com/search/gigs",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 945,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.fiverr.com/robots.txt",
+    "label": "robots",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.fiverr.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1019,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.fiverr.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.fiverr.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 815,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.fiverr.com/llms.txt",
+    "label": "llms",
+    "platform": "fiverr",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.fiverr.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 797,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.guru.com/",
+    "label": "home",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 922,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER"
+    ],
+    "final_url": "https://www.guru.com/login",
+    "label": "login",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/login",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 611,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.guru.com/d/jobs/",
+    "label": "jobs",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/d/jobs/",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 763,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.guru.com/robots.txt",
+    "label": "robots",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/robots.txt",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1145,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.guru.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://www.guru.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "elapsed_ms": 921,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.guru.com/llms.txt",
+    "label": "llms",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/llms.txt",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1280,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ebay.com/",
+    "label": "home",
+    "platform": "ebay",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.ebay.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 3995,
+    "evidence": [
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2F&iid=fe24990f-93e5-4226-854d-5a3cfb2c0af6&iim=zMTA0Ljc&iia=KfI5LjE5GC&iiz=HOINy4xNDA*ePw",
+    "label": "signin",
+    "platform": "ebay",
+    "redirect_chain": [
+      "https://signin.ebay.com/signin/",
+      "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2F&iid=fe24990f-93e5-4226-854d-5a3cfb2c0af6&iim=zMTA0Ljc&iia=KfI5LjE5GC&iiz=HOINy4xNDA*ePw"
+    ],
+    "status": 200,
+    "url": "https://www.ebay.com/signin/",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "elapsed_ms": 1279,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ebay.com/sch/i.html",
+    "label": "search",
+    "platform": "ebay",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.ebay.com/sch/i.html",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1217,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "STATUS_403"
+    ],
+    "final_url": "https://developer.ebay.com/",
+    "label": "developers",
+    "platform": "ebay",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://developer.ebay.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1527,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ebay.com/robots.txt",
+    "label": "robots",
+    "platform": "ebay",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.ebay.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 6209,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://pages.ebay.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "ebay",
+    "redirect_chain": [
+      "https://pages.ebay.com/sitemap.xml"
+    ],
+    "status": 404,
+    "url": "https://www.ebay.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 8379,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://pages.ebay.com/llms.txt",
+    "label": "llms",
+    "platform": "ebay",
+    "redirect_chain": [
+      "https://pages.ebay.com/llms.txt"
+    ],
+    "status": 404,
+    "url": "https://www.ebay.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 809,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com/",
+    "label": "home",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://medium.com/",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 645,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com/m/signin",
+    "label": "signin",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://medium.com/m/signin",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 598,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com/tag/programming",
+    "label": "topic",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://medium.com/tag/programming",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1224,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://api.medium.com/",
+    "label": "api-root",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://api.medium.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 808,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://medium.com/robots.txt",
+    "label": "robots",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://medium.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1169,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://medium.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://medium.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 833,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com/llms.txt",
+    "label": "llms",
+    "platform": "medium",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://medium.com/llms.txt",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 1314,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "label": "home",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.monster.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 1024,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.monster.com/profile/login",
+    "label": "login",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.monster.com/profile/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 892,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/jobs/search",
+    "label": "jobs-search",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.monster.com/jobs/search",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 1277,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.monster.com/robots.txt",
+    "label": "robots",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.monster.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1052,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.monster.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.monster.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 913,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.monster.com/llms.txt",
+    "label": "llms",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.monster.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 638,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.nytimes.com/",
+    "label": "home",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.nytimes.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 705,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.nytimes.com/section/world",
+    "label": "section",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://www.nytimes.com/section/world",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "elapsed_ms": 750,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.nytimes.com/search",
+    "label": "search",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.nytimes.com/search",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 961,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://developer.nytimes.com/",
+    "label": "developers",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://developer.nytimes.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 872,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://api.nytimes.com/",
+    "label": "api-root",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://api.nytimes.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 686,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nytimes.com/robots.txt",
+    "label": "robots",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.nytimes.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 710,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nytimes.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.nytimes.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 898,
+    "evidence": [
+      "GENERIC_CAPTCHA",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.nytimes.com/llms.txt",
+    "label": "llms",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.nytimes.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 566,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/",
+    "label": "home",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 595,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/login",
+    "label": "login",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/login",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 851,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/signup",
+    "label": "signup",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/signup",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 711,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.npmjs.com/search",
+    "label": "search",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://www.npmjs.com/search",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "elapsed_ms": 606,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://registry.npmjs.org/express",
+    "label": "registry-api",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://registry.npmjs.org/express",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 577,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/robots.txt",
+    "label": "robots",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/robots.txt",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 550,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/sitemap.xml",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 499,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com/llms.txt",
+    "label": "llms",
+    "platform": "npmjs",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com/llms.txt",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "elapsed_ms": 995,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com/",
+    "label": "home",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://contra.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 745,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://contra.com/login",
+    "label": "login",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://contra.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1015,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com/sign-up",
+    "label": "signup",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://contra.com/sign-up",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 963,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com/hire",
+    "label": "hire",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://contra.com/hire",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 929,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com/robots.txt",
+    "label": "robots",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://contra.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 776,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://contra.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 829,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://contra.com/llms.txt",
+    "label": "llms",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://contra.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1555,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linkedin.com/",
+    "label": "home",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linkedin.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 950,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.linkedin.com/login",
+    "label": "login",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linkedin.com/login",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "elapsed_ms": 890,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linkedin.com/signup",
+    "label": "signup",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linkedin.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 986,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linkedin.com/jobs",
+    "label": "jobs",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linkedin.com/jobs",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1046,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linkedin.com/robots.txt",
+    "label": "robots",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linkedin.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1360,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.linkedin.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.linkedin.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 774,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.linkedin.com/llms.txt",
+    "label": "llms",
+    "platform": "linkedin",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.linkedin.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1284,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indeed.com/",
+    "label": "home",
+    "platform": "indeed",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.indeed.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1520,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://secure.indeed.com/auth;jsessionid=node0hig19oeqz7vg15ks8ag9dk9o1041978.node0?hl=en_US&service=my&co=US&continue=https%3A%2F%2Fwww.indeed.com%2F",
+    "label": "login",
+    "platform": "indeed",
+    "redirect_chain": [
+      "https://secure.indeed.com/auth;jsessionid=node0hig19oeqz7vg15ks8ag9dk9o1041978.node0?hl=en_US&service=my&co=US&continue=https%3A%2F%2Fwww.indeed.com%2F"
+    ],
+    "status": 200,
+    "url": "https://www.indeed.com/account/login",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "elapsed_ms": 2836,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indeed.com/?from=jobsearch-empty-whatwhere",
+    "label": "jobs",
+    "platform": "indeed",
+    "redirect_chain": [
+      "https://www.indeed.com/?from=jobsearch-empty-whatwhere"
+    ],
+    "status": 200,
+    "url": "https://www.indeed.com/jobs",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 613,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indeed.com/robots.txt",
+    "label": "robots",
+    "platform": "indeed",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.indeed.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1230,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.indeed.com/sitemap.xml",
+    "label": "sitemap",
+    "platform": "indeed",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.indeed.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 969,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indeed.com/llms.txt",
+    "label": "llms",
+    "platform": "indeed",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.indeed.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

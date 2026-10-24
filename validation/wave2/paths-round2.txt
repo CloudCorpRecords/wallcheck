@@ -1,0 +1,8 @@
+# Round 2: only the paths whose verdicts the Wave 2 classifier fixes
+# could change (W2-001/W2-002/W2-003).
+guru|login|https://www.guru.com/login
+ebay|signin|https://www.ebay.com/signin/
+monster|login|https://www.monster.com/profile/login
+nytimes|llms|https://www.nytimes.com/llms.txt
+contra|login|https://contra.com/login
+indeed|login|https://www.indeed.com/account/login

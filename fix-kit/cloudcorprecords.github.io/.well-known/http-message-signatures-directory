@@ -1,0 +1,11 @@
+{
+  "purpose": "Web Bot Auth",
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "kid": "cloudcorprecords.github.io-2026-10",
+      "x": "-XtonnpxF3tqsDktd8Ym0_TrLDCDIW7PyH0FoysfEVk"
+    }
+  ]
+}

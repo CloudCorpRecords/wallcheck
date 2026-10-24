@@ -1,0 +1,2202 @@
+[
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1093,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://remotive.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:30:56Z",
+    "url": "https://remotive.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 925,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://jobspresso.co",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:30:59Z",
+    "url": "https://jobspresso.co",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 894,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://authenticjobs.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:02Z",
+    "url": "https://authenticjobs.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1864,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theladders.com:443/",
+    "redirect_chain": [
+      "https://www.theladders.com:443/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:06Z",
+    "url": "https://theladders.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 2231,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lhh.com/en-us/about-us/our-story",
+    "redirect_chain": [
+      "https://www.lhh.com/en-us/about-us/our-story"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:10Z",
+    "url": "https://hired.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1121,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://powertofly.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:14Z",
+    "url": "https://powertofly.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 2810,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.idealist.org/en",
+    "redirect_chain": [
+      "https://www.idealist.org/",
+      "https://www.idealist.org/en"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:19Z",
+    "url": "https://idealist.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 2183,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.coolworks.com/",
+    "redirect_chain": [
+      "https://www.coolworks.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:23Z",
+    "url": "https://coolworks.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1023,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.instawork.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:26Z",
+    "url": "https://www.instawork.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1252,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wonolo.com/",
+    "redirect_chain": [
+      "https://www.wonolo.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:29Z",
+    "url": "https://wonolo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 967,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.jobcase.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:33Z",
+    "url": "https://www.jobcase.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 2512,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://uk.talent.com/",
+    "redirect_chain": [
+      "https://www.talent.com:443/",
+      "https://uk.talent.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:31:37Z",
+    "url": "https://talent.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 941,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.adzuna.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:31:40Z",
+    "url": "https://www.adzuna.com",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 15693,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.totaljobs.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": null,
+    "ts": "2026-10-24T06:31:58Z",
+    "url": "https://www.totaljobs.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1481,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.reed.co.uk",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:02Z",
+    "url": "https://www.reed.co.uk",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 1998,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://au.seek.com/",
+    "redirect_chain": [
+      "https://au.seek.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:06Z",
+    "url": "https://www.seek.com.au",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 800,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.mediabistro.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:09Z",
+    "url": "https://www.mediabistro.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "job boards (regional/niche)",
+    "elapsed_ms": 910,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.journalismjobs.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:12Z",
+    "url": "https://www.journalismjobs.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1157,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.typeform.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:15Z",
+    "url": "https://www.typeform.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 850,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.jotform.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:18Z",
+    "url": "https://www.jotform.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 993,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.surveymonkey.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:21Z",
+    "url": "https://www.surveymonkey.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 674,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://mailchimp.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:24Z",
+    "url": "https://mailchimp.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1259,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.constantcontact.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:27Z",
+    "url": "https://www.constantcontact.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 3029,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.twilio.com/en-us/sendgrid",
+    "redirect_chain": [
+      "https://sendgrid.com/en-us",
+      "https://www.twilio.com/en-us/sendgrid"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:33Z",
+    "url": "https://sendgrid.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 3580,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://kit.com/",
+    "redirect_chain": [
+      "https://kit.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:38Z",
+    "url": "https://convertkit.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 3398,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://ghost.org",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:44Z",
+    "url": "https://ghost.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1954,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://webflow.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:48Z",
+    "url": "https://webflow.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1929,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.paddle.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:52Z",
+    "url": "https://www.paddle.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1855,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chargebee.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:32:56Z",
+    "url": "https://www.chargebee.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1832,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zendesk.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:00Z",
+    "url": "https://www.zendesk.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 2555,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.freshworks.com/freshdesk/",
+    "redirect_chain": [
+      "https://freshdesk.com/",
+      "https://www.freshworks.com/freshdesk/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:33Z",
+    "url": "https://www.freshdesk.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1036,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hubspot.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:36Z",
+    "url": "https://www.hubspot.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 2119,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.salesforce.com/?bc=HL",
+    "redirect_chain": [
+      "https://www.salesforce.com/?bc=HL"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:40Z",
+    "url": "https://www.salesforce.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 828,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pipedrive.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:43Z",
+    "url": "https://www.pipedrive.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 918,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.apollo.io",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:47Z",
+    "url": "https://www.apollo.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1536,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.outreach.ai/",
+    "redirect_chain": [
+      "https://www.outreach.ai/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:50Z",
+    "url": "https://www.outreach.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1002,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.salesloft.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:53Z",
+    "url": "https://www.salesloft.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1360,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.gong.io",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:33:57Z",
+    "url": "https://www.gong.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1489,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zoominfo.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:00Z",
+    "url": "https://www.zoominfo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1325,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://hunter.io",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:04Z",
+    "url": "https://hunter.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1130,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.lusha.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:07Z",
+    "url": "https://www.lusha.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 899,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://rocketreach.co",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:10Z",
+    "url": "https://rocketreach.co",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1777,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://neon.com/",
+    "redirect_chain": [
+      "https://neon.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:14Z",
+    "url": "https://neon.tech",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 876,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://clerk.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:17Z",
+    "url": "https://clerk.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 911,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://auth0.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:20Z",
+    "url": "https://auth0.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1084,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://workos.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:23Z",
+    "url": "https://workos.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1618,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://mixpanel.com/home/",
+    "redirect_chain": [
+      "https://mixpanel.com/home/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:27Z",
+    "url": "https://mixpanel.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1010,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://amplitude.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:30Z",
+    "url": "https://amplitude.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 2057,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.twilio.com/en-us/segment",
+    "redirect_chain": [
+      "https://www.twilio.com/en-us/segment"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:34Z",
+    "url": "https://segment.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 831,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://coda.io",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:37Z",
+    "url": "https://coda.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 653,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.smartsheet.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:40Z",
+    "url": "https://www.smartsheet.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 761,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://monday.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:43Z",
+    "url": "https://monday.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1130,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://clickup.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:34:46Z",
+    "url": "https://clickup.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 15017,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://todoist.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": null,
+    "ts": "2026-10-24T06:35:03Z",
+    "url": "https://todoist.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 937,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://linear.app",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:06Z",
+    "url": "https://linear.app",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1064,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://basecamp.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:10Z",
+    "url": "https://basecamp.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 818,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wrike.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:13Z",
+    "url": "https://www.wrike.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 810,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zoho.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:16Z",
+    "url": "https://www.zoho.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1937,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://evernote.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:20Z",
+    "url": "https://evernote.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1227,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.box.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:23Z",
+    "url": "https://www.box.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1236,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.dropbox.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:26Z",
+    "url": "https://www.dropbox.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1010,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.figma.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:30Z",
+    "url": "https://www.figma.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 744,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.canva.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:32Z",
+    "url": "https://www.canva.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 983,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://miro.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:36Z",
+    "url": "https://miro.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 987,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.mural.co",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:39Z",
+    "url": "https://www.mural.co",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 963,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.framer.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:42Z",
+    "url": "https://www.framer.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 673,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://cal.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:45Z",
+    "url": "https://cal.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1008,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://savvycal.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:48Z",
+    "url": "https://savvycal.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 736,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.drift.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:51Z",
+    "url": "https://www.drift.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1048,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.intercom.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:54Z",
+    "url": "https://www.intercom.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1797,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://crisp.chat/en/",
+    "redirect_chain": [
+      "https://crisp.chat/en/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:35:58Z",
+    "url": "https://crisp.chat",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 810,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.tawk.to",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:01Z",
+    "url": "https://www.tawk.to",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 915,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.livechat.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:04Z",
+    "url": "https://www.livechat.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1082,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.webex.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:07Z",
+    "url": "https://www.webex.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 2298,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.goto.com/meeting",
+    "redirect_chain": [
+      "https://www.goto.com/meeting"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:11Z",
+    "url": "https://www.gotomeeting.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1301,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.airtable.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:15Z",
+    "url": "https://www.airtable.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 896,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://asana.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:18Z",
+    "url": "https://asana.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 828,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://trello.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:21Z",
+    "url": "https://trello.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "saas tools",
+    "elapsed_ms": 1942,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.notion.com/",
+    "redirect_chain": [
+      "https://www.notion.com/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:25Z",
+    "url": "https://www.notion.so",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 914,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.vox.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:28Z",
+    "url": "https://www.vox.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1007,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.engadget.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:31Z",
+    "url": "https://www.engadget.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1033,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://gizmodo.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:34Z",
+    "url": "https://gizmodo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 884,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://kotaku.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:37Z",
+    "url": "https://kotaku.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 975,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.polygon.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:40Z",
+    "url": "https://www.polygon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 979,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.gamespot.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:43Z",
+    "url": "https://www.gamespot.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 959,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ign.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:46Z",
+    "url": "https://www.ign.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 910,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pcgamer.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:49Z",
+    "url": "https://www.pcgamer.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 796,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.eurogamer.net",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:52Z",
+    "url": "https://www.eurogamer.net",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 959,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pitchfork.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:55Z",
+    "url": "https://pitchfork.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1782,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.rollingstone.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:36:59Z",
+    "url": "https://www.rollingstone.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1948,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.billboard.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:03Z",
+    "url": "https://www.billboard.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 964,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://variety.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:07Z",
+    "url": "https://variety.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 894,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hollywoodreporter.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:10Z",
+    "url": "https://www.hollywoodreporter.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1551,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://deadline.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:13Z",
+    "url": "https://deadline.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1616,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indiewire.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:17Z",
+    "url": "https://www.indiewire.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 772,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.vulture.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:20Z",
+    "url": "https://www.vulture.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 936,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://slate.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:23Z",
+    "url": "https://slate.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1232,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.salon.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:26Z",
+    "url": "https://www.salon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1463,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.independent.co.uk/us",
+    "redirect_chain": [
+      "https://www.independent.co.uk/us"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:30Z",
+    "url": "https://www.independent.co.uk",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1372,
+    "evidence": [
+      "STATUS_402"
+    ],
+    "final_url": "https://www.telegraph.co.uk",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 402,
+    "ts": "2026-10-24T06:37:34Z",
+    "url": "https://www.telegraph.co.uk",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 641,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE"
+    ],
+    "final_url": "https://www.ft.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:37:36Z",
+    "url": "https://www.ft.com",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1076,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.latimes.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:40Z",
+    "url": "https://www.latimes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1908,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chicagotribune.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:44Z",
+    "url": "https://www.chicagotribune.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1239,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bostonglobe.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:47Z",
+    "url": "https://www.bostonglobe.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1985,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.sfgate.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:51Z",
+    "url": "https://www.sfgate.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 2209,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.sfchronicle.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:55Z",
+    "url": "https://www.sfchronicle.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1548,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://nypost.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:37:59Z",
+    "url": "https://nypost.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 612,
+    "evidence": [
+      "STATUS_402"
+    ],
+    "final_url": "https://www.usatoday.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 402,
+    "ts": "2026-10-24T06:38:02Z",
+    "url": "https://www.usatoday.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 985,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.axios.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:05Z",
+    "url": "https://www.axios.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 960,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.politico.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:08Z",
+    "url": "https://www.politico.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 2365,
+    "evidence": [
+      "PX_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://thehill.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:13Z",
+    "url": "https://thehill.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 864,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.huffpost.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:16Z",
+    "url": "https://www.huffpost.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1018,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.buzzfeed.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:19Z",
+    "url": "https://www.buzzfeed.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 936,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.businessinsider.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:22Z",
+    "url": "https://www.businessinsider.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 834,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.fastcompany.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:38:25Z",
+    "url": "https://www.fastcompany.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 775,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.inc.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:38:28Z",
+    "url": "https://www.inc.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 882,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.entrepreneur.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:31Z",
+    "url": "https://www.entrepreneur.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 899,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://fortune.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:34Z",
+    "url": "https://fortune.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 512,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.economist.com",
+    "redirect_chain": [],
+    "round": "wave6-expansion3",
+    "status": 403,
+    "ts": "2026-10-24T06:38:37Z",
+    "url": "https://www.economist.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 728,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://apnews.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:38:40Z",
+    "url": "https://apnews.com",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1081,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pbs.org",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:43Z",
+    "url": "https://www.pbs.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 883,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.aljazeera.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:46Z",
+    "url": "https://www.aljazeera.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 938,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.dw.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:49Z",
+    "url": "https://www.dw.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1761,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.france24.com/en/",
+    "redirect_chain": [
+      "https://www.france24.com/en/"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:38:53Z",
+    "url": "https://www.france24.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1075,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.scmp.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:38:56Z",
+    "url": "https://www.scmp.com",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1682,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.straitstimes.com/global",
+    "redirect_chain": [
+      "https://www.straitstimes.com/global"
+    ],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:00Z",
+    "url": "https://www.straitstimes.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 892,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.japantimes.co.jp",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:03Z",
+    "url": "https://www.japantimes.co.jp",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1127,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.techmeme.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:06Z",
+    "url": "https://www.techmeme.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1300,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theinformation.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:10Z",
+    "url": "https://www.theinformation.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 988,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.semafor.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:13Z",
+    "url": "https://www.semafor.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 930,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.404media.co",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:16Z",
+    "url": "https://www.404media.co",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 629,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://defector.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:19Z",
+    "url": "https://defector.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 678,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.thecut.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:21Z",
+    "url": "https://www.thecut.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1200,
+    "evidence": [
+      "AKAMAI_BM_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.npr.org",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:25Z",
+    "url": "https://www.npr.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 2143,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.theatlantic.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 403,
+    "ts": "2026-10-24T06:39:30Z",
+    "url": "https://www.theatlantic.com",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "media",
+    "elapsed_ms": 1048,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.newyorker.com",
+    "redirect_chain": [],
+    "round": "wave6-pilot",
+    "status": 200,
+    "ts": "2026-10-24T06:39:33Z",
+    "url": "https://www.newyorker.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

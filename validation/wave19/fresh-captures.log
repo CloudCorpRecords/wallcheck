@@ -1,0 +1,11 @@
+https://apnews.com: [(403, 'CHALLENGED', 'Cloudflare', []), (None, 'UNREACHABLE', None, [])]
+https://www.abc.net.au: [(200, 'OPEN', None, []), (200, 'OPEN', None, [])]
+https://www.ed.gov: [(None, 'UNREACHABLE', None, []), (None, 'UNREACHABLE', None, [])]
+https://www.forbes.com: [(403, 'CHALLENGED', 'DataDome', []), (403, 'CHALLENGED', 'DataDome', [])]
+https://www.irishjobs.ie: [(200, 'OPEN', None, []), (200, 'OPEN', None, [])]
+https://www.jobrapido.com: [(429, 'RATE_LIMITED', None, []), (429, 'RATE_LIMITED', None, [])]
+https://www.jobs.ie: [(200, 'OPEN', None, []), (200, 'OPEN', None, [])]
+https://www.lowes.com: [(200, 'OPEN', None, []), (None, 'UNREACHABLE', None, [])]
+https://www.npmjs.com: [(403, 'CHALLENGED', 'Cloudflare', []), (403, 'CHALLENGED', 'Cloudflare', [])]
+https://www.totaljobs.com: [(200, 'OPEN', None, []), (200, 'OPEN', None, [])]
+wrote /home/hatch/workspace/github-builds/wallcheck/validation/wave19/fresh-captures.json

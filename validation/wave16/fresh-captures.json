@@ -1,0 +1,123 @@
+{
+ "https://apnews.com": [
+  {
+   "error": null,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "CF_MITIGATED_CHALLENGE",
+    "SERVER_CLOUDFLARE",
+    "CF_JUST_A_MOMENT",
+    "CF_CHALLENGE_PLATFORM"
+   ],
+   "final_url": "https://apnews.com",
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "CHALLENGED"
+  },
+  {
+   "error": "RemoteDisconnected: Remote end closed connection without response",
+   "evidence": [
+    "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+   ],
+   "final_url": "https://apnews.com",
+   "status": null,
+   "vendor": null,
+   "verdict": "UNREACHABLE"
+  }
+ ],
+ "https://www.britishairways.com": [
+  {
+   "error": "TimeoutError: The read operation timed out",
+   "evidence": [
+    "FETCH_ERROR: TimeoutError: The read operation timed out"
+   ],
+   "final_url": "https://www.britishairways.com",
+   "status": null,
+   "vendor": null,
+   "verdict": "UNREACHABLE"
+  },
+  {
+   "error": null,
+   "evidence": [
+    "AKAMAI_SERVER_HEADER",
+    "STATUS_200"
+   ],
+   "final_url": "https://www.britishairways.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  }
+ ],
+ "https://www.forbes.com": [
+  {
+   "error": null,
+   "evidence": [
+    "DD_XDATADOME_HEADER",
+    "STATUS_200"
+   ],
+   "final_url": "https://www.forbes.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  {
+   "error": null,
+   "evidence": [
+    "DD_XDATADOME_HEADER",
+    "STATUS_200"
+   ],
+   "final_url": "https://www.forbes.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  }
+ ],
+ "https://www.france24.com": [
+  {
+   "error": null,
+   "evidence": [
+    "STATUS_200"
+   ],
+   "final_url": "https://www.france24.com/en/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  {
+   "error": null,
+   "evidence": [
+    "STATUS_200"
+   ],
+   "final_url": "https://www.france24.com/en/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  }
+ ],
+ "https://www.npmjs.com": [
+  {
+   "error": "RemoteDisconnected: Remote end closed connection without response",
+   "evidence": [
+    "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+   ],
+   "final_url": "https://www.npmjs.com",
+   "status": null,
+   "vendor": null,
+   "verdict": "UNREACHABLE"
+  },
+  {
+   "error": null,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "CF_MITIGATED_CHALLENGE",
+    "SERVER_CLOUDFLARE",
+    "CF_JUST_A_MOMENT",
+    "CF_CHALLENGE_PLATFORM"
+   ],
+   "final_url": "https://www.npmjs.com",
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "CHALLENGED"
+  }
+ ]
+}

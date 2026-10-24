@@ -1,0 +1,214 @@
+[
+ {
+  "group": "adopter",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 911,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://chatgpt.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "elapsed_ms": 1261,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://chatgpt.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://chatgpt.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "adopter",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 1264,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://www.indeed.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "elapsed_ms": 905,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://www.indeed.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://www.indeed.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "adopter",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 1294,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://substack.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "elapsed_ms": 898,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://substack.com",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://substack.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "adopter",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 1487,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://ahrefs.com/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "unsigned": {
+   "elapsed_ms": 2196,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "STATUS_200"
+   ],
+   "final_url": "https://ahrefs.com/",
+   "status": 200,
+   "vendor": null,
+   "verdict": "OPEN"
+  },
+  "url": "https://www.ahrefs.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "walled-control",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 890,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "CF_BLOCK_SORRY"
+   ],
+   "final_url": "https://upwork.com",
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "unsigned": {
+   "elapsed_ms": 712,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "CF_BLOCK_SORRY"
+   ],
+   "final_url": "https://upwork.com",
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "url": "https://upwork.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "walled-control",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 1652,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "PX_CAPTCHA",
+    "PX_BODY_MARKER"
+   ],
+   "final_url": "https://www.fiverr.com/",
+   "status": 403,
+   "vendor": "PerimeterX",
+   "verdict": "CHALLENGED"
+  },
+  "unsigned": {
+   "elapsed_ms": 2205,
+   "evidence": [
+    "CF_RAY_HEADER",
+    "SERVER_CLOUDFLARE",
+    "PX_CAPTCHA",
+    "PX_BODY_MARKER"
+   ],
+   "final_url": "https://www.fiverr.com/",
+   "status": 403,
+   "vendor": "PerimeterX",
+   "verdict": "CHALLENGED"
+  },
+  "url": "https://fiverr.com",
+  "verdict_changed": false
+ },
+ {
+  "group": "walled-control",
+  "round": 6,
+  "signed": {
+   "elapsed_ms": 1759,
+   "evidence": [
+    "IMPERVA_COOKIE",
+    "IMPERVA_BODY_MARKER",
+    "IMPERVA_BLOCK_PAGE"
+   ],
+   "final_url": "https://www.guru.com/",
+   "status": 403,
+   "vendor": "Imperva",
+   "verdict": "WALLED"
+  },
+  "unsigned": {
+   "elapsed_ms": 1529,
+   "evidence": [
+    "IMPERVA_COOKIE",
+    "IMPERVA_BODY_MARKER",
+    "IMPERVA_BLOCK_PAGE"
+   ],
+   "final_url": "https://www.guru.com/",
+   "status": 403,
+   "vendor": "Imperva",
+   "verdict": "WALLED"
+  },
+  "url": "https://guru.com",
+  "verdict_changed": false
+ }
+]

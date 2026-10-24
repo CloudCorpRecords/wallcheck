@@ -1,0 +1,10 @@
+{
+  "url": "https://www.flexjobs.com",
+  "final_url": "https://www.flexjobs.com",
+  "status": null,
+  "headers": {},
+  "body": "",
+  "redirect_chain": [],
+  "error": "TimeoutError: The read operation timed out",
+  "body_bytes_captured": 0
+}

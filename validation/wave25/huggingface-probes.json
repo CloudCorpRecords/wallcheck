@@ -1,0 +1,38 @@
+[
+ {
+  "body_bytes": 65536,
+  "body_sample": "<!doctype html>\n<html class=\"\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" />\n\n\t\t<meta name=\"description\" content=\"We\u2019re on a journey to advance and democratize artificial intelligence through open source and open sci",
+  "evidence": [
+   "STATUS_200"
+  ],
+  "final_url": "https://huggingface.co",
+  "status": 200,
+  "target": "https://huggingface.co",
+  "vendor": null,
+  "verdict": "OPEN"
+ },
+ {
+  "body_bytes": 52312,
+  "body_sample": "<!doctype html>\n<html class=\"\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" />\n\n\t\t<meta name=\"description\" content=\"We\u2019re on a journey to advance and democratize artificial intelligence through open source and open sci",
+  "evidence": [
+   "STATUS_404"
+  ],
+  "final_url": "https://huggingface.co/api",
+  "status": 404,
+  "target": "https://huggingface.co/api",
+  "vendor": null,
+  "verdict": "OPEN"
+ },
+ {
+  "body_bytes": 52396,
+  "body_sample": "<!doctype html>\n<html class=\"\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" />\n\n\t\t<meta name=\"description\" content=\"We\u2019re on a journey to advance and democratize artificial intelligence through open source and open sci",
+  "evidence": [
+   "STATUS_401"
+  ],
+  "final_url": "https://huggingface.co/.well-known/http-message-signatures-directory",
+  "status": 401,
+  "target": "https://huggingface.co/.well-known/http-message-signatures-directory",
+  "vendor": null,
+  "verdict": "LOGIN_GATED"
+ }
+]

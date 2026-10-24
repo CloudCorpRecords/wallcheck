@@ -1,0 +1,81 @@
+[
+ {
+  "attempt": 1,
+  "evidence": [
+   "CF_RAY_HEADER",
+   "CF_MITIGATED_CHALLENGE",
+   "SERVER_CLOUDFLARE",
+   "CF_CHALLENGE_PLATFORM"
+  ],
+  "status": 403,
+  "target": "https://apnews.com",
+  "vendor": "Cloudflare",
+  "verdict": "CHALLENGED",
+  "w25_involvement": [],
+  "w26_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "CF_RAY_HEADER",
+   "CF_MITIGATED_CHALLENGE",
+   "SERVER_CLOUDFLARE"
+  ],
+  "status": 403,
+  "target": "https://apnews.com",
+  "vendor": "Cloudflare",
+  "verdict": "CHALLENGED",
+  "w25_involvement": [],
+  "w26_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "DD_XDATADOME_HEADER",
+   "DD_BODY_MARKER"
+  ],
+  "status": 403,
+  "target": "https://www.forbes.com",
+  "vendor": "DataDome",
+  "verdict": "CHALLENGED",
+  "w25_involvement": [],
+  "w26_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "DD_XDATADOME_HEADER",
+   "DD_BODY_MARKER"
+  ],
+  "status": 403,
+  "target": "https://www.forbes.com",
+  "vendor": "DataDome",
+  "verdict": "CHALLENGED",
+  "w25_involvement": [],
+  "w26_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.webex.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w25_involvement": [],
+  "w26_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.webex.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w25_involvement": [],
+  "w26_involvement": []
+ }
+]

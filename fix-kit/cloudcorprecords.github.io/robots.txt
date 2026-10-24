@@ -1,0 +1,18 @@
+# cloudcorprecords.github.io — robots.txt
+# Policy: this site exists to be read — by people, search engines,
+# and AI agents alike. Named AI agents are explicitly welcome.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://cloudcorprecords.github.io/sitemap.xml

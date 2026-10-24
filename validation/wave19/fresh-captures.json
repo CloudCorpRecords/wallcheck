@@ -1,0 +1,255 @@
+{
+  "https://apnews.com": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5518,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w19_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w19_flags": []
+    }
+  ],
+  "https://www.abc.net.au": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-AU\" class=\"no-js\" data-dpl-id=\"135c2e33\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scal",
+      "body_len": 65524,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-AU\" class=\"no-js\" data-dpl-id=\"135c2e33\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scal",
+      "body_len": 65524,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    }
+  ],
+  "https://www.ed.gov": [
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w19_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w19_flags": []
+    }
+  ],
+  "https://www.forbes.com": [
+    {
+      "body_head": "<html lang=\"en\"><head><title>forbes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enab",
+      "body_len": 770,
+      "evidence": [
+        "DD_XDATADOME_HEADER",
+        "DD_BODY_MARKER"
+      ],
+      "status": 403,
+      "vendor": "DataDome",
+      "verdict": "CHALLENGED",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<html lang=\"en\"><head><title>forbes.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enab",
+      "body_len": 770,
+      "evidence": [
+        "DD_XDATADOME_HEADER",
+        "DD_BODY_MARKER"
+      ],
+      "status": 403,
+      "vendor": "DataDome",
+      "verdict": "CHALLENGED",
+      "w19_flags": []
+    }
+  ],
+  "https://www.irishjobs.ie": [
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    \n    <title>Jobs in Ireland - Best jobs Ireland has to offer | IrishJobs.ie</title>\n    \n    <meta charset=\"utf-8\" />\n    ",
+      "body_len": 65533,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    \n    <title>Jobs in Ireland - Best jobs Ireland has to offer | IrishJobs.ie</title>\n    \n    <meta charset=\"utf-8\" />\n    ",
+      "body_len": 65533,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    }
+  ],
+  "https://www.jobrapido.com": [
+    {
+      "body_head": "<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+      "body_len": 117,
+      "evidence": [
+        "STATUS_429"
+      ],
+      "status": 429,
+      "vendor": null,
+      "verdict": "RATE_LIMITED",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<html><body><h1>429 Too Many Requests</h1>\nYou have sent too many requests in a given amount of time.\n</body></html>\n",
+      "body_len": 117,
+      "evidence": [
+        "STATUS_429"
+      ],
+      "status": 429,
+      "vendor": null,
+      "verdict": "RATE_LIMITED",
+      "w19_flags": []
+    }
+  ],
+  "https://www.jobs.ie": [
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    \n    <title>Jobs.ie - Jobs in Ireland. Irish Jobs.</title>\n    \n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" con",
+      "body_len": 65530,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    \n    <title>Jobs.ie - Jobs in Ireland. Irish Jobs.</title>\n    \n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" con",
+      "body_len": 65530,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    }
+  ],
+  "https://www.lowes.com": [
+    {
+      "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n\n<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push([\"addVar\",{\"rua.upush\":\"false\",\"rua.cpush\":\"false\",\"rua.upre\":\"false\",\"rua.cpre\":\"false\",\"rua.uprl\":\"false",
+      "body_len": 5033,
+      "evidence": [
+        "AKAMAI_EDGESUITE",
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w19_flags": []
+    }
+  ],
+  "https://www.npmjs.com": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 3262,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w19_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5606,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w19_flags": []
+    }
+  ],
+  "https://www.totaljobs.com": [
+    {
+      "body_head": "\n    <!DOCTYPE html>\n    <html lang=en class=\"no-js\">\n\t\t\t<head>\n\t\t\t\t<meta charset=\"UTF-8\">\n\t\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t\t\t<title>Jobs are our job | Tota",
+      "body_len": 65510,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    },
+    {
+      "body_head": "\n    <!DOCTYPE html>\n    <html lang=en class=\"no-js\">\n\t\t\t<head>\n\t\t\t\t<meta charset=\"UTF-8\">\n\t\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t\t\t<title>Jobs are our job | Tota",
+      "body_len": 65510,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w19_flags": []
+    }
+  ]
+}

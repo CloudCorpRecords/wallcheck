@@ -1,0 +1,18 @@
+{
+  "evidence": [
+    "CF_CHALLENGE_PLATFORM"
+  ],
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "10937",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Date": "Sat, 24 Oct 2026 06:52:10 GMT",
+    "Server": "nginx",
+    "Set-Cookie": "ts=1792824730; expires=Tue, 21 Oct 2036 06:52:10 GMT; path=/; secure",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; always"
+  },
+  "status": 200,
+  "url": "https://www.careerjet.com",
+  "vendor": "Cloudflare",
+  "verdict": "CHALLENGED"
+}

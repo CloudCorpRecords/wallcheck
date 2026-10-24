@@ -1,0 +1,79 @@
+[
+ {
+  "attempt": 1,
+  "evidence": [
+   "CF_RAY_HEADER",
+   "SERVER_CLOUDFLARE",
+   "PX_COOKIE",
+   "PX_CAPTCHA",
+   "PX_BODY_MARKER",
+   "REDIRECT_TO_CHALLENGE"
+  ],
+  "status": 429,
+  "target": "https://www.wayfair.com",
+  "vendor": "PerimeterX",
+  "verdict": "CHALLENGED",
+  "w23_involvement": [],
+  "w24_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "CF_RAY_HEADER",
+   "SERVER_CLOUDFLARE",
+   "PX_COOKIE",
+   "PX_CAPTCHA",
+   "PX_BODY_MARKER",
+   "REDIRECT_TO_CHALLENGE"
+  ],
+  "status": 429,
+  "target": "https://www.wayfair.com",
+  "vendor": "PerimeterX",
+  "verdict": "CHALLENGED",
+  "w23_involvement": [],
+  "w24_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [],
+  "status": null,
+  "target": "https://apnews.com",
+  "vendor": null,
+  "verdict": "UNREACHABLE",
+  "w23_involvement": [],
+  "w24_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [],
+  "status": null,
+  "target": "https://apnews.com",
+  "vendor": null,
+  "verdict": "UNREACHABLE",
+  "w23_involvement": [],
+  "w24_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [],
+  "status": null,
+  "target": "https://www.britishairways.com",
+  "vendor": null,
+  "verdict": "UNREACHABLE",
+  "w23_involvement": [],
+  "w24_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.britishairways.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w23_involvement": [],
+  "w24_involvement": []
+ }
+]

@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "check": "robots_txt",
+      "detail": "robots.txt served; no tracked AI agent is blocked or restricted.",
+      "evidence": [
+        "ROBOTS_200"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "llms_txt",
+      "detail": "/llms.txt returns 200 but serves HTML (a soft-404 error page or the homepage) \u2014 worse than absent: agents ingest it as if it were the real index.",
+      "evidence": [
+        "SOFT_404_HTML"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "check": "sitemap",
+      "detail": "Sitemap URL answers 200 but the body is not sitemap XML.",
+      "evidence": [
+        "STATUS_200_NOT_XML"
+      ],
+      "status": "WARN"
+    },
+    {
+      "check": "feed",
+      "detail": "Homepage carries no RSS/Atom <link rel=\"alternate\"> discovery tag.",
+      "evidence": [
+        "NO_FEED_LINK"
+      ],
+      "status": "WARN"
+    },
+    {
+      "check": "api",
+      "detail": "No OpenAPI document, serving /api root, or developer portal discovered.",
+      "evidence": [
+        "OPENAPI_NOT_SPEC: https://clipwise.replit.app/openapi.json status 200, not an OpenAPI document",
+        "OPENAPI_NOT_SPEC: https://clipwise.replit.app/.well-known/openapi.json status 200, not an OpenAPI document",
+        "DEV_PORTAL_IS_APP_SHELL"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "check": "signed_agents",
+      "detail": "The directory URL answers 200 but the body is not a JWKS-style key set.",
+      "evidence": [
+        "DIRECTORY_UNPARSEABLE"
+      ],
+      "status": "WARN"
+    }
+  ],
+  "fixes": [
+    "Publish a genuine /llms.txt (plain text/markdown index of your key pages) \u2014 and never let the route fall through to an HTML error page.",
+    "Serve /sitemap.xml (or declare Sitemap: in robots.txt) and keep bot walls off it: it is the file you publish *for* machines.",
+    "Add <link rel=\"alternate\" type=\"application/rss+xml\"> (or Atom) discovery tags to the homepage, or publish a feed \u2014 feeds are the lowest-cost agent channel there is.",
+    "Publish a machine-readable API surface: an OpenAPI document (conventionally /openapi.json) or a documented /api \u2014 agents integrate against specs, not markup.",
+    "Publish your Web Bot Auth key directory at /.well-known/http-message-signatures-directory and, on the receiving side, exempt verified signed agents from managed challenges on public paths (authenticated paths keep full protection)."
+  ],
+  "grade": "D",
+  "max_score": 12,
+  "score": 5,
+  "target": "clipwise.replit.app"
+}

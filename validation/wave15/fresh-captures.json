@@ -1,0 +1,56 @@
+[
+  {
+    "target": "https://www.forbes.com",
+    "attempt": 1,
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "final_url": "https://www.forbes.com",
+    "body_sample": ""
+  },
+  {
+    "target": "https://www.forbes.com",
+    "attempt": 2,
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "final_url": "https://www.forbes.com",
+    "body_sample": ""
+  },
+  {
+    "target": "https://www.britishairways.com",
+    "attempt": 1,
+    "status": null,
+    "verdict": "UNREACHABLE",
+    "vendor": null,
+    "final_url": "https://www.britishairways.com",
+    "body_sample": ""
+  },
+  {
+    "target": "https://www.britishairways.com",
+    "attempt": 2,
+    "status": null,
+    "verdict": "UNREACHABLE",
+    "vendor": null,
+    "final_url": "https://www.britishairways.com",
+    "body_sample": ""
+  },
+  {
+    "target": "https://www.webex.com",
+    "attempt": 1,
+    "status": 403,
+    "verdict": "WALLED",
+    "vendor": "Akamai",
+    "final_url": "https://www.webex.com",
+    "body_sample": ""
+  },
+  {
+    "target": "https://www.webex.com",
+    "attempt": 2,
+    "status": 403,
+    "verdict": "WALLED",
+    "vendor": "Akamai",
+    "final_url": "https://www.webex.com",
+    "body_sample": ""
+  }
+]

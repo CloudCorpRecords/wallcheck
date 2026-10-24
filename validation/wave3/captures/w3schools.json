@@ -1,0 +1,23 @@
+{
+  "url": "https://www.w3schools.com",
+  "final_url": "https://www.w3schools.com",
+  "status": 403,
+  "headers": {
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Strict-Transport-Security": "max-age=2628000",
+    "Cache-Control": "max-age=0",
+    "Expires": "Sat, 24 Oct 2026 03:22:54 GMT",
+    "Date": "Sat, 24 Oct 2026 03:22:54 GMT",
+    "X-loc": "true",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(self)",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close",
+    "Content-Length": "371"
+  },
+  "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;w3schools&#46;com&#47;\" on this server.<P>\nReference&#32;&#35;18&#46;92620317&#46;1792812173&#46;96605d52\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;92620317&#46;1792812173&#46;96605d52</P>\n</BODY>\n</HTML>\n",
+  "redirect_chain": [],
+  "error": null,
+  "body_bytes_captured": 371
+}

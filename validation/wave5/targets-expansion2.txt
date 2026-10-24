@@ -1,0 +1,125 @@
+# Wave 5 expansion targets. Already-indexed names from the wave
+# brief (glassdoor.com, levels.fyi, coursera.org, khanacademy.org,
+# udemy.com, target.com, bestbuy.com, airbnb.com, expedia.com,
+# booking.com) are covered by the Leg A round-4 re-probe and are
+# NOT repeated here, so the index never gains a duplicate row.
+
+# category: civic
+https://www.usa.gov
+https://www.irs.gov
+https://www.usps.com
+https://www.ssa.gov
+https://www.healthcare.gov
+https://www.ca.gov
+https://www.sf.gov
+https://www.nyc.gov
+https://www.state.gov
+https://www.va.gov
+https://www.ed.gov
+https://www.benefits.gov
+https://www.grants.gov
+https://www.treasury.gov
+https://www.usajobs.gov
+https://www.vote.gov
+https://www.ftc.gov
+https://www.consumerfinance.gov
+https://www.weather.gov
+
+# category: finance
+https://www.chase.com
+https://www.bankofamerica.com
+https://www.wellsfargo.com
+https://www.paypal.com
+https://www.venmo.com
+https://www.coinbase.com
+https://www.robinhood.com
+https://www.capitalone.com
+https://www.americanexpress.com
+https://www.citi.com
+https://www.discover.com
+https://www.usbank.com
+https://www.truist.com
+https://www.fidelity.com
+https://www.schwab.com
+https://www.vanguard.com
+https://www.etrade.com
+https://www.sofi.com
+
+# category: travel
+https://www.hotels.com
+https://www.united.com
+https://www.delta.com
+https://www.americanairlines.com
+https://www.southwest.com
+https://www.amtrak.com
+https://www.uber.com
+https://www.lyft.com
+https://www.marriott.com
+https://www.hilton.com
+https://www.vrbo.com
+https://www.kayak.com
+https://www.priceline.com
+https://www.jetblue.com
+https://www.alaskaair.com
+https://www.hyatt.com
+
+# category: health
+https://www.mayoclinic.org
+https://www.webmd.com
+https://www.healthline.com
+https://www.cvs.com
+https://www.walgreens.com
+https://www.clevelandclinic.org
+https://www.hopkinsmedicine.org
+https://www.nih.gov
+https://www.cdc.gov
+https://www.fda.gov
+https://www.goodrx.com
+https://www.zocdoc.com
+https://www.riteaid.com
+
+# category: education
+https://www.edx.org
+https://www.mit.edu
+https://www.stanford.edu
+https://www.duolingo.com
+https://www.udacity.com
+https://www.skillshare.com
+https://www.masterclass.com
+https://www.harvard.edu
+https://www.berkeley.edu
+https://www.pluralsight.com
+
+# category: commerce
+https://www.homedepot.com
+https://www.lowes.com
+https://www.ikea.com
+https://www.wayfair.com
+https://www.chewy.com
+https://www.doordash.com
+https://www.instacart.com
+https://www.ubereats.com
+https://www.costco.com
+https://www.kroger.com
+https://www.nike.com
+https://www.macys.com
+https://www.nordstrom.com
+https://www.poshmark.com
+https://www.mercari.com
+https://www.offerup.com
+
+# category: real-estate
+https://www.zillow.com
+https://www.redfin.com
+https://www.realtor.com
+https://www.apartments.com
+https://www.trulia.com
+https://www.homes.com
+https://www.compass.com
+
+# category: jobs
+https://www.salary.com
+https://www.careerbuilder.com
+https://www.simplyhired.com
+https://www.snagajob.com
+https://www.themuse.com

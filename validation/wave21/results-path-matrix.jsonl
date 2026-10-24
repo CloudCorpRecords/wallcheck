@@ -1,0 +1,50 @@
+{"path": "/login", "status": 403, "target": "claude.ai", "url": "https://claude.ai/login", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/signup", "status": 403, "target": "claude.ai", "url": "https://claude.ai/signup", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/api", "status": 403, "target": "claude.ai", "url": "https://claude.ai/api", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/robots.txt", "status": 200, "target": "claude.ai", "url": "https://claude.ai/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": 200, "target": "claude.ai", "url": "https://claude.ai/llms.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/login", "status": 503, "target": "www.amazon.com", "url": "https://www.amazon.com/login", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/signup", "status": 503, "target": "www.amazon.com", "url": "https://www.amazon.com/signup", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/api", "status": 429, "target": "www.amazon.com", "url": "https://www.amazon.com/api", "vendor": null, "verdict": "RATE_LIMITED"}
+{"path": "/robots.txt", "status": 200, "target": "www.amazon.com", "url": "https://www.amazon.com/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": 404, "target": "www.amazon.com", "url": "https://www.amazon.com/llms.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/login", "status": 403, "target": "www.ed.gov", "url": "https://www.ed.gov/login", "vendor": "Microsoft Azure WAF", "verdict": "CHALLENGED"}
+{"path": "/signup", "status": 403, "target": "www.ed.gov", "url": "https://www.ed.gov/signup", "vendor": "Microsoft Azure WAF", "verdict": "CHALLENGED"}
+{"path": "/api", "status": 403, "target": "www.ed.gov", "url": "https://www.ed.gov/api", "vendor": "Microsoft Azure WAF", "verdict": "CHALLENGED"}
+{"path": "/robots.txt", "status": 403, "target": "www.ed.gov", "url": "https://www.ed.gov/robots.txt", "vendor": "Microsoft Azure WAF", "verdict": "CHALLENGED"}
+{"path": "/llms.txt", "status": 403, "target": "www.ed.gov", "url": "https://www.ed.gov/llms.txt", "vendor": "Microsoft Azure WAF", "verdict": "CHALLENGED"}
+{"path": "/login", "status": 404, "target": "www.fda.gov", "url": "https://www.fda.gov/login", "vendor": null, "verdict": "OPEN"}
+{"path": "/signup", "status": 404, "target": "www.fda.gov", "url": "https://www.fda.gov/signup", "vendor": null, "verdict": "OPEN"}
+{"path": "/api", "status": 404, "target": "www.fda.gov", "url": "https://www.fda.gov/api", "vendor": null, "verdict": "OPEN"}
+{"path": "/robots.txt", "status": 200, "target": "www.fda.gov", "url": "https://www.fda.gov/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": 404, "target": "www.fda.gov", "url": "https://www.fda.gov/llms.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/login", "status": 403, "target": "www.goodrx.com", "url": "https://www.goodrx.com/login", "vendor": "PerimeterX", "verdict": "CHALLENGED"}
+{"path": "/signup", "status": 403, "target": "www.goodrx.com", "url": "https://www.goodrx.com/signup", "vendor": "PerimeterX", "verdict": "CHALLENGED"}
+{"path": "/api", "status": 403, "target": "www.goodrx.com", "url": "https://www.goodrx.com/api", "vendor": "PerimeterX", "verdict": "CHALLENGED"}
+{"path": "/robots.txt", "status": 200, "target": "www.goodrx.com", "url": "https://www.goodrx.com/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": 403, "target": "www.goodrx.com", "url": "https://www.goodrx.com/llms.txt", "vendor": "PerimeterX", "verdict": "CHALLENGED"}
+{"path": "/login", "status": null, "target": "www.irishjobs.ie", "url": "https://www.irishjobs.ie/login", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/signup", "status": null, "target": "www.irishjobs.ie", "url": "https://www.irishjobs.ie/signup", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/api", "status": null, "target": "www.irishjobs.ie", "url": "https://www.irishjobs.ie/api", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/robots.txt", "status": 200, "target": "www.irishjobs.ie", "url": "https://www.irishjobs.ie/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": null, "target": "www.irishjobs.ie", "url": "https://www.irishjobs.ie/llms.txt", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/login", "status": 200, "target": "www.jobrapido.com", "url": "https://www.jobrapido.com/login", "vendor": null, "verdict": "OPEN"}
+{"path": "/signup", "status": 200, "target": "www.jobrapido.com", "url": "https://www.jobrapido.com/signup", "vendor": null, "verdict": "OPEN"}
+{"path": "/api", "status": 200, "target": "www.jobrapido.com", "url": "https://www.jobrapido.com/api", "vendor": null, "verdict": "OPEN"}
+{"path": "/robots.txt", "status": 200, "target": "www.jobrapido.com", "url": "https://www.jobrapido.com/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": 404, "target": "www.jobrapido.com", "url": "https://www.jobrapido.com/llms.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/login", "status": null, "target": "www.jobs.ie", "url": "https://www.jobs.ie/login", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/signup", "status": null, "target": "www.jobs.ie", "url": "https://www.jobs.ie/signup", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/api", "status": null, "target": "www.jobs.ie", "url": "https://www.jobs.ie/api", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/robots.txt", "status": 200, "target": "www.jobs.ie", "url": "https://www.jobs.ie/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": null, "target": "www.jobs.ie", "url": "https://www.jobs.ie/llms.txt", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/login", "status": null, "target": "www.totaljobs.com", "url": "https://www.totaljobs.com/login", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/signup", "status": null, "target": "www.totaljobs.com", "url": "https://www.totaljobs.com/signup", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/api", "status": null, "target": "www.totaljobs.com", "url": "https://www.totaljobs.com/api", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/robots.txt", "status": 200, "target": "www.totaljobs.com", "url": "https://www.totaljobs.com/robots.txt", "vendor": null, "verdict": "OPEN"}
+{"path": "/llms.txt", "status": null, "target": "www.totaljobs.com", "url": "https://www.totaljobs.com/llms.txt", "vendor": null, "verdict": "UNREACHABLE"}
+{"path": "/login", "status": 403, "target": "www.ubereats.com", "url": "https://www.ubereats.com/login", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/signup", "status": 403, "target": "www.ubereats.com", "url": "https://www.ubereats.com/signup", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/api", "status": 404, "target": "www.ubereats.com", "url": "https://www.ubereats.com/api", "vendor": null, "verdict": "OPEN"}
+{"path": "/robots.txt", "status": 403, "target": "www.ubereats.com", "url": "https://www.ubereats.com/robots.txt", "vendor": "Cloudflare", "verdict": "CHALLENGED"}
+{"path": "/llms.txt", "status": 403, "target": "www.ubereats.com", "url": "https://www.ubereats.com/llms.txt", "vendor": "Cloudflare", "verdict": "CHALLENGED"}

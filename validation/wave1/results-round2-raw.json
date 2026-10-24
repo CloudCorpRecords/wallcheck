@@ -1,0 +1,204 @@
+[
+  {
+    "category": "freelance",
+    "elapsed_ms": 990,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.upwork.com",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 696,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.fiverr.com",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 598,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.guru.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 865,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.monster.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "dev",
+    "elapsed_ms": 474,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.npmjs.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.npmjs.com",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "dev",
+    "elapsed_ms": 15015,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://replit.com",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://replit.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "social",
+    "elapsed_ms": 15020,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://discord.com",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://discord.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "docs-news",
+    "elapsed_ms": 609,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://medium.com",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "docs-news",
+    "elapsed_ms": 464,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.nytimes.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.nytimes.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "docs-news",
+    "elapsed_ms": 444,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://techcrunch.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://techcrunch.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "big-web",
+    "elapsed_ms": 459,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ebay.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.ebay.com",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "big-web",
+    "elapsed_ms": 912,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.walmart.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.walmart.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "big-web",
+    "elapsed_ms": 1037,
+    "evidence": [
+      "PX_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.target.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.target.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "big-web",
+    "elapsed_ms": 15353,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.bestbuy.com",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://www.bestbuy.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  }
+]

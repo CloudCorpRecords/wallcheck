@@ -1,0 +1,108 @@
+[
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.telegraph.co.uk",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w24_involvement": [
+   "status-402"
+  ],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.telegraph.co.uk",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w24_involvement": [
+   "status-402"
+  ],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.usatoday.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w24_involvement": [
+   "status-402"
+  ],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_402"
+  ],
+  "status": 402,
+  "target": "https://www.usatoday.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w24_involvement": [
+   "status-402"
+  ],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.britishairways.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w24_involvement": [],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.britishairways.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w24_involvement": [],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://todoist.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w24_involvement": [],
+  "w25_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://todoist.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w24_involvement": [],
+  "w25_involvement": []
+ }
+]

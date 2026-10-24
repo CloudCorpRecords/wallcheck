@@ -1,0 +1,178 @@
+{
+ "adopters": {
+  "chatgpt.com": {
+   "keys": [
+    {
+     "crv": "Ed25519",
+     "exp": 1793456665,
+     "kid": "ArwjqcCqtA5oxEWkzXGC-To_0A9whHmajCHtfe8I9aY",
+     "kty": "OKP",
+     "nbf": 1735689600,
+     "problems": [],
+     "purpose": null,
+     "use": "sig",
+     "x_prefix": "P_1c4SX6fCav"
+    }
+   ],
+   "parses": true,
+   "status": 200,
+   "top_level_fields": [
+    "keys",
+    "purpose",
+    "signature_agent"
+   ]
+  },
+  "substack.com": {
+   "keys": [
+    {
+     "crv": "Ed25519",
+     "exp": null,
+     "kid": null,
+     "kty": "OKP",
+     "nbf": null,
+     "problems": [
+      "missing kid"
+     ],
+     "purpose": null,
+     "use": null,
+     "x_prefix": "o5kcuyjl063D"
+    }
+   ],
+   "parses": true,
+   "status": 200,
+   "top_level_fields": [
+    "keys"
+   ]
+  },
+  "www.ahrefs.com": {
+   "keys": [
+    {
+     "crv": "Ed25519",
+     "exp": null,
+     "kid": "e3vpiy0B6M1Wdxnizw3dqRSgpqS6SXM2qiQ6HtUwZ5g",
+     "kty": "OKP",
+     "nbf": null,
+     "problems": [],
+     "purpose": null,
+     "use": "sig",
+     "x_prefix": "0g1xFRWdVlSO"
+    },
+    {
+     "crv": "Ed25519",
+     "exp": null,
+     "kid": "0227KWFT1389RBnlR8TLhbMaA_Of2MbNPhmlNICS7eI",
+     "kty": "OKP",
+     "nbf": null,
+     "problems": [],
+     "purpose": null,
+     "use": "sig",
+     "x_prefix": "v02owuOay4qE"
+    }
+   ],
+   "parses": true,
+   "status": 200,
+   "top_level_fields": [
+    "keys"
+   ]
+  },
+  "www.indeed.com": {
+   "keys": [
+    {
+     "crv": "Ed25519",
+     "exp": null,
+     "kid": null,
+     "kty": "OKP",
+     "nbf": null,
+     "problems": [
+      "missing kid"
+     ],
+     "purpose": null,
+     "use": null,
+     "x_prefix": "JrQLj5P_89iX"
+    }
+   ],
+   "parses": true,
+   "status": 200,
+   "top_level_fields": [
+    "keys"
+   ]
+  }
+ },
+ "walled_spot": {
+  "gun.io": {
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "hub.docker.com": {
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "huggingface.co": {
+   "status": 401,
+   "vendor": null,
+   "verdict": "LOGIN_GATED"
+  },
+  "medium.com": {
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "www.delta.com": {
+   "status": 444,
+   "vendor": "Akamai",
+   "verdict": "WALLED"
+  },
+  "www.glassdoor.com": {
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "www.guru.com": {
+   "status": 403,
+   "vendor": "Imperva",
+   "verdict": "WALLED"
+  },
+  "www.marriott.com": {
+   "status": 403,
+   "vendor": "Akamai",
+   "verdict": "WALLED"
+  },
+  "www.npmjs.com": {
+   "status": null,
+   "vendor": null,
+   "verdict": "UNREACHABLE"
+  },
+  "www.reddit.com": {
+   "status": 403,
+   "vendor": null,
+   "verdict": "WALLED"
+  },
+  "www.reuters.com": {
+   "status": 403,
+   "vendor": null,
+   "verdict": "WALLED"
+  },
+  "www.sec.gov": {
+   "status": 403,
+   "vendor": "Akamai",
+   "verdict": "WALLED"
+  },
+  "www.upwork.com": {
+   "status": 403,
+   "vendor": "Cloudflare",
+   "verdict": "WALLED"
+  },
+  "www.w3schools.com": {
+   "status": 403,
+   "vendor": "Akamai",
+   "verdict": "WALLED"
+  },
+  "www.wsj.com": {
+   "status": 403,
+   "vendor": null,
+   "verdict": "WALLED"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+# Round 2 re-probe set: every target a Wave 1 fix could affect, plus the
+# transient/stability cases (W1-005, W1-006) and core-path sanity checks.
+
+# category: freelance
+https://www.upwork.com
+https://www.fiverr.com
+https://www.guru.com
+
+# category: jobs
+https://www.monster.com
+
+# category: dev
+https://www.npmjs.com
+https://replit.com
+
+# category: social
+https://discord.com
+
+# category: docs-news
+https://medium.com
+https://www.nytimes.com
+https://techcrunch.com
+
+# category: big-web
+https://www.ebay.com
+https://www.walmart.com
+https://www.target.com
+https://www.bestbuy.com

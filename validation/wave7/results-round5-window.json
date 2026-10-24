@@ -1,0 +1,834 @@
+[
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "RATE_LIMITED",
+    "category": "real-estate",
+    "elapsed_ms": 15028,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.realtor.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.realtor.com",
+    "ts": "2026-10-24T07:15:06Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": "AWS CloudFront",
+    "baseline_verdict": "WALLED",
+    "category": "real-estate",
+    "elapsed_ms": 15055,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.redfin.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.redfin.com",
+    "ts": "2026-10-24T07:15:23Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "real-estate",
+    "elapsed_ms": 15030,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.trulia.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.trulia.com",
+    "ts": "2026-10-24T07:15:40Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "real-estate",
+    "elapsed_ms": 15057,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.zillow.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.zillow.com",
+    "ts": "2026-10-24T07:15:57Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15019,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.typeform.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.typeform.com",
+    "ts": "2026-10-24T07:16:14Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15024,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.jotform.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.jotform.com",
+    "ts": "2026-10-24T07:16:29Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15023,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.surveymonkey.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.surveymonkey.com",
+    "ts": "2026-10-24T07:16:45Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15020,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://mailchimp.com",
+    "round": 5,
+    "status": null,
+    "target": "https://mailchimp.com",
+    "ts": "2026-10-24T07:17:01Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15034,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.constantcontact.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.constantcontact.com",
+    "ts": "2026-10-24T07:17:16Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15066,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://sendgrid.com",
+    "round": 5,
+    "status": null,
+    "target": "https://sendgrid.com",
+    "ts": "2026-10-24T07:17:33Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15018,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://convertkit.com",
+    "round": 5,
+    "status": null,
+    "target": "https://convertkit.com",
+    "ts": "2026-10-24T07:17:49Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15018,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://ghost.org",
+    "round": 5,
+    "status": null,
+    "target": "https://ghost.org",
+    "ts": "2026-10-24T07:18:05Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15030,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://webflow.com",
+    "round": 5,
+    "status": null,
+    "target": "https://webflow.com",
+    "ts": "2026-10-24T07:18:21Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15030,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.paddle.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.paddle.com",
+    "ts": "2026-10-24T07:18:37Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15043,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.chargebee.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.chargebee.com",
+    "ts": "2026-10-24T07:18:53Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15032,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.zendesk.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.zendesk.com",
+    "ts": "2026-10-24T07:19:09Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15056,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.freshdesk.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.freshdesk.com",
+    "ts": "2026-10-24T07:19:25Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15045,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.hubspot.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.hubspot.com",
+    "ts": "2026-10-24T07:19:41Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15056,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.salesforce.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.salesforce.com",
+    "ts": "2026-10-24T07:19:57Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15046,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.pipedrive.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.pipedrive.com",
+    "ts": "2026-10-24T07:20:14Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15018,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.apollo.io",
+    "round": 5,
+    "status": null,
+    "target": "https://www.apollo.io",
+    "ts": "2026-10-24T07:20:30Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15016,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.outreach.io",
+    "round": 5,
+    "status": null,
+    "target": "https://www.outreach.io",
+    "ts": "2026-10-24T07:20:45Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15018,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.salesloft.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.salesloft.com",
+    "ts": "2026-10-24T07:21:00Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 15018,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.gong.io",
+    "round": 5,
+    "status": null,
+    "target": "https://www.gong.io",
+    "ts": "2026-10-24T07:21:16Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2358,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.zoominfo.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.zoominfo.com",
+    "ts": "2026-10-24T07:21:19Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2103,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://hunter.io",
+    "round": 5,
+    "status": null,
+    "target": "https://hunter.io",
+    "ts": "2026-10-24T07:21:21Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2163,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.lusha.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.lusha.com",
+    "ts": "2026-10-24T07:21:24Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2154,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://rocketreach.co",
+    "round": 5,
+    "status": null,
+    "target": "https://rocketreach.co",
+    "ts": "2026-10-24T07:21:27Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2120,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://neon.tech",
+    "round": 5,
+    "status": null,
+    "target": "https://neon.tech",
+    "ts": "2026-10-24T07:21:29Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2237,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://clerk.com",
+    "round": 5,
+    "status": null,
+    "target": "https://clerk.com",
+    "ts": "2026-10-24T07:21:32Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2225,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://auth0.com",
+    "round": 5,
+    "status": null,
+    "target": "https://auth0.com",
+    "ts": "2026-10-24T07:21:35Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2183,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://workos.com",
+    "round": 5,
+    "status": null,
+    "target": "https://workos.com",
+    "ts": "2026-10-24T07:21:39Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2296,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://mixpanel.com",
+    "round": 5,
+    "status": null,
+    "target": "https://mixpanel.com",
+    "ts": "2026-10-24T07:21:42Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2217,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://amplitude.com",
+    "round": 5,
+    "status": null,
+    "target": "https://amplitude.com",
+    "ts": "2026-10-24T07:21:47Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2182,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://segment.com",
+    "round": 5,
+    "status": null,
+    "target": "https://segment.com",
+    "ts": "2026-10-24T07:21:50Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2193,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://coda.io",
+    "round": 5,
+    "status": null,
+    "target": "https://coda.io",
+    "ts": "2026-10-24T07:21:55Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2189,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.smartsheet.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.smartsheet.com",
+    "ts": "2026-10-24T07:21:59Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2219,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://monday.com",
+    "round": 5,
+    "status": null,
+    "target": "https://monday.com",
+    "ts": "2026-10-24T07:22:02Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2385,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://clickup.com",
+    "round": 5,
+    "status": null,
+    "target": "https://clickup.com",
+    "ts": "2026-10-24T07:22:06Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "UNREACHABLE",
+    "category": "saas",
+    "elapsed_ms": 2160,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://todoist.com",
+    "round": 5,
+    "status": null,
+    "target": "https://todoist.com",
+    "ts": "2026-10-24T07:22:09Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2138,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://linear.app",
+    "round": 5,
+    "status": null,
+    "target": "https://linear.app",
+    "ts": "2026-10-24T07:22:12Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2252,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://basecamp.com",
+    "round": 5,
+    "status": null,
+    "target": "https://basecamp.com",
+    "ts": "2026-10-24T07:22:15Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2118,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.wrike.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.wrike.com",
+    "ts": "2026-10-24T07:22:17Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2145,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.zoho.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.zoho.com",
+    "ts": "2026-10-24T07:22:20Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2161,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://evernote.com",
+    "round": 5,
+    "status": null,
+    "target": "https://evernote.com",
+    "ts": "2026-10-24T07:22:23Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2264,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.box.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.box.com",
+    "ts": "2026-10-24T07:22:26Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2100,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.dropbox.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.dropbox.com",
+    "ts": "2026-10-24T07:22:28Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2132,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.figma.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.figma.com",
+    "ts": "2026-10-24T07:22:31Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2414,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.canva.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.canva.com",
+    "ts": "2026-10-24T07:22:34Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2159,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://miro.com",
+    "round": 5,
+    "status": null,
+    "target": "https://miro.com",
+    "ts": "2026-10-24T07:22:36Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2159,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.mural.co",
+    "round": 5,
+    "status": null,
+    "target": "https://www.mural.co",
+    "ts": "2026-10-24T07:22:39Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "saas",
+    "elapsed_ms": 2159,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    ],
+    "final_url": "https://www.framer.com",
+    "round": 5,
+    "status": null,
+    "target": "https://www.framer.com",
+    "ts": "2026-10-24T07:22:41Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  }
+]

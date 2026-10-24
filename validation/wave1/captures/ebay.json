@@ -1,0 +1,23 @@
+{
+  "url": "https://www.ebay.com",
+  "final_url": "https://www.ebay.com",
+  "status": 403,
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Set-Cookie": "bm_so=E30450CFAD76E1AFA37BC60BAA46A5C0BF3C1E7E2DB34146579D85013CE33DB2~YAAQFxMoF8x4QVyhAQAAsY/Gawnp0jizEw2k8GCubCnQpz60Vw1vpaqC0L6zpN+0aBG0veyjdKj0LtN+0FyneQOPzawhK3doWHsLxPW5T6Qvr4AIkhpJMA8dIMnWSgP/1qCRdAqNt+UMmo9L77eWozt4dyGzBbn8eDxOL3k/dwmWkKnBuwbge0E5snjLGEr9j3+s9qY5MLXYYfV2FMPt1etC5r3w/Mco1SmiLehPROq87YR9dMvrTv9L/oI9Ki3Kfra7MmLU6JzzUdI/mrrJWrFG1J3Y2VzNOCR3ZEFDd0M/T43jMCmMPb/3+zNnZQaNbFJwEQtbLmTAf5mb9U7wUQvUkzA0iJpZAxgKqC9V+YNhmTVi4B27muPVEgPcqrSiV/WURRFExOU8ocVhaPAys97xvjULeWW4pwfZp+9v2e39M0ndsj0L3PsT4z2w9sQhHH4pUysv2NcZt9DtREv7qFBn0RSRTVlj~1; Domain=.ebay.com; Path=/; Expires=Sun, 25 Oct 2026 02:38:57 GMT; Max-Age=86400; Secure",
+    "Cache-control": "no-cache, no-store, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "Content-Type": "text/html",
+    "Date": "Sat, 24 Oct 2026 02:38:57 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "x-CDN": "Akamai",
+    "Connection": "close",
+    "Content-Length": "1739"
+  },
+  "body": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex,nofollow\"><title>Error Page | eBay</title><style>body{margin:0;padding:0;background-color:#fff;font-family:\"Market Sans\",Arial,sans-serif;color:#333}.main-content{padding-top:40px}.status--container{max-width:1200px;margin:0 auto}.error-header{background-repeat:no-repeat;background-position:right center;background-size:contain;padding:60px 20px;min-height:400px;display:flex;align-items:center;justify-content:flex-start;text-align:left;background-image:url(https://secureir.ebaystatic.com/cr/v/c1/4xx-bkgd.png)}.error-header__text-block{max-width:50%;z-index:1}.error-header__headline{font-size:1.5rem;margin-bottom:10px;color:#707070;font-weight:700}#error-info p{margin:10px 0;line-height:1.4}#error-info hr{border:0;border-top:1px solid #ccc;margin:15px 0}.reference-id{font-weight:700;color:#e53238;font-family:monospace}.fake-btn{display:inline-block;background:#0053a0;color:#fff;padding:10px 20px;text-decoration:none;border-radius:3px;font-weight:700;margin-top:15px}#glbfooter{margin-top:50px;padding:20px;border-top:1px solid #ccc;font-size:0.8rem;color:#707070;text-align:center}</style></head><body><main class=\"main-content\"><div class=\"status--container\"><div class=\"error-header\"><div class=\"error-header__text-block\"><p class=\"error-header__headline\">SORRY</p><div id=\"error-info\"><p>Something went wrong on our end</p><hr><p class=\"reference-id\">0.17132817.1792809537.80e508d</p><hr><p>Please go back and try again.</p></div></div></div></div></main><footer id=\"glbfooter\"><p>Copyright \u00a9 1995-2026 eBay Inc. All Rights Reserved.</p></footer></body></html>",
+  "redirect_chain": [],
+  "error": null,
+  "body_bytes_captured": 1739
+}

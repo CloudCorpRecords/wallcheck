@@ -1,0 +1,97 @@
+{
+  "key": {
+    "alg": "hmac-sha256",
+    "fingerprint": "621e0e7bb0a93e3e",
+    "keyid": "wallcheck-6545cb41",
+    "location": "/tmp/wallcheck-wave2-key.json (ephemeral, not in repo)"
+  },
+  "targets": [
+    {
+      "signature_input": "sig1=(\"@authority\");keyid=\"wallcheck-6545cb41\";alg=\"hmac-sha256\";created=1792811276;expires=1792811576;nonce=\"d5a16fd5a3fd48db\";tag=\"web-bot-auth\"",
+      "signed": {
+        "elapsed_ms": 840,
+        "evidence": [
+          "STATUS_200"
+        ],
+        "final_url": "https://clipwise.replit.app",
+        "redirect_chain": [],
+        "status": 200,
+        "url": "https://clipwise.replit.app",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "unsigned": {
+        "elapsed_ms": 1167,
+        "evidence": [
+          "STATUS_200"
+        ],
+        "final_url": "https://clipwise.replit.app",
+        "redirect_chain": [],
+        "status": 200,
+        "url": "https://clipwise.replit.app",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "url": "https://clipwise.replit.app",
+      "verdict_changed": false
+    },
+    {
+      "signature_input": "sig1=(\"@authority\");keyid=\"wallcheck-6545cb41\";alg=\"hmac-sha256\";created=1792811277;expires=1792811577;nonce=\"9ba0dcdf57ab91c0\";tag=\"web-bot-auth\"",
+      "signed": {
+        "elapsed_ms": 1237,
+        "evidence": [
+          "STATUS_200"
+        ],
+        "final_url": "https://reneturcios.replit.app",
+        "redirect_chain": [],
+        "status": 200,
+        "url": "https://reneturcios.replit.app",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "unsigned": {
+        "elapsed_ms": 893,
+        "evidence": [
+          "STATUS_200"
+        ],
+        "final_url": "https://reneturcios.replit.app",
+        "redirect_chain": [],
+        "status": 200,
+        "url": "https://reneturcios.replit.app",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "url": "https://reneturcios.replit.app",
+      "verdict_changed": false
+    },
+    {
+      "signature_input": "sig1=(\"@authority\");keyid=\"wallcheck-6545cb41\";alg=\"hmac-sha256\";created=1792811279;expires=1792811579;nonce=\"7a74aca1bb6f987c\";tag=\"web-bot-auth\"",
+      "signed": {
+        "elapsed_ms": 648,
+        "evidence": [
+          "STATUS_404"
+        ],
+        "final_url": "https://cloudcorprecords.github.io",
+        "redirect_chain": [],
+        "status": 404,
+        "url": "https://cloudcorprecords.github.io",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "unsigned": {
+        "elapsed_ms": 766,
+        "evidence": [
+          "STATUS_404"
+        ],
+        "final_url": "https://cloudcorprecords.github.io",
+        "redirect_chain": [],
+        "status": 404,
+        "url": "https://cloudcorprecords.github.io",
+        "vendor": null,
+        "verdict": "OPEN"
+      },
+      "url": "https://cloudcorprecords.github.io",
+      "verdict_changed": false
+    }
+  ]
+}

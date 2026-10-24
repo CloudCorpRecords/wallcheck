@@ -1,0 +1,25 @@
+{
+  "url": "https://crates.io",
+  "final_url": "https://crates.io",
+  "status": 404,
+  "headers": {
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-Cache-Hits": "0",
+    "Access-Control-Allow-Origin": "*",
+    "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+    "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=YS2z3fgXFCDBjGhLxVybbdEl07ox9OVDADqm9DZqdSs%3D\\u0026sid=af571f24-03ee-46d1-9f90-ab9030c2c74c\\u0026ts=1792812175\"}],\"max_age\":3600}",
+    "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=YS2z3fgXFCDBjGhLxVybbdEl07ox9OVDADqm9DZqdSs%3D&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&ts=1792812175\"",
+    "Server": "Heroku",
+    "Via": "1.1 heroku-router, 1.1 varnish",
+    "Accept-Ranges": "bytes",
+    "Date": "Sat, 24 Oct 2026 03:22:55 GMT",
+    "X-Served-By": "cache-mia-kmia1760089-MIA",
+    "X-Cache": "MISS",
+    "Connection": "close",
+    "Content-Length": "0"
+  },
+  "body": "",
+  "redirect_chain": [],
+  "error": null,
+  "body_bytes_captured": 0
+}

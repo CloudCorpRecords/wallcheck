@@ -1,0 +1,138 @@
+skip (done): https://remotive.com
+skip (done): https://jobspresso.co
+skip (done): https://authenticjobs.com
+skip (done): https://theladders.com
+skip (done): https://hired.com
+skip (done): https://powertofly.com
+skip (done): https://idealist.org
+skip (done): https://coolworks.com
+skip (done): https://www.instawork.com
+skip (done): https://wonolo.com
+skip (done): https://www.jobcase.com
+skip (done): https://talent.com
+skip (done): https://www.adzuna.com
+skip (done): https://www.totaljobs.com
+skip (done): https://www.reed.co.uk
+skip (done): https://www.seek.com.au
+skip (done): https://www.mediabistro.com
+skip (done): https://www.journalismjobs.com
+skip (done): https://www.typeform.com
+skip (done): https://www.jotform.com
+skip (done): https://www.surveymonkey.com
+skip (done): https://mailchimp.com
+skip (done): https://www.constantcontact.com
+skip (done): https://sendgrid.com
+skip (done): https://convertkit.com
+skip (done): https://ghost.org
+skip (done): https://webflow.com
+skip (done): https://www.paddle.com
+skip (done): https://www.chargebee.com
+skip (done): https://www.zendesk.com
+https://www.freshdesk.com                  200 OPEN -
+https://www.hubspot.com                    200 OPEN -
+https://www.salesforce.com                 200 OPEN -
+https://www.pipedrive.com                  200 OPEN -
+https://www.apollo.io                      200 OPEN -
+https://www.outreach.io                    200 OPEN -
+https://www.salesloft.com                  200 OPEN -
+https://www.gong.io                        200 OPEN -
+https://www.zoominfo.com                   200 OPEN -
+https://hunter.io                          200 OPEN -
+https://www.lusha.com                      200 OPEN -
+https://rocketreach.co                     200 OPEN -
+https://neon.tech                          200 OPEN -
+https://clerk.com                          200 OPEN -
+https://auth0.com                          200 OPEN -
+https://workos.com                         200 OPEN -
+https://mixpanel.com                       200 OPEN -
+https://amplitude.com                      200 OPEN -
+https://segment.com                        200 OPEN -
+https://coda.io                            200 OPEN -
+https://www.smartsheet.com                 200 OPEN -
+https://monday.com                         200 OPEN -
+https://clickup.com                        200 OPEN -
+https://todoist.com                        None UNREACHABLE -
+https://linear.app                         200 OPEN -
+https://basecamp.com                       200 OPEN -
+https://www.wrike.com                      200 OPEN -
+https://www.zoho.com                       200 OPEN -
+https://evernote.com                       200 OPEN -
+https://www.box.com                        200 OPEN -
+https://www.dropbox.com                    200 OPEN -
+https://www.figma.com                      200 OPEN -
+https://www.canva.com                      200 OPEN -
+https://miro.com                           200 OPEN -
+https://www.mural.co                       200 OPEN -
+https://www.framer.com                     200 OPEN -
+https://cal.com                            200 OPEN -
+https://savvycal.com                       200 OPEN -
+https://www.drift.com                      200 OPEN -
+https://www.intercom.com                   200 OPEN -
+https://crisp.chat                         200 OPEN -
+https://www.tawk.to                        200 OPEN -
+https://www.livechat.com                   200 OPEN -
+https://www.webex.com                      200 OPEN -
+https://www.gotomeeting.com                200 OPEN -
+https://www.airtable.com                   200 OPEN -
+https://asana.com                          200 OPEN -
+https://trello.com                         200 OPEN -
+https://www.notion.so                      200 OPEN -
+https://www.vox.com                        200 OPEN -
+https://www.engadget.com                   200 OPEN -
+https://gizmodo.com                        200 OPEN -
+https://kotaku.com                         200 OPEN -
+https://www.polygon.com                    200 OPEN -
+https://www.gamespot.com                   200 OPEN -
+https://www.ign.com                        200 OPEN -
+https://www.pcgamer.com                    200 OPEN -
+https://www.eurogamer.net                  200 OPEN -
+https://pitchfork.com                      200 OPEN -
+https://www.rollingstone.com               200 OPEN -
+https://www.billboard.com                  200 OPEN -
+https://variety.com                        200 OPEN -
+https://www.hollywoodreporter.com          200 OPEN -
+https://deadline.com                       200 OPEN -
+https://www.indiewire.com                  200 OPEN -
+https://www.vulture.com                    200 OPEN -
+https://slate.com                          200 OPEN -
+https://www.salon.com                      200 OPEN -
+https://www.independent.co.uk              200 OPEN -
+https://www.telegraph.co.uk                402 OPEN -
+https://www.ft.com                         403 CHALLENGED Cloudflare
+https://www.latimes.com                    200 OPEN -
+https://www.chicagotribune.com             200 OPEN -
+https://www.bostonglobe.com                200 OPEN -
+https://www.sfgate.com                     200 OPEN -
+https://www.sfchronicle.com                200 OPEN -
+https://nypost.com                         200 OPEN -
+https://www.usatoday.com                   402 OPEN -
+https://www.axios.com                      200 OPEN -
+https://www.politico.com                   200 OPEN -
+https://thehill.com                        200 OPEN -
+https://www.huffpost.com                   200 OPEN -
+https://www.buzzfeed.com                   200 OPEN -
+https://www.businessinsider.com            200 OPEN -
+https://www.fastcompany.com                403 CHALLENGED DataDome
+https://www.inc.com                        403 CHALLENGED DataDome
+https://www.entrepreneur.com               200 OPEN -
+https://fortune.com                        200 OPEN -
+https://www.economist.com                  403 WALLED Cloudflare
+https://apnews.com                         403 CHALLENGED Cloudflare
+https://www.pbs.org                        200 OPEN -
+https://www.aljazeera.com                  200 OPEN -
+https://www.dw.com                         200 OPEN -
+https://www.france24.com                   200 OPEN -
+https://www.scmp.com                       403 WALLED Cloudflare
+https://www.straitstimes.com               200 OPEN -
+https://www.japantimes.co.jp               200 OPEN -
+https://www.techmeme.com                   200 OPEN -
+https://www.theinformation.com             200 OPEN -
+https://www.semafor.com                    200 OPEN -
+https://www.404media.co                    200 OPEN -
+https://defector.com                       200 OPEN -
+https://www.thecut.com                     200 OPEN -
+https://www.npr.org                        200 OPEN -
+https://www.theatlantic.com                403 WALLED Cloudflare
+https://www.newyorker.com                  200 OPEN -
+pilot done: 136 rows in /home/hatch/workspace/github-builds/wallcheck/validation/wave6/results-expansion3-pilot.json
+EXIT:0

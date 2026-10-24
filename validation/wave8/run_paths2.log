@@ -1,0 +1,325 @@
+[1/322] ed.gov             home     CHALLENGED   Microsoft Azure WAF 403
+[2/322] ed.gov             login    CHALLENGED   Microsoft Azure WAF 403
+[3/322] ed.gov             signup   CHALLENGED   Microsoft Azure WAF 403
+[4/322] ed.gov             api      CHALLENGED   Microsoft Azure WAF 403
+[5/322] ed.gov             robots   CHALLENGED   Microsoft Azure WAF 403
+[6/322] ed.gov             sitemap  CHALLENGED   Microsoft Azure WAF 403
+[7/322] ed.gov             llms     CHALLENGED   Microsoft Azure WAF 403
+[8/322] ftc.gov            home     WALLED       Akamai       403
+[9/322] ftc.gov            login    WALLED       Akamai       403
+[10/322] ftc.gov            signup   WALLED       Akamai       403
+[11/322] ftc.gov            api      WALLED       Akamai       403
+[12/322] ftc.gov            robots   WALLED       Akamai       403
+[13/322] ftc.gov            sitemap  WALLED       Akamai       403
+[14/322] ftc.gov            llms     WALLED       Akamai       403
+[15/322] nyc.gov            home     WALLED       Akamai       403
+[16/322] nyc.gov            login    WALLED       Akamai       403
+[17/322] nyc.gov            signup   WALLED       Akamai       403
+[18/322] nyc.gov            api      WALLED       Akamai       403
+[19/322] nyc.gov            robots   WALLED       Akamai       403
+[20/322] nyc.gov            sitemap  WALLED       Akamai       403
+[21/322] nyc.gov            llms     WALLED       Akamai       403
+[22/322] ssa.gov            home     WALLED       Akamai       403
+[23/322] ssa.gov            login    WALLED       Akamai       403
+[24/322] ssa.gov            signup   WALLED       Akamai       403
+[25/322] ssa.gov            api      WALLED       Akamai       403
+[26/322] ssa.gov            robots   WALLED       Akamai       403
+[27/322] ssa.gov            sitemap  WALLED       Akamai       403
+[28/322] ssa.gov            llms     WALLED       Akamai       403
+[29/322] state.gov          home     WALLED       -            403
+[30/322] state.gov          login    WALLED       -            403
+[31/322] state.gov          signup   WALLED       -            403
+[32/322] state.gov          api      WALLED       -            403
+[33/322] state.gov          robots   WALLED       -            403
+[34/322] state.gov          sitemap  WALLED       -            403
+[35/322] state.gov          llms     WALLED       -            403
+[36/322] sec.gov            home     WALLED       Akamai       403
+[37/322] sec.gov            login    WALLED       Akamai       403
+[38/322] sec.gov            signup   WALLED       Akamai       403
+[39/322] sec.gov            api      WALLED       Akamai       403
+[40/322] sec.gov            robots   WALLED       Akamai       403
+[41/322] sec.gov            sitemap  WALLED       Akamai       403
+[42/322] sec.gov            llms     WALLED       Akamai       403
+[43/322] bls.gov            home     UNREACHABLE  -            None
+[44/322] bls.gov            login    WALLED       Akamai       403
+[45/322] bls.gov            signup   WALLED       Akamai       403
+[46/322] bls.gov            api      WALLED       Akamai       403
+[47/322] bls.gov            robots   WALLED       Akamai       403
+[48/322] bls.gov            sitemap  UNREACHABLE  -            None
+[49/322] bls.gov            llms     WALLED       Akamai       403
+[50/322] americanairlines   home     WALLED       Akamai       403
+[51/322] americanairlines   login    WALLED       Akamai       403
+[52/322] americanairlines   signup   OPEN         -            404
+[53/322] americanairlines   api      OPEN         -            404
+[54/322] americanairlines   robots   OPEN         -            200
+[55/322] americanairlines   sitemap  OPEN         -            404
+[56/322] americanairlines   llms     OPEN         -            404
+[57/322] amtrak             home     WALLED       Akamai       403
+[58/322] amtrak             login    WALLED       Akamai       403
+[59/322] amtrak             signup   WALLED       Akamai       403
+[60/322] amtrak             api      WALLED       Akamai       403
+[61/322] amtrak             robots   WALLED       Akamai       403
+[62/322] amtrak             sitemap  WALLED       Akamai       403
+[63/322] amtrak             llms     WALLED       Akamai       403
+[64/322] delta              home     WALLED       Akamai       444
+[65/322] delta              login    LOGIN_GATED  Akamai       444
+[66/322] delta              signup   WALLED       Akamai       444
+[67/322] delta              api      WALLED       Akamai       444
+[68/322] delta              robots   WALLED       Akamai       444
+[69/322] delta              sitemap  WALLED       Akamai       444
+[70/322] delta              llms     WALLED       Akamai       444
+[71/322] hilton             home     WALLED       Akamai       403
+[72/322] hilton             login    OPEN         -            404
+[73/322] hilton             signup   UNREACHABLE  -            None
+[74/322] hilton             api      OPEN         -            404
+[75/322] hilton             robots   OPEN         -            200
+[76/322] hilton             sitemap  OPEN         -            200
+[77/322] hilton             llms     OPEN         -            404
+[78/322] hyatt              home     WALLED       -            403
+[79/322] hyatt              login    WALLED       -            403
+[80/322] hyatt              signup   WALLED       -            403
+[81/322] hyatt              api      WALLED       -            403
+[82/322] hyatt              robots   WALLED       -            403
+[83/322] hyatt              sitemap  WALLED       -            403
+[84/322] hyatt              llms     WALLED       -            403
+[85/322] marriott           home     WALLED       Akamai       403
+[86/322] marriott           login    WALLED       Akamai       403
+[87/322] marriott           signup   WALLED       Akamai       403
+[88/322] marriott           api      WALLED       Akamai       403
+[89/322] marriott           robots   WALLED       Akamai       403
+[90/322] marriott           sitemap  WALLED       Akamai       403
+[91/322] marriott           llms     WALLED       Akamai       403
+[92/322] expedia            home     RATE_LIMITED -            429
+[93/322] expedia            login    RATE_LIMITED -            429
+[94/322] expedia            signup   RATE_LIMITED -            429
+[95/322] expedia            api      RATE_LIMITED -            429
+[96/322] expedia            robots   OPEN         -            200
+[97/322] expedia            sitemap  WALLED       -            403
+[98/322] expedia            llms     OPEN         -            200
+[99/322] hotels             home     RATE_LIMITED -            429
+[100/322] hotels             login    RATE_LIMITED -            429
+[101/322] hotels             signup   RATE_LIMITED -            429
+[102/322] hotels             api      RATE_LIMITED -            429
+[103/322] hotels             robots   OPEN         -            200
+[104/322] hotels             sitemap  OPEN         -            404
+[105/322] hotels             llms     WALLED       -            403
+[106/322] vrbo               home     RATE_LIMITED -            429
+[107/322] vrbo               login    RATE_LIMITED -            429
+[108/322] vrbo               signup   RATE_LIMITED -            429
+[109/322] vrbo               api      OPEN         -            404
+[110/322] vrbo               robots   OPEN         -            200
+[111/322] vrbo               sitemap  OPEN         -            404
+[112/322] vrbo               llms     WALLED       -            403
+[113/322] easyjet            home     WALLED       Akamai       403
+[114/322] easyjet            login    OPEN         -            404
+[115/322] easyjet            signup   OPEN         -            404
+[116/322] easyjet            api      OPEN         -            404
+[117/322] easyjet            robots   OPEN         -            200
+[118/322] easyjet            sitemap  OPEN         -            404
+[119/322] easyjet            llms     OPEN         -            404
+[120/322] emirates           home     WALLED       Akamai       403
+[121/322] emirates           login    UNREACHABLE  -            None
+[122/322] emirates           signup   OPEN         -            404
+[123/322] emirates           api      OPEN         -            404
+[124/322] emirates           robots   OPEN         -            200
+[125/322] emirates           sitemap  OPEN         -            404
+[126/322] emirates           llms     OPEN         -            404
+[127/322] orbitz             home     RATE_LIMITED -            429
+[128/322] orbitz             login    RATE_LIMITED -            429
+[129/322] orbitz             signup   RATE_LIMITED -            429
+[130/322] orbitz             api      RATE_LIMITED -            429
+[131/322] orbitz             robots   OPEN         -            200
+[132/322] orbitz             sitemap  WALLED       -            403
+[133/322] orbitz             llms     WALLED       -            403
+[134/322] travelocity        home     RATE_LIMITED -            429
+[135/322] travelocity        login    RATE_LIMITED -            429
+[136/322] travelocity        signup   RATE_LIMITED -            429
+[137/322] travelocity        api      RATE_LIMITED -            429
+[138/322] travelocity        robots   OPEN         -            200
+[139/322] travelocity        sitemap  WALLED       -            403
+[140/322] travelocity        llms     WALLED       -            403
+[141/322] tripadvisor        home     CHALLENGED   DataDome     403
+[142/322] tripadvisor        login    CHALLENGED   DataDome     403
+[143/322] tripadvisor        signup   CHALLENGED   DataDome     403
+[144/322] tripadvisor        api      CHALLENGED   DataDome     403
+[145/322] tripadvisor        robots   OPEN         -            200
+[146/322] tripadvisor        sitemap  CHALLENGED   DataDome     403
+[147/322] tripadvisor        llms     CHALLENGED   DataDome     403
+[148/322] viator             home     CHALLENGED   DataDome     403
+[149/322] viator             login    CHALLENGED   DataDome     403
+[150/322] viator             signup   CHALLENGED   DataDome     403
+[151/322] viator             api      CHALLENGED   DataDome     403
+[152/322] viator             robots   CHALLENGED   DataDome     403
+[153/322] viator             sitemap  OPEN         -            404
+[154/322] viator             llms     CHALLENGED   DataDome     403
+[155/322] goodrx             home     CHALLENGED   PerimeterX   403
+[156/322] goodrx             login    CHALLENGED   PerimeterX   403
+[157/322] goodrx             signup   CHALLENGED   PerimeterX   403
+[158/322] goodrx             api      CHALLENGED   PerimeterX   403
+[159/322] goodrx             robots   OPEN         -            200
+[160/322] goodrx             sitemap  OPEN         -            200
+[161/322] goodrx             llms     CHALLENGED   PerimeterX   403
+[162/322] mayoclinic         home     WALLED       Akamai       403
+[163/322] mayoclinic         login    WALLED       Akamai       403
+[164/322] mayoclinic         signup   WALLED       Akamai       403
+[165/322] mayoclinic         api      WALLED       Akamai       403
+[166/322] mayoclinic         robots   WALLED       Akamai       403
+[167/322] mayoclinic         sitemap  WALLED       Akamai       403
+[168/322] mayoclinic         llms     WALLED       Akamai       403
+[169/322] zocdoc             home     CHALLENGED   DataDome     403
+[170/322] zocdoc             login    CHALLENGED   DataDome     403
+[171/322] zocdoc             signup   CHALLENGED   DataDome     403
+[172/322] zocdoc             api      CHALLENGED   DataDome     403
+[173/322] zocdoc             robots   CHALLENGED   DataDome     403
+[174/322] zocdoc             sitemap  OPEN         -            404
+[175/322] zocdoc             llms     CHALLENGED   DataDome     403
+[176/322] unitedhealthcare   home     WALLED       AWS CloudFront 403
+[177/322] unitedhealthcare   login    WALLED       AWS CloudFront 403
+[178/322] unitedhealthcare   signup   WALLED       AWS CloudFront 403
+[179/322] unitedhealthcare   api      WALLED       AWS CloudFront 403
+[180/322] unitedhealthcare   robots   WALLED       AWS CloudFront 403
+[181/322] unitedhealthcare   sitemap  WALLED       AWS CloudFront 403
+[182/322] unitedhealthcare   llms     WALLED       AWS CloudFront 403
+[183/322] homedepot          home     WALLED       Akamai       403
+[184/322] homedepot          login    OPEN         -            404
+[185/322] homedepot          signup   UNREACHABLE  -            None
+[186/322] homedepot          api      OPEN         -            404
+[187/322] homedepot          robots   OPEN         -            200
+[188/322] homedepot          sitemap  OPEN         -            404
+[189/322] homedepot          llms     OPEN         -            404
+[190/322] macys              home     WALLED       Akamai       403
+[191/322] macys              login    WALLED       Akamai       403
+[192/322] macys              signup   WALLED       Akamai       403
+[193/322] macys              api      WALLED       Akamai       403
+[194/322] macys              robots   WALLED       Akamai       403
+[195/322] macys              sitemap  WALLED       Akamai       403
+[196/322] macys              llms     WALLED       Akamai       403
+[197/322] ubereats           home     CHALLENGED   Cloudflare   403
+[198/322] ubereats           login    CHALLENGED   Cloudflare   403
+[199/322] ubereats           signup   CHALLENGED   Cloudflare   403
+[200/322] ubereats           api      CHALLENGED   Cloudflare   404
+[201/322] ubereats           robots   CHALLENGED   Cloudflare   403
+[202/322] ubereats           sitemap  CHALLENGED   Cloudflare   403
+[203/322] ubereats           llms     CHALLENGED   Cloudflare   403
+[204/322] chewy              home     RATE_LIMITED Kasada       429
+[205/322] chewy              login    OPEN         -            404
+[206/322] chewy              signup   OPEN         -            404
+[207/322] chewy              api      OPEN         -            404
+[208/322] chewy              robots   OPEN         -            200
+[209/322] chewy              sitemap  OPEN         -            404
+[210/322] chewy              llms     OPEN         -            404
+[211/322] apartments         home     WALLED       Akamai       403
+[212/322] apartments         login    WALLED       Akamai       403
+[213/322] apartments         signup   WALLED       Akamai       403
+[214/322] apartments         api      WALLED       Akamai       403
+[215/322] apartments         robots   WALLED       Akamai       403
+[216/322] apartments         sitemap  WALLED       Akamai       403
+[217/322] apartments         llms     WALLED       Akamai       403
+[218/322] homes              home     WALLED       Akamai       403
+[219/322] homes              login    WALLED       Akamai       403
+[220/322] homes              signup   WALLED       Akamai       403
+[221/322] homes              api      WALLED       Akamai       403
+[222/322] homes              robots   WALLED       Akamai       403
+[223/322] homes              sitemap  WALLED       Akamai       403
+[224/322] homes              llms     WALLED       Akamai       403
+[225/322] redfin             home     WALLED       AWS CloudFront 403
+[226/322] redfin             login    WALLED       AWS CloudFront 403
+[227/322] redfin             signup   WALLED       AWS CloudFront 403
+[228/322] redfin             api      WALLED       AWS CloudFront 403
+[229/322] redfin             robots   WALLED       AWS CloudFront 403
+[230/322] redfin             sitemap  WALLED       AWS CloudFront 403
+[231/322] redfin             llms     WALLED       AWS CloudFront 403
+[232/322] careerbuilder      home     CHALLENGED   DataDome     403
+[233/322] careerbuilder      login    OPEN         -            404
+[234/322] careerbuilder      signup   OPEN         -            404
+[235/322] careerbuilder      api      UNREACHABLE  -            500
+[236/322] careerbuilder      robots   OPEN         -            200
+[237/322] careerbuilder      sitemap  OPEN         -            200
+[238/322] careerbuilder      llms     OPEN         -            200
+[239/322] careerjet          home     CHALLENGED   Cloudflare   200
+[240/322] careerjet          login    LOGIN_GATED  -            200
+[241/322] careerjet          signup   OPEN         -            404
+[242/322] careerjet          api      OPEN         -            404
+[243/322] careerjet          robots   OPEN         -            200
+[244/322] careerjet          sitemap  OPEN         -            404
+[245/322] careerjet          llms     OPEN         -            404
+[246/322] monster.ca         home     CHALLENGED   DataDome     403
+[247/322] monster.ca         login    CHALLENGED   DataDome     403
+[248/322] monster.ca         signup   CHALLENGED   DataDome     403
+[249/322] monster.ca         api      CHALLENGED   DataDome     403
+[250/322] monster.ca         robots   CHALLENGED   DataDome     403
+[251/322] monster.ca         sitemap  CHALLENGED   DataDome     403
+[252/322] monster.ca         llms     CHALLENGED   DataDome     403
+[253/322] careerbuilder.ca   home     CHALLENGED   DataDome     403
+[254/322] careerbuilder.ca   login    CHALLENGED   DataDome     403
+[255/322] careerbuilder.ca   signup   CHALLENGED   DataDome     403
+[256/322] careerbuilder.ca   api      CHALLENGED   DataDome     403
+[257/322] careerbuilder.ca   robots   CHALLENGED   DataDome     403
+[258/322] careerbuilder.ca   sitemap  CHALLENGED   DataDome     403
+[259/322] careerbuilder.ca   llms     CHALLENGED   DataDome     403
+[260/322] catho              home     WALLED       -            403
+[261/322] catho              login    LOGIN_GATED  -            200
+[262/322] catho              signup   OPEN         -            404
+[263/322] catho              api      OPEN         -            404
+[264/322] catho              robots   OPEN         -            200
+[265/322] catho              sitemap  OPEN         -            404
+[266/322] catho              llms     OPEN         -            200
+[267/322] citizensbank       home     WALLED       Akamai       403
+[268/322] citizensbank       login    WALLED       Akamai       403
+[269/322] citizensbank       signup   WALLED       Akamai       403
+[270/322] citizensbank       api      WALLED       Akamai       403
+[271/322] citizensbank       robots   WALLED       Akamai       403
+[272/322] citizensbank       sitemap  WALLED       Akamai       403
+[273/322] citizensbank       llms     WALLED       Akamai       403
+[274/322] sky news           home     WALLED       Akamai       403
+[275/322] sky news           login    WALLED       Akamai       403
+[276/322] sky news           signup   WALLED       Akamai       403
+[277/322] sky news           api      WALLED       Akamai       403
+[278/322] sky news           robots   WALLED       Akamai       403
+[279/322] sky news           sitemap  WALLED       Akamai       403
+[280/322] sky news           llms     WALLED       Akamai       403
+[281/322] haaretz            home     WALLED       -            403
+[282/322] haaretz            login    WALLED       -            403
+[283/322] haaretz            signup   WALLED       -            403
+[284/322] haaretz            api      WALLED       -            403
+[285/322] haaretz            robots   WALLED       -            403
+[286/322] haaretz            sitemap  WALLED       -            403
+[287/322] haaretz            llms     WALLED       -            403
+[288/322] usa.gov            home     OPEN         -            200
+[289/322] usa.gov            login    OPEN         -            404
+[290/322] usa.gov            signup   OPEN         -            404
+[291/322] usa.gov            api      OPEN         -            404
+[292/322] usa.gov            robots   OPEN         -            200
+[293/322] usa.gov            sitemap  OPEN         -            200
+[294/322] usa.gov            llms     OPEN         -            404
+[295/322] chase.com          home     OPEN         -            200
+[296/322] chase.com          login    OPEN         -            200
+[297/322] chase.com          signup   OPEN         -            404
+[298/322] chase.com          api      OPEN         -            404
+[299/322] chase.com          robots   OPEN         -            200
+[300/322] chase.com          sitemap  OPEN         -            200
+[301/322] chase.com          llms     OPEN         -            404
+[302/322] airbnb             home     OPEN         -            200
+[303/322] airbnb             login    LOGIN_GATED  -            200
+[304/322] airbnb             signup   OPEN         -            404
+[305/322] airbnb             api      OPEN         -            404
+[306/322] airbnb             robots   OPEN         -            200
+[307/322] airbnb             sitemap  OPEN         -            404
+[308/322] airbnb             llms     OPEN         -            404
+[309/322] webmd              home     OPEN         -            200
+[310/322] webmd              login    OPEN         -            404
+[311/322] webmd              signup   OPEN         -            404
+[312/322] webmd              api      OPEN         -            404
+[313/322] webmd              robots   OPEN         -            200
+[314/322] webmd              sitemap  OPEN         -            404
+[315/322] webmd              llms     OPEN         -            404
+[316/322] zillow             home     OPEN         -            200
+[317/322] zillow             login    OPEN         -            404
+[318/322] zillow             signup   OPEN         -            404
+[319/322] zillow             api      OPEN         -            404
+[320/322] zillow             robots   CHALLENGED   PerimeterX   200
+[321/322] zillow             sitemap  OPEN         -            404
+[322/322] zillow             llms     OPEN         -            404
+done: 322 results
+low             llms     OPEN         -            404
+done: 322 results

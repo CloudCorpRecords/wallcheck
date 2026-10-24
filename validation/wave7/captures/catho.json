@@ -1,0 +1,18 @@
+{
+  "evidence": [
+    "STATUS_403"
+  ],
+  "headers": {
+    "Connection": "close",
+    "Content-Type": "text/html",
+    "Date": "Sat, 24 Oct 2026 06:52:11 GMT",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(self \"https://www.catho.com.br\" \"https://catho.com.br\" \"https://seguro.catho.com.br\" \"https://api-services.catho.com.br\")",
+    "Server": "nginx",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding"
+  },
+  "status": 403,
+  "url": "https://www.catho.com.br",
+  "vendor": null,
+  "verdict": "WALLED"
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "attempt": 1,
+    "evidence": [
+      "PASSKEY_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://rubygems.org",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "PASSKEY_PROMPT"
+    ],
+    "status": 200,
+    "target": "https://rubygems.org",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "status": 200,
+    "target": "https://www.britishairways.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "status": null,
+    "target": "https://www.britishairways.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "attempt": 1,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "status": null,
+    "target": "https://www.forbes.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "attempt": 2,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "status": 403,
+    "target": "https://www.forbes.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  }
+]

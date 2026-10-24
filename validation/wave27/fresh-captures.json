@@ -1,0 +1,104 @@
+[
+ {
+  "attempt": 1,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.chicagotribune.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.chicagotribune.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "DD_XDATADOME_HEADER",
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.forbes.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "DD_XDATADOME_HEADER",
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.forbes.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.hilton.com",
+  "vendor": "Akamai",
+  "verdict": "WALLED",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.hilton.com",
+  "vendor": "Akamai",
+  "verdict": "WALLED",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 1,
+  "evidence": [
+   "AKAMAI_SERVER_HEADER",
+   "AKAMAI_EDGESUITE",
+   "REFUSAL_PHRASE"
+  ],
+  "status": 403,
+  "target": "https://www.webex.com",
+  "vendor": "Akamai",
+  "verdict": "WALLED",
+  "w26_involvement": [],
+  "w27_involvement": []
+ },
+ {
+  "attempt": 2,
+  "evidence": [
+   "STATUS_200"
+  ],
+  "status": 200,
+  "target": "https://www.webex.com",
+  "vendor": null,
+  "verdict": "OPEN",
+  "w26_involvement": [],
+  "w27_involvement": []
+ }
+]

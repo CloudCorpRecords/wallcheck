@@ -1,0 +1,25 @@
+{
+  "evidence": [
+    "STATUS_403"
+  ],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "425",
+    "Content-Type": "text/html; charset=utf-8",
+    "Retry-After": "0",
+    "Server": "Varnish",
+    "Set-Cookie": "ab-test-group=B; Domain=.haaretz.com; Path=/; Expires=Sun, 25 Oct 2026 06:52:13 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Via": "1.1 varnish",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "X-Served-By": "cache-pao-kpao1770029-PAO",
+    "X-Timer": "S1792824733.016368,VS0,VE0",
+    "date": "Sat, 24 Oct 2026 06:52:13 GMT"
+  },
+  "status": 403,
+  "url": "https://www.haaretz.com",
+  "vendor": null,
+  "verdict": "WALLED"
+}

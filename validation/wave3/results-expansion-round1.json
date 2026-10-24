@@ -1,0 +1,1346 @@
+[
+  {
+    "category": "jobs",
+    "elapsed_ms": 1927,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://weworkremotely.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://weworkremotely.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 998,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://builtin.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://builtin.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 15549,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.flexjobs.com",
+    "redirect_chain": [],
+    "status": null,
+    "url": "https://www.flexjobs.com",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1859,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.workingnomads.com/jobs",
+    "redirect_chain": [
+      "https://www.workingnomads.com/jobs"
+    ],
+    "status": 200,
+    "url": "https://www.workingnomads.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1451,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://himalayas.app/",
+    "redirect_chain": [
+      "https://himalayas.app/"
+    ],
+    "status": 200,
+    "url": "https://www.himalayas.app",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1963,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://uk.welcometothejungle.com/",
+    "redirect_chain": [
+      "https://uk.welcometothejungle.com/"
+    ],
+    "status": 200,
+    "url": "https://otta.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 945,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.levels.fyi",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.levels.fyi",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 962,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ycombinator.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.ycombinator.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 1836,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://99designs.com/",
+    "redirect_chain": [
+      "https://99designs.com/"
+    ],
+    "status": 200,
+    "url": "https://www.99designs.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 1211,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.thumbtack.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.thumbtack.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 1850,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bark.com/en/us/",
+    "redirect_chain": [
+      "https://www.bark.com/en/us/"
+    ],
+    "status": 200,
+    "url": "https://www.bark.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 1194,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://arc.dev",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://arc.dev",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 1055,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://gun.io",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://gun.io",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "freelance",
+    "elapsed_ms": 2173,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://lemon.io/",
+    "redirect_chain": [
+      "https://lemon.io/"
+    ],
+    "status": 200,
+    "url": "https://www.lemon.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 802,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://crates.io",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://crates.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 996,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://rubygems.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://rubygems.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 887,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://repo.maven.apache.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://repo.maven.apache.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1005,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nuget.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.nuget.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 752,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pkg.go.dev",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://pkg.go.dev",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1251,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://deno.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://deno.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1062,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://bun.sh",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://bun.sh",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1471,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://railway.com/",
+    "redirect_chain": [
+      "https://railway.com/"
+    ],
+    "status": 200,
+    "url": "https://railway.app",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1167,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://render.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://render.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 848,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://fly.io",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://fly.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 729,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.digitalocean.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.digitalocean.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 3644,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linode.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.linode.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 5604,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.heroku.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.heroku.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 2295,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://supabase.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://supabase.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1353,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://codeberg.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://codeberg.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 2190,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://cloud.google.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://cloud.google.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1154,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://aws.amazon.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://aws.amazon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 2085,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://azure.microsoft.com/en-us",
+    "redirect_chain": [
+      "https://azure.microsoft.com/en-us"
+    ],
+    "status": 200,
+    "url": "https://azure.microsoft.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1100,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://packagist.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://packagist.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 833,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://hex.pm",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://hex.pm",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 860,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pub.dev",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://pub.dev",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1071,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://registry.terraform.io",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://registry.terraform.io",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1160,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://anaconda.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://anaconda.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "dev-infra",
+    "elapsed_ms": 1639,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://firebase.google.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://firebase.google.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 903,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://openai.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://openai.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1142,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.anthropic.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.anthropic.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 737,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://claude.ai",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://claude.ai",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 900,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://chatgpt.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://chatgpt.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1266,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.perplexity.ai",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.perplexity.ai",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1325,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://mistral.ai",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://mistral.ai",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1397,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://cohere.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://cohere.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1382,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://replicate.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://replicate.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1898,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.together.ai/",
+    "redirect_chain": [
+      "https://www.together.ai/"
+    ],
+    "status": 200,
+    "url": "https://together.ai",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 827,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://groq.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://groq.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 770,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://ollama.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://ollama.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1797,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://stability.ai",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://stability.ai",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1799,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://runway.com/",
+    "redirect_chain": [
+      "https://runway.com/"
+    ],
+    "status": 200,
+    "url": "https://runwayml.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 1157,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://ai.google.dev",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://ai.google.dev",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "ai",
+    "elapsed_ms": 967,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://deepmind.google",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://deepmind.google",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1038,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.shopify.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.shopify.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1017,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://stripe.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://stripe.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 818,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.etsy.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.etsy.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1022,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://sellercentral.amazon.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://sellercentral.amazon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 808,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://woocommerce.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://woocommerce.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1001,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.squarespace.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.squarespace.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 912,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wix.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.wix.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1067,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://gumroad.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://gumroad.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1214,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bigcommerce.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.bigcommerce.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 883,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.quora.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.quora.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1070,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pinterest.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.pinterest.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 997,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://slack.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://slack.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 2020,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zoom.com/",
+    "redirect_chain": [
+      "https://www.zoom.com/"
+    ],
+    "status": 200,
+    "url": "https://zoom.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1179,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://vimeo.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://vimeo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1289,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://soundcloud.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://soundcloud.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1763,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://open.spotify.com/",
+    "redirect_chain": [
+      "https://open.spotify.com/"
+    ],
+    "status": 200,
+    "url": "https://www.spotify.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1129,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.patreon.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.patreon.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 2093,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.kickstarter.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.kickstarter.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 997,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.producthunt.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.producthunt.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1951,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.meetup.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.meetup.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1007,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.eventbrite.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.eventbrite.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 871,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://bsky.app",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://bsky.app",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "media-forums",
+    "elapsed_ms": 1083,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://mastodon.social",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://mastodon.social",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 1637,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://developer.mozilla.org/en-US/",
+    "redirect_chain": [
+      "https://developer.mozilla.org/en-US/"
+    ],
+    "status": 200,
+    "url": "https://developer.mozilla.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 853,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.w3schools.com",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.w3schools.com",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 2296,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://about.readthedocs.com/?ref=app.readthedocs.org",
+    "redirect_chain": [
+      "https://app.readthedocs.org/welcome/",
+      "https://about.readthedocs.com/?ref=app.readthedocs.org"
+    ],
+    "status": 200,
+    "url": "https://readthedocs.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 793,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://arxiv.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://arxiv.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 1179,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://archive.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://archive.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 1280,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.coursera.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.coursera.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 792,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.udemy.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.udemy.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 893,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.khanacademy.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.khanacademy.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "reference",
+    "elapsed_ms": 929,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.gutenberg.org",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.gutenberg.org",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1032,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theverge.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.theverge.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 799,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wired.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.wired.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1390,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theguardian.com/us",
+    "redirect_chain": [
+      "https://www.theguardian.com/us"
+    ],
+    "status": 200,
+    "url": "https://www.theguardian.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1109,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.reuters.com",
+    "redirect_chain": [],
+    "status": 401,
+    "url": "https://www.reuters.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1345,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bloomberg.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.bloomberg.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 783,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.wsj.com",
+    "redirect_chain": [],
+    "status": 401,
+    "url": "https://www.wsj.com",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1148,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.airbnb.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.airbnb.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1350,
+    "evidence": [
+      "STATUS_202"
+    ],
+    "final_url": "https://www.booking.com",
+    "redirect_chain": [],
+    "status": 202,
+    "url": "https://www.booking.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 886,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com",
+    "redirect_chain": [],
+    "status": 429,
+    "url": "https://www.expedia.com",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "search",
+    "elapsed_ms": 1141,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://duckduckgo.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://duckduckgo.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "search",
+    "elapsed_ms": 1248,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bing.com",
+    "redirect_chain": [],
+    "status": 200,
+    "url": "https://www.bing.com",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

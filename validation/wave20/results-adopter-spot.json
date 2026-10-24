@@ -1,0 +1,26 @@
+[
+  {
+    "status": 200,
+    "target": "https://chatgpt.com/.well-known/http-message-signatures-directory",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "status": 200,
+    "target": "https://www.indeed.com/.well-known/http-message-signatures-directory",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "status": 200,
+    "target": "https://substack.com/.well-known/http-message-signatures-directory",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "status": 200,
+    "target": "https://ahrefs.com/.well-known/http-message-signatures-directory",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

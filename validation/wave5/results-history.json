@@ -1,0 +1,2580 @@
+[
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 895,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://arc.dev",
+    "round": 4,
+    "status": 200,
+    "target": "https://arc.dev",
+    "ts": "2026-10-24T04:20:34Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1240,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://contra.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://contra.com",
+    "ts": "2026-10-24T04:20:36Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Cloudflare",
+    "baseline_verdict": "WALLED",
+    "category": "freelance",
+    "elapsed_ms": 734,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://gun.io",
+    "round": 4,
+    "status": 403,
+    "target": "https://gun.io",
+    "ts": "2026-10-24T04:20:37Z",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1702,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://99designs.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.99designs.com",
+    "ts": "2026-10-24T04:20:39Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1833,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bark.com/en/us/",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.bark.com",
+    "ts": "2026-10-24T04:20:41Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "PerimeterX",
+    "baseline_verdict": "CHALLENGED",
+    "category": "freelance",
+    "elapsed_ms": 763,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.fiverr.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.fiverr.com",
+    "ts": "2026-10-24T04:20:42Z",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1374,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.freelancer.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.freelancer.com",
+    "ts": "2026-10-24T04:20:44Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Imperva",
+    "baseline_verdict": "WALLED",
+    "category": "freelance",
+    "elapsed_ms": 852,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER"
+    ],
+    "final_url": "https://www.guru.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.guru.com",
+    "ts": "2026-10-24T04:20:45Z",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1712,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://lemon.io/",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.lemon.io",
+    "ts": "2026-10-24T04:20:47Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1204,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.peopleperhour.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.peopleperhour.com",
+    "ts": "2026-10-24T04:20:49Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 1316,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.thumbtack.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.thumbtack.com",
+    "ts": "2026-10-24T04:20:51Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "freelance",
+    "elapsed_ms": 678,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.toptal.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.toptal.com",
+    "ts": "2026-10-24T04:20:52Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Cloudflare",
+    "baseline_verdict": "WALLED",
+    "category": "freelance",
+    "elapsed_ms": 1057,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://www.upwork.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.upwork.com",
+    "ts": "2026-10-24T04:20:53Z",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1230,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://builtin.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://builtin.com",
+    "ts": "2026-10-24T04:20:55Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1660,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://uk.welcometothejungle.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://otta.com",
+    "ts": "2026-10-24T04:20:57Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 808,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://remoteok.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://remoteok.com",
+    "ts": "2026-10-24T04:20:58Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 743,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://wellfound.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://wellfound.com",
+    "ts": "2026-10-24T04:20:59Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1442,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://weworkremotely.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://weworkremotely.com",
+    "ts": "2026-10-24T04:21:01Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 756,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.dice.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.dice.com",
+    "ts": "2026-10-24T04:21:02Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "UNREACHABLE",
+    "category": "jobs",
+    "elapsed_ms": 15452,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.flexjobs.com",
+    "round": 4,
+    "status": null,
+    "target": "https://www.flexjobs.com",
+    "ts": "2026-10-24T04:21:18Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1895,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.glassdoor.com/recruiter?redirected_from=index",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.glassdoor.com",
+    "ts": "2026-10-24T04:21:20Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1983,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://himalayas.app/",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.himalayas.app",
+    "ts": "2026-10-24T04:21:23Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 881,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.indeed.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.indeed.com",
+    "ts": "2026-10-24T04:21:24Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 715,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.levels.fyi",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.levels.fyi",
+    "ts": "2026-10-24T04:21:25Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 1381,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linkedin.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.linkedin.com",
+    "ts": "2026-10-24T04:21:27Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "DataDome",
+    "baseline_verdict": "CHALLENGED",
+    "category": "jobs",
+    "elapsed_ms": 1676,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.monster.com",
+    "ts": "2026-10-24T04:21:29Z",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 2507,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.workingnomads.com/jobs",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.workingnomads.com",
+    "ts": "2026-10-24T04:21:32Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 960,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ycombinator.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.ycombinator.com",
+    "ts": "2026-10-24T04:21:33Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "jobs",
+    "elapsed_ms": 818,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.ziprecruiter.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.ziprecruiter.com",
+    "ts": "2026-10-24T04:21:34Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 916,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://bitbucket.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://bitbucket.org",
+    "ts": "2026-10-24T04:21:36Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 563,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://github.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://github.com",
+    "ts": "2026-10-24T04:21:37Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 1277,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://about.gitlab.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://gitlab.com",
+    "ts": "2026-10-24T04:21:38Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 865,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://hub.docker.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://hub.docker.com",
+    "ts": "2026-10-24T04:21:39Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 894,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://huggingface.co",
+    "round": 4,
+    "status": 200,
+    "target": "https://huggingface.co",
+    "ts": "2026-10-24T04:21:41Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 696,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pypi.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://pypi.org",
+    "ts": "2026-10-24T04:21:42Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 459,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://replit.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://replit.com",
+    "ts": "2026-10-24T04:21:43Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 1119,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://sourceforge.net",
+    "round": 4,
+    "status": 200,
+    "target": "https://sourceforge.net",
+    "ts": "2026-10-24T04:21:44Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 2399,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://stackoverflow.com/questions",
+    "round": 4,
+    "status": 200,
+    "target": "https://stackoverflow.com",
+    "ts": "2026-10-24T04:21:47Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 866,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://vercel.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://vercel.com",
+    "ts": "2026-10-24T04:21:48Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev",
+    "elapsed_ms": 996,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.netlify.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.netlify.com",
+    "ts": "2026-10-24T04:21:50Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "CHALLENGED",
+    "category": "dev",
+    "elapsed_ms": 1155,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.npmjs.com",
+    "round": 4,
+    "status": null,
+    "target": "https://www.npmjs.com",
+    "ts": "2026-10-24T04:21:51Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 418,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://discord.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://discord.com",
+    "ts": "2026-10-24T04:21:52Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 1508,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.facebook.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.facebook.com",
+    "ts": "2026-10-24T04:21:54Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 1485,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.instagram.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.instagram.com",
+    "ts": "2026-10-24T04:21:56Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 731,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.reddit.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.reddit.com",
+    "ts": "2026-10-24T04:21:57Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 1296,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.threads.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.threads.com",
+    "ts": "2026-10-24T04:21:58Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 1011,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.tiktok.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.tiktok.com",
+    "ts": "2026-10-24T04:22:00Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 733,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.twitch.tv",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.twitch.tv",
+    "ts": "2026-10-24T04:22:01Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 771,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.youtube.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.youtube.com",
+    "ts": "2026-10-24T04:22:02Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "social",
+    "elapsed_ms": 1688,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "STATUS_200"
+    ],
+    "final_url": "https://x.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://x.com",
+    "ts": "2026-10-24T04:22:04Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 1363,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://arstechnica.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://arstechnica.com",
+    "ts": "2026-10-24T04:22:06Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 851,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://dev.to",
+    "round": 4,
+    "status": 200,
+    "target": "https://dev.to",
+    "ts": "2026-10-24T04:22:07Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 2032,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://en.wikipedia.org/wiki/Main_Page",
+    "round": 4,
+    "status": 200,
+    "target": "https://en.wikipedia.org",
+    "ts": "2026-10-24T04:22:10Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Cloudflare",
+    "baseline_verdict": "WALLED",
+    "category": "docs-news",
+    "elapsed_ms": 953,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_BLOCK_SORRY"
+    ],
+    "final_url": "https://medium.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://medium.com",
+    "ts": "2026-10-24T04:22:11Z",
+    "vendor": "Cloudflare",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 1582,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://news.ycombinator.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://news.ycombinator.com",
+    "ts": "2026-10-24T04:22:13Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 1429,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://substack.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://substack.com",
+    "ts": "2026-10-24T04:22:15Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 1309,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://techcrunch.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://techcrunch.com",
+    "ts": "2026-10-24T04:22:17Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "docs-news",
+    "elapsed_ms": 825,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bbc.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.bbc.com",
+    "ts": "2026-10-24T04:22:18Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "DataDome",
+    "baseline_verdict": "CHALLENGED",
+    "category": "docs-news",
+    "elapsed_ms": 844,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.nytimes.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.nytimes.com",
+    "ts": "2026-10-24T04:22:19Z",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1728,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.amazon.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.amazon.com",
+    "ts": "2026-10-24T04:22:21Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1011,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.apple.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.apple.com",
+    "ts": "2026-10-24T04:22:23Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "UNREACHABLE",
+    "category": "big-web",
+    "elapsed_ms": 15631,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.bestbuy.com",
+    "round": 4,
+    "status": null,
+    "target": "https://www.bestbuy.com",
+    "ts": "2026-10-24T04:22:39Z",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 996,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.cloudflare.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.cloudflare.com",
+    "ts": "2026-10-24T04:22:40Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Akamai",
+    "baseline_verdict": "WALLED",
+    "category": "big-web",
+    "elapsed_ms": 1283,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE"
+    ],
+    "final_url": "https://www.ebay.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.ebay.com",
+    "ts": "2026-10-24T04:22:42Z",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1180,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.google.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.google.com",
+    "ts": "2026-10-24T04:22:43Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 2347,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.microsoft.com/en-us",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.microsoft.com",
+    "ts": "2026-10-24T04:22:46Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1032,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.netflix.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.netflix.com",
+    "ts": "2026-10-24T04:22:48Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1227,
+    "evidence": [
+      "PX_COOKIE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.target.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.target.com",
+    "ts": "2026-10-24T04:22:49Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "big-web",
+    "elapsed_ms": 1093,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.walmart.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.walmart.com",
+    "ts": "2026-10-24T04:22:51Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "own",
+    "elapsed_ms": 901,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://clipwise.replit.app",
+    "round": 4,
+    "status": 200,
+    "target": "https://clipwise.replit.app",
+    "ts": "2026-10-24T04:22:52Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "own",
+    "elapsed_ms": 585,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://cloudcorprecords.github.io",
+    "round": 4,
+    "status": 404,
+    "target": "https://cloudcorprecords.github.io",
+    "ts": "2026-10-24T04:22:53Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "own",
+    "elapsed_ms": 1161,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://reneturcios.replit.app",
+    "round": 4,
+    "status": 200,
+    "target": "https://reneturcios.replit.app",
+    "ts": "2026-10-24T04:22:54Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 929,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://anaconda.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://anaconda.org",
+    "ts": "2026-10-24T04:22:56Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 839,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://aws.amazon.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://aws.amazon.com",
+    "ts": "2026-10-24T04:22:57Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 2356,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://azure.microsoft.com/en-us",
+    "round": 4,
+    "status": 200,
+    "target": "https://azure.microsoft.com",
+    "ts": "2026-10-24T04:23:00Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1046,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://bun.sh",
+    "round": 4,
+    "status": 200,
+    "target": "https://bun.sh",
+    "ts": "2026-10-24T04:23:01Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 849,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://cloud.google.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://cloud.google.com",
+    "ts": "2026-10-24T04:23:02Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1285,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://codeberg.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://codeberg.org",
+    "ts": "2026-10-24T04:23:04Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 680,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://crates.io",
+    "round": 4,
+    "status": 404,
+    "target": "https://crates.io",
+    "ts": "2026-10-24T04:23:05Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1021,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://deno.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://deno.com",
+    "ts": "2026-10-24T04:23:07Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1162,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://firebase.google.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://firebase.google.com",
+    "ts": "2026-10-24T04:23:08Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 960,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://fly.io",
+    "round": 4,
+    "status": 200,
+    "target": "https://fly.io",
+    "ts": "2026-10-24T04:23:09Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 853,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://hex.pm",
+    "round": 4,
+    "status": 200,
+    "target": "https://hex.pm",
+    "ts": "2026-10-24T04:23:11Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 977,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://packagist.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://packagist.org",
+    "ts": "2026-10-24T04:23:12Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 822,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pkg.go.dev",
+    "round": 4,
+    "status": 200,
+    "target": "https://pkg.go.dev",
+    "ts": "2026-10-24T04:23:13Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 884,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://pub.dev",
+    "round": 4,
+    "status": 200,
+    "target": "https://pub.dev",
+    "ts": "2026-10-24T04:23:15Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1970,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://railway.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://railway.app",
+    "ts": "2026-10-24T04:23:17Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1111,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://registry.terraform.io",
+    "round": 4,
+    "status": 200,
+    "target": "https://registry.terraform.io",
+    "ts": "2026-10-24T04:23:19Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1039,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://render.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://render.com",
+    "ts": "2026-10-24T04:23:20Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 689,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://repo.maven.apache.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://repo.maven.apache.org",
+    "ts": "2026-10-24T04:23:21Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 792,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://rubygems.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://rubygems.org",
+    "ts": "2026-10-24T04:23:22Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 849,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://supabase.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://supabase.com",
+    "ts": "2026-10-24T04:23:23Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1101,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.digitalocean.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.digitalocean.com",
+    "ts": "2026-10-24T04:23:25Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1129,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.heroku.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.heroku.com",
+    "ts": "2026-10-24T04:23:26Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 4132,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.linode.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.linode.com",
+    "ts": "2026-10-24T04:23:31Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "dev-infra",
+    "elapsed_ms": 1188,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.nuget.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.nuget.org",
+    "ts": "2026-10-24T04:23:33Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 1532,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://ai.google.dev",
+    "round": 4,
+    "status": 200,
+    "target": "https://ai.google.dev",
+    "ts": "2026-10-24T04:23:34Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 890,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://chatgpt.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://chatgpt.com",
+    "ts": "2026-10-24T04:23:36Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Cloudflare",
+    "baseline_verdict": "CHALLENGED",
+    "category": "ai",
+    "elapsed_ms": 790,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://claude.ai",
+    "round": 4,
+    "status": 403,
+    "target": "https://claude.ai",
+    "ts": "2026-10-24T04:23:37Z",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 879,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://cohere.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://cohere.com",
+    "ts": "2026-10-24T04:23:38Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 1275,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://deepmind.google",
+    "round": 4,
+    "status": 200,
+    "target": "https://deepmind.google",
+    "ts": "2026-10-24T04:23:40Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 1087,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://groq.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://groq.com",
+    "ts": "2026-10-24T04:23:41Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 821,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://mistral.ai",
+    "round": 4,
+    "status": 200,
+    "target": "https://mistral.ai",
+    "ts": "2026-10-24T04:23:43Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 872,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://ollama.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://ollama.com",
+    "ts": "2026-10-24T04:23:44Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 754,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://openai.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://openai.com",
+    "ts": "2026-10-24T04:23:45Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 931,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://replicate.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://replicate.com",
+    "ts": "2026-10-24T04:23:47Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 1872,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://runway.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://runwayml.com",
+    "ts": "2026-10-24T04:23:49Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 929,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://stability.ai",
+    "round": 4,
+    "status": 200,
+    "target": "https://stability.ai",
+    "ts": "2026-10-24T04:23:50Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 1691,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.together.ai/",
+    "round": 4,
+    "status": 200,
+    "target": "https://together.ai",
+    "ts": "2026-10-24T04:23:52Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 780,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.anthropic.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.anthropic.com",
+    "ts": "2026-10-24T04:23:53Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "ai",
+    "elapsed_ms": 697,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.perplexity.ai",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.perplexity.ai",
+    "ts": "2026-10-24T04:23:55Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 842,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://gumroad.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://gumroad.com",
+    "ts": "2026-10-24T04:23:56Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 1219,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://sellercentral.amazon.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://sellercentral.amazon.com",
+    "ts": "2026-10-24T04:23:57Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 852,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://stripe.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://stripe.com",
+    "ts": "2026-10-24T04:23:59Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 729,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://woocommerce.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://woocommerce.com",
+    "ts": "2026-10-24T04:24:00Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 1232,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bigcommerce.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.bigcommerce.com",
+    "ts": "2026-10-24T04:24:01Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "DataDome",
+    "baseline_verdict": "CHALLENGED",
+    "category": "commerce",
+    "elapsed_ms": 818,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.etsy.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.etsy.com",
+    "ts": "2026-10-24T04:24:03Z",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 720,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.shopify.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.shopify.com",
+    "ts": "2026-10-24T04:24:04Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 830,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.squarespace.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.squarespace.com",
+    "ts": "2026-10-24T04:24:05Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "commerce",
+    "elapsed_ms": 1333,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wix.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.wix.com",
+    "ts": "2026-10-24T04:24:07Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 975,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://bsky.app",
+    "round": 4,
+    "status": 200,
+    "target": "https://bsky.app",
+    "ts": "2026-10-24T04:24:08Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 789,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://mastodon.social",
+    "round": 4,
+    "status": 200,
+    "target": "https://mastodon.social",
+    "ts": "2026-10-24T04:24:09Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 897,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://slack.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://slack.com",
+    "ts": "2026-10-24T04:24:10Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 1922,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://soundcloud.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://soundcloud.com",
+    "ts": "2026-10-24T04:24:13Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 910,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://vimeo.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://vimeo.com",
+    "ts": "2026-10-24T04:24:14Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 879,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.eventbrite.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.eventbrite.com",
+    "ts": "2026-10-24T04:24:15Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 3318,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.kickstarter.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.kickstarter.com",
+    "ts": "2026-10-24T04:24:19Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 2379,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.meetup.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.meetup.com",
+    "ts": "2026-10-24T04:24:22Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 658,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.patreon.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.patreon.com",
+    "ts": "2026-10-24T04:24:23Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 866,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.pinterest.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.pinterest.com",
+    "ts": "2026-10-24T04:24:24Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 1125,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.producthunt.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.producthunt.com",
+    "ts": "2026-10-24T04:24:26Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 963,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.quora.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.quora.com",
+    "ts": "2026-10-24T04:24:27Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 2009,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://open.spotify.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.spotify.com",
+    "ts": "2026-10-24T04:24:29Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "media-forums",
+    "elapsed_ms": 2253,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zoom.com/",
+    "round": 4,
+    "status": 200,
+    "target": "https://zoom.com",
+    "ts": "2026-10-24T04:24:32Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 1057,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://archive.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://archive.org",
+    "ts": "2026-10-24T04:24:33Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 763,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://arxiv.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://arxiv.org",
+    "ts": "2026-10-24T04:24:35Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 1484,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://developer.mozilla.org/en-US/",
+    "round": 4,
+    "status": 200,
+    "target": "https://developer.mozilla.org",
+    "ts": "2026-10-24T04:24:36Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 2515,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://about.readthedocs.com/?ref=app.readthedocs.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://readthedocs.org",
+    "ts": "2026-10-24T04:24:39Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 1724,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.coursera.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.coursera.org",
+    "ts": "2026-10-24T04:24:41Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 924,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.gutenberg.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.gutenberg.org",
+    "ts": "2026-10-24T04:24:43Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 1191,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.khanacademy.org",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.khanacademy.org",
+    "ts": "2026-10-24T04:24:44Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "reference",
+    "elapsed_ms": 1070,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.udemy.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.udemy.com",
+    "ts": "2026-10-24T04:24:46Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "Akamai",
+    "baseline_verdict": "WALLED",
+    "category": "reference",
+    "elapsed_ms": 1182,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.w3schools.com",
+    "round": 4,
+    "status": 403,
+    "target": "https://www.w3schools.com",
+    "ts": "2026-10-24T04:24:47Z",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "news",
+    "elapsed_ms": 3447,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bloomberg.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.bloomberg.com",
+    "ts": "2026-10-24T04:24:51Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "DataDome",
+    "baseline_verdict": "CHALLENGED",
+    "category": "news",
+    "elapsed_ms": 1204,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.reuters.com",
+    "round": 4,
+    "status": 401,
+    "target": "https://www.reuters.com",
+    "ts": "2026-10-24T04:24:53Z",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "news",
+    "elapsed_ms": 1682,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theguardian.com/us",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.theguardian.com",
+    "ts": "2026-10-24T04:24:55Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "news",
+    "elapsed_ms": 1960,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.theverge.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.theverge.com",
+    "ts": "2026-10-24T04:24:57Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "news",
+    "elapsed_ms": 1338,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.wired.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.wired.com",
+    "ts": "2026-10-24T04:24:59Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "DataDome",
+    "baseline_verdict": "CHALLENGED",
+    "category": "news",
+    "elapsed_ms": 912,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.wsj.com",
+    "round": 4,
+    "status": 401,
+    "target": "https://www.wsj.com",
+    "ts": "2026-10-24T04:25:00Z",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "travel",
+    "elapsed_ms": 1377,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.airbnb.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.airbnb.com",
+    "ts": "2026-10-24T04:25:02Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": "AWS WAF",
+    "baseline_verdict": "CHALLENGED",
+    "category": "travel",
+    "elapsed_ms": 941,
+    "evidence": [
+      "AWS_WAF_MARKER"
+    ],
+    "final_url": "https://www.booking.com",
+    "round": 4,
+    "status": 202,
+    "target": "https://www.booking.com",
+    "ts": "2026-10-24T04:25:03Z",
+    "vendor": "AWS WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "RATE_LIMITED",
+    "category": "travel",
+    "elapsed_ms": 1007,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com",
+    "round": 4,
+    "status": 429,
+    "target": "https://www.expedia.com",
+    "ts": "2026-10-24T04:25:05Z",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "search",
+    "elapsed_ms": 1137,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://duckduckgo.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://duckduckgo.com",
+    "ts": "2026-10-24T04:25:06Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "baseline_vendor": null,
+    "baseline_verdict": "OPEN",
+    "category": "search",
+    "elapsed_ms": 2223,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.bing.com",
+    "round": 4,
+    "status": 200,
+    "target": "https://www.bing.com",
+    "ts": "2026-10-24T04:25:09Z",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

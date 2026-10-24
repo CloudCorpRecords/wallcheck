@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "check": "robots_txt",
+      "detail": "No robots.txt served (status 404): crawlers and agents get no directives at all.",
+      "evidence": [
+        "STATUS_404"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "check": "llms_txt",
+      "detail": "No /llms.txt (honest 404). Agents get no curated map of the site's content.",
+      "evidence": [
+        "STATUS_404"
+      ],
+      "status": "WARN"
+    },
+    {
+      "check": "sitemap",
+      "detail": "No sitemap at https://reneturcios.replit.app/sitemap.xml (status 404).",
+      "evidence": [
+        "STATUS_404"
+      ],
+      "status": "WARN"
+    },
+    {
+      "check": "feed",
+      "detail": "Homepage carries no RSS/Atom <link rel=\"alternate\"> discovery tag.",
+      "evidence": [
+        "NO_FEED_LINK"
+      ],
+      "status": "WARN"
+    },
+    {
+      "check": "api",
+      "detail": "No OpenAPI document, serving /api root, or developer portal discovered.",
+      "evidence": [
+        "NO_API_SURFACE"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "check": "signed_agents",
+      "detail": "No Web Bot Auth key directory published (status 404) \u2014 the site gives signed agents no way to be recognized. Expected almost everywhere today; recorded as data.",
+      "evidence": [
+        "STATUS_404"
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "fixes": [
+    "Publish/maintain /robots.txt and scope any Disallow rules to the paths that need them; a blanket block of named AI agents also blocks the agents your own users send.",
+    "Publish a genuine /llms.txt (plain text/markdown index of your key pages) \u2014 and never let the route fall through to an HTML error page.",
+    "Serve /sitemap.xml (or declare Sitemap: in robots.txt) and keep bot walls off it: it is the file you publish *for* machines.",
+    "Add <link rel=\"alternate\" type=\"application/rss+xml\"> (or Atom) discovery tags to the homepage, or publish a feed \u2014 feeds are the lowest-cost agent channel there is.",
+    "Publish a machine-readable API surface: an OpenAPI document (conventionally /openapi.json) or a documented /api \u2014 agents integrate against specs, not markup.",
+    "Publish your Web Bot Auth key directory at /.well-known/http-message-signatures-directory and, on the receiving side, exempt verified signed agents from managed challenges on public paths (authenticated paths keep full protection)."
+  ],
+  "grade": "F",
+  "max_score": 12,
+  "score": 3,
+  "target": "reneturcios.replit.app"
+}

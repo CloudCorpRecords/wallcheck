@@ -1,0 +1,10 @@
+{
+  "url": "https://replit.com",
+  "final_url": "https://replit.com",
+  "status": null,
+  "headers": {},
+  "body": "",
+  "redirect_chain": [],
+  "error": "URLError: <urlopen error timed out>",
+  "body_bytes_captured": 0
+}

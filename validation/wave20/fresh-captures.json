@@ -1,0 +1,354 @@
+{
+  "https://claude.ai": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5517,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5517,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    }
+  ],
+  "https://www.amazon.com": [
+    {
+      "body_head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html lang=\"en-us\" class=\"a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7\"> <![endif]-->\n<!--[if IE 7]>    <html lang=\"en-us\" class=\"a-no-js a-lt-ie9 a-lt-ie8\"> <![endif]-->\n<!--[",
+      "body_len": 3781,
+      "evidence": [
+        "GENERIC_CAPTCHA",
+        "FORM_ACTION_TO_CHALLENGE"
+      ],
+      "status": 200,
+      "vendor": "Generic",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html lang=\"en-us\" class=\"a-no-js a-lt-ie9 a-lt-ie8 a-lt-ie7\"> <![endif]-->\n<!--[if IE 7]>    <html lang=\"en-us\" class=\"a-no-js a-lt-ie9 a-lt-ie8\"> <![endif]-->\n<!--[",
+      "body_len": 3781,
+      "evidence": [
+        "GENERIC_CAPTCHA",
+        "FORM_ACTION_TO_CHALLENGE"
+      ],
+      "status": 200,
+      "vendor": "Generic",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    }
+  ],
+  "https://www.ed.gov": [
+    {
+      "body_head": "<!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"description\" content=\"Azure WAF\"/><title>Azure WAF</title><style>:root",
+      "body_len": 11584,
+      "evidence": [
+        "AZURE_WAF_MARKER"
+      ],
+      "status": 403,
+      "vendor": "Microsoft Azure WAF",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!doctype html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta name=\"description\" content=\"Azure WAF\"/><title>Azure WAF</title><style>:root",
+      "body_len": 11608,
+      "evidence": [
+        "AZURE_WAF_MARKER"
+      ],
+      "status": 403,
+      "vendor": "Microsoft Azure WAF",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    }
+  ],
+  "https://www.fda.gov": [
+    {
+      "body_head": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-273DTKB5QW\"></script>",
+      "body_len": 40573,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-273DTKB5QW\"></script>",
+      "body_len": 40573,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    }
+  ],
+  "https://www.goodrx.com": [
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta name=\"description\" content=\"px-captcha\">\n  <title>Access",
+      "body_len": 5533,
+      "evidence": [
+        "PX_CAPTCHA",
+        "PX_BODY_MARKER",
+        "REDIRECT_TO_CHALLENGE"
+      ],
+      "status": 403,
+      "vendor": "PerimeterX",
+      "verdict": "CHALLENGED",
+      "w20_flags": [
+        "REDIRECT_TO_CHALLENGE-evidence"
+      ]
+    },
+    {
+      "body_head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta name=\"description\" content=\"px-captcha\">\n  <title>Access",
+      "body_len": 5533,
+      "evidence": [
+        "PX_CAPTCHA",
+        "PX_BODY_MARKER",
+        "REDIRECT_TO_CHALLENGE"
+      ],
+      "status": 403,
+      "vendor": "PerimeterX",
+      "verdict": "CHALLENGED",
+      "w20_flags": [
+        "REDIRECT_TO_CHALLENGE-evidence"
+      ]
+    }
+  ],
+  "https://www.irishjobs.ie": [
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    }
+  ],
+  "https://www.jobrapido.com": [
+    {
+      "body_head": "\n  \n    \n\n\n\n<!DOCTYPE html>\n<html lang=\"en-us\"\n  class=\"home\" id=\"ng-app\" ng-app=\"jrWebsite\">\n\n<head>\n  <title>\n    Find Jobs in the US | Get Access to the Best Offers Today\n  </title>\n\n  <base href=\"",
+      "body_len": 65536,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    },
+    {
+      "body_head": "\n  \n    \n\n\n\n<!DOCTYPE html>\n<html lang=\"en-us\"\n  class=\"home\" id=\"ng-app\" ng-app=\"jrWebsite\">\n\n<head>\n  <title>\n    Find Jobs in the US | Get Access to the Best Offers Today\n  </title>\n\n  <base href=\"",
+      "body_len": 65536,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    }
+  ],
+  "https://www.jobs.ie": [
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    }
+  ],
+  "https://www.npmjs.com": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 1892,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 3261,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    }
+  ],
+  "https://www.totaljobs.com": [
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    },
+    {
+      "body_head": "",
+      "body_len": 0,
+      "evidence": [
+        "FETCH_ERROR: TimeoutError: The read operation timed out"
+      ],
+      "status": null,
+      "vendor": null,
+      "verdict": "UNREACHABLE",
+      "w20_flags": []
+    }
+  ],
+  "https://www.ubereats.com": [
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5574,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
+      "body_len": 5574,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "CF_MITIGATED_CHALLENGE",
+        "SERVER_CLOUDFLARE",
+        "CF_JUST_A_MOMENT",
+        "CF_CHALLENGE_PLATFORM"
+      ],
+      "status": 403,
+      "vendor": "Cloudflare",
+      "verdict": "CHALLENGED",
+      "w20_flags": []
+    }
+  ],
+  "https://www.wayfair.com": [
+    {
+      "body_head": "<!DOCTYPE html><html data-dpl-id=\"3d09c32-main\" lang=\"en\" class=\"hb-theme-wayfair\" data-app-name=\"@wayfair/sf-ui-core-funnel\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-w",
+      "body_len": 65536,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "PX_COOKIE",
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<!DOCTYPE html><html data-dpl-id=\"3d09c32-main\" lang=\"en\" class=\"hb-theme-wayfair\" data-app-name=\"@wayfair/sf-ui-core-funnel\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-w",
+      "body_len": 65536,
+      "evidence": [
+        "CF_RAY_HEADER",
+        "SERVER_CLOUDFLARE",
+        "PX_COOKIE",
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    }
+  ],
+  "https://www.webex.com": [
+    {
+      "body_head": "\n\n\n<!DOCTYPE HTML>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\"/>\n    <title>Webex by Cisco | AI-Powered Collaboration, Customer Experience & Devices</title>\n    <meta name=\"content-page-ref\" con",
+      "body_len": 65526,
+      "evidence": [
+        "STATUS_200"
+      ],
+      "status": 200,
+      "vendor": null,
+      "verdict": "OPEN",
+      "w20_flags": []
+    },
+    {
+      "body_head": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;webex&#46;com&#47;\" on this server.<P>\nReference&#32;&#",
+      "body_len": 367,
+      "evidence": [
+        "AKAMAI_SERVER_HEADER",
+        "AKAMAI_EDGESUITE",
+        "REFUSAL_PHRASE"
+      ],
+      "status": 403,
+      "vendor": "Akamai",
+      "verdict": "WALLED",
+      "w20_flags": []
+    }
+  ]
+}

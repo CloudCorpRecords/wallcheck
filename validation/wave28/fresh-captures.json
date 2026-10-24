@@ -1,0 +1,26 @@
+[
+ {
+  "target": "https://www.npmjs.com",
+  "status": 403,
+  "verdict": "CHALLENGED",
+  "vendor": "Cloudflare",
+  "evidence": [
+   "CF_RAY_HEADER",
+   "CF_MITIGATED_CHALLENGE",
+   "SERVER_CLOUDFLARE"
+  ],
+  "w27_involvement": [],
+  "w28_involvement": [],
+  "error": null
+ },
+ {
+  "target": "https://www.npmjs.com",
+  "status": null,
+  "verdict": "UNREACHABLE",
+  "vendor": null,
+  "evidence": [],
+  "w27_involvement": [],
+  "w28_involvement": [],
+  "error": null
+ }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "elapsed_ms": 922,
+    "evidence": [
+      "IMPERVA_COOKIE",
+      "IMPERVA_BODY_MARKER"
+    ],
+    "final_url": "https://www.guru.com/login",
+    "label": "login",
+    "platform": "guru",
+    "redirect_chain": [],
+    "status": 403,
+    "url": "https://www.guru.com/login",
+    "vendor": "Imperva",
+    "verdict": "WALLED"
+  },
+  {
+    "elapsed_ms": 3995,
+    "evidence": [
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2F&iid=fe24990f-93e5-4226-854d-5a3cfb2c0af6&iim=zMTA0Ljc&iia=KfI5LjE5GC&iiz=HOINy4xNDA*ePw",
+    "label": "signin",
+    "platform": "ebay",
+    "redirect_chain": [
+      "https://signin.ebay.com/signin/",
+      "https://www.ebay.com/splashui/captcha?ap=1&appName=orch&ru=https%3A%2F%2Fsignin.ebay.com%2Fsignin%2F&iid=fe24990f-93e5-4226-854d-5a3cfb2c0af6&iim=zMTA0Ljc&iia=KfI5LjE5GC&iiz=HOINy4xNDA*ePw"
+    ],
+    "status": 200,
+    "url": "https://www.ebay.com/signin/",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "elapsed_ms": 1024,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.monster.com/profile/login",
+    "label": "login",
+    "platform": "monster",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.monster.com/profile/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 898,
+    "evidence": [
+      "GENERIC_CAPTCHA",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.nytimes.com/llms.txt",
+    "label": "llms",
+    "platform": "nytimes",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://www.nytimes.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 745,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://contra.com/login",
+    "label": "login",
+    "platform": "contra",
+    "redirect_chain": [],
+    "status": 404,
+    "url": "https://contra.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "elapsed_ms": 1520,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://secure.indeed.com/auth;jsessionid=node0hig19oeqz7vg15ks8ag9dk9o1041978.node0?hl=en_US&service=my&co=US&continue=https%3A%2F%2Fwww.indeed.com%2F",
+    "label": "login",
+    "platform": "indeed",
+    "redirect_chain": [
+      "https://secure.indeed.com/auth;jsessionid=node0hig19oeqz7vg15ks8ag9dk9o1041978.node0?hl=en_US&service=my&co=US&continue=https%3A%2F%2Fwww.indeed.com%2F"
+    ],
+    "status": 200,
+    "url": "https://www.indeed.com/account/login",
+    "vendor": "Cloudflare",
+    "verdict": "LOGIN_GATED"
+  }
+]

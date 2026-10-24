@@ -1,0 +1,60 @@
+[
+ {
+  "body_len": 1912,
+  "evidence": [
+   "CF_RAY_HEADER",
+   "CF_MITIGATED_CHALLENGE",
+   "SERVER_CLOUDFLARE",
+   "CF_CHALLENGE_PLATFORM"
+  ],
+  "status": 403,
+  "target": "https://apnews.com",
+  "vendor": "Cloudflare",
+  "verdict": "CHALLENGED",
+  "w22_involvement": []
+ },
+ {
+  "body_len": 118,
+  "evidence": [
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.catho.com.br",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w22_involvement": []
+ },
+ {
+  "body_len": 425,
+  "evidence": [
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.haaretz.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w22_involvement": []
+ },
+ {
+  "body_len": 12072,
+  "evidence": [
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.hyatt.com",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w22_involvement": []
+ },
+ {
+  "body_len": 65536,
+  "evidence": [
+   "STATUS_403"
+  ],
+  "status": 403,
+  "target": "https://www.state.gov",
+  "vendor": null,
+  "verdict": "WALLED",
+  "w22_involvement": []
+ }
+]

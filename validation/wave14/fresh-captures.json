@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://www.britishairways.com",
+    "final_url": "https://www.britishairways.com",
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "chain": [],
+    "body_snippet": "<!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\">         <head>         <meta charset=\"UTF-8\">         <meta name=\"robots\" content=\"noindex\">         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">         <title>British Airways - Information Page</title>        <st",
+    "attempt": 1
+  },
+  {
+    "url": "https://www.britishairways.com",
+    "final_url": "https://www.britishairways.com",
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_200"
+    ],
+    "chain": [],
+    "body_snippet": "<!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\">         <head>         <meta charset=\"UTF-8\">         <meta name=\"robots\" content=\"noindex\">         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">         <title>British Airways - Information Page</title>        <st",
+    "attempt": 2
+  },
+  {
+    "url": "https://www.kaiserpermanente.org",
+    "final_url": "https://healthy.kaiserpermanente.org/colorado/front-door",
+    "status": 302,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "STATUS_302"
+    ],
+    "chain": [
+      "https://healthy.kaiserpermanente.org/front-door",
+      "https://healthy.kaiserpermanente.org/colorado/front-door",
+      "https://healthy.kaiserpermanente.org/colorado/front-door",
+      "https://healthy.kaiserpermanente.org/colorado/front-door",
+      "https://healthy.kaiserpermanente.org/colorado/front-door"
+    ],
+    "body_snippet": "",
+    "attempt": 1
+  },
+  {
+    "url": "https://www.kaiserpermanente.org",
+    "final_url": "https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/front-door",
+    "status": 302,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "STATUS_302"
+    ],
+    "chain": [
+      "https://healthy.kaiserpermanente.org/front-door",
+      "https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/front-door",
+      "https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/front-door",
+      "https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/front-door",
+      "https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/front-door"
+    ],
+    "body_snippet": "",
+    "attempt": 2
+  },
+  {
+    "url": "https://todoist.com",
+    "final_url": "https://www.todoist.com/",
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "chain": [
+      "https://www.todoist.com/"
+    ],
+    "body_snippet": "<!DOCTYPE html> <html lang=\"en\" data-astro-cid-ju4pidww>     <head>         <meta charset=\"utf-8\">         <meta name=\"viewport\" content=\"width=device-width\">          <link rel=\"preconnect\" href=\"https://stats.g.doubleclick.net\"> <link rel=\"preconnect\" href=\"https://www.google.com\"> <link rel=\"prec",
+    "attempt": 1
+  },
+  {
+    "url": "https://todoist.com",
+    "final_url": "https://www.todoist.com/",
+    "status": 200,
+    "verdict": "OPEN",
+    "vendor": null,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "chain": [
+      "https://www.todoist.com/"
+    ],
+    "body_snippet": "<!DOCTYPE html> <html lang=\"en\" data-astro-cid-ju4pidww>     <head>         <meta charset=\"utf-8\">         <meta name=\"viewport\" content=\"width=device-width\">          <link rel=\"preconnect\" href=\"https://stats.g.doubleclick.net\"> <link rel=\"preconnect\" href=\"https://www.google.com\"> <link rel=\"prec",
+    "attempt": 2
+  }
+]

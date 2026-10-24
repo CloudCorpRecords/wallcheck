@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.DS_Store
+# Signing key files hold private seeds — never in the repository.
+*.key.json
+wallcheck-key.json

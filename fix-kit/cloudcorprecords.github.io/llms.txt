@@ -1,0 +1,21 @@
+# CloudCorpRecords
+
+> CloudCorpRecords is the open-source home of Rene Turcios
+> (San Francisco): deterministic tools that measure what actually
+> stops AI agents on the web — bot walls, agent-contribution
+> policy, package health — with the evidence shown. The campaign's
+> rules: measurement in public, signed agent identity (Web Bot
+> Auth, RFC 9421), documented front doors. No bypass tooling.
+
+## Sites
+
+- [CloudCorpRecords home](https://cloudcorprecords.github.io/): This site — who, what, and the machine-readable files.
+- [GitHub — CloudCorpRecords](https://github.com/CloudCorpRecords): 150+ public repositories, including Greenlight, mcpaudit, and shipcheck.
+- [Rene Turcios — portfolio](https://reneturcios.replit.app/): Live projects, press, case studies, and speaking.
+- [Clipwise](https://clipwise.replit.app/): AI video clipping; a web studio agents can also call via MCP.
+
+## Machine files on this site
+
+- [robots.txt](https://cloudcorprecords.github.io/robots.txt)
+- [sitemap.xml](https://cloudcorprecords.github.io/sitemap.xml)
+- [feed.xml](https://cloudcorprecords.github.io/feed.xml)

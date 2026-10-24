@@ -1,0 +1,199 @@
+[
+  {
+    "checks": [
+      {
+        "check": "robots_txt",
+        "detail": "robots.txt served; no tracked AI agent is blocked or restricted.",
+        "evidence": [
+          "ROBOTS_200",
+          "SITEMAP_DECLARED: https://d36jcksde1wxzq.cloudfront.net/sitemap/sitemap-index.xml"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "llms_txt",
+        "detail": "/llms.txt served as genuine text (8071 bytes captured).",
+        "evidence": [
+          "LLMS_TEXT 8071 bytes"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "sitemap",
+        "detail": "Sitemap served as XML \u2014 agents can enumerate public content without scraping.",
+        "evidence": [
+          "SITEMAP_XML",
+          "VIA_ROBOTS_DECLARATION"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "feed",
+        "detail": "Homepage carries no RSS/Atom <link rel=\"alternate\"> discovery tag.",
+        "evidence": [
+          "NO_FEED_LINK"
+        ],
+        "status": "WARN"
+      },
+      {
+        "check": "api",
+        "detail": "No OpenAPI document, serving /api root, or developer portal discovered.",
+        "evidence": [
+          "NO_API_SURFACE"
+        ],
+        "status": "FAIL"
+      },
+      {
+        "check": "signed_agents",
+        "detail": "The signatures directory path is behind a wall.",
+        "evidence": [
+          "WALLED: WALLED (Cloudflare)"
+        ],
+        "status": "FAIL"
+      }
+    ],
+    "fixes": [
+      "Add <link rel=\"alternate\" type=\"application/rss+xml\"> (or Atom) discovery tags to the homepage, or publish a feed \u2014 feeds are the lowest-cost agent channel there is.",
+      "Publish a machine-readable API surface: an OpenAPI document (conventionally /openapi.json) or a documented /api \u2014 agents integrate against specs, not markup.",
+      "Publish your Web Bot Auth key directory at /.well-known/http-message-signatures-directory and, on the receiving side, exempt verified signed agents from managed challenges on public paths (authenticated paths keep full protection)."
+    ],
+    "grade": "C",
+    "max_score": 12,
+    "score": 7,
+    "target": "hub.docker.com"
+  },
+  {
+    "checks": [
+      {
+        "check": "robots_txt",
+        "detail": "robots.txt served; no tracked AI agent is blocked or restricted.",
+        "evidence": [
+          "ROBOTS_200",
+          "SITEMAP_DECLARED: https://huggingface.co/sitemap.xml"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "llms_txt",
+        "detail": "/llms.txt is behind a CHALLENGED wall (AWS WAF).",
+        "evidence": [
+          "WALLED: CHALLENGED (AWS WAF)"
+        ],
+        "status": "FAIL"
+      },
+      {
+        "check": "sitemap",
+        "detail": "Sitemap served as XML \u2014 agents can enumerate public content without scraping.",
+        "evidence": [
+          "SITEMAP_XML",
+          "VIA_ROBOTS_DECLARATION"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "feed",
+        "detail": "Homepage advertises an RSS/Atom feed \u2014 the classic agent escape route is signposted.",
+        "evidence": [
+          "FEED_LINK: /blog/feed.xml"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "api",
+        "detail": "A developer portal page serves, but no machine-readable API spec was discovered.",
+        "evidence": [
+          "API_LINK_HEADER",
+          "OPENAPI_NOT_SPEC: https://huggingface.co/.well-known/openapi.json status 200, not an OpenAPI document",
+          "DEV_PORTAL_200"
+        ],
+        "status": "WARN"
+      },
+      {
+        "check": "signed_agents",
+        "detail": "The signatures directory path is behind a wall.",
+        "evidence": [
+          "WALLED: CHALLENGED (AWS WAF)"
+        ],
+        "status": "FAIL"
+      }
+    ],
+    "fixes": [
+      "Publish a genuine /llms.txt (plain text/markdown index of your key pages) \u2014 and never let the route fall through to an HTML error page.",
+      "Publish a machine-readable API surface: an OpenAPI document (conventionally /openapi.json) or a documented /api \u2014 agents integrate against specs, not markup.",
+      "Publish your Web Bot Auth key directory at /.well-known/http-message-signatures-directory and, on the receiving side, exempt verified signed agents from managed challenges on public paths (authenticated paths keep full protection)."
+    ],
+    "grade": "C",
+    "max_score": 12,
+    "score": 7,
+    "target": "huggingface.co"
+  },
+  {
+    "checks": [
+      {
+        "check": "robots_txt",
+        "detail": "robots.txt is served, but named AI agents are refused: GPTBot restricted, ClaudeBot restricted, CCBot restricted, Google-Extended restricted.",
+        "evidence": [
+          "ROBOTS_200",
+          "SITEMAP_DECLARED: https://www.typeform.com/sitemap.xml",
+          "AI_RESTRICTED: GPTBot",
+          "AI_RESTRICTED: ClaudeBot",
+          "AI_RESTRICTED: CCBot",
+          "AI_RESTRICTED: Google-Extended"
+        ],
+        "status": "WARN"
+      },
+      {
+        "check": "llms_txt",
+        "detail": "/llms.txt served as genuine text (4720 bytes captured).",
+        "evidence": [
+          "LLMS_TEXT 4720 bytes"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "sitemap",
+        "detail": "Sitemap served as XML \u2014 agents can enumerate public content without scraping.",
+        "evidence": [
+          "SITEMAP_XML",
+          "VIA_ROBOTS_DECLARATION"
+        ],
+        "status": "PASS"
+      },
+      {
+        "check": "feed",
+        "detail": "Homepage carries no RSS/Atom <link rel=\"alternate\"> discovery tag.",
+        "evidence": [
+          "NO_FEED_LINK"
+        ],
+        "status": "WARN"
+      },
+      {
+        "check": "api",
+        "detail": "A developer portal page serves, but no machine-readable API spec was discovered.",
+        "evidence": [
+          "API_LINK_HEADER",
+          "DEV_PORTAL_200"
+        ],
+        "status": "WARN"
+      },
+      {
+        "check": "signed_agents",
+        "detail": "The signatures directory path is behind a wall.",
+        "evidence": [
+          "WALLED: WALLED (None)"
+        ],
+        "status": "FAIL"
+      }
+    ],
+    "fixes": [
+      "Publish/maintain /robots.txt and scope any Disallow rules to the paths that need them; a blanket block of named AI agents also blocks the agents your own users send.",
+      "Add <link rel=\"alternate\" type=\"application/rss+xml\"> (or Atom) discovery tags to the homepage, or publish a feed \u2014 feeds are the lowest-cost agent channel there is.",
+      "Publish a machine-readable API surface: an OpenAPI document (conventionally /openapi.json) or a documented /api \u2014 agents integrate against specs, not markup.",
+      "Publish your Web Bot Auth key directory at /.well-known/http-message-signatures-directory and, on the receiving side, exempt verified signed agents from managed challenges on public paths (authenticated paths keep full protection)."
+    ],
+    "grade": "C",
+    "max_score": 12,
+    "score": 7,
+    "target": "www.typeform.com"
+  }
+]

@@ -1,0 +1,6464 @@
+[
+  {
+    "category": "civic",
+    "elapsed_ms": 1189,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:00Z",
+    "url": "https://www.ed.gov/",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1177,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/login",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:02Z",
+    "url": "https://www.ed.gov/login",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 811,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/signup",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:03Z",
+    "url": "https://www.ed.gov/signup",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 788,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/api",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:04Z",
+    "url": "https://www.ed.gov/api",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 759,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/robots.txt",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:05Z",
+    "url": "https://www.ed.gov/robots.txt",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 851,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/sitemap.xml",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:07Z",
+    "url": "https://www.ed.gov/sitemap.xml",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 490,
+    "evidence": [
+      "AZURE_WAF_MARKER"
+    ],
+    "final_url": "https://www.ed.gov/llms.txt",
+    "host": "www.ed.gov",
+    "index_vendor": "Azure WAF",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "ed.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:07Z",
+    "url": "https://www.ed.gov/llms.txt",
+    "vendor": "Microsoft Azure WAF",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 758,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:09Z",
+    "url": "https://www.ftc.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 908,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/login",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:10Z",
+    "url": "https://www.ftc.gov/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 701,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/signup",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:11Z",
+    "url": "https://www.ftc.gov/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 874,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/api",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:12Z",
+    "url": "https://www.ftc.gov/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 937,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/robots.txt",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:14Z",
+    "url": "https://www.ftc.gov/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1038,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/sitemap.xml",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:15Z",
+    "url": "https://www.ftc.gov/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 697,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ftc.gov/llms.txt",
+    "host": "www.ftc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "ftc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:16Z",
+    "url": "https://www.ftc.gov/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 988,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:17Z",
+    "url": "https://www.nyc.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1056,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/login",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:19Z",
+    "url": "https://www.nyc.gov/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1022,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/signup",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:20Z",
+    "url": "https://www.nyc.gov/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 628,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/api",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:21Z",
+    "url": "https://www.nyc.gov/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 786,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/robots.txt",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:23Z",
+    "url": "https://www.nyc.gov/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 736,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/sitemap.xml",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:24Z",
+    "url": "https://www.nyc.gov/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 716,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.nyc.gov/llms.txt",
+    "host": "www.nyc.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "nyc.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:25Z",
+    "url": "https://www.nyc.gov/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 950,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:26Z",
+    "url": "https://www.ssa.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 658,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/login",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:27Z",
+    "url": "https://www.ssa.gov/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 948,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/signup",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:29Z",
+    "url": "https://www.ssa.gov/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1090,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/api",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:30Z",
+    "url": "https://www.ssa.gov/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 834,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/robots.txt",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:32Z",
+    "url": "https://www.ssa.gov/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 597,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/sitemap.xml",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:33Z",
+    "url": "https://www.ssa.gov/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 545,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.ssa.gov/llms.txt",
+    "host": "www.ssa.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "ssa.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:34Z",
+    "url": "https://www.ssa.gov/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1318,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:35Z",
+    "url": "https://www.state.gov/",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1200,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/login",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:37Z",
+    "url": "https://www.state.gov/login",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 981,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/signup",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:38Z",
+    "url": "https://www.state.gov/signup",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1285,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/api",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:40Z",
+    "url": "https://www.state.gov/api",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1365,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/robots.txt",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:42Z",
+    "url": "https://www.state.gov/robots.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1213,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/sitemap.xml",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:44Z",
+    "url": "https://www.state.gov/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 956,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.state.gov/llms.txt",
+    "host": "www.state.gov",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "state.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:45Z",
+    "url": "https://www.state.gov/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 549,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:46Z",
+    "url": "https://www.sec.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 899,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/login",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:47Z",
+    "url": "https://www.sec.gov/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 560,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/signup",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:48Z",
+    "url": "https://www.sec.gov/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 998,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://data.sec.gov/",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:49Z",
+    "url": "https://data.sec.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 643,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/robots.txt",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:51Z",
+    "url": "https://www.sec.gov/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 922,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/sitemap.xml",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:52Z",
+    "url": "https://www.sec.gov/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1077,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.sec.gov/llms.txt",
+    "host": "www.sec.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "sec.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:14:53Z",
+    "url": "https://www.sec.gov/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 15017,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.bls.gov/",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": null,
+    "ts": "2026-10-24T08:15:09Z",
+    "url": "https://www.bls.gov/",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 11208,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov/login",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:15:21Z",
+    "url": "https://www.bls.gov/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 768,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov/signup",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:15:22Z",
+    "url": "https://www.bls.gov/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1935,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov/data/",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "bls.gov",
+    "redirect_chain": [
+      "https://www.bls.gov/data/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:15:24Z",
+    "url": "https://api.bls.gov/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 9808,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov/robots.txt",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:15:35Z",
+    "url": "https://www.bls.gov/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 15019,
+    "evidence": [
+      "FETCH_ERROR: URLError: <urlopen error timed out>"
+    ],
+    "final_url": "https://www.bls.gov/sitemap.xml",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": null,
+    "ts": "2026-10-24T08:15:50Z",
+    "url": "https://www.bls.gov/sitemap.xml",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 15626,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.bls.gov/llms.txt",
+    "host": "www.bls.gov",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "bls.gov",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:06Z",
+    "url": "https://www.bls.gov/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 946,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.americanairlines.com/",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "americanairlines",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:08Z",
+    "url": "https://www.americanairlines.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 811,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.americanairlines.com/login",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "americanairlines",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:09Z",
+    "url": "https://www.americanairlines.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1827,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.aa.com/signup",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "americanairlines",
+    "redirect_chain": [
+      "https://www.aa.com/signup"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:16:11Z",
+    "url": "https://www.americanairlines.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1811,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.aa.com/api",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "americanairlines",
+    "redirect_chain": [
+      "https://www.aa.com/api"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:16:14Z",
+    "url": "https://www.americanairlines.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1737,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.aa.com/robots.txt",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "americanairlines",
+    "redirect_chain": [
+      "https://www.aa.com/robots.txt"
+    ],
+    "status": 200,
+    "ts": "2026-10-24T08:16:16Z",
+    "url": "https://www.americanairlines.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 2134,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.aa.com/sitemap.xml",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "americanairlines",
+    "redirect_chain": [
+      "https://www.aa.com/sitemap.xml"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:16:18Z",
+    "url": "https://www.americanairlines.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 2767,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.aa.com/llms.txt",
+    "host": "www.americanairlines.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "americanairlines",
+    "redirect_chain": [
+      "https://www.aa.com/llms.txt"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:16:22Z",
+    "url": "https://www.americanairlines.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1009,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:23Z",
+    "url": "https://www.amtrak.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 730,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/login",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:24Z",
+    "url": "https://www.amtrak.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 665,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/signup",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:25Z",
+    "url": "https://www.amtrak.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 729,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/api",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:26Z",
+    "url": "https://www.amtrak.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 699,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/robots.txt",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:27Z",
+    "url": "https://www.amtrak.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 877,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/sitemap.xml",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:29Z",
+    "url": "https://www.amtrak.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 751,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.amtrak.com/llms.txt",
+    "host": "www.amtrak.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "amtrak",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:16:30Z",
+    "url": "https://www.amtrak.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 818,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:31Z",
+    "url": "https://www.delta.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1003,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/login",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:32Z",
+    "url": "https://www.delta.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 773,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/signup",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:34Z",
+    "url": "https://www.delta.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 852,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/api",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:35Z",
+    "url": "https://www.delta.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 746,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/robots.txt",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:36Z",
+    "url": "https://www.delta.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 829,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/sitemap.xml",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:37Z",
+    "url": "https://www.delta.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 817,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_REFERENCE",
+      "STATUS_444"
+    ],
+    "final_url": "https://www.delta.com/llms.txt",
+    "host": "www.delta.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "delta",
+    "redirect_chain": [],
+    "status": 444,
+    "ts": "2026-10-24T08:16:39Z",
+    "url": "https://www.delta.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 10702,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hilton.com/en/",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "hilton",
+    "redirect_chain": [
+      "https://www.hilton.com/en/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:16:50Z",
+    "url": "https://www.hilton.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 10925,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.hilton.com/login",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:17:01Z",
+    "url": "https://www.hilton.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 21778,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.hilton.com/signup",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": null,
+    "ts": "2026-10-24T08:17:23Z",
+    "url": "https://www.hilton.com/signup",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 23707,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.hilton.com/api",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:17:48Z",
+    "url": "https://www.hilton.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 626,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hilton.com/robots.txt",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:17:49Z",
+    "url": "https://www.hilton.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 10799,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hilton.com/sitemap.xml",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:18:00Z",
+    "url": "https://www.hilton.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 10852,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.hilton.com/llms.txt",
+    "host": "www.hilton.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "hilton",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:18:11Z",
+    "url": "https://www.hilton.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1082,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:13Z",
+    "url": "https://www.hyatt.com/",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1052,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/login",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:14Z",
+    "url": "https://www.hyatt.com/login",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 914,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/signup",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:16Z",
+    "url": "https://www.hyatt.com/signup",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1201,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/api",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:17Z",
+    "url": "https://www.hyatt.com/api",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 942,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/robots.txt",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:19Z",
+    "url": "https://www.hyatt.com/robots.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1188,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/sitemap.xml",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:20Z",
+    "url": "https://www.hyatt.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1010,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hyatt.com/llms.txt",
+    "host": "www.hyatt.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "hyatt",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:22Z",
+    "url": "https://www.hyatt.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 927,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:23Z",
+    "url": "https://www.marriott.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 788,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/login",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:24Z",
+    "url": "https://www.marriott.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 872,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/signup",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:25Z",
+    "url": "https://www.marriott.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 760,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/api",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:26Z",
+    "url": "https://www.marriott.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1013,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/robots.txt",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:28Z",
+    "url": "https://www.marriott.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1018,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/sitemap.xml",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:29Z",
+    "url": "https://www.marriott.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1126,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.marriott.com/llms.txt",
+    "host": "www.marriott.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "marriott",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:31Z",
+    "url": "https://www.marriott.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 944,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com/",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:32Z",
+    "url": "https://www.expedia.com/",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1168,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com/login",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:34Z",
+    "url": "https://www.expedia.com/login",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 998,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com/signup",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:35Z",
+    "url": "https://www.expedia.com/signup",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 942,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.expedia.com/api",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:37Z",
+    "url": "https://www.expedia.com/api",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 969,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.expedia.com/robots.txt",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:18:38Z",
+    "url": "https://www.expedia.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 908,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.expedia.com/sitemap.xml",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:39Z",
+    "url": "https://www.expedia.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 764,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.expedia.com/llms.txt",
+    "host": "www.expedia.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "expedia",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:18:41Z",
+    "url": "https://www.expedia.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1145,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.hotels.com/",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:42Z",
+    "url": "https://www.hotels.com/",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1097,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.hotels.com/login",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:44Z",
+    "url": "https://www.hotels.com/login",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 973,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.hotels.com/signup",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:45Z",
+    "url": "https://www.hotels.com/signup",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1018,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.hotels.com/api",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:46Z",
+    "url": "https://www.hotels.com/api",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1048,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.hotels.com/robots.txt",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:18:48Z",
+    "url": "https://www.hotels.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 982,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.hotels.com/sitemap.xml",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:18:49Z",
+    "url": "https://www.hotels.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1072,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.hotels.com/llms.txt",
+    "host": "www.hotels.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "hotels",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:18:51Z",
+    "url": "https://www.hotels.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1195,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.vrbo.com/",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:52Z",
+    "url": "https://www.vrbo.com/",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1118,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.vrbo.com/login",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:54Z",
+    "url": "https://www.vrbo.com/login",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1165,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.vrbo.com/signup",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:18:55Z",
+    "url": "https://www.vrbo.com/signup",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1137,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.vrbo.com/api",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:18:57Z",
+    "url": "https://www.vrbo.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 944,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.vrbo.com/robots.txt",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:18:58Z",
+    "url": "https://www.vrbo.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1306,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.vrbo.com/sitemap.xml",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:00Z",
+    "url": "https://www.vrbo.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1310,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.vrbo.com/llms.txt",
+    "host": "www.vrbo.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "vrbo",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:19:02Z",
+    "url": "https://www.vrbo.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 862,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_BM_COOKIE",
+      "AKAMAI_EDGESUITE"
+    ],
+    "final_url": "https://www.easyjet.com/",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "easyjet",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:19:03Z",
+    "url": "https://www.easyjet.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 2822,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.easyjet.com/en/login",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "easyjet",
+    "redirect_chain": [
+      "https://www.easyjet.com/en/login"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:19:06Z",
+    "url": "https://www.easyjet.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1956,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.easyjet.com/en/signup",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "easyjet",
+    "redirect_chain": [
+      "https://www.easyjet.com/en/signup"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:19:09Z",
+    "url": "https://www.easyjet.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 2233,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.easyjet.com/en/api",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "easyjet",
+    "redirect_chain": [
+      "https://www.easyjet.com/en/api"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:19:11Z",
+    "url": "https://www.easyjet.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1203,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.easyjet.com/robots.txt",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "easyjet",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:19:13Z",
+    "url": "https://www.easyjet.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1313,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.easyjet.com/sitemap.xml",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "easyjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:15Z",
+    "url": "https://www.easyjet.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 916,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.easyjet.com/llms.txt",
+    "host": "www.easyjet.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "easyjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:16Z",
+    "url": "https://www.easyjet.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 3338,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.emirates.com/error/accessrestricted.html?refid=18.aa6ad917.1792829959.da871eb5",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "emirates",
+    "redirect_chain": [
+      "https://www.emirates.com/us/english/",
+      "https://www.emirates.com/error/accessrestricted.html?refid=18.aa6ad917.1792829959.da871eb5"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:19:20Z",
+    "url": "https://www.emirates.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 16745,
+    "evidence": [
+      "FETCH_ERROR: TimeoutError: The read operation timed out"
+    ],
+    "final_url": "https://www.emirates.com/login",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "emirates",
+    "redirect_chain": [
+      "https://www.emirates.com/account/english/login/login.aspx"
+    ],
+    "status": null,
+    "ts": "2026-10-24T08:19:37Z",
+    "url": "https://www.emirates.com/login",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 3447,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.emirates.com/signup",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "emirates",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:41Z",
+    "url": "https://www.emirates.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1008,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.emirates.com/api",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "emirates",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:42Z",
+    "url": "https://www.emirates.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1382,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.emirates.com/robots.txt",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "emirates",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:19:44Z",
+    "url": "https://www.emirates.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 826,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.emirates.com/sitemap.xml",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "emirates",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:45Z",
+    "url": "https://www.emirates.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1047,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.emirates.com/llms.txt",
+    "host": "www.emirates.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "emirates",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:19:47Z",
+    "url": "https://www.emirates.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1308,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.orbitz.com/",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:19:48Z",
+    "url": "https://www.orbitz.com/",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1084,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.orbitz.com/login",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:19:50Z",
+    "url": "https://www.orbitz.com/login",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1181,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.orbitz.com/signup",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:19:51Z",
+    "url": "https://www.orbitz.com/signup",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1034,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.orbitz.com/api",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:19:53Z",
+    "url": "https://www.orbitz.com/api",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 914,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.orbitz.com/robots.txt",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:19:54Z",
+    "url": "https://www.orbitz.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 886,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.orbitz.com/sitemap.xml",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:19:55Z",
+    "url": "https://www.orbitz.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1002,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.orbitz.com/llms.txt",
+    "host": "www.orbitz.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "orbitz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:19:57Z",
+    "url": "https://www.orbitz.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1671,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.travelocity.com/",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:19:59Z",
+    "url": "https://www.travelocity.com/",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1245,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.travelocity.com/login",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:20:01Z",
+    "url": "https://www.travelocity.com/login",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1224,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.travelocity.com/signup",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:20:02Z",
+    "url": "https://www.travelocity.com/signup",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1373,
+    "evidence": [
+      "STATUS_429"
+    ],
+    "final_url": "https://www.travelocity.com/api",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:20:04Z",
+    "url": "https://www.travelocity.com/api",
+    "vendor": null,
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 764,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.travelocity.com/robots.txt",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:20:05Z",
+    "url": "https://www.travelocity.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1011,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.travelocity.com/sitemap.xml",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:07Z",
+    "url": "https://www.travelocity.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1323,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.travelocity.com/llms.txt",
+    "host": "www.travelocity.com",
+    "index_vendor": null,
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "travelocity",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:09Z",
+    "url": "https://www.travelocity.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1174,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:10Z",
+    "url": "https://www.tripadvisor.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 794,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/login",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:11Z",
+    "url": "https://www.tripadvisor.com/login",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1012,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/signup",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:13Z",
+    "url": "https://www.tripadvisor.com/signup",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1305,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/api",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:15Z",
+    "url": "https://www.tripadvisor.com/api",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1385,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.tripadvisor.com/robots.txt",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:20:17Z",
+    "url": "https://www.tripadvisor.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1074,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/sitemap.xml",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:18Z",
+    "url": "https://www.tripadvisor.com/sitemap.xml",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1056,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.tripadvisor.com/llms.txt",
+    "host": "www.tripadvisor.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "tripadvisor",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:20Z",
+    "url": "https://www.tripadvisor.com/llms.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 706,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:21Z",
+    "url": "https://www.viator.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 613,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/login",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:22Z",
+    "url": "https://www.viator.com/login",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 936,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/signup",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:23Z",
+    "url": "https://www.viator.com/signup",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 755,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/api",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:25Z",
+    "url": "https://www.viator.com/api",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 946,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/robots.txt",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:26Z",
+    "url": "https://www.viator.com/robots.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 925,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.viator.com/sitemap.xml",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:20:27Z",
+    "url": "https://www.viator.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 827,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.viator.com/llms.txt",
+    "host": "www.viator.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "viator",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:29Z",
+    "url": "https://www.viator.com/llms.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 816,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com/",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:30Z",
+    "url": "https://www.goodrx.com/",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 790,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com/login",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:31Z",
+    "url": "https://www.goodrx.com/login",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 624,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com/signup",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:32Z",
+    "url": "https://www.goodrx.com/signup",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 843,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com/api",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:33Z",
+    "url": "https://www.goodrx.com/api",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 552,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.goodrx.com/robots.txt",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:20:34Z",
+    "url": "https://www.goodrx.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 625,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.goodrx.com/sitemap.xml",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:20:35Z",
+    "url": "https://www.goodrx.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 859,
+    "evidence": [
+      "PX_CAPTCHA",
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.goodrx.com/llms.txt",
+    "host": "www.goodrx.com",
+    "index_vendor": "PerimeterX",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "goodrx",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:36Z",
+    "url": "https://www.goodrx.com/llms.txt",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 607,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:37Z",
+    "url": "https://www.mayoclinic.org/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 625,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/login",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:38Z",
+    "url": "https://www.mayoclinic.org/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 957,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/signup",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:40Z",
+    "url": "https://www.mayoclinic.org/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1002,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/api",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:41Z",
+    "url": "https://www.mayoclinic.org/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 808,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/robots.txt",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:42Z",
+    "url": "https://www.mayoclinic.org/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 743,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/sitemap.xml",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:43Z",
+    "url": "https://www.mayoclinic.org/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 858,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.mayoclinic.org/llms.txt",
+    "host": "www.mayoclinic.org",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "mayoclinic",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:45Z",
+    "url": "https://www.mayoclinic.org/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 781,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:46Z",
+    "url": "https://www.zocdoc.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 793,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/login",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:47Z",
+    "url": "https://www.zocdoc.com/login",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 731,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/signup",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:48Z",
+    "url": "https://www.zocdoc.com/signup",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 617,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/api",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:49Z",
+    "url": "https://www.zocdoc.com/api",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 646,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/robots.txt",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:50Z",
+    "url": "https://www.zocdoc.com/robots.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 651,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zocdoc.com/sitemap.xml",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:20:52Z",
+    "url": "https://www.zocdoc.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 653,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.zocdoc.com/llms.txt",
+    "host": "www.zocdoc.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "zocdoc",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:20:53Z",
+    "url": "https://www.zocdoc.com/llms.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1621,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:20:55Z",
+    "url": "https://www.unitedhealthcare.com/",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1583,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:20:57Z",
+    "url": "https://www.unitedhealthcare.com/login",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1196,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:20:58Z",
+    "url": "https://www.unitedhealthcare.com/signup",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1318,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:21:00Z",
+    "url": "https://www.unitedhealthcare.com/api",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1818,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:21:02Z",
+    "url": "https://www.unitedhealthcare.com/robots.txt",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1380,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:21:04Z",
+    "url": "https://www.unitedhealthcare.com/sitemap.xml",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1596,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.uhc.com/",
+    "host": "www.unitedhealthcare.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "unitedhealthcare",
+    "redirect_chain": [
+      "https://www.uhc.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:21:06Z",
+    "url": "https://www.unitedhealthcare.com/llms.txt",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 777,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homedepot.com/",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:07Z",
+    "url": "https://www.homedepot.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 814,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.homedepot.com/login",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:08Z",
+    "url": "https://www.homedepot.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1209,
+    "evidence": [
+      "FETCH_ERROR: RemoteDisconnected: Remote end closed connection without response"
+    ],
+    "final_url": "https://www.homedepot.com/signup",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "homedepot",
+    "redirect_chain": [
+      "http://pages.homedepot.com/orange?cm_sp=vanity-_-signup-_-MAY16"
+    ],
+    "status": null,
+    "ts": "2026-10-24T08:21:10Z",
+    "url": "https://www.homedepot.com/signup",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 895,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.homedepot.com/api",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:11Z",
+    "url": "https://www.homedepot.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1198,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.homedepot.com/robots.txt",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:21:13Z",
+    "url": "https://www.homedepot.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 774,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.homedepot.com/sitemap.xml",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:14Z",
+    "url": "https://www.homedepot.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 731,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.homedepot.com/llms.txt",
+    "host": "www.homedepot.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "homedepot",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:15Z",
+    "url": "https://www.homedepot.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1010,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:17Z",
+    "url": "https://www.macys.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 970,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/login",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:18Z",
+    "url": "https://www.macys.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 838,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/signup",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:19Z",
+    "url": "https://www.macys.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 608,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/api",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:20Z",
+    "url": "https://www.macys.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1122,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/robots.txt",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:22Z",
+    "url": "https://www.macys.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1082,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/sitemap.xml",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:23Z",
+    "url": "https://www.macys.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 976,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.macys.com/llms.txt",
+    "host": "www.macys.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "macys",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:25Z",
+    "url": "https://www.macys.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 703,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:26Z",
+    "url": "https://www.ubereats.com/",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 668,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/login",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:27Z",
+    "url": "https://www.ubereats.com/login",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 651,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/signup",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:28Z",
+    "url": "https://www.ubereats.com/signup",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 990,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/api",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:29Z",
+    "url": "https://www.ubereats.com/api",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 562,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/robots.txt",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:30Z",
+    "url": "https://www.ubereats.com/robots.txt",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 570,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/sitemap.xml",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:31Z",
+    "url": "https://www.ubereats.com/sitemap.xml",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 614,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "CF_MITIGATED_CHALLENGE",
+      "SERVER_CLOUDFLARE",
+      "CF_JUST_A_MOMENT",
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.ubereats.com/llms.txt",
+    "host": "www.ubereats.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "ubereats",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:32Z",
+    "url": "https://www.ubereats.com/llms.txt",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1075,
+    "evidence": [
+      "AKAMAI_BM_COOKIE",
+      "KASADA_MARKER",
+      "STATUS_429"
+    ],
+    "final_url": "https://www.chewy.com/",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "home",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 429,
+    "ts": "2026-10-24T08:21:34Z",
+    "url": "https://www.chewy.com/",
+    "vendor": "Kasada",
+    "verdict": "RATE_LIMITED"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1587,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chewy.com/login",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "login",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:36Z",
+    "url": "https://www.chewy.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1563,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chewy.com/signup",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "signup",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:38Z",
+    "url": "https://www.chewy.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1781,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chewy.com/api",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "api",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:40Z",
+    "url": "https://www.chewy.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 989,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chewy.com/robots.txt",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "robots",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:21:41Z",
+    "url": "https://www.chewy.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 772,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chewy.com/sitemap.xml",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "sitemap",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:42Z",
+    "url": "https://www.chewy.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "commerce",
+    "elapsed_ms": 1246,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chewy.com/llms.txt",
+    "host": "www.chewy.com",
+    "index_vendor": "Kasada",
+    "index_verdict": "RATE_LIMITED",
+    "path": "llms",
+    "platform": "chewy",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:21:44Z",
+    "url": "https://www.chewy.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 669,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:45Z",
+    "url": "https://www.apartments.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 645,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/login",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:46Z",
+    "url": "https://www.apartments.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 827,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/signup",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:47Z",
+    "url": "https://www.apartments.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 963,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/api",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:49Z",
+    "url": "https://www.apartments.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 654,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/robots.txt",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:50Z",
+    "url": "https://www.apartments.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 796,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/sitemap.xml",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:51Z",
+    "url": "https://www.apartments.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 889,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.apartments.com/llms.txt",
+    "host": "www.apartments.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "apartments",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:52Z",
+    "url": "https://www.apartments.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1014,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:54Z",
+    "url": "https://www.homes.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 631,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/login",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:55Z",
+    "url": "https://www.homes.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 630,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/signup",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:56Z",
+    "url": "https://www.homes.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 889,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/api",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:57Z",
+    "url": "https://www.homes.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 924,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/robots.txt",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:21:59Z",
+    "url": "https://www.homes.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 865,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/sitemap.xml",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:00Z",
+    "url": "https://www.homes.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 565,
+    "evidence": [
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.homes.com/llms.txt",
+    "host": "www.homes.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "homes",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:01Z",
+    "url": "https://www.homes.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 654,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:02Z",
+    "url": "https://www.redfin.com/",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 655,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/login",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:03Z",
+    "url": "https://www.redfin.com/login",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 721,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/signup",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:04Z",
+    "url": "https://www.redfin.com/signup",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 843,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/api",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:05Z",
+    "url": "https://www.redfin.com/api",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 530,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/robots.txt",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:06Z",
+    "url": "https://www.redfin.com/robots.txt",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 607,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/sitemap.xml",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:07Z",
+    "url": "https://www.redfin.com/sitemap.xml",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 637,
+    "evidence": [
+      "AWS_CLOUDFRONT_BLOCK",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.redfin.com/llms.txt",
+    "host": "www.redfin.com",
+    "index_vendor": "AWS CloudFront",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "redfin",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:08Z",
+    "url": "https://www.redfin.com/llms.txt",
+    "vendor": "AWS CloudFront",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1263,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:10Z",
+    "url": "https://www.careerbuilder.com/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1158,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerbuilder.com/login",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:11Z",
+    "url": "https://www.careerbuilder.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1271,
+    "evidence": [
+      "DD_BODY_MARKER",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerbuilder.com/signup",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:13Z",
+    "url": "https://www.careerbuilder.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 874,
+    "evidence": [
+      "STATUS_500"
+    ],
+    "final_url": "https://www.careerbuilder.com/api",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 500,
+    "ts": "2026-10-24T08:22:14Z",
+    "url": "https://www.careerbuilder.com/api",
+    "vendor": null,
+    "verdict": "UNREACHABLE"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 985,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.careerbuilder.com/robots.txt",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:22:16Z",
+    "url": "https://www.careerbuilder.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1775,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.careerbuilder.com/robots.txt",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "careerbuilder",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/robots.txt"
+    ],
+    "status": 200,
+    "ts": "2026-10-24T08:22:18Z",
+    "url": "https://www.careerbuilder.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 751,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.careerbuilder.com/llms.txt",
+    "host": "www.careerbuilder.com",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "careerbuilder",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:22:19Z",
+    "url": "https://www.careerbuilder.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 998,
+    "evidence": [
+      "CF_CHALLENGE_PLATFORM"
+    ],
+    "final_url": "https://www.careerjet.com/",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:22:20Z",
+    "url": "https://www.careerjet.com/",
+    "vendor": "Cloudflare",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 944,
+    "evidence": [
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.careerjet.com/login",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:22:22Z",
+    "url": "https://www.careerjet.com/login",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1233,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerjet.com/signup",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:23Z",
+    "url": "https://www.careerjet.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1125,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerjet.com/api",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:25Z",
+    "url": "https://www.careerjet.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1131,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.careerjet.com/robots.txt",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:22:26Z",
+    "url": "https://www.careerjet.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1182,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerjet.com/sitemap.xml",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:28Z",
+    "url": "https://www.careerjet.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1183,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.careerjet.com/llms.txt",
+    "host": "www.careerjet.com",
+    "index_vendor": "Cloudflare",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "careerjet",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:22:29Z",
+    "url": "https://www.careerjet.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2030,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/resume/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/resume/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:32Z",
+    "url": "https://www.monster.ca/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1661,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:34Z",
+    "url": "https://www.monster.ca/login",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1561,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:36Z",
+    "url": "https://www.monster.ca/signup",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1418,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:38Z",
+    "url": "https://www.monster.ca/api",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1537,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:40Z",
+    "url": "https://www.monster.ca/robots.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1447,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:41Z",
+    "url": "https://www.monster.ca/sitemap.xml",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1476,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.monster.com/",
+    "host": "www.monster.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "monster.ca",
+    "redirect_chain": [
+      "https://www.monster.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:43Z",
+    "url": "https://www.monster.ca/llms.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1716,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "home",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:45Z",
+    "url": "https://www.careerbuilder.ca/",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1466,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "login",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:47Z",
+    "url": "https://www.careerbuilder.ca/login",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1674,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "signup",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:49Z",
+    "url": "https://www.careerbuilder.ca/signup",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1467,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "api",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:51Z",
+    "url": "https://www.careerbuilder.ca/api",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1330,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "robots",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:53Z",
+    "url": "https://www.careerbuilder.ca/robots.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1521,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "sitemap",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:55Z",
+    "url": "https://www.careerbuilder.ca/sitemap.xml",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1190,
+    "evidence": [
+      "DD_XDATADOME_HEADER",
+      "DD_BODY_MARKER"
+    ],
+    "final_url": "https://www.careerbuilder.com/",
+    "host": "www.careerbuilder.ca",
+    "index_vendor": "DataDome",
+    "index_verdict": "CHALLENGED",
+    "path": "llms",
+    "platform": "careerbuilder.ca",
+    "redirect_chain": [
+      "https://www.careerbuilder.com/"
+    ],
+    "status": 403,
+    "ts": "2026-10-24T08:22:56Z",
+    "url": "https://www.careerbuilder.ca/llms.txt",
+    "vendor": "DataDome",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 922,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.catho.com.br/",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "catho",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:22:58Z",
+    "url": "https://www.catho.com.br/",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1855,
+    "evidence": [
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.catho.com.br/signin/",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "catho",
+    "redirect_chain": [
+      "https://www.catho.com.br/signin/"
+    ],
+    "status": 200,
+    "ts": "2026-10-24T08:23:00Z",
+    "url": "https://www.catho.com.br/login",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 1878,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.catho.com.br/signup/",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "catho",
+    "redirect_chain": [
+      "https://www.catho.com.br/signup/"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:23:02Z",
+    "url": "https://www.catho.com.br/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 2132,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.catho.com.br/api/",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "catho",
+    "redirect_chain": [
+      "https://www.catho.com.br/api/"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:23:05Z",
+    "url": "https://www.catho.com.br/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 723,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.catho.com.br/robots.txt",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "catho",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:06Z",
+    "url": "https://www.catho.com.br/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 697,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.catho.com.br/sitemap.xml",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "catho",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:07Z",
+    "url": "https://www.catho.com.br/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "jobs",
+    "elapsed_ms": 720,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.catho.com.br/llms.txt",
+    "host": "www.catho.com.br",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "catho",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:08Z",
+    "url": "https://www.catho.com.br/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1072,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:10Z",
+    "url": "https://www.citizensbank.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 909,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/login",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:11Z",
+    "url": "https://www.citizensbank.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 710,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/signup",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:12Z",
+    "url": "https://www.citizensbank.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 726,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/api",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:13Z",
+    "url": "https://www.citizensbank.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 802,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/robots.txt",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:15Z",
+    "url": "https://www.citizensbank.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 715,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/sitemap.xml",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:16Z",
+    "url": "https://www.citizensbank.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 695,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://www.citizensbank.com/llms.txt",
+    "host": "www.citizensbank.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "citizensbank",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:17Z",
+    "url": "https://www.citizensbank.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 839,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:18Z",
+    "url": "https://news.sky.com/",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1018,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/login",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:19Z",
+    "url": "https://news.sky.com/login",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 643,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/signup",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:20Z",
+    "url": "https://news.sky.com/signup",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 564,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/api",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:21Z",
+    "url": "https://news.sky.com/api",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 679,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/robots.txt",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:22Z",
+    "url": "https://news.sky.com/robots.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 891,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/sitemap.xml",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:24Z",
+    "url": "https://news.sky.com/sitemap.xml",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 512,
+    "evidence": [
+      "AKAMAI_SERVER_HEADER",
+      "AKAMAI_EDGESUITE",
+      "STATUS_403"
+    ],
+    "final_url": "https://news.sky.com/llms.txt",
+    "host": "news.sky.com",
+    "index_vendor": "Akamai",
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "sky news",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:25Z",
+    "url": "https://news.sky.com/llms.txt",
+    "vendor": "Akamai",
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 831,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "home",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:26Z",
+    "url": "https://www.haaretz.com/",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 522,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/login",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "login",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:27Z",
+    "url": "https://www.haaretz.com/login",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 578,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/signup",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "signup",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:28Z",
+    "url": "https://www.haaretz.com/signup",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1563,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/api",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "api",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:30Z",
+    "url": "https://www.haaretz.com/api",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 784,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/robots.txt",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "robots",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:31Z",
+    "url": "https://www.haaretz.com/robots.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 1012,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/sitemap.xml",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "sitemap",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:33Z",
+    "url": "https://www.haaretz.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "news",
+    "elapsed_ms": 539,
+    "evidence": [
+      "STATUS_403"
+    ],
+    "final_url": "https://www.haaretz.com/llms.txt",
+    "host": "www.haaretz.com",
+    "index_vendor": null,
+    "index_verdict": "WALLED",
+    "path": "llms",
+    "platform": "haaretz",
+    "redirect_chain": [],
+    "status": 403,
+    "ts": "2026-10-24T08:23:34Z",
+    "url": "https://www.haaretz.com/llms.txt",
+    "vendor": null,
+    "verdict": "WALLED"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1005,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usa.gov/",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "home",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:35Z",
+    "url": "https://www.usa.gov/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 701,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.usa.gov/login",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "login",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:36Z",
+    "url": "https://www.usa.gov/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1104,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.usa.gov/signup",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "signup",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:38Z",
+    "url": "https://www.usa.gov/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 1264,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.usa.gov/api",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "api",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:40Z",
+    "url": "https://www.usa.gov/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 784,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usa.gov/robots.txt",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "robots",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:41Z",
+    "url": "https://www.usa.gov/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 954,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.usa.gov/sitemap.xml",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "sitemap",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:43Z",
+    "url": "https://www.usa.gov/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "civic",
+    "elapsed_ms": 803,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.usa.gov/llms.txt",
+    "host": "www.usa.gov",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "llms",
+    "platform": "usa.gov",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:44Z",
+    "url": "https://www.usa.gov/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 998,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chase.com/",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "home",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:45Z",
+    "url": "https://www.chase.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1798,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chase.com/",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "login",
+    "platform": "chase.com",
+    "redirect_chain": [
+      "https://www.chase.com/"
+    ],
+    "status": 200,
+    "ts": "2026-10-24T08:23:47Z",
+    "url": "https://www.chase.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 871,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chase.com/signup",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "signup",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:49Z",
+    "url": "https://www.chase.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1191,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chase.com/api",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "api",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:50Z",
+    "url": "https://www.chase.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 874,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chase.com/robots.txt",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "robots",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:52Z",
+    "url": "https://www.chase.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1294,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.chase.com/sitemap.xml",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "sitemap",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:53Z",
+    "url": "https://www.chase.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "finance",
+    "elapsed_ms": 1197,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.chase.com/llms.txt",
+    "host": "www.chase.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "llms",
+    "platform": "chase.com",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:23:55Z",
+    "url": "https://www.chase.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1121,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.airbnb.com/",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "home",
+    "platform": "airbnb",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:56Z",
+    "url": "https://www.airbnb.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 922,
+    "evidence": [
+      "REDIRECT_TO_LOGIN"
+    ],
+    "final_url": "https://www.airbnb.com/login",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "login",
+    "platform": "airbnb",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:23:58Z",
+    "url": "https://www.airbnb.com/login",
+    "vendor": null,
+    "verdict": "LOGIN_GATED"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1512,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.airbnb.com/404",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "signup",
+    "platform": "airbnb",
+    "redirect_chain": [
+      "https://www.airbnb.com/404"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:00Z",
+    "url": "https://www.airbnb.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1657,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.airbnb.com/404",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "api",
+    "platform": "airbnb",
+    "redirect_chain": [
+      "https://www.airbnb.com/404"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:02Z",
+    "url": "https://www.airbnb.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 878,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.airbnb.com/robots.txt",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "robots",
+    "platform": "airbnb",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:24:03Z",
+    "url": "https://www.airbnb.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1397,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.airbnb.com/404",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "sitemap",
+    "platform": "airbnb",
+    "redirect_chain": [
+      "https://www.airbnb.com/404"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:05Z",
+    "url": "https://www.airbnb.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "travel",
+    "elapsed_ms": 1377,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.airbnb.com/404",
+    "host": "www.airbnb.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "llms",
+    "platform": "airbnb",
+    "redirect_chain": [
+      "https://www.airbnb.com/404"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:07Z",
+    "url": "https://www.airbnb.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1001,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.webmd.com/",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "home",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:24:08Z",
+    "url": "https://www.webmd.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1034,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.webmd.com/login",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "login",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:09Z",
+    "url": "https://www.webmd.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 835,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.webmd.com/signup",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "signup",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:11Z",
+    "url": "https://www.webmd.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 921,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.webmd.com/api",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "api",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:12Z",
+    "url": "https://www.webmd.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 973,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_200"
+    ],
+    "final_url": "https://www.webmd.com/robots.txt",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "robots",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:24:13Z",
+    "url": "https://www.webmd.com/robots.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1186,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.webmd.com/sitemap.xml",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "sitemap",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:15Z",
+    "url": "https://www.webmd.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "health",
+    "elapsed_ms": 1097,
+    "evidence": [
+      "CF_RAY_HEADER",
+      "SERVER_CLOUDFLARE",
+      "STATUS_404"
+    ],
+    "final_url": "https://www.webmd.com/llms.txt",
+    "host": "www.webmd.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "llms",
+    "platform": "webmd",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:17Z",
+    "url": "https://www.webmd.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1087,
+    "evidence": [
+      "STATUS_200"
+    ],
+    "final_url": "https://www.zillow.com/",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "home",
+    "platform": "zillow",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:24:18Z",
+    "url": "https://www.zillow.com/",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1805,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zillow.com/login/",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "login",
+    "platform": "zillow",
+    "redirect_chain": [
+      "https://www.zillow.com/login/"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:20Z",
+    "url": "https://www.zillow.com/login",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1878,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zillow.com/signup/",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "signup",
+    "platform": "zillow",
+    "redirect_chain": [
+      "https://www.zillow.com/signup/"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:22Z",
+    "url": "https://www.zillow.com/signup",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 2204,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zillow.com/api/",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "api",
+    "platform": "zillow",
+    "redirect_chain": [
+      "https://www.zillow.com/api/"
+    ],
+    "status": 404,
+    "ts": "2026-10-24T08:24:25Z",
+    "url": "https://www.zillow.com/api",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 781,
+    "evidence": [
+      "PX_BODY_MARKER"
+    ],
+    "final_url": "https://www.zillow.com/robots.txt",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "robots",
+    "platform": "zillow",
+    "redirect_chain": [],
+    "status": 200,
+    "ts": "2026-10-24T08:24:26Z",
+    "url": "https://www.zillow.com/robots.txt",
+    "vendor": "PerimeterX",
+    "verdict": "CHALLENGED"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1042,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zillow.com/sitemap.xml",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "sitemap",
+    "platform": "zillow",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:28Z",
+    "url": "https://www.zillow.com/sitemap.xml",
+    "vendor": null,
+    "verdict": "OPEN"
+  },
+  {
+    "category": "real-estate",
+    "elapsed_ms": 1178,
+    "evidence": [
+      "STATUS_404"
+    ],
+    "final_url": "https://www.zillow.com/llms.txt",
+    "host": "www.zillow.com",
+    "index_vendor": null,
+    "index_verdict": "OPEN",
+    "path": "llms",
+    "platform": "zillow",
+    "redirect_chain": [],
+    "status": 404,
+    "ts": "2026-10-24T08:24:29Z",
+    "url": "https://www.zillow.com/llms.txt",
+    "vendor": null,
+    "verdict": "OPEN"
+  }
+]

@@ -1,0 +1,487 @@
+[A 1/105] https://www.careerjet.com                  CHALLENGED   Cloudflare   200
+[A 2/105] https://www.jooble.org                     OPEN         -            200
+[A 3/105] https://www.monster.ca                     CHALLENGED   DataDome     403
+[A 4/105] https://www.jobrapido.com                  OPEN         -            200
+[A 5/105] https://www.neuvoo.ca                      OPEN         -            404
+[A 6/105] https://www.careerbuilder.ca               CHALLENGED   DataDome     403
+[A 7/105] https://www.workopolis.com                 OPEN         -            200
+[A 8/105] https://www.jobbank.gc.ca                  OPEN         -            200
+[A 9/105] https://www.glassdoor.ca                   OPEN         -            200
+[A 10/105] https://www.irishjobs.ie                   UNREACHABLE  -            None
+[A 11/105] https://www.jobs.ie                        UNREACHABLE  -            None
+[A 12/105] https://www.stepstone.de                   OPEN         -            200
+[A 13/105] https://www.xing.com                       OPEN         -            200
+[A 14/105] https://www.jobteaser.com                  OPEN         -            200
+[A 15/105] https://www.hellowork.com                  OPEN         -            200
+[A 16/105] https://www.pole-emploi.fr                 OPEN         -            200
+[A 17/105] https://www.infojobs.net                   OPEN         -            405
+[A 18/105] https://www.computrabajo.com               OPEN         -            200
+[A 19/105] https://www.bumeran.com                    OPEN         -            200
+[A 20/105] https://www.catho.com.br                   WALLED       -            403
+[A 21/105] https://www.monday.com                     OPEN         -            200
+[A 22/105] https://www.clickup.com                    OPEN         -            200
+[A 23/105] https://www.calendly.com                   OPEN         -            200
+[A 24/105] https://buffer.com                         OPEN         -            200
+[A 25/105] https://www.hootsuite.com                  OPEN         -            200
+[A 26/105] https://sproutsocial.com                   OPEN         -            200
+[A 27/105] https://www.semrush.com                    OPEN         -            200
+[A 28/105] https://www.ahrefs.com                     OPEN         -            200
+[A 29/105] https://moz.com                            OPEN         -            200
+[A 30/105] https://www.woocommerce.com                OPEN         -            200
+[A 31/105] https://www.magento.com                    UNREACHABLE  -            None
+[A 32/105] https://www.prestashop.com                 OPEN         -            200
+[A 33/105] https://www.opencart.com                   OPEN         -            200
+[A 34/105] https://www.klarna.com                     OPEN         -            200
+[A 35/105] https://www.afterpay.com                   OPEN         -            200
+[A 36/105] https://www.cnn.com                        OPEN         -            200
+[A 37/105] https://www.washingtonpost.com             UNREACHABLE  -            None
+[A 38/105] https://www.cnbc.com                       OPEN         -            200
+[A 39/105] https://www.forbes.com                     OPEN         -            200
+[A 40/105] https://www.euronews.com                   OPEN         -            200
+[A 41/105] https://news.sky.com                       WALLED       Akamai       403
+[A 42/105] https://www.cbc.ca                         UNREACHABLE  -            None
+[A 43/105] https://www.abc.net.au                     OPEN         -            200
+[A 44/105] https://www.stuff.co.nz                    OPEN         -            200
+[A 45/105] https://www.nzherald.co.nz                 OPEN         -            200
+[A 46/105] https://www.koreaherald.com                OPEN         -            200
+[A 47/105] https://www.hindustantimes.com             OPEN         -            200
+[A 48/105] https://timesofindia.indiatimes.com        OPEN         -            200
+[A 49/105] https://www.dawn.com                       OPEN         -            200
+[A 50/105] https://www.haaretz.com                    WALLED       -            403
+[A 51/105] https://www.medicare.gov                   OPEN         -            200
+[A 52/105] https://www.sec.gov                        WALLED       Akamai       403
+[A 53/105] https://www.federalreserve.gov             OPEN         -            200
+[A 54/105] https://www.bls.gov                        WALLED       Akamai       403
+[A 55/105] https://www.census.gov                     OPEN         -            200
+[A 56/105] https://www.nasa.gov                       OPEN         -            200
+[A 57/105] https://www.loc.gov                        OPEN         -            200
+[A 58/105] https://www.whitehouse.gov                 OPEN         -            200
+[A 59/105] https://www.congress.gov                   OPEN         -            200
+[A 60/105] https://www.supremecourt.gov               OPEN         -            200
+[A 61/105] https://www.dhs.gov                        OPEN         -            200
+[A 62/105] https://www.doj.gov                        UNREACHABLE  -            None
+[A 63/105] https://www.epa.gov                        OPEN         -            200
+[A 64/105] https://www.energy.gov                     OPEN         -            200
+[A 65/105] https://www.pnc.com                        OPEN         -            200
+[A 66/105] https://www.td.com                         OPEN         -            200
+[A 67/105] https://www.citizensbank.com               WALLED       Akamai       403
+[A 68/105] https://www.ally.com                       OPEN         -            200
+[A 69/105] https://www.marcus.com                     OPEN         -            200
+[A 70/105] https://www.merrilledge.com                OPEN         -            200
+[A 71/105] https://www.interactivebrokers.com         OPEN         -            200
+[A 72/105] https://www.webull.com                     OPEN         -            200
+[A 73/105] https://www.block.com                      UNREACHABLE  -            None
+[A 74/105] https://cash.app                           OPEN         -            200
+[A 75/105] https://www.skyscanner.com                 OPEN         -            200
+[A 76/105] https://www.orbitz.com                     RATE_LIMITED -            429
+[A 77/105] https://www.travelocity.com                RATE_LIMITED -            429
+[A 78/105] https://www.tripadvisor.com                CHALLENGED   DataDome     403
+[A 79/105] https://www.lonelyplanet.com               OPEN         -            200
+[A 80/105] https://www.viator.com                     CHALLENGED   DataDome     403
+[A 81/105] https://www.getyourguide.com               UNREACHABLE  -            None
+[A 82/105] https://www.ryanair.com                    OPEN         -            200
+[A 83/105] https://www.easyjet.com                    WALLED       Akamai       403
+[A 84/105] https://www.lufthansa.com                  OPEN         -            200
+[A 85/105] https://www.britishairways.com             OPEN         -            200
+[A 86/105] https://www.airfrance.com                  UNREACHABLE  -            None
+[A 87/105] https://www.klm.com                        UNREACHABLE  -            None
+[A 88/105] https://www.emirates.com                   WALLED       Akamai       403
+[A 89/105] https://www.kaiserpermanente.org           OPEN         -            302
+[A 90/105] https://www.unitedhealthcare.com           WALLED       AWS CloudFront 403
+[A 91/105] https://www.aetna.com                      OPEN         -            200
+[A 92/105] https://www.cigna.com                      OPEN         -            200
+[A 93/105] https://www.humana.com                     OPEN         -            200
+[A 94/105] https://www.anthem.com                     OPEN         -            200
+[A 95/105] https://www.oscar.com                      OPEN         -            200
+[A 96/105] https://www.questdiagnostics.com           OPEN         -            200
+[A 97/105] https://www.labcorp.com                    OPEN         -            200
+[A 98/105] https://www.roman.co                       OPEN         -            200
+[A 99/105] https://www.ox.ac.uk                       OPEN         -            200
+[A 100/105] https://www.cam.ac.uk                      OPEN         -            200
+[A 101/105] https://www.codecademy.com                 OPEN         -            200
+[A 102/105] https://www.datacamp.com                   OPEN         -            200
+[A 103/105] https://www.brilliant.org                  OPEN         -            200
+[A 104/105] https://www.futurelearn.com                OPEN         -            200
+[A 105/105] https://www.teachable.com                  OPEN         -            200
+leg A saved 105 results
+[B 1/499] https://arc.dev                            OPEN         -            200 (was OPEN)
+[B 2/499] https://contra.com                         OPEN         -            200 (was OPEN)
+[B 3/499] https://gun.io                             WALLED       Cloudflare   403 (was WALLED)
+[B 4/499] https://www.99designs.com                  OPEN         -            200 (was OPEN)
+[B 5/499] https://www.bark.com                       OPEN         -            200 (was OPEN)
+[B 6/499] https://www.fiverr.com                     CHALLENGED   PerimeterX   403 (was CHALLENGED)
+[B 7/499] https://www.freelancer.com                 OPEN         -            200 (was OPEN)
+[B 8/499] https://www.guru.com                       WALLED       Imperva      403 (was WALLED)
+[B 9/499] https://www.lemon.io                       OPEN         -            200 (was OPEN)
+[B 10/499] https://www.peopleperhour.com              OPEN         -            200 (was OPEN)
+[B 11/499] https://www.thumbtack.com                  OPEN         -            200 (was OPEN)
+[B 12/499] https://www.toptal.com                     OPEN         -            200 (was OPEN)
+[B 13/499] https://www.upwork.com                     WALLED       Cloudflare   403 (was WALLED)
+[B 14/499] https://builtin.com                        OPEN         -            200 (was OPEN)
+[B 15/499] https://otta.com                           UNREACHABLE  -            None (was OPEN)
+[B 16/499] https://remoteok.com                       OPEN         -            200 (was OPEN)
+[B 17/499] https://wellfound.com                      OPEN         -            200 (was OPEN)
+[B 18/499] https://weworkremotely.com                 OPEN         -            200 (was OPEN)
+[B 19/499] https://www.careerbuilder.com              UNREACHABLE  -            None (was CHALLENGED)
+[B 20/499] https://www.dice.com                       OPEN         -            200 (was OPEN)
+[B 21/499] https://www.flexjobs.com                   UNREACHABLE  -            None (was UNREACHABLE)
+[B 22/499] https://www.glassdoor.com                  OPEN         -            200 (was OPEN)
+[B 23/499] https://www.himalayas.app                  OPEN         -            200 (was OPEN)
+[B 24/499] https://www.indeed.com                     OPEN         -            200 (was OPEN)
+[B 25/499] https://www.levels.fyi                     OPEN         -            200 (was OPEN)
+[B 26/499] https://www.linkedin.com                   OPEN         -            200 (was OPEN)
+[B 27/499] https://www.monster.com                    CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 28/499] https://www.salary.com                     OPEN         -            200 (was OPEN)
+[B 29/499] https://www.simplyhired.com                OPEN         -            200 (was OPEN)
+[B 30/499] https://www.snagajob.com                   OPEN         -            200 (was OPEN)
+[B 31/499] https://www.themuse.com                    OPEN         -            200 (was OPEN)
+[B 32/499] https://www.workingnomads.com              OPEN         -            200 (was OPEN)
+[B 33/499] https://www.ycombinator.com                OPEN         -            200 (was OPEN)
+[B 34/499] https://www.ziprecruiter.com               OPEN         -            200 (was OPEN)
+[B 35/499] https://remotive.com                       OPEN         -            200 (was OPEN)
+[B 36/499] https://jobspresso.co                      OPEN         -            200 (was OPEN)
+[B 37/499] https://authenticjobs.com                  OPEN         -            200 (was OPEN)
+[B 38/499] https://theladders.com                     OPEN         -            200 (was OPEN)
+[B 39/499] https://hired.com                          OPEN         -            200 (was OPEN)
+[B 40/499] https://powertofly.com                     OPEN         -            200 (was OPEN)
+[B 41/499] https://idealist.org                       OPEN         -            200 (was OPEN)
+[B 42/499] https://coolworks.com                      OPEN         -            200 (was OPEN)
+[B 43/499] https://www.instawork.com                  OPEN         -            200 (was OPEN)
+[B 44/499] https://wonolo.com                         OPEN         -            200 (was OPEN)
+[B 45/499] https://www.jobcase.com                    OPEN         -            200 (was OPEN)
+[B 46/499] https://talent.com                         OPEN         -            200 (was OPEN)
+[B 47/499] https://www.adzuna.com                     WALLED       AWS CloudFront 403 (was WALLED)
+[B 48/499] https://www.totaljobs.com                  UNREACHABLE  -            None (was UNREACHABLE)
+[B 49/499] https://www.reed.co.uk                     OPEN         -            200 (was OPEN)
+[B 50/499] https://www.seek.com.au                    OPEN         -            200 (was OPEN)
+[B 51/499] https://www.mediabistro.com                OPEN         -            200 (was OPEN)
+[B 52/499] https://www.journalismjobs.com             OPEN         -            200 (was OPEN)
+[B 53/499] https://bitbucket.org                      OPEN         -            200 (was OPEN)
+[B 54/499] https://github.com                         OPEN         -            200 (was OPEN)
+[B 55/499] https://gitlab.com                         OPEN         -            200 (was OPEN)
+[B 56/499] https://hub.docker.com                     OPEN         -            200 (was OPEN)
+[B 57/499] https://huggingface.co                     OPEN         -            200 (was OPEN)
+[B 58/499] https://pypi.org                           OPEN         -            200 (was OPEN)
+[B 59/499] https://replit.com                         OPEN         -            200 (was OPEN)
+[B 60/499] https://sourceforge.net                    OPEN         -            200 (was OPEN)
+[B 61/499] https://stackoverflow.com                  OPEN         -            200 (was OPEN)
+[B 62/499] https://vercel.com                         OPEN         -            200 (was OPEN)
+[B 63/499] https://www.netlify.com                    OPEN         -            200 (was OPEN)
+[B 64/499] https://www.npmjs.com                      CHALLENGED   Cloudflare   403 (was CHALLENGED)
+[B 65/499] https://discord.com                        OPEN         -            200 (was OPEN)
+[B 66/499] https://www.facebook.com                   OPEN         -            200 (was OPEN)
+[B 67/499] https://www.instagram.com                  OPEN         -            200 (was OPEN)
+[B 68/499] https://www.reddit.com                     OPEN         -            200 (was OPEN)
+[B 69/499] https://www.threads.com                    OPEN         -            200 (was OPEN)
+[B 70/499] https://www.tiktok.com                     OPEN         -            200 (was OPEN)
+[B 71/499] https://www.twitch.tv                      OPEN         -            200 (was OPEN)
+[B 72/499] https://www.youtube.com                    OPEN         -            200 (was OPEN)
+[B 73/499] https://x.com                              OPEN         -            200 (was OPEN)
+[B 74/499] https://arstechnica.com                    OPEN         -            200 (was OPEN)
+[B 75/499] https://dev.to                             OPEN         -            200 (was OPEN)
+[B 76/499] https://en.wikipedia.org                   OPEN         -            200 (was OPEN)
+[B 77/499] https://medium.com                         WALLED       Cloudflare   403 (was WALLED)
+[B 78/499] https://news.ycombinator.com               OPEN         -            200 (was OPEN)
+[B 79/499] https://substack.com                       OPEN         -            200 (was OPEN)
+[B 80/499] https://techcrunch.com                     OPEN         -            200 (was OPEN)
+[B 81/499] https://www.bbc.com                        OPEN         -            200 (was OPEN)
+[B 82/499] https://www.nytimes.com                    CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 83/499] https://www.amazon.com                     CHALLENGED   Generic      200 (was OPEN)
+[B 84/499] https://www.apple.com                      OPEN         -            200 (was OPEN)
+[B 85/499] https://www.bestbuy.com                    UNREACHABLE  -            None (was UNREACHABLE)
+[B 86/499] https://www.cloudflare.com                 OPEN         -            200 (was OPEN)
+[B 87/499] https://www.ebay.com                       WALLED       Akamai       403 (was WALLED)
+[B 88/499] https://www.google.com                     OPEN         -            200 (was OPEN)
+[B 89/499] https://www.microsoft.com                  OPEN         -            200 (was OPEN)
+[B 90/499] https://www.netflix.com                    OPEN         -            200 (was OPEN)
+[B 91/499] https://www.target.com                     OPEN         -            200 (was OPEN)
+[B 92/499] https://www.walmart.com                    OPEN         -            200 (was OPEN)
+[B 93/499] https://clipwise.replit.app                OPEN         -            200 (was OPEN)
+[B 94/499] https://cloudcorprecords.github.io         OPEN         -            404 (was OPEN)
+[B 95/499] https://reneturcios.replit.app             OPEN         -            200 (was OPEN)
+[B 96/499] https://anaconda.org                       OPEN         -            200 (was OPEN)
+[B 97/499] https://aws.amazon.com                     OPEN         -            200 (was OPEN)
+[B 98/499] https://azure.microsoft.com                OPEN         -            200 (was OPEN)
+[B 99/499] https://bun.sh                             OPEN         -            200 (was OPEN)
+[B 100/499] https://cloud.google.com                   OPEN         -            200 (was OPEN)
+[B 101/499] https://codeberg.org                       OPEN         -            200 (was OPEN)
+[B 102/499] https://crates.io                          OPEN         -            404 (was OPEN)
+[B 103/499] https://deno.com                           OPEN         -            200 (was OPEN)
+[B 104/499] https://firebase.google.com                OPEN         -            200 (was OPEN)
+[B 105/499] https://fly.io                             OPEN         -            200 (was OPEN)
+[B 106/499] https://hex.pm                             OPEN         -            200 (was OPEN)
+[B 107/499] https://packagist.org                      OPEN         -            200 (was OPEN)
+[B 108/499] https://pkg.go.dev                         OPEN         -            200 (was OPEN)
+[B 109/499] https://pub.dev                            OPEN         -            200 (was OPEN)
+[B 110/499] https://railway.app                        OPEN         -            200 (was OPEN)
+[B 111/499] https://registry.terraform.io              OPEN         -            200 (was OPEN)
+[B 112/499] https://render.com                         OPEN         -            200 (was OPEN)
+[B 113/499] https://repo.maven.apache.org              OPEN         -            200 (was OPEN)
+[B 114/499] https://rubygems.org                       OPEN         -            200 (was OPEN)
+[B 115/499] https://supabase.com                       OPEN         -            200 (was OPEN)
+[B 116/499] https://www.digitalocean.com               OPEN         -            200 (was OPEN)
+[B 117/499] https://www.heroku.com                     OPEN         -            200 (was OPEN)
+[B 118/499] https://www.linode.com                     OPEN         -            200 (was OPEN)
+[B 119/499] https://www.nuget.org                      OPEN         -            200 (was OPEN)
+[B 120/499] https://ai.google.dev                      OPEN         -            200 (was OPEN)
+[B 121/499] https://chatgpt.com                        OPEN         -            200 (was OPEN)
+[B 122/499] https://claude.ai                          CHALLENGED   Cloudflare   403 (was CHALLENGED)
+[B 123/499] https://cohere.com                         OPEN         -            200 (was OPEN)
+[B 124/499] https://deepmind.google                    OPEN         -            200 (was OPEN)
+[B 125/499] https://groq.com                           OPEN         -            200 (was OPEN)
+[B 126/499] https://mistral.ai                         OPEN         -            200 (was OPEN)
+[B 127/499] https://ollama.com                         OPEN         -            200 (was OPEN)
+[B 128/499] https://openai.com                         OPEN         -            200 (was OPEN)
+[B 129/499] https://replicate.com                      OPEN         -            200 (was OPEN)
+[B 130/499] https://runwayml.com                       OPEN         -            200 (was OPEN)
+[B 131/499] https://stability.ai                       OPEN         -            200 (was OPEN)
+[B 132/499] https://together.ai                        OPEN         -            200 (was OPEN)
+[B 133/499] https://www.anthropic.com                  OPEN         -            200 (was OPEN)
+[B 134/499] https://www.perplexity.ai                  OPEN         -            200 (was OPEN)
+[B 135/499] https://gumroad.com                        OPEN         -            200 (was OPEN)
+[B 136/499] https://sellercentral.amazon.com           OPEN         -            200 (was OPEN)
+[B 137/499] https://stripe.com                         OPEN         -            200 (was OPEN)
+[B 138/499] https://woocommerce.com                    OPEN         -            200 (was OPEN)
+[B 139/499] https://www.bigcommerce.com                OPEN         -            200 (was OPEN)
+[B 140/499] https://www.chewy.com                      RATE_LIMITED Kasada       429 (was RATE_LIMITED)
+[B 141/499] https://www.costco.com                     OPEN         -            200 (was OPEN)
+[B 142/499] https://www.doordash.com                   OPEN         -            200 (was OPEN)
+[B 143/499] https://www.etsy.com                       CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 144/499] https://www.homedepot.com                  WALLED       Akamai       403 (was WALLED)
+[B 145/499] https://www.ikea.com                       OPEN         -            200 (was OPEN)
+[B 146/499] https://www.instacart.com                  OPEN         -            200 (was OPEN)
+[B 147/499] https://www.kroger.com                     UNREACHABLE  -            None (was UNREACHABLE)
+[B 148/499] https://www.lowes.com                      OPEN         -            200 (was OPEN)
+[B 149/499] https://www.macys.com                      WALLED       Akamai       403 (was WALLED)
+[B 150/499] https://www.mercari.com                    OPEN         -            200 (was OPEN)
+[B 151/499] https://www.nike.com                       OPEN         -            200 (was OPEN)
+[B 152/499] https://www.nordstrom.com                  OPEN         -            200 (was OPEN)
+[B 153/499] https://www.offerup.com                    OPEN         -            200 (was OPEN)
+[B 154/499] https://www.poshmark.com                   OPEN         -            200 (was OPEN)
+[B 155/499] https://www.shopify.com                    OPEN         -            200 (was OPEN)
+[B 156/499] https://www.squarespace.com                OPEN         -            200 (was OPEN)
+[B 157/499] https://www.ubereats.com                   CHALLENGED   Cloudflare   403 (was CHALLENGED)
+[B 158/499] https://www.wayfair.com                    OPEN         -            200 (was OPEN)
+[B 159/499] https://www.wix.com                        OPEN         -            200 (was OPEN)
+[B 160/499] https://bsky.app                           OPEN         -            200 (was OPEN)
+[B 161/499] https://mastodon.social                    OPEN         -            200 (was OPEN)
+[B 162/499] https://slack.com                          OPEN         -            200 (was OPEN)
+[B 163/499] https://soundcloud.com                     OPEN         -            200 (was OPEN)
+[B 164/499] https://vimeo.com                          OPEN         -            200 (was OPEN)
+[B 165/499] https://www.eventbrite.com                 OPEN         -            200 (was OPEN)
+[B 166/499] https://www.kickstarter.com                OPEN         -            200 (was OPEN)
+[B 167/499] https://www.meetup.com                     OPEN         -            200 (was OPEN)
+[B 168/499] https://www.patreon.com                    OPEN         -            200 (was OPEN)
+[B 169/499] https://www.pinterest.com                  OPEN         -            200 (was OPEN)
+[B 170/499] https://www.producthunt.com                OPEN         -            200 (was OPEN)
+[B 171/499] https://www.quora.com                      OPEN         -            200 (was OPEN)
+[B 172/499] https://www.spotify.com                    OPEN         -            200 (was OPEN)
+[B 173/499] https://zoom.com                           OPEN         -            200 (was OPEN)
+[B 174/499] https://archive.org                        OPEN         -            200 (was OPEN)
+[B 175/499] https://arxiv.org                          OPEN         -            200 (was OPEN)
+[B 176/499] https://developer.mozilla.org              OPEN         -            200 (was OPEN)
+[B 177/499] https://readthedocs.org                    OPEN         -            200 (was OPEN)
+[B 178/499] https://www.coursera.org                   OPEN         -            200 (was OPEN)
+[B 179/499] https://www.gutenberg.org                  OPEN         -            200 (was OPEN)
+[B 180/499] https://www.khanacademy.org                OPEN         -            200 (was OPEN)
+[B 181/499] https://www.udemy.com                      OPEN         -            200 (was OPEN)
+[B 182/499] https://www.w3schools.com                  WALLED       Akamai       403 (was WALLED)
+[B 183/499] https://www.bloomberg.com                  OPEN         -            200 (was OPEN)
+[B 184/499] https://www.reuters.com                    CHALLENGED   DataDome     401 (was CHALLENGED)
+[B 185/499] https://www.theguardian.com                OPEN         -            200 (was OPEN)
+[B 186/499] https://www.theverge.com                   OPEN         -            200 (was OPEN)
+[B 187/499] https://www.wired.com                      OPEN         -            200 (was OPEN)
+[B 188/499] https://www.wsj.com                        CHALLENGED   DataDome     401 (was CHALLENGED)
+[B 189/499] https://www.vox.com                        OPEN         -            200 (was OPEN)
+[B 190/499] https://www.engadget.com                   OPEN         -            200 (was OPEN)
+[B 191/499] https://gizmodo.com                        OPEN         -            200 (was OPEN)
+[B 192/499] https://kotaku.com                         OPEN         -            200 (was OPEN)
+[B 193/499] https://www.polygon.com                    OPEN         -            200 (was OPEN)
+[B 194/499] https://www.gamespot.com                   OPEN         -            200 (was OPEN)
+[B 195/499] https://www.ign.com                        OPEN         -            200 (was OPEN)
+[B 196/499] https://www.pcgamer.com                    OPEN         -            200 (was OPEN)
+[B 197/499] https://www.eurogamer.net                  OPEN         -            200 (was OPEN)
+[B 198/499] https://pitchfork.com                      OPEN         -            200 (was OPEN)
+[B 199/499] https://www.rollingstone.com               OPEN         -            200 (was OPEN)
+[B 200/499] https://www.billboard.com                  OPEN         -            200 (was OPEN)
+[B 201/499] https://variety.com                        OPEN         -            200 (was OPEN)
+[B 202/499] https://www.hollywoodreporter.com          OPEN         -            200 (was OPEN)
+[B 203/499] https://deadline.com                       OPEN         -            200 (was OPEN)
+[B 204/499] https://www.indiewire.com                  OPEN         -            200 (was OPEN)
+[B 205/499] https://www.vulture.com                    OPEN         -            200 (was OPEN)
+[B 206/499] https://slate.com                          OPEN         -            200 (was OPEN)
+[B 207/499] https://www.salon.com                      OPEN         -            200 (was OPEN)
+[B 208/499] https://www.independent.co.uk              OPEN         -            200 (was OPEN)
+[B 209/499] https://www.telegraph.co.uk                OPEN         -            402 (was OPEN)
+[B 210/499] https://www.ft.com                         CHALLENGED   Cloudflare   403 (was CHALLENGED)
+[B 211/499] https://www.latimes.com                    OPEN         -            200 (was OPEN)
+[B 212/499] https://www.chicagotribune.com             OPEN         -            200 (was OPEN)
+[B 213/499] https://www.bostonglobe.com                OPEN         -            200 (was OPEN)
+[B 214/499] https://www.sfgate.com                     OPEN         -            200 (was OPEN)
+[B 215/499] https://www.sfchronicle.com                OPEN         -            200 (was OPEN)
+[B 216/499] https://nypost.com                         OPEN         -            200 (was OPEN)
+[B 217/499] https://www.usatoday.com                   OPEN         -            402 (was OPEN)
+[B 218/499] https://www.axios.com                      OPEN         -            200 (was OPEN)
+[B 219/499] https://www.politico.com                   OPEN         -            200 (was OPEN)
+[B 220/499] https://thehill.com                        OPEN         -            200 (was OPEN)
+[B 221/499] https://www.huffpost.com                   OPEN         -            200 (was OPEN)
+[B 222/499] https://www.buzzfeed.com                   OPEN         -            200 (was OPEN)
+[B 223/499] https://www.businessinsider.com            OPEN         -            200 (was OPEN)
+[B 224/499] https://www.fastcompany.com                CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 225/499] https://www.inc.com                        CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 226/499] https://www.entrepreneur.com               OPEN         -            200 (was OPEN)
+[B 227/499] https://fortune.com                        OPEN         -            200 (was OPEN)
+[B 228/499] https://www.economist.com                  CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 229/499] https://apnews.com                         CHALLENGED   Cloudflare   403 (was CHALLENGED)
+[B 230/499] https://www.pbs.org                        OPEN         -            200 (was OPEN)
+[B 231/499] https://www.aljazeera.com                  OPEN         -            200 (was OPEN)
+[B 232/499] https://www.dw.com                         OPEN         -            200 (was OPEN)
+[B 233/499] https://www.france24.com                   OPEN         -            200 (was OPEN)
+[B 234/499] https://www.scmp.com                       WALLED       Cloudflare   403 (was WALLED)
+[B 235/499] https://www.straitstimes.com               OPEN         -            200 (was OPEN)
+[B 236/499] https://www.japantimes.co.jp               OPEN         -            200 (was OPEN)
+[B 237/499] https://www.techmeme.com                   OPEN         -            200 (was OPEN)
+[B 238/499] https://www.theinformation.com             OPEN         -            200 (was OPEN)
+[B 239/499] https://www.semafor.com                    OPEN         -            200 (was OPEN)
+[B 240/499] https://www.404media.co                    OPEN         -            200 (was OPEN)
+[B 241/499] https://defector.com                       OPEN         -            200 (was OPEN)
+[B 242/499] https://www.thecut.com                     OPEN         -            200 (was OPEN)
+[B 243/499] https://www.npr.org                        OPEN         -            200 (was OPEN)
+[B 244/499] https://www.theatlantic.com                WALLED       Cloudflare   403 (was WALLED)
+[B 245/499] https://www.newyorker.com                  OPEN         -            200 (was OPEN)
+[B 246/499] https://www.airbnb.com                     OPEN         -            200 (was OPEN)
+[B 247/499] https://www.alaskaair.com                  OPEN         -            200 (was OPEN)
+[B 248/499] https://www.americanairlines.com           WALLED       Akamai       403 (was WALLED)
+[B 249/499] https://www.amtrak.com                     WALLED       Akamai       403 (was WALLED)
+[B 250/499] https://www.booking.com                    CHALLENGED   AWS WAF      202 (was CHALLENGED)
+[B 251/499] https://www.delta.com                      WALLED       Akamai       444 (was WALLED)
+[B 252/499] https://www.expedia.com                    RATE_LIMITED -            429 (was RATE_LIMITED)
+[B 253/499] https://www.hilton.com                     WALLED       Akamai       403 (was WALLED)
+[B 254/499] https://www.hotels.com                     RATE_LIMITED -            429 (was RATE_LIMITED)
+[B 255/499] https://www.hyatt.com                      WALLED       -            403 (was WALLED)
+[B 256/499] https://www.jetblue.com                    OPEN         -            200 (was OPEN)
+[B 257/499] https://www.kayak.com                      OPEN         -            200 (was OPEN)
+[B 258/499] https://www.lyft.com                       OPEN         -            200 (was OPEN)
+[B 259/499] https://www.marriott.com                   WALLED       Akamai       403 (was WALLED)
+[B 260/499] https://www.priceline.com                  OPEN         -            200 (was OPEN)
+[B 261/499] https://www.southwest.com                  OPEN         -            200 (was OPEN)
+[B 262/499] https://www.uber.com                       OPEN         -            200 (was OPEN)
+[B 263/499] https://www.united.com                     UNREACHABLE  -            None (was UNREACHABLE)
+[B 264/499] https://www.vrbo.com                       RATE_LIMITED -            429 (was RATE_LIMITED)
+[B 265/499] https://duckduckgo.com                     OPEN         -            200 (was OPEN)
+[B 266/499] https://www.bing.com                       OPEN         -            200 (was OPEN)
+[B 267/499] https://www.benefits.gov                   OPEN         -            200 (was OPEN)
+[B 268/499] https://www.ca.gov                         OPEN         -            200 (was OPEN)
+[B 269/499] https://www.consumerfinance.gov            OPEN         -            200 (was OPEN)
+[B 270/499] https://www.ed.gov                         CHALLENGED   Microsoft Azure WAF 403 (was CHALLENGED)
+[B 271/499] https://www.ftc.gov                        WALLED       Akamai       403 (was WALLED)
+[B 272/499] https://www.grants.gov                     OPEN         -            200 (was OPEN)
+[B 273/499] https://www.healthcare.gov                 OPEN         -            200 (was OPEN)
+[B 274/499] https://www.irs.gov                        OPEN         -            200 (was OPEN)
+[B 275/499] https://www.nyc.gov                        WALLED       Akamai       403 (was WALLED)
+[B 276/499] https://www.sf.gov                         OPEN         -            200 (was OPEN)
+[B 277/499] https://www.ssa.gov                        WALLED       Akamai       403 (was WALLED)
+[B 278/499] https://www.state.gov                      WALLED       -            403 (was WALLED)
+[B 279/499] https://www.treasury.gov                   OPEN         -            200 (was OPEN)
+[B 280/499] https://www.usa.gov                        OPEN         -            200 (was OPEN)
+[B 281/499] https://www.usajobs.gov                    OPEN         -            200 (was OPEN)
+[B 282/499] https://www.usps.com                       OPEN         -            200 (was OPEN)
+[B 283/499] https://www.va.gov                         OPEN         -            200 (was OPEN)
+[B 284/499] https://www.vote.gov                       OPEN         -            200 (was OPEN)
+[B 285/499] https://www.weather.gov                    OPEN         -            200 (was OPEN)
+[B 286/499] https://www.americanexpress.com            OPEN         -            200 (was OPEN)
+[B 287/499] https://www.bankofamerica.com              OPEN         -            200 (was OPEN)
+[B 288/499] https://www.capitalone.com                 OPEN         -            200 (was OPEN)
+[B 289/499] https://www.chase.com                      OPEN         -            200 (was OPEN)
+[B 290/499] https://www.citi.com                       OPEN         -            200 (was OPEN)
+[B 291/499] https://www.coinbase.com                   OPEN         -            200 (was OPEN)
+[B 292/499] https://www.discover.com                   OPEN         -            200 (was OPEN)
+[B 293/499] https://www.etrade.com                     UNREACHABLE  -            None (was UNREACHABLE)
+[B 294/499] https://www.fidelity.com                   OPEN         -            200 (was OPEN)
+[B 295/499] https://www.paypal.com                     OPEN         -            200 (was OPEN)
+[B 296/499] https://www.robinhood.com                  OPEN         -            200 (was OPEN)
+[B 297/499] https://www.schwab.com                     OPEN         -            200 (was OPEN)
+[B 298/499] https://www.sofi.com                       OPEN         -            200 (was OPEN)
+[B 299/499] https://www.truist.com                     OPEN         -            200 (was OPEN)
+[B 300/499] https://www.usbank.com                     OPEN         -            200 (was OPEN)
+[B 301/499] https://www.vanguard.com                   OPEN         -            200 (was OPEN)
+[B 302/499] https://www.venmo.com                      OPEN         -            200 (was OPEN)
+[B 303/499] https://www.wellsfargo.com                 OPEN         -            200 (was OPEN)
+[B 304/499] https://www.cdc.gov                        OPEN         -            200 (was OPEN)
+[B 305/499] https://www.clevelandclinic.org            OPEN         -            200 (was OPEN)
+[B 306/499] https://www.cvs.com                        OPEN         -            200 (was OPEN)
+[B 307/499] https://www.fda.gov                        OPEN         -            200 (was OPEN)
+[B 308/499] https://www.goodrx.com                     CHALLENGED   PerimeterX   403 (was CHALLENGED)
+[B 309/499] https://www.healthline.com                 OPEN         -            200 (was OPEN)
+[B 310/499] https://www.hopkinsmedicine.org            OPEN         -            200 (was OPEN)
+[B 311/499] https://www.mayoclinic.org                 WALLED       Akamai       403 (was WALLED)
+[B 312/499] https://www.nih.gov                        OPEN         -            200 (was OPEN)
+[B 313/499] https://www.riteaid.com                    OPEN         -            200 (was OPEN)
+[B 314/499] https://www.walgreens.com                  OPEN         -            200 (was OPEN)
+[B 315/499] https://www.webmd.com                      OPEN         -            200 (was OPEN)
+[B 316/499] https://www.zocdoc.com                     CHALLENGED   DataDome     403 (was CHALLENGED)
+[B 317/499] https://www.berkeley.edu                   OPEN         -            200 (was OPEN)
+[B 318/499] https://www.duolingo.com                   OPEN         -            200 (was OPEN)
+[B 319/499] https://www.edx.org                        OPEN         -            200 (was OPEN)
+[B 320/499] https://www.harvard.edu                    OPEN         -            200 (was OPEN)
+[B 321/499] https://www.masterclass.com                OPEN         -            200 (was OPEN)
+[B 322/499] https://www.mit.edu                        OPEN         -            200 (was OPEN)
+[B 323/499] https://www.pluralsight.com                OPEN         -            200 (was OPEN)
+[B 324/499] https://www.skillshare.com                 OPEN         -            200 (was OPEN)
+[B 325/499] https://www.stanford.edu                   OPEN         -            200 (was OPEN)
+[B 326/499] https://www.udacity.com                    OPEN         -            200 (was OPEN)
+[B 327/499] https://www.apartments.com                 WALLED       Akamai       403 (was WALLED)
+[B 328/499] https://www.compass.com                    OPEN         -            200 (was OPEN)
+[B 329/499] https://www.homes.com                      WALLED       Akamai       403 (was WALLED)
+[B 330/499] https://www.realtor.com                    UNREACHABLE  -            None (was RATE_LIMITED)
+[B 331/499] https://www.redfin.com                     UNREACHABLE  -            None (was WALLED)
+[B 332/499] https://www.trulia.com                     UNREACHABLE  -            None (was OPEN)
+[B 333/499] https://www.zillow.com                     UNREACHABLE  -            None (was OPEN)
+[B 334/499] https://www.typeform.com                   UNREACHABLE  -            None (was OPEN)
+[B 335/499] https://www.jotform.com                    UNREACHABLE  -            None (was OPEN)
+[B 336/499] https://www.surveymonkey.com               UNREACHABLE  -            None (was OPEN)
+[B 337/499] https://mailchimp.com                      UNREACHABLE  -            None (was OPEN)
+[B 338/499] https://www.constantcontact.com            UNREACHABLE  -            None (was OPEN)
+[B 339/499] https://sendgrid.com                       UNREACHABLE  -            None (was OPEN)
+[B 340/499] https://convertkit.com                     UNREACHABLE  -            None (was OPEN)
+[B 341/499] https://ghost.org                          UNREACHABLE  -            None (was OPEN)
+[B 342/499] https://webflow.com                        UNREACHABLE  -            None (was OPEN)
+[B 343/499] https://www.paddle.com                     UNREACHABLE  -            None (was OPEN)
+[B 344/499] https://www.chargebee.com                  UNREACHABLE  -            None (was OPEN)
+[B 345/499] https://www.zendesk.com                    UNREACHABLE  -            None (was OPEN)
+[B 346/499] https://www.freshdesk.com                  UNREACHABLE  -            None (was OPEN)
+[B 347/499] https://www.hubspot.com                    UNREACHABLE  -            None (was OPEN)
+[B 348/499] https://www.salesforce.com                 UNREACHABLE  -            None (was OPEN)
+[B 349/499] https://www.pipedrive.com                  UNREACHABLE  -            None (was OPEN)
+[B 350/499] https://www.apollo.io                      UNREACHABLE  -            None (was OPEN)
+[B 351/499] https://www.outreach.io                    UNREACHABLE  -            None (was OPEN)
+[B 352/499] https://www.salesloft.com                  UNREACHABLE  -            None (was OPEN)
+[B 353/499] https://www.gong.io                        UNREACHABLE  -            None (was OPEN)
+[B 354/499] https://www.zoominfo.com                   UNREACHABLE  -            None (was OPEN)
+[B 355/499] https://hunter.io                          UNREACHABLE  -            None (was OPEN)
+[B 356/499] https://www.lusha.com                      UNREACHABLE  -            None (was OPEN)
+[B 357/499] https://rocketreach.co                     UNREACHABLE  -            None (was OPEN)
+[B 358/499] https://neon.tech                          UNREACHABLE  -            None (was OPEN)
+[B 359/499] https://clerk.com                          UNREACHABLE  -            None (was OPEN)
+[B 360/499] https://auth0.com                          UNREACHABLE  -            None (was OPEN)
+[B 361/499] https://workos.com                         UNREACHABLE  -            None (was OPEN)
+[B 362/499] https://mixpanel.com                       UNREACHABLE  -            None (was OPEN)
+[B 363/499] https://amplitude.com                      UNREACHABLE  -            None (was OPEN)
+[B 364/499] https://segment.com                        UNREACHABLE  -            None (was OPEN)
+[B 365/499] https://coda.io                            UNREACHABLE  -            None (was OPEN)
+[B 366/499] https://www.smartsheet.com                 UNREACHABLE  -            None (was OPEN)
+[B 367/499] https://monday.com                         UNREACHABLE  -            None (was OPEN)
+[B 368/499] https://clickup.com                        UNREACHABLE  -            None (was OPEN)
+[B 369/499] https://todoist.com                        UNREACHABLE  -            None (was UNREACHABLE)
+[B 370/499] https://linear.app                         UNREACHABLE  -            None (was OPEN)
+[B 371/499] https://basecamp.com                       UNREACHABLE  -            None (was OPEN)
+[B 372/499] https://www.wrike.com                      UNREACHABLE  -            None (was OPEN)
+[B 373/499] https://www.zoho.com                       UNREACHABLE  -            None (was OPEN)
+[B 374/499] https://evernote.com                       UNREACHABLE  -            None (was OPEN)
+[B 375/499] https://www.box.com                        UNREACHABLE  -            None (was OPEN)
+[B 376/499] https://www.dropbox.com                    UNREACHABLE  -            None (was OPEN)
+[B 377/499] https://www.figma.com                      UNREACHABLE  -            None (was OPEN)
+[B 378/499] https://www.canva.com                      UNREACHABLE  -            None (was OPEN)
+[B 379/499] https://miro.com                           UNREACHABLE  -            None (was OPEN)
+[B 380/499] https://www.mural.co                       UNREACHABLE  -            None (was OPEN)
+[B 381/499] https://www.framer.com                     UNREACHABLE  -            None (was OPEN)

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.monster.com",
+  "final_url": "https://www.monster.com",
+  "status": 403,
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Sat, 24 Oct 2026 02:38:56 GMT",
+    "Content-Type": "text/html;charset=utf-8",
+    "X-Amz-Cf-Id": "YI3aCJNdaERa_IrthiHIWIu5TLxpH34Z1sK3Wwb8t-5c6R5SgQ8PuA==",
+    "X-Amz-Cf-Pop": "MIA50-P1",
+    "x-datadome": "protected",
+    "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory,Sec-CH-UA-Platform-Version",
+    "charset": "utf-8",
+    "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+    "pragma": "no-cache",
+    "access-control-allow-credentials": "true",
+    "access-control-expose-headers": "x-dd-b, x-set-cookie",
+    "access-control-allow-origin": "*",
+    "x-datadome-cid": "AHrlqAAAAAMAl2gQIWrX8zwAV1Hlew==",
+    "x-dd-b": "2",
+    "set-cookie": "datadome=NmaHwNaXk7Qz_fR6KLOAlwPuyMZMSNnQON8pOUMcvQqBhIizPXfNPVGpCTNDSKXTmCemh5CjLCZ9PRGGh_hSqZa6PRqT6vKTz5WYoCewlPRRvQU5BskLnKCTxSrtGvNI; Max-Age=31536000; Domain=.monster.com; Path=/; Secure; SameSite=Lax",
+    "X-Cache": "LambdaGeneratedResponse from cloudfront",
+    "Via": "1.1 2d8030979aa2366c926e5b36f9695272.cloudfront.net (CloudFront)",
+    "Connection": "close",
+    "Content-Length": "771"
+  },
+  "body": "<html lang=\"en\"><head><title>monster.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAl2gQIWrX8zwAV1Hlew==','hsh':'A7B2DA82190597376E01B53F7A9246','t':'bv','qp':'','s':51024,'e':'0df4140991d03ad2f662a100644bfc0c1c6652faff162edd3592c86b4275c8ba5c7d63fa1939dc9101309fe6302bec44','host':'geo.captcha-delivery.com','cookie':'NmaHwNaXk7Qz_fR6KLOAlwPuyMZMSNnQON8pOUMcvQqBhIizPXfNPVGpCTNDSKXTmCemh5CjLCZ9PRGGh_hSqZa6PRqT6vKTz5WYoCewlPRRvQU5BskLnKCTxSrtGvNI'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+  "redirect_chain": [],
+  "error": null,
+  "body_bytes_captured": 771
+}

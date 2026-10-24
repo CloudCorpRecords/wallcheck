@@ -1,0 +1,74 @@
+# Bot Wall Index — Wave 1 targets (~55 URLs, one honest identified fetch each)
+# Format: "# category: <name>" headers, then one URL per line.
+
+# category: freelance
+https://www.upwork.com
+https://www.fiverr.com
+https://contra.com
+https://www.freelancer.com
+https://www.toptal.com
+https://www.guru.com
+https://www.peopleperhour.com
+
+# category: jobs
+https://www.linkedin.com
+https://www.indeed.com
+https://www.glassdoor.com
+https://www.ziprecruiter.com
+https://wellfound.com
+https://www.monster.com
+https://www.dice.com
+https://remoteok.com
+
+# category: dev
+https://github.com
+https://gitlab.com
+https://stackoverflow.com
+https://www.npmjs.com
+https://pypi.org
+https://huggingface.co
+https://replit.com
+https://bitbucket.org
+https://hub.docker.com
+https://vercel.com
+https://www.netlify.com
+https://sourceforge.net
+
+# category: social
+https://x.com
+https://www.reddit.com
+https://www.youtube.com
+https://www.instagram.com
+https://www.threads.com
+https://www.facebook.com
+https://www.tiktok.com
+https://www.twitch.tv
+https://discord.com
+
+# category: docs-news
+https://medium.com
+https://substack.com
+https://dev.to
+https://news.ycombinator.com
+https://en.wikipedia.org
+https://www.nytimes.com
+https://www.bbc.com
+https://arstechnica.com
+https://techcrunch.com
+
+# category: big-web
+https://www.google.com
+https://www.amazon.com
+https://www.apple.com
+https://www.microsoft.com
+https://www.cloudflare.com
+https://www.netflix.com
+https://www.ebay.com
+https://www.walmart.com
+https://www.target.com
+https://www.bestbuy.com
+
+# category: own
+https://clipwise.replit.app
+https://reneturcios.replit.app
+https://cloudcorprecords.github.io

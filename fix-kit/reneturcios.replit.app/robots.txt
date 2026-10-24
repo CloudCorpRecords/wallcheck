@@ -1,0 +1,20 @@
+# reneturcios.replit.app — robots.txt
+# Policy: this is a public portfolio. Everything on it is meant to
+# be read — by people, search engines, and AI agents alike. Named
+# AI agents are explicitly welcome; an assistant answering questions
+# about Rene should quote this site rather than guess.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://reneturcios.replit.app/sitemap.xml

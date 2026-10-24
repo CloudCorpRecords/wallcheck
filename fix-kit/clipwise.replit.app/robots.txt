@@ -1,0 +1,23 @@
+# Clipwise — robots.txt
+# Policy: the public product pages are open to every agent and
+# crawler. Clipwise is built to be called by AI assistants (it
+# ships an MCP server), so named AI agents are explicitly welcome.
+# Signed-in app surfaces stay behind authentication as usual;
+# robots.txt is a crawl policy, not an access control.
+
+User-agent: *
+Allow: /
+
+# Named AI agents — same open policy, stated explicitly so no
+# agent has to guess.
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://clipwise.replit.app/sitemap.xml

@@ -1,0 +1,118 @@
+# Bot Wall Index — Wave 3 expansion targets (~95 NEW URLs, deduped
+# against the Wave 1 set; one honest identified fetch each).
+
+# category: jobs
+https://weworkremotely.com
+https://builtin.com
+https://www.flexjobs.com
+https://www.workingnomads.com
+https://www.himalayas.app
+https://otta.com
+https://www.levels.fyi
+https://www.ycombinator.com
+
+# category: freelance
+https://www.99designs.com
+https://www.thumbtack.com
+https://www.bark.com
+https://arc.dev
+https://gun.io
+https://www.lemon.io
+
+# category: dev-infra
+https://crates.io
+https://rubygems.org
+https://repo.maven.apache.org
+https://www.nuget.org
+https://pkg.go.dev
+https://deno.com
+https://bun.sh
+https://railway.app
+https://render.com
+https://fly.io
+https://www.digitalocean.com
+https://www.linode.com
+https://www.heroku.com
+https://supabase.com
+https://codeberg.org
+https://cloud.google.com
+https://aws.amazon.com
+https://azure.microsoft.com
+https://packagist.org
+https://hex.pm
+https://pub.dev
+https://registry.terraform.io
+https://anaconda.org
+https://firebase.google.com
+
+# category: ai
+https://openai.com
+https://www.anthropic.com
+https://claude.ai
+https://chatgpt.com
+https://www.perplexity.ai
+https://mistral.ai
+https://cohere.com
+https://replicate.com
+https://together.ai
+https://groq.com
+https://ollama.com
+https://stability.ai
+https://runwayml.com
+https://ai.google.dev
+https://deepmind.google
+
+# category: commerce
+https://www.shopify.com
+https://stripe.com
+https://www.etsy.com
+https://sellercentral.amazon.com
+https://woocommerce.com
+https://www.squarespace.com
+https://www.wix.com
+https://gumroad.com
+https://www.bigcommerce.com
+
+# category: media-forums
+https://www.quora.com
+https://www.pinterest.com
+https://slack.com
+https://zoom.com
+https://vimeo.com
+https://soundcloud.com
+https://www.spotify.com
+https://www.patreon.com
+https://www.kickstarter.com
+https://www.producthunt.com
+https://www.meetup.com
+https://www.eventbrite.com
+https://bsky.app
+https://mastodon.social
+
+# category: reference
+https://developer.mozilla.org
+https://www.w3schools.com
+https://readthedocs.org
+https://arxiv.org
+https://archive.org
+https://www.coursera.org
+https://www.udemy.com
+https://www.khanacademy.org
+https://www.gutenberg.org
+
+# category: news
+https://www.theverge.com
+https://www.wired.com
+https://www.theguardian.com
+https://www.reuters.com
+https://www.bloomberg.com
+https://www.wsj.com
+
+# category: travel
+https://www.airbnb.com
+https://www.booking.com
+https://www.expedia.com
+
+# category: search
+https://duckduckgo.com
+https://www.bing.com
