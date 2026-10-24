@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- The exposure sweep gains a deep mode (`scripts/exposure_scan.py
+  deep`): beyond the page itself it scans the first-party JavaScript
+  bundles a page loads, their publicly served source maps, and a
+  small standard set of app-shell paths (`/login`, `/signin`,
+  `/app`) — the places publicly exposed key material actually lives.
+  Worst case 20 honest GETs per site, each URL fetched once, and
+  findings name the exact source file. Method stays fingerprint-only:
+  exposed values are never used, only proven present.
 - The exposure layer lands as a capability, not just a script: the
   pattern table and classifier moved into a pure library
   (`src/wallcheck/exposure.py`) shared by the sweep script, the

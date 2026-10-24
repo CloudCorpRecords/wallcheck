@@ -83,11 +83,18 @@ both monster.com and careerbuilder.com naming the reporting address.)
 
 - **Wave 1 (running)**: 500 index homepages, inline content only,
   plus the security.txt census.
-- **Wave 2**: first-party JS/config chunks linked from the homepage
-  (where modern apps actually keep their env blocks), same rules.
-- **Wave 3**: login and app-shell paths per site (Monster's key was
-  on /profile/login, not the homepage), drawn from the existing
-  per-path results.
+- **Wave 2 (built — deep mode)**: `exposure_scan.py deep` fetches the
+  first-party JS chunks linked from the homepage (same-origin only,
+  document order, capped at 8), plus each chunk's publicly served
+  `.map` source map — source maps can embed the full original sources,
+  config included. Same rules, same fingerprint-only output.
+- **Wave 3 (built — deep mode, deliberately narrow)**: the same deep
+  mode also fetches each site's app shells at exactly three standard
+  paths — `/login`, `/signin`, `/app` — and scans whatever is served,
+  including 404 shells (Monster's key was on its login page, not the
+  homepage). The list is fixed and published here on purpose: three
+  conventional paths, never a path fuzzer. Per-site worst case for
+  deep mode: 1 + 2×8 + 3 = 20 honest GETs.
 - **Standing**: exposure scan folds into the normal wallcheck probe,
   so every future wall measurement also records the exposure classes
   it saw — the index gains an "exposure" column next to the verdict.

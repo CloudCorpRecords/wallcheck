@@ -33,6 +33,13 @@ RULES (the wallcheck hard line, in code):
 Usage:
   exposure_scan.py captures <file-or-dir...>   # scan stored captures
   exposure_scan.py live <urls.txt> <outdir>   # one honest fetch per URL
+  exposure_scan.py deep <urls.txt> <outdir> [--max-assets N] [--max-paths N]
+      # deep mode (roadmap Waves 2+3): per site, the root page plus its
+      # same-origin JS assets (document order, capped), each asset's
+      # publicly served .map source map, and the standard app-shell
+      # paths /login, /signin, /app — every file fetched exactly once,
+      # everything scanned with the same library. Worst case per site:
+      # 1 + 2*max-assets + max-paths GETs (20 with the defaults 8/3).
 """
 import json
 import pathlib
@@ -40,6 +47,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -66,6 +74,94 @@ def fetch(url: str, timeout=20, limit=2_000_000):
 
 def site_of(url: str) -> str:
     return re.sub(r"^https?://", "", url).split("/")[0]
+
+
+# --- deep mode -----------------------------------------------------------
+# Where keys actually hide: not in homepage HTML but in the JS bundles
+# and app shells a site serves any anonymous visitor. Deep mode follows
+# exactly three kinds of publicly served files — the page's own
+# same-origin script assets, each asset's .map source map, and a tiny
+# standard list of app-shell paths. It is deliberately NOT a path
+# fuzzer: the path list below is fixed and published in
+# campaign/EXPOSURE-LAYER.md.
+
+APP_SHELL_PATHS = ["/login", "/signin", "/app"]
+DEEP_PAUSE = 0.25  # seconds between requests, per site
+
+_TAG_URL = re.compile(
+    r"<(?:script|link)\b[^>]*?(?:src|href)\s*=\s*[\"']([^\"']+)[\"']",
+    re.I,
+)
+
+
+def extract_asset_urls(html: str, page_url: str, max_assets: int):
+    """Same-origin .js asset URLs referenced by <script src>/<link href>,
+    resolved against page_url, deduped in document order, capped."""
+    page = urllib.parse.urlsplit(page_url)
+    out, seen = [], set()
+    for raw in _TAG_URL.findall(html):
+        resolved = urllib.parse.urljoin(page_url, raw.strip())
+        parts = urllib.parse.urlsplit(resolved)
+        if parts.scheme not in ("http", "https"):
+            continue
+        if parts.netloc.lower() != page.netloc.lower():
+            continue  # first-party only: no CDN, no third-party hosts
+        if not parts.path.lower().endswith((".js", ".mjs")):
+            continue
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        out.append(resolved)
+        if len(out) >= max_assets:
+            break
+    return out
+
+
+def map_url_for(asset_url: str) -> str:
+    """The conventional source-map URL for a JS asset: asset + '.map'."""
+    return asset_url.split("#", 1)[0] + ".map"
+
+
+def deep_scan_site(root_url: str, max_assets=8, max_paths=3, pause=DEEP_PAUSE):
+    """Scan one site the deep way. Returns findings; every finding's
+    'source' is the exact URL the material was served from. Uses the
+    module-level fetch() so tests can stub the network out entirely."""
+    site = site_of(root_url)
+    parts = urllib.parse.urlsplit(root_url)
+    origin = "%s://%s" % (parts.scheme, parts.netloc)
+    findings = []
+    first = [True]
+
+    def get(url, limit=2_000_000):
+        if first[0]:
+            first[0] = False
+        elif pause:
+            time.sleep(pause)
+        return fetch(url, limit=limit)
+
+    # 1. The root page itself.
+    _, body = get(root_url)
+    if body:
+        findings += scan_text(body, site, root_url)
+        # 2. Its same-origin JS assets, and each asset's source map.
+        for asset in extract_asset_urls(body, root_url, max_assets):
+            _, js = get(asset)
+            if js:
+                findings += scan_text(js, site, asset)
+            map_url = map_url_for(asset)
+            m_status, m_body = get(map_url, limit=5_000_000)
+            # Only a served (200) map is a map; a 404 body is the site's
+            # error page, not source material. Absent maps stay silent.
+            if m_status == 200 and m_body:
+                findings += scan_text(m_body, site, map_url)
+    # 3. App-shell paths: scan whatever is served, any status — the
+    # Monster login page answered 404 while serving the full app shell.
+    for path in APP_SHELL_PATHS[:max_paths]:
+        url = origin + path
+        _, shell = get(url)
+        if shell:
+            findings += scan_text(shell, site, url)
+    return findings
 
 
 def run_captures(paths):
@@ -113,11 +209,47 @@ def run_live(urls_file, outdir):
     return findings, doors
 
 
+def run_deep(urls_file, outdir, max_assets=8, max_paths=3):
+    outdir = pathlib.Path(outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    urls = [u.strip() for u in pathlib.Path(urls_file).read_text().splitlines()
+            if u.strip().startswith("http")]
+    findings = []
+    log = (outdir / "run.log").open("a")
+    for i, url in enumerate(urls, 1):
+        findings += deep_scan_site(url, max_assets=max_assets,
+                                   max_paths=max_paths)
+        if i % 25 == 0 or i == len(urls):
+            msg = f"{i}/{len(urls)} sites, {len(findings)} findings so far"
+            print(msg, flush=True)
+            log.write(msg + "\n")
+            log.flush()
+            (outdir / "findings.json").write_text(json.dumps(findings, indent=1))
+    log.close()
+    return findings
+
+
+def _flag(args, name, default):
+    if name in args:
+        return int(args[args.index(name) + 1])
+    return default
+
+
 def main():
     mode = sys.argv[1]
     if mode == "captures":
         findings = run_captures(sys.argv[2:])
         print(json.dumps(findings, indent=1))
+    elif mode == "deep":
+        args = sys.argv[2:]
+        findings = run_deep(args[0], args[1],
+                            max_assets=_flag(args, "--max-assets", 8),
+                            max_paths=_flag(args, "--max-paths", 3))
+        from collections import Counter
+        c = Counter(f["class"] for f in findings)
+        cand = [f for f in findings if f["class"] == "CANDIDATE_EXPOSURE"]
+        print("DONE", dict(c))
+        print("candidate sites:", sorted({f["site"] for f in cand}))
     elif mode == "live":
         findings, doors = run_live(sys.argv[2], sys.argv[3])
         from collections import Counter
@@ -128,7 +260,7 @@ def main():
         print("sites with security.txt:", sum(1 for d in doors.values()
                                                if d["security_txt"]), "/", len(doors))
     else:
-        raise SystemExit("mode must be captures|live")
+        raise SystemExit("mode must be captures|live|deep")
 
 
 if __name__ == "__main__":
