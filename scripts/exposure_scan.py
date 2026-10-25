@@ -34,12 +34,17 @@ Usage:
   exposure_scan.py captures <file-or-dir...>   # scan stored captures
   exposure_scan.py live <urls.txt> <outdir>   # one honest fetch per URL
   exposure_scan.py deep <urls.txt> <outdir> [--max-assets N] [--max-paths N]
+                        [--offset N] [--limit M]
       # deep mode (roadmap Waves 2+3): per site, the root page plus its
       # same-origin JS assets (document order, capped), each asset's
       # publicly served .map source map, and the standard app-shell
       # paths /login, /signin, /app — every file fetched exactly once,
       # everything scanned with the same library. Worst case per site:
       # 1 + 2*max-assets + max-paths GETs (20 with the defaults 8/3).
+      # --offset/--limit process only urls[offset:offset+limit], so a
+      # long sweep can run as restart-survivable slices; an offset run
+      # writes findings_slice_<offset>.json / run_slice_<offset>.log
+      # instead of findings.json / run.log.
 """
 import json
 import pathlib
@@ -209,22 +214,33 @@ def run_live(urls_file, outdir):
     return findings, doors
 
 
-def run_deep(urls_file, outdir, max_assets=8, max_paths=3):
+def run_deep(urls_file, outdir, max_assets=8, max_paths=3, offset=0,
+             limit=None):
     outdir = pathlib.Path(outdir)
     outdir.mkdir(parents=True, exist_ok=True)
-    urls = [u.strip() for u in pathlib.Path(urls_file).read_text().splitlines()
-            if u.strip().startswith("http")]
+    all_urls = [u.strip() for u in pathlib.Path(urls_file).read_text().splitlines()
+                if u.strip().startswith("http")]
+    urls = all_urls[offset:offset + limit if limit else None]
+    if offset > 0:
+        findings_name = f"findings_slice_{offset}.json"
+        log_name = f"run_slice_{offset}.log"
+    else:
+        findings_name = "findings.json"
+        log_name = "run.log"
     findings = []
-    log = (outdir / "run.log").open("a")
+    log = (outdir / log_name).open("a")
     for i, url in enumerate(urls, 1):
         findings += deep_scan_site(url, max_assets=max_assets,
                                    max_paths=max_paths)
         if i % 25 == 0 or i == len(urls):
-            msg = f"{i}/{len(urls)} sites, {len(findings)} findings so far"
+            # Progress counts are global (offset + i of the full list),
+            # so slice logs read as one continuous sweep: 125/500, ...
+            msg = (f"{offset + i}/{len(all_urls)} sites, "
+                   f"{len(findings)} findings so far")
             print(msg, flush=True)
             log.write(msg + "\n")
             log.flush()
-            (outdir / "findings.json").write_text(json.dumps(findings, indent=1))
+            (outdir / findings_name).write_text(json.dumps(findings, indent=1))
     log.close()
     return findings
 
@@ -242,9 +258,12 @@ def main():
         print(json.dumps(findings, indent=1))
     elif mode == "deep":
         args = sys.argv[2:]
+        limit = _flag(args, "--limit", 0)
         findings = run_deep(args[0], args[1],
                             max_assets=_flag(args, "--max-assets", 8),
-                            max_paths=_flag(args, "--max-paths", 3))
+                            max_paths=_flag(args, "--max-paths", 3),
+                            offset=_flag(args, "--offset", 0),
+                            limit=limit if limit > 0 else None)
         from collections import Counter
         c = Counter(f["class"] for f in findings)
         cand = [f for f in findings if f["class"] == "CANDIDATE_EXPOSURE"]

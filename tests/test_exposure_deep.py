@@ -14,7 +14,9 @@ Run: python3 -m unittest discover -s tests -v
 import importlib.util
 import json
 import os
+import pathlib
 import sys
+import tempfile
 import unittest
 from unittest import mock
 
@@ -180,6 +182,73 @@ class DeepScanSiteTest(unittest.TestCase):
         # 1 root + 3 assets + 3 maps + 2 app-shell paths, each once.
         self.assertEqual(len(calls), 9)
         self.assertEqual(len(calls), len(set(calls)))
+
+
+class RunDeepSliceTest(unittest.TestCase):
+    """--offset/--limit slicing: a long sweep runs as restart-survivable
+    slices, each in its own output files, without changing the finding
+    or checkpoint shapes."""
+
+    SITES = ["https://s%d.test/" % i for i in range(5)]
+
+    def _run(self, tmp, **kw):
+        urls_file = pathlib.Path(tmp) / "urls.txt"
+        urls_file.write_text("\n".join(self.SITES) + "\n")
+        outdir = pathlib.Path(tmp) / "out"
+        # Site 2's root serves a bundle carrying a synthetic secret;
+        # every other page is clean. pause=0 keeps the suite fast.
+        bundle = "https://s2.test/app.js"
+        routes = {self.SITES[2]: (200, '<script src="/app.js"></script>'),
+                  bundle: (200, 'var k = "%s";' % STRIPE_SECRET)}
+        fake = FakeFetch(routes)
+        with mock.patch.object(scan, "fetch", fake), \
+                mock.patch.object(scan.time, "sleep", lambda *_a: None):
+            findings = scan.run_deep(str(urls_file), str(outdir), **kw)
+        return findings, fake.calls, outdir
+
+    @staticmethod
+    def _roots(calls):
+        return sorted({u for u in calls if u.rstrip("/").count("/") == 2})
+
+    def test_offset_limit_processes_only_the_slice(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            findings, calls, _ = self._run(tmp, offset=1, limit=2)
+            roots = self._roots(calls)
+            self.assertEqual(roots, [self.SITES[1], self.SITES[2]])
+            # The secret-bearing site is inside this slice.
+            self.assertEqual([f["pattern"] for f in findings],
+                             ["stripe_secret_key"])
+
+    def test_slice_output_names_and_checkpoint_shape(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _, _, outdir = self._run(tmp, offset=1, limit=2)
+            self.assertFalse((outdir / "findings.json").exists())
+            self.assertFalse((outdir / "run.log").exists())
+            ckpt = json.loads(
+                (outdir / "findings_slice_1.json").read_text())
+            self.assertIsInstance(ckpt, list)
+            self.assertEqual(len(ckpt), 1)
+            # Same finding keys as an unsliced run — shape unchanged.
+            self.assertEqual(set(ckpt[0]),
+                             {"site", "source", "class", "pattern",
+                              "value_len", "sha256_16"})
+            log = (outdir / "run_slice_1.log").read_text()
+            # Global progress numbering: slice ends at 3 of 5 sites.
+            self.assertIn("3/5 sites, 1 findings so far", log)
+
+    def test_offset_zero_keeps_legacy_names(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _, calls, outdir = self._run(tmp)
+            self.assertTrue((outdir / "findings.json").exists())
+            self.assertTrue((outdir / "run.log").exists())
+            self.assertEqual(len(self._roots(calls)), 5)
+
+    def test_limit_without_offset(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            _, calls, outdir = self._run(tmp, limit=2)
+            self.assertEqual(self._roots(calls),
+                             [self.SITES[0], self.SITES[1]])
+            self.assertTrue((outdir / "findings.json").exists())
 
 
 if __name__ == "__main__":

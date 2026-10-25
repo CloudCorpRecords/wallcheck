@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- The deep exposure sweep is restart-resilient: `--offset`/`--limit`
+  slice a run into independent 100-site chunks with per-slice
+  outputs, a resumable driver (`scripts/run_deep_slices.sh`) skips
+  completed slices after an interruption, and
+  `scripts/merge_deep_findings.py` merges slice outputs with dedupe.
 - The audit gains a seventh check, `security_contact`: an RFC 9116
   security.txt at /.well-known/security.txt carrying a Contact:
   field. PASS needs genuine text with a Contact:; absence is WARN
