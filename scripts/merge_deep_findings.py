@@ -9,6 +9,14 @@ sha256_16) rows, and prints class totals plus the candidate list.
 Findings are fingerprint-only by construction, so the merge never
 sees a value.
 
+Append-only semantics (added 2026-10-26): the merged file also keeps
+rows already banked in a previous findings_all.json. Slice drivers
+delete an incomplete slice's outputs on resume, so a plain replace
+would silently drop findings a dead slice had already banked (this
+lost Wave 3's 50-site partial in Oct 2026). Rows are never removed
+by a merge; a re-scan re-confirms them instead. When a key collides,
+the banked row wins.
+
 Usage: merge_deep_findings.py [outdir]   (default validation/exposure-wave2)
 """
 import json
@@ -29,6 +37,11 @@ def slice_files(outdir):
     return files
 
 
+def _row_key(row):
+    return (row.get("site"), row.get("source"), row.get("pattern"),
+            row.get("sha256_16"))
+
+
 def merge(outdir):
     outdir = pathlib.Path(outdir)
     merged, seen = [], set()
@@ -37,12 +50,29 @@ def merge(outdir):
         rows = json.loads(f.read_text())
         per_file[f.name] = len(rows)
         for row in rows:
-            key = (row.get("site"), row.get("source"), row.get("pattern"),
-                   row.get("sha256_16"))
+            key = _row_key(row)
             if key in seen:
                 continue
             seen.add(key)
             merged.append(row)
+    # Append-only: keep rows banked in a previous merged file, so a
+    # slice restart (which deletes that slice's partial outputs) can
+    # never shrink the merged snapshot. Banked rows win on collision.
+    banked = outdir / "findings_all.json"
+    if banked.exists():
+        try:
+            banked_rows = json.loads(banked.read_text())
+        except json.JSONDecodeError:
+            banked_rows = []
+        kept = 0
+        for row in banked_rows:
+            if _row_key(row) in seen:
+                continue
+            seen.add(_row_key(row))
+            merged.append(row)
+            kept += 1
+        if kept:
+            per_file["<banked findings_all.json>"] = kept
     return merged, per_file
 
 
