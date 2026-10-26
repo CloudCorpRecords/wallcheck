@@ -55,6 +55,8 @@ SENTRY_DSN = ("https://" + "0123456789abcdef" * 2
 ENV_SECRET_VALUE = "FAKEENCRYPTIONKEY0123456789ABCDEF"
 DB_URL = "postgres://fakeuser:fakepass99@db.example.test:5432/app"
 GENERIC_SECRET = "FAKESECRETVALUE0123456789"
+# A PEM-shaped base64 body: plain base64 alphabet, 64 chars, no key.
+PEM_BODY = "FAKEBODY" * 8
 
 
 def mint_jwt(payload):
@@ -112,8 +114,8 @@ class TestCandidateClassification(unittest.TestCase):
         self.assertEqual(f["twilio_api_key"]["class"],
                          "CANDIDATE_EXPOSURE")
 
-    def test_private_key_block_header(self):
-        f = self.scan("-----BEGIN PRIVATE KEY-----\nFAKEBODY\n"
+    def test_private_key_block_with_pem_body(self):
+        f = self.scan("-----BEGIN PRIVATE KEY-----\n" + PEM_BODY + "\n"
                       "-----END PRIVATE KEY-----")
         hit = f["private_key_block"]
         self.assertEqual(hit["class"], "CANDIDATE_EXPOSURE")
@@ -291,6 +293,91 @@ class TestJwtLifetime(unittest.TestCase):
         hit = by_pattern(findings)["jwt_in_page"]
         self.assertEqual(hit["class"], "VISITOR_TOKEN")
         self.assertIsNone(hit["jwt_lifetime_s"])
+
+
+class TestPrivateKeyBodyEvidence(unittest.TestCase):
+    """L2: a bare BEGIN header is a string constant, not a key."""
+
+    def scan(self, body):
+        return by_pattern(scan_text(body, SITE, SOURCE))
+
+    def test_bare_begin_header_in_js_is_benign(self):
+        body = 'var PEM_HEADER = "-----BEGIN PRIVATE KEY-----";'
+        self.assertNotIn("private_key_block", self.scan(body))
+
+    def test_bare_rsa_begin_header_is_benign(self):
+        body = "-----BEGIN RSA PRIVATE KEY-----"
+        self.assertNotIn("private_key_block", self.scan(body))
+
+    def test_begin_and_end_with_no_body_is_benign(self):
+        body = ("-----BEGIN PRIVATE KEY-----\n"
+                "-----END PRIVATE KEY-----")
+        self.assertNotIn("private_key_block", self.scan(body))
+
+    def test_begin_and_end_with_prose_between_is_benign(self):
+        body = ("-----BEGIN PRIVATE KEY-----\n"
+                "this is a help string, not key material at all!!\n"
+                "-----END PRIVATE KEY-----")
+        self.assertNotIn("private_key_block", self.scan(body))
+
+    def test_truncated_block_with_base64_body_is_candidate(self):
+        # No END marker in the fetched text, but a base64 body starts
+        # right after the header: body evidence is present.
+        body = "-----BEGIN EC PRIVATE KEY-----\n" + PEM_BODY
+        hit = self.scan(body)["private_key_block"]
+        self.assertEqual(hit["class"], "CANDIDATE_EXPOSURE")
+
+    def test_wrapped_base64_body_with_end_is_candidate(self):
+        body = ("-----BEGIN OPENSSH PRIVATE KEY-----\n"
+                + PEM_BODY[:32] + "\n" + PEM_BODY[32:] + "\n"
+                "-----END OPENSSH PRIVATE KEY-----")
+        hit = self.scan(body)["private_key_block"]
+        self.assertEqual(hit["class"], "CANDIDATE_EXPOSURE")
+
+    def test_base64_body_counts_even_without_matching_end(self):
+        body = ("-----BEGIN PRIVATE KEY-----\n" + PEM_BODY + "\n"
+                "-----END CERTIFICATE-----")
+        hit = self.scan(body)["private_key_block"]
+        self.assertEqual(hit["class"], "CANDIDATE_EXPOSURE")
+
+
+class TestAnalyticsJwt(unittest.TestCase):
+    """L1: analytics/experiment JWTs are annotated, not candidates."""
+
+    def scan(self, payload):
+        token = mint_jwt(payload)
+        return by_pattern(scan_text(token, SITE, SOURCE))["jwt_in_page"]
+
+    def test_long_lived_segment_jwt_stays_visitor_token(self):
+        hit = self.scan({"iat": 1000, "exp": 1000 + 200000,
+                         "iss": "https://api.segment.io/v1"})
+        self.assertEqual(hit["class"], "VISITOR_TOKEN")
+        self.assertEqual(hit["note"], "analytics/experiment JWT")
+        self.assertEqual(hit["jwt_lifetime_s"], 200000)
+
+    def test_experiment_claims_annotate(self):
+        hit = self.scan({"iat": 1000, "exp": 1000 + 200000,
+                         "experiments": ["checkout_v2"]})
+        self.assertEqual(hit["class"], "VISITOR_TOKEN")
+        self.assertEqual(hit["note"], "analytics/experiment JWT")
+
+    def test_provider_audience_annotates_even_short_lived(self):
+        hit = self.scan({"iat": 1000, "exp": 1300, "aud": "posthog"})
+        self.assertEqual(hit["class"], "VISITOR_TOKEN")
+        self.assertEqual(hit["note"], "analytics/experiment JWT")
+        self.assertEqual(hit["jwt_lifetime_s"], 300)
+
+    def test_feature_flag_claim_key_annotates(self):
+        hit = self.scan({"iat": 1000, "exp": 1000 + 200000,
+                         "feature_flags": {"new_nav": True}})
+        self.assertEqual(hit["class"], "VISITOR_TOKEN")
+        self.assertEqual(hit["note"], "analytics/experiment JWT")
+
+    def test_plain_long_lived_session_jwt_still_candidate(self):
+        hit = self.scan({"iat": 1000, "exp": 1000 + 200000,
+                         "sub": "user-123", "role": "admin"})
+        self.assertEqual(hit["class"], "CANDIDATE_EXPOSURE")
+        self.assertEqual(hit["note"], "long-lived JWT served in page")
 
 
 class TestFingerprintOnlyOutput(unittest.TestCase):

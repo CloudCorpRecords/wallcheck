@@ -15,7 +15,11 @@ Findings are classified:
                       frontend keys, Stripe publishable keys, app IDs,
                       OAuth client IDs) — normal, not a finding
   VISITOR_TOKEN       short-lived JWTs a site issues to any visitor
-                      (WAF/session tokens) — wall machinery, not a leak
+                      (WAF/session tokens), wall machinery, not a leak.
+                      JWTs whose own claims mark them as analytics or
+                      experiment tokens also land here, annotated, even
+                      when long-lived: an analytics token handed to
+                      every visitor is census data, not a candidate.
 
 Found values are NEVER stored in a finding. A finding carries only:
 pattern name, class, value length and a SHA-256 fingerprint prefix —
@@ -131,16 +135,100 @@ PATTERNS = [
 ]
 
 
-def jwt_lifetime(token: str):
+def jwt_payload(token: str):
     try:
         payload = token.split(".")[1]
         payload += "=" * (-len(payload) % 4)
         data = json.loads(base64.urlsafe_b64decode(payload))
-        if "exp" in data and "iat" in data:
-            return int(data["exp"]) - int(data["iat"])
+        return data if isinstance(data, dict) else None
     except Exception:
-        pass
+        return None
+
+
+def jwt_lifetime(token: str):
+    data = jwt_payload(token)
+    if data and "exp" in data and "iat" in data:
+        try:
+            return int(data["exp"]) - int(data["iat"])
+        except Exception:
+            pass
     return None
+
+
+# --- analytics / experiment JWTs (wave sweep learning L1) -----------------
+# The sweeps kept meeting long-lived JWTs that are not secrets at all:
+# analytics and experimentation tokens a site issues to every visitor
+# so the client can report events or pick a variant. Escalating those
+# to a plain candidate sends the owner chasing a non-leak, so a JWT
+# whose OWN claims name a known analytics/experiment provider, or
+# carry analytics/experiment claim keys, is annotated instead and
+# stays a VISITOR_TOKEN at any lifetime. Only the token's decoded
+# claims are evidence: page text around a token proves nothing about
+# what the token is for.
+
+ANALYTICS_JWT_PROVIDERS = (
+    "segment", "amplitude", "mixpanel", "posthog", "launchdarkly",
+    "optimizely", "statsig", "growthbook", "splitio", "split.io",
+    "rudderstack", "snowplow", "fullstory", "hotjar", "pendo",
+    "heapanalytics", "google-analytics", "google_analytics",
+)
+
+ANALYTICS_JWT_TERMS = (
+    "analytics", "experiment", "feature_flag", "feature-flag",
+    "feature_flags", "ab_test", "ab-test",
+)
+
+
+def _claim_strings(obj, keys, values):
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            keys.append(str(k).lower())
+            _claim_strings(v, keys, values)
+    elif isinstance(obj, (list, tuple)):
+        for v in obj:
+            _claim_strings(v, keys, values)
+    elif isinstance(obj, str):
+        values.append(obj.lower())
+
+
+def is_analytics_jwt(token: str) -> bool:
+    data = jwt_payload(token)
+    if not data:
+        return False
+    keys, values = [], []
+    _claim_strings(data, keys, values)
+    markers = ANALYTICS_JWT_PROVIDERS + ANALYTICS_JWT_TERMS
+    if any(m in k for k in keys for m in markers):
+        return True
+    return any(m in v for v in values for m in markers)
+
+
+# --- private key blocks (wave sweep learning L2) ---------------------------
+# A bare BEGIN header is not a key: JS bundles carry the header as a
+# string constant in PEM parsers, formatters and test fixtures, and
+# the sweeps produced candidate noise from exactly that. A block only
+# counts as a candidate when PEM body evidence follows the header:
+# a matching END marker with a base64 body between the two, or (for a
+# block truncated by the fetch cap) a base64 body starting right
+# after the header. Header alone stays silent.
+
+_PEM_B64_RUN = re.compile(r"[A-Za-z0-9+/]{40,}={0,2}")
+_PEM_BETWEEN_OK = re.compile(r"[A-Za-z0-9+/=]+")
+
+
+def _pem_has_body(text: str, m) -> bool:
+    header = m.group("v")
+    kind = header.replace("-----BEGIN ", "").replace(" PRIVATE KEY-----", "")
+    end_marker = "-----END %sPRIVATE KEY-----" % (kind + " " if kind else "")
+    window = text[m.end():m.end() + 32768]
+    end_idx = window.find(end_marker)
+    if end_idx != -1:
+        between = window[:end_idx]
+        cleaned = re.sub(r"(\\[rn]|[\s\"'])", "", between)
+        return (len(cleaned) >= 40
+                and _PEM_BETWEEN_OK.fullmatch(cleaned) is not None)
+    immediate = re.sub(r"^(\\[rn]|[\s\"'])+", "", window[:1024])
+    return _PEM_B64_RUN.match(immediate) is not None
 
 
 def scan_text(text: str, site: str, source: str):
@@ -149,6 +237,8 @@ def scan_text(text: str, site: str, source: str):
         for m in pat.finditer(text):
             value = m.groupdict().get("v") or ""
             if PLACEHOLDER.search(value):
+                continue
+            if name == "private_key_block" and not _pem_has_body(text, m):
                 continue
             key = (name, fp(value) if value else (m.groupdict().get("n") or ""))
             if key in seen:
@@ -164,7 +254,9 @@ def scan_text(text: str, site: str, source: str):
             if name == "jwt_in_page":
                 life = jwt_lifetime(value)
                 f["jwt_lifetime_s"] = life
-                if life is not None and life > 86400:
+                if is_analytics_jwt(value):
+                    f["note"] = "analytics/experiment JWT"
+                elif life is not None and life > 86400:
                     f["class"] = "CANDIDATE_EXPOSURE"
                     f["note"] = "long-lived JWT served in page"
             findings.append(f)

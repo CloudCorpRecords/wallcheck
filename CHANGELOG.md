@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+- The exposure layer applies two learnings from the wave sweeps.
+  L1: a JWT whose own decoded claims name a known analytics or
+  experiment provider (Segment, PostHog, LaunchDarkly, Optimizely
+  and peers), or carry analytics / experiment / feature-flag claim
+  keys, is annotated "analytics/experiment JWT" and stays a
+  VISITOR_TOKEN at any lifetime, instead of escalating to a plain
+  long-lived candidate. L2: `private_key_block` now requires PEM
+  body evidence (a matching END marker with a base64 body between
+  the markers, or a base64 body right after the header on a
+  truncated block); a bare BEGIN header string, of the kind JS
+  bundles carry as a constant, no longer produces a finding.
 - The deep exposure sweep is restart-resilient: `--offset`/`--limit`
   slice a run into independent 100-site chunks with per-slice
   outputs, a resumable driver (`scripts/run_deep_slices.sh`) skips

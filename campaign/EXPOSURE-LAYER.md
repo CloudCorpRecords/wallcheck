@@ -32,7 +32,16 @@ key-like material and sorts it into three honest classes:
   census, never reported to anyone as a problem.
 - **VISITOR_TOKEN** — short-lived JWTs a site issues to any visitor
   (e.g. Azure WAF tokens). This is wall machinery handing a credential
-  to the thing it is screening — census data, not a leak.
+  to the thing it is screening, census data, not a leak. A JWT whose
+  own claims mark it as an analytics or experiment token is annotated
+  as such and stays in this class at any lifetime: a token handed to
+  every visitor so the client can report events is not a candidate.
+
+Private-key findings carry one extra rule, learned from sweep noise:
+a `private_key_block` counts only with PEM body evidence (a matching
+END marker with a base64 body, or a base64 body right after the
+header). A bare BEGIN header string, common as a constant in JS
+bundles, is benign and produces no finding.
 
 Alongside: a **front-door check** per site — does it publish
 `/.well-known/security.txt`, the standard security contact route?
